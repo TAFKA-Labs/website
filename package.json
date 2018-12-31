@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "export": "npm run build && next export"
+    "export": "NODE_ENV=prod npm run build && next export && touch ./out/.nojekyll"
   },
   "keywords": [],
   "author": "",
