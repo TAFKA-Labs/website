@@ -127,6 +127,24 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./components/Pill.js":
+/*!****************************!*\
+  !*** ./components/Pill.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].span.withConfig({
+  displayName: "Pill",
+  componentId: "sc-1tavhn0-0"
+})(["padding:0.1em 0.5em;font-size:0.8rem;font-weight:200;border:0.5px solid lightgrey;border-radius:4px;margin-right:4px;"]));
+
+/***/ }),
+
 /***/ "./components/PostPreview.js":
 /*!***********************************!*\
   !*** ./components/PostPreview.js ***!
@@ -141,7 +159,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./helpers */ "./components/helpers.js");
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components */ "./components/index.js");
 var _jsxFileName = "/Users/akunz/TafkaLabs/template/components/PostPreview.js";
 
 
@@ -193,7 +211,7 @@ var PreviewContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"]
       lineNumber: 22
     },
     __self: this
-  }, abstract), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_helpers__WEBPACK_IMPORTED_MODULE_3__["RowContent"], {
+  }, abstract), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["RowContent"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
@@ -206,7 +224,7 @@ var PreviewContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"]
     },
     __self: this
   }, tags.map(function (tag) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_helpers__WEBPACK_IMPORTED_MODULE_3__["Pill"], {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["Pill"], {
       key: tag,
       __source: {
         fileName: _jsxFileName,
@@ -228,37 +246,57 @@ var PreviewContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"]
 
 /***/ }),
 
-/***/ "./components/helpers.js":
-/*!*******************************!*\
-  !*** ./components/helpers.js ***!
-  \*******************************/
-/*! exports provided: RowContent, StatusMessage, Pill, PostTitle */
+/***/ "./components/PostTitle.js":
+/*!*********************************!*\
+  !*** ./components/PostTitle.js ***!
+  \*********************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RowContent", function() { return RowContent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StatusMessage", function() { return StatusMessage; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Pill", function() { return Pill; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PostTitle", function() { return PostTitle; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
-var RowContent = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
-  displayName: "helpers__RowContent",
-  componentId: "yn8x8g-0"
-})(["display:flex;align-items:center;justify-content:space-between;"]);
-var StatusMessage = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h3.withConfig({
-  displayName: "helpers__StatusMessage",
-  componentId: "yn8x8g-1"
-})(["text-align:center;"]);
-var Pill = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].span.withConfig({
-  displayName: "helpers__Pill",
-  componentId: "yn8x8g-2"
-})(["padding:0.1em 0.5em;font-size:0.8rem;font-weight:200;border:0.5px solid lightgrey;border-radius:4px;margin-right:4px;"]);
-var PostTitle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2.withConfig({
-  displayName: "helpers__PostTitle",
-  componentId: "yn8x8g-3"
-})(["color:#2e6d86;font-weight:bolder;margin-top:0;"]);
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2.withConfig({
+  displayName: "PostTitle",
+  componentId: "sc-1sv2wcd-0"
+})(["color:#2e6d86;font-weight:bolder;margin-top:0;"]));
+
+/***/ }),
+
+/***/ "./components/RowContent.js":
+/*!**********************************!*\
+  !*** ./components/RowContent.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+  displayName: "RowContent",
+  componentId: "sc-2y1rxp-0"
+})(["display:flex;align-items:center;justify-content:space-between;"]));
+
+/***/ }),
+
+/***/ "./components/StatusMessage.js":
+/*!*************************************!*\
+  !*** ./components/StatusMessage.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h3.withConfig({
+  displayName: "StatusMessage",
+  componentId: "zf10t4-0"
+})(["text-align:center;"]));
 
 /***/ }),
 
@@ -266,7 +304,7 @@ var PostTitle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2.wit
 /*!*****************************!*\
   !*** ./components/index.js ***!
   \*****************************/
-/*! exports provided: Header, List, Page, PostPreview, RowContent, StatusMessage, PostTitle, Pill */
+/*! exports provided: Header, List, Pill, Page, PostPreview, PostTitle, RowContent, StatusMessage */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -277,20 +315,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _List__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./List */ "./components/List.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "List", function() { return _List__WEBPACK_IMPORTED_MODULE_1__["default"]; });
 
-/* harmony import */ var _Page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Page */ "./components/Page.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Page", function() { return _Page__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+/* harmony import */ var _Pill__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Pill */ "./components/Pill.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Pill", function() { return _Pill__WEBPACK_IMPORTED_MODULE_2__["default"]; });
 
-/* harmony import */ var _PostPreview__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PostPreview */ "./components/PostPreview.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PostPreview", function() { return _PostPreview__WEBPACK_IMPORTED_MODULE_3__["default"]; });
+/* harmony import */ var _Page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Page */ "./components/Page.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Page", function() { return _Page__WEBPACK_IMPORTED_MODULE_3__["default"]; });
 
-/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./helpers */ "./components/helpers.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RowContent", function() { return _helpers__WEBPACK_IMPORTED_MODULE_4__["RowContent"]; });
+/* harmony import */ var _PostPreview__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PostPreview */ "./components/PostPreview.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PostPreview", function() { return _PostPreview__WEBPACK_IMPORTED_MODULE_4__["default"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StatusMessage", function() { return _helpers__WEBPACK_IMPORTED_MODULE_4__["StatusMessage"]; });
+/* harmony import */ var _PostTitle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./PostTitle */ "./components/PostTitle.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PostTitle", function() { return _PostTitle__WEBPACK_IMPORTED_MODULE_5__["default"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PostTitle", function() { return _helpers__WEBPACK_IMPORTED_MODULE_4__["PostTitle"]; });
+/* harmony import */ var _RowContent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./RowContent */ "./components/RowContent.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RowContent", function() { return _RowContent__WEBPACK_IMPORTED_MODULE_6__["default"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Pill", function() { return _helpers__WEBPACK_IMPORTED_MODULE_4__["Pill"]; });
+/* harmony import */ var _StatusMessage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./StatusMessage */ "./components/StatusMessage.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StatusMessage", function() { return _StatusMessage__WEBPACK_IMPORTED_MODULE_7__["default"]; });
+
+
+
 
 
 
