@@ -1,0 +1,11 @@
+query ListPosts {
+  blogPosts {
+    id
+    createdAt
+    updatedAt
+    title
+    abstract
+    content
+    tags
+  }
+}

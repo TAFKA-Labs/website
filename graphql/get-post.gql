@@ -1,0 +1,10 @@
+query GetPost($id: ID!) {
+  blogPost(where: { id: $id }) {
+    createdAt
+    updatedAt
+    title
+    abstract
+    content
+    tags
+  }
+}
