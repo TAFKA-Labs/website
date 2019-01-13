@@ -1,11 +1,9 @@
 query ListPosts {
-  blogPosts {
+  blogPosts(orderBy: createdAt_DESC) {
     id
     createdAt
-    updatedAt
     title
     abstract
-    content
     tags
   }
 }

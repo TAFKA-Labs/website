@@ -5,7 +5,7 @@ import { TypographyStyle, GoogleFont } from 'react-typography'
 import { ApolloProvider } from 'react-apollo'
 
 import { client, typography, GlobalStyle } from '../utils'
-import { Header, Page } from '../components'
+import { Header, Layout } from '../components'
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
@@ -30,9 +30,9 @@ export default class MyApp extends App {
         </Head>
         <ApolloProvider client={client}>
           <Header />
-          <Page>
+          <Layout>
             <Component {...pageProps} />
-          </Page>
+          </Layout>
         </ApolloProvider>
       </Container>
     )

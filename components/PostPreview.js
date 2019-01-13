@@ -13,12 +13,10 @@ const PreviewContainer = styled.div`
   }
 `
 
-export default ({ id, title, abstract, tags, date }) => (
+const PostPreview = ({ id, title, abstract, tags, date }) => (
   <Link href={{ pathname: '/post', query: { postId: id } }} passHref>
     <PreviewContainer>
-      <h2 style={{ color: '#2e6d86', fontWeight: 'bolder', marginTop: 0 }}>
-        {title}
-      </h2>
+      <PostTitle>{title}</PostTitle>
       <p>{abstract}</p>
       <RowContent>
         <div>
@@ -31,3 +29,5 @@ export default ({ id, title, abstract, tags, date }) => (
     </PreviewContainer>
   </Link>
 )
+
+export default PostPreview
