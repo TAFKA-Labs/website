@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/post.js"],{
 
 /***/ "./components/Header.js":
 /*!******************************!*\
@@ -5384,6 +5384,69 @@ function warnOnceInDevelopment(msg, type) {
     }
 }
 //# sourceMappingURL=warnOnce.js.map
+
+/***/ }),
+
+/***/ "./node_modules/bail/index.js":
+/*!************************************!*\
+  !*** ./node_modules/bail/index.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = bail
+
+function bail(err) {
+  if (err) {
+    throw err
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/character-entities-legacy/index.json":
+/*!***********************************************************!*\
+  !*** ./node_modules/character-entities-legacy/index.json ***!
+  \***********************************************************/
+/*! exports provided: AElig, AMP, Aacute, Acirc, Agrave, Aring, Atilde, Auml, COPY, Ccedil, ETH, Eacute, Ecirc, Egrave, Euml, GT, Iacute, Icirc, Igrave, Iuml, LT, Ntilde, Oacute, Ocirc, Ograve, Oslash, Otilde, Ouml, QUOT, REG, THORN, Uacute, Ucirc, Ugrave, Uuml, Yacute, aacute, acirc, acute, aelig, agrave, amp, aring, atilde, auml, brvbar, ccedil, cedil, cent, copy, curren, deg, divide, eacute, ecirc, egrave, eth, euml, frac12, frac14, frac34, gt, iacute, icirc, iexcl, igrave, iquest, iuml, laquo, lt, macr, micro, middot, nbsp, not, ntilde, oacute, ocirc, ograve, ordf, ordm, oslash, otilde, ouml, para, plusmn, pound, quot, raquo, reg, sect, shy, sup1, sup2, sup3, szlig, thorn, times, uacute, ucirc, ugrave, uml, uuml, yacute, yen, yuml, default */
+/***/ (function(module) {
+
+module.exports = {"AElig":"Æ","AMP":"&","Aacute":"Á","Acirc":"Â","Agrave":"À","Aring":"Å","Atilde":"Ã","Auml":"Ä","COPY":"©","Ccedil":"Ç","ETH":"Ð","Eacute":"É","Ecirc":"Ê","Egrave":"È","Euml":"Ë","GT":">","Iacute":"Í","Icirc":"Î","Igrave":"Ì","Iuml":"Ï","LT":"<","Ntilde":"Ñ","Oacute":"Ó","Ocirc":"Ô","Ograve":"Ò","Oslash":"Ø","Otilde":"Õ","Ouml":"Ö","QUOT":"\"","REG":"®","THORN":"Þ","Uacute":"Ú","Ucirc":"Û","Ugrave":"Ù","Uuml":"Ü","Yacute":"Ý","aacute":"á","acirc":"â","acute":"´","aelig":"æ","agrave":"à","amp":"&","aring":"å","atilde":"ã","auml":"ä","brvbar":"¦","ccedil":"ç","cedil":"¸","cent":"¢","copy":"©","curren":"¤","deg":"°","divide":"÷","eacute":"é","ecirc":"ê","egrave":"è","eth":"ð","euml":"ë","frac12":"½","frac14":"¼","frac34":"¾","gt":">","iacute":"í","icirc":"î","iexcl":"¡","igrave":"ì","iquest":"¿","iuml":"ï","laquo":"«","lt":"<","macr":"¯","micro":"µ","middot":"·","nbsp":" ","not":"¬","ntilde":"ñ","oacute":"ó","ocirc":"ô","ograve":"ò","ordf":"ª","ordm":"º","oslash":"ø","otilde":"õ","ouml":"ö","para":"¶","plusmn":"±","pound":"£","quot":"\"","raquo":"»","reg":"®","sect":"§","shy":"­","sup1":"¹","sup2":"²","sup3":"³","szlig":"ß","thorn":"þ","times":"×","uacute":"ú","ucirc":"û","ugrave":"ù","uml":"¨","uuml":"ü","yacute":"ý","yen":"¥","yuml":"ÿ"};
+
+/***/ }),
+
+/***/ "./node_modules/character-reference-invalid/index.json":
+/*!*************************************************************!*\
+  !*** ./node_modules/character-reference-invalid/index.json ***!
+  \*************************************************************/
+/*! exports provided: 0, 128, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 142, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 158, 159, default */
+/***/ (function(module) {
+
+module.exports = {"0":"�","128":"€","130":"‚","131":"ƒ","132":"„","133":"…","134":"†","135":"‡","136":"ˆ","137":"‰","138":"Š","139":"‹","140":"Œ","142":"Ž","145":"‘","146":"’","147":"“","148":"”","149":"•","150":"–","151":"—","152":"˜","153":"™","154":"š","155":"›","156":"œ","158":"ž","159":"Ÿ"};
+
+/***/ }),
+
+/***/ "./node_modules/collapse-white-space/index.js":
+/*!****************************************************!*\
+  !*** ./node_modules/collapse-white-space/index.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = collapse
+
+/* collapse(' \t\nbar \nbaz\t'); // ' bar baz ' */
+function collapse(value) {
+  return String(value).replace(/\s+/g, ' ')
+}
+
 
 /***/ }),
 
@@ -24513,6 +24576,332 @@ module.exports = defineProperties;
 
 /***/ }),
 
+/***/ "./node_modules/emoji-chars/lib/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/emoji-chars/lib/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var emojis = __webpack_require__(/*! emoji-unicode-map */ "./node_modules/emoji-unicode-map/lib/index.js");
+
+module.exports = Object.keys(emojis.emoji);
+
+/***/ }),
+
+/***/ "./node_modules/emoji-dictionary/lib/index.js":
+/*!****************************************************!*\
+  !*** ./node_modules/emoji-dictionary/lib/index.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var unicodeMap = __webpack_require__(/*! emoji-unicode-map */ "./node_modules/emoji-unicode-map/lib/index.js"),
+    nameMap = __webpack_require__(/*! emoji-name-map */ "./node_modules/emoji-name-map/lib/index.js"),
+    emojiNames = __webpack_require__(/*! emoji-names */ "./node_modules/emoji-names/lib/index.js"),
+    emojiChars = __webpack_require__(/*! emoji-chars */ "./node_modules/emoji-chars/lib/index.js");
+
+var dict = module.exports = {};
+
+/**
+ * getName
+ * Gets the name of the unicode emoji.
+ *
+ * @name getName
+ * @function
+ * @param {String} unicodeChar The emoji unicode character.
+ * @return {String} The emoji name.
+ */
+dict.getName = function (unicodeChar) {
+    return unicodeMap.get(unicodeChar);
+};
+
+/**
+ * getUnicode
+ * Gets the unicode character by providing the emoji name.
+ *
+ * @name getUnicode
+ * @function
+ * @param {String} name The emoji name.
+ * @return {String} The emoji unicode character.
+ */
+dict.getUnicode = function (name) {
+    return nameMap.get(name);
+};
+
+dict.names = emojiNames;
+dict.unicode = emojiChars;
+
+/***/ }),
+
+/***/ "./node_modules/emoji-name-map/lib/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/emoji-name-map/lib/index.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var mapO = __webpack_require__(/*! map-o */ "./node_modules/map-o/lib/index.js"),
+    iterateObject = __webpack_require__(/*! iterate-object */ "./node_modules/iterate-object/lib/index.js");
+
+var emoji = __webpack_require__(/*! emojilib */ "./node_modules/emojilib/index.js");
+
+var nameMap = module.exports = {};
+nameMap.emoji = mapO(emoji.lib, function (value) {
+    return value.char;
+}, true);
+iterateObject(nameMap.emoji, function (value, name, obj) {
+    return !value && delete obj[name] || true;
+});
+
+/**
+ * get
+ * Gets the emoji character (unicode) by providing the name.
+ *
+ * @name get
+ * @function
+ * @param {String} name The emoji name.
+ * @return {String} The emoji character (unicode).
+ */
+nameMap.get = function (name) {
+    if (name.charAt(0) === ":") {
+        name = name.slice(1, -1);
+    }
+    return this.emoji[name];
+};
+
+emoji = null;
+
+/***/ }),
+
+/***/ "./node_modules/emoji-names/lib/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/emoji-names/lib/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var emojis = __webpack_require__(/*! emoji-name-map */ "./node_modules/emoji-name-map/lib/index.js");
+
+module.exports = Object.keys(emojis.emoji);
+emojis = null;
+
+/***/ }),
+
+/***/ "./node_modules/emoji-unicode-map/lib/index.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/emoji-unicode-map/lib/index.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var names = __webpack_require__(/*! emoji-name-map */ "./node_modules/emoji-name-map/lib/index.js"),
+    iterateObject = __webpack_require__(/*! iterate-object */ "./node_modules/iterate-object/lib/index.js");
+
+var unicode = module.exports = {};
+unicode.emoji = {};
+
+iterateObject(names.emoji, function (value, name) {
+    return unicode.emoji[value] = name;
+});
+
+/**
+ * get
+ * Gets the emoji name, by providing the character.
+ *
+ * @name get
+ * @function
+ * @param {String} char The emoji character.
+ * @return {String} The emoji name.
+ */
+unicode.get = function (char) {
+    return unicode.emoji[char];
+};
+
+/***/ }),
+
+/***/ "./node_modules/emojilib/emojis.json":
+/*!*******************************************!*\
+  !*** ./node_modules/emojilib/emojis.json ***!
+  \*******************************************/
+/*! exports provided: 100, 1234, grinning, grimacing, grin, joy, rofl, partying, smiley, smile, sweat_smile, laughing, innocent, wink, blush, slightly_smiling_face, upside_down_face, relaxed, yum, relieved, heart_eyes, smiling_face_with_three_hearts, kissing_heart, kissing, kissing_smiling_eyes, kissing_closed_eyes, stuck_out_tongue_winking_eye, zany, raised_eyebrow, monocle, stuck_out_tongue_closed_eyes, stuck_out_tongue, money_mouth_face, nerd_face, sunglasses, star_struck, clown_face, cowboy_hat_face, hugs, smirk, no_mouth, neutral_face, expressionless, unamused, roll_eyes, thinking, lying_face, hand_over_mouth, shushing, symbols_over_mouth, exploding_head, flushed, disappointed, worried, angry, rage, pensive, confused, slightly_frowning_face, frowning_face, persevere, confounded, tired_face, weary, pleading, triumph, open_mouth, scream, fearful, cold_sweat, hushed, frowning, anguished, cry, disappointed_relieved, drooling_face, sleepy, sweat, hot, cold, sob, dizzy_face, astonished, zipper_mouth_face, nauseated_face, sneezing_face, vomiting, mask, face_with_thermometer, face_with_head_bandage, woozy, sleeping, zzz, poop, smiling_imp, imp, japanese_ogre, japanese_goblin, skull, ghost, alien, robot, smiley_cat, smile_cat, joy_cat, heart_eyes_cat, smirk_cat, kissing_cat, scream_cat, crying_cat_face, pouting_cat, palms_up, raised_hands, clap, wave, call_me_hand, +1, -1, facepunch, fist, fist_left, fist_right, v, ok_hand, raised_hand, raised_back_of_hand, open_hands, muscle, pray, foot, leg, handshake, point_up, point_up_2, point_down, point_left, point_right, fu, raised_hand_with_fingers_splayed, love_you, metal, crossed_fingers, vulcan_salute, writing_hand, selfie, nail_care, lips, tooth, tongue, ear, nose, eye, eyes, brain, bust_in_silhouette, busts_in_silhouette, speaking_head, baby, child, boy, girl, adult, man, woman, blonde_woman, blonde_man, bearded_person, older_adult, older_man, older_woman, man_with_gua_pi_mao, woman_with_headscarf, woman_with_turban, man_with_turban, policewoman, policeman, construction_worker_woman, construction_worker_man, guardswoman, guardsman, female_detective, male_detective, woman_health_worker, man_health_worker, woman_farmer, man_farmer, woman_cook, man_cook, woman_student, man_student, woman_singer, man_singer, woman_teacher, man_teacher, woman_factory_worker, man_factory_worker, woman_technologist, man_technologist, woman_office_worker, man_office_worker, woman_mechanic, man_mechanic, woman_scientist, man_scientist, woman_artist, man_artist, woman_firefighter, man_firefighter, woman_pilot, man_pilot, woman_astronaut, man_astronaut, woman_judge, man_judge, woman_superhero, man_superhero, woman_supervillain, man_supervillain, mrs_claus, santa, sorceress, wizard, woman_elf, man_elf, woman_vampire, man_vampire, woman_zombie, man_zombie, woman_genie, man_genie, mermaid, merman, woman_fairy, man_fairy, angel, pregnant_woman, breastfeeding, princess, prince, bride_with_veil, man_in_tuxedo, running_woman, running_man, walking_woman, walking_man, dancer, man_dancing, dancing_women, dancing_men, couple, two_men_holding_hands, two_women_holding_hands, bowing_woman, bowing_man, man_facepalming, woman_facepalming, woman_shrugging, man_shrugging, tipping_hand_woman, tipping_hand_man, no_good_woman, no_good_man, ok_woman, ok_man, raising_hand_woman, raising_hand_man, pouting_woman, pouting_man, frowning_woman, frowning_man, haircut_woman, haircut_man, massage_woman, massage_man, woman_in_steamy_room, man_in_steamy_room, couple_with_heart_woman_man, couple_with_heart_woman_woman, couple_with_heart_man_man, couplekiss_man_woman, couplekiss_woman_woman, couplekiss_man_man, family_man_woman_boy, family_man_woman_girl, family_man_woman_girl_boy, family_man_woman_boy_boy, family_man_woman_girl_girl, family_woman_woman_boy, family_woman_woman_girl, family_woman_woman_girl_boy, family_woman_woman_boy_boy, family_woman_woman_girl_girl, family_man_man_boy, family_man_man_girl, family_man_man_girl_boy, family_man_man_boy_boy, family_man_man_girl_girl, family_woman_boy, family_woman_girl, family_woman_girl_boy, family_woman_boy_boy, family_woman_girl_girl, family_man_boy, family_man_girl, family_man_girl_boy, family_man_boy_boy, family_man_girl_girl, yarn, thread, coat, labcoat, womans_clothes, tshirt, jeans, necktie, dress, bikini, kimono, lipstick, kiss, footprints, flat_shoe, high_heel, sandal, boot, mans_shoe, athletic_shoe, hiking_boot, socks, gloves, scarf, womans_hat, tophat, billed_hat, rescue_worker_helmet, mortar_board, crown, school_satchel, luggage, pouch, purse, handbag, briefcase, eyeglasses, dark_sunglasses, goggles, ring, closed_umbrella, dog, cat, mouse, hamster, rabbit, fox_face, bear, panda_face, koala, tiger, lion, cow, pig, pig_nose, frog, squid, octopus, shrimp, monkey_face, gorilla, see_no_evil, hear_no_evil, speak_no_evil, monkey, chicken, penguin, bird, baby_chick, hatching_chick, hatched_chick, duck, eagle, owl, bat, wolf, boar, horse, unicorn, honeybee, bug, butterfly, snail, beetle, ant, grasshopper, spider, scorpion, crab, snake, lizard, t-rex, sauropod, turtle, tropical_fish, fish, blowfish, dolphin, shark, whale, whale2, crocodile, leopard, zebra, tiger2, water_buffalo, ox, cow2, deer, dromedary_camel, camel, giraffe, elephant, rhinoceros, goat, ram, sheep, racehorse, pig2, rat, mouse2, rooster, turkey, dove, dog2, poodle, cat2, rabbit2, chipmunk, hedgehog, raccoon, llama, hippopotamus, kangaroo, badger, swan, peacock, parrot, lobster, mosquito, paw_prints, dragon, dragon_face, cactus, christmas_tree, evergreen_tree, deciduous_tree, palm_tree, seedling, herb, shamrock, four_leaf_clover, bamboo, tanabata_tree, leaves, fallen_leaf, maple_leaf, ear_of_rice, hibiscus, sunflower, rose, wilted_flower, tulip, blossom, cherry_blossom, bouquet, mushroom, chestnut, jack_o_lantern, shell, spider_web, earth_americas, earth_africa, earth_asia, full_moon, waning_gibbous_moon, last_quarter_moon, waning_crescent_moon, new_moon, waxing_crescent_moon, first_quarter_moon, waxing_gibbous_moon, new_moon_with_face, full_moon_with_face, first_quarter_moon_with_face, last_quarter_moon_with_face, sun_with_face, crescent_moon, star, star2, dizzy, sparkles, comet, sunny, sun_behind_small_cloud, partly_sunny, sun_behind_large_cloud, sun_behind_rain_cloud, cloud, cloud_with_rain, cloud_with_lightning_and_rain, cloud_with_lightning, zap, fire, boom, snowflake, cloud_with_snow, snowman, snowman_with_snow, wind_face, dash, tornado, fog, open_umbrella, umbrella, droplet, sweat_drops, ocean, green_apple, apple, pear, tangerine, lemon, banana, watermelon, grapes, strawberry, melon, cherries, peach, pineapple, coconut, kiwi_fruit, mango, avocado, broccoli, tomato, eggplant, cucumber, carrot, hot_pepper, potato, corn, leafy_greens, sweet_potato, peanuts, honey_pot, croissant, bread, baguette_bread, bagel, pretzel, cheese, egg, bacon, steak, pancakes, poultry_leg, meat_on_bone, bone, fried_shrimp, fried_egg, hamburger, fries, stuffed_flatbread, hotdog, pizza, sandwich, canned_food, spaghetti, taco, burrito, green_salad, shallow_pan_of_food, ramen, stew, fish_cake, fortune_cookie, sushi, bento, curry, rice_ball, rice, rice_cracker, oden, dango, shaved_ice, ice_cream, icecream, pie, cake, cupcake, moon_cake, birthday, custard, candy, lollipop, chocolate_bar, popcorn, dumpling, doughnut, cookie, milk_glass, beer, beers, clinking_glasses, wine_glass, tumbler_glass, cocktail, tropical_drink, champagne, sake, tea, cup_with_straw, coffee, baby_bottle, salt, spoon, fork_and_knife, plate_with_cutlery, bowl_with_spoon, takeout_box, chopsticks, soccer, basketball, football, baseball, softball, tennis, volleyball, rugby_football, flying_disc, 8ball, golf, golfing_woman, golfing_man, ping_pong, badminton, goal_net, ice_hockey, field_hockey, lacrosse, cricket, ski, skier, snowboarder, person_fencing, women_wrestling, men_wrestling, woman_cartwheeling, man_cartwheeling, woman_playing_handball, man_playing_handball, ice_skate, curling_stone, skateboard, sled, bow_and_arrow, fishing_pole_and_fish, boxing_glove, martial_arts_uniform, rowing_woman, rowing_man, climbing_woman, climbing_man, swimming_woman, swimming_man, woman_playing_water_polo, man_playing_water_polo, woman_in_lotus_position, man_in_lotus_position, surfing_woman, surfing_man, bath, basketball_woman, basketball_man, weight_lifting_woman, weight_lifting_man, biking_woman, biking_man, mountain_biking_woman, mountain_biking_man, horse_racing, business_suit_levitating, trophy, running_shirt_with_sash, medal_sports, medal_military, 1st_place_medal, 2nd_place_medal, 3rd_place_medal, reminder_ribbon, rosette, ticket, tickets, performing_arts, art, circus_tent, woman_juggling, man_juggling, microphone, headphones, musical_score, musical_keyboard, drum, saxophone, trumpet, guitar, violin, clapper, video_game, space_invader, dart, game_die, chess_pawn, slot_machine, jigsaw, bowling, red_car, taxi, blue_car, bus, trolleybus, racing_car, police_car, ambulance, fire_engine, minibus, truck, articulated_lorry, tractor, kick_scooter, motorcycle, bike, motor_scooter, rotating_light, oncoming_police_car, oncoming_bus, oncoming_automobile, oncoming_taxi, aerial_tramway, mountain_cableway, suspension_railway, railway_car, train, monorail, bullettrain_side, bullettrain_front, light_rail, mountain_railway, steam_locomotive, train2, metro, tram, station, flying_saucer, helicopter, small_airplane, airplane, flight_departure, flight_arrival, sailboat, motor_boat, speedboat, ferry, passenger_ship, rocket, artificial_satellite, seat, canoe, anchor, construction, fuelpump, busstop, vertical_traffic_light, traffic_light, checkered_flag, ship, ferris_wheel, roller_coaster, carousel_horse, building_construction, foggy, tokyo_tower, factory, fountain, rice_scene, mountain, mountain_snow, mount_fuji, volcano, japan, camping, tent, national_park, motorway, railway_track, sunrise, sunrise_over_mountains, desert, beach_umbrella, desert_island, city_sunrise, city_sunset, cityscape, night_with_stars, bridge_at_night, milky_way, stars, sparkler, fireworks, rainbow, houses, european_castle, japanese_castle, stadium, statue_of_liberty, house, house_with_garden, derelict_house, office, department_store, post_office, european_post_office, hospital, bank, hotel, convenience_store, school, love_hotel, wedding, classical_building, church, mosque, synagogue, kaaba, shinto_shrine, watch, iphone, calling, computer, keyboard, desktop_computer, printer, computer_mouse, trackball, joystick, clamp, minidisc, floppy_disk, cd, dvd, vhs, camera, camera_flash, video_camera, movie_camera, film_projector, film_strip, telephone_receiver, phone, pager, fax, tv, radio, studio_microphone, level_slider, control_knobs, compass, stopwatch, timer_clock, alarm_clock, mantelpiece_clock, hourglass_flowing_sand, hourglass, satellite, battery, electric_plug, bulb, flashlight, candle, fire_extinguisher, wastebasket, oil_drum, money_with_wings, dollar, yen, euro, pound, moneybag, credit_card, gem, balance_scale, toolbox, wrench, hammer, hammer_and_pick, hammer_and_wrench, pick, nut_and_bolt, gear, brick, chains, magnet, gun, bomb, firecracker, hocho, dagger, crossed_swords, shield, smoking, skull_and_crossbones, coffin, funeral_urn, amphora, crystal_ball, prayer_beads, nazar_amulet, barber, alembic, telescope, microscope, hole, pill, syringe, dna, microbe, petri_dish, test_tube, thermometer, broom, basket, toilet_paper, label, bookmark, toilet, shower, bathtub, soap, sponge, lotion_bottle, key, old_key, couch_and_lamp, sleeping_bed, bed, door, bellhop_bell, teddy_bear, framed_picture, world_map, parasol_on_ground, moyai, shopping, shopping_cart, balloon, flags, ribbon, gift, confetti_ball, tada, dolls, wind_chime, crossed_flags, izakaya_lantern, red_envelope, email, envelope_with_arrow, incoming_envelope, e-mail, love_letter, postbox, mailbox_closed, mailbox, mailbox_with_mail, mailbox_with_no_mail, package, postal_horn, inbox_tray, outbox_tray, scroll, page_with_curl, bookmark_tabs, receipt, bar_chart, chart_with_upwards_trend, chart_with_downwards_trend, page_facing_up, date, calendar, spiral_calendar, card_index, card_file_box, ballot_box, file_cabinet, clipboard, spiral_notepad, file_folder, open_file_folder, card_index_dividers, newspaper_roll, newspaper, notebook, closed_book, green_book, blue_book, orange_book, notebook_with_decorative_cover, ledger, books, open_book, safety_pin, link, paperclip, paperclips, scissors, triangular_ruler, straight_ruler, abacus, pushpin, round_pushpin, triangular_flag_on_post, white_flag, black_flag, rainbow_flag, closed_lock_with_key, lock, unlock, lock_with_ink_pen, pen, fountain_pen, black_nib, memo, pencil2, crayon, paintbrush, mag, mag_right, heart, orange_heart, yellow_heart, green_heart, blue_heart, purple_heart, black_heart, broken_heart, heavy_heart_exclamation, two_hearts, revolving_hearts, heartbeat, heartpulse, sparkling_heart, cupid, gift_heart, heart_decoration, peace_symbol, latin_cross, star_and_crescent, om, wheel_of_dharma, star_of_david, six_pointed_star, menorah, yin_yang, orthodox_cross, place_of_worship, ophiuchus, aries, taurus, gemini, cancer, leo, virgo, libra, scorpius, sagittarius, capricorn, aquarius, pisces, id, atom_symbol, u7a7a, u5272, radioactive, biohazard, mobile_phone_off, vibration_mode, u6709, u7121, u7533, u55b6, u6708, eight_pointed_black_star, vs, accept, white_flower, ideograph_advantage, secret, congratulations, u5408, u6e80, u7981, a, b, ab, cl, o2, sos, no_entry, name_badge, no_entry_sign, x, o, stop_sign, anger, hotsprings, no_pedestrians, do_not_litter, no_bicycles, non-potable_water, underage, no_mobile_phones, exclamation, grey_exclamation, question, grey_question, bangbang, interrobang, low_brightness, high_brightness, trident, fleur_de_lis, part_alternation_mark, warning, children_crossing, beginner, recycle, u6307, chart, sparkle, eight_spoked_asterisk, negative_squared_cross_mark, white_check_mark, diamond_shape_with_a_dot_inside, cyclone, loop, globe_with_meridians, m, atm, sa, passport_control, customs, baggage_claim, left_luggage, wheelchair, no_smoking, wc, parking, potable_water, mens, womens, baby_symbol, restroom, put_litter_in_its_place, cinema, signal_strength, koko, ng, ok, up, cool, new, free, zero, one, two, three, four, five, six, seven, eight, nine, keycap_ten, asterisk, eject_button, arrow_forward, pause_button, next_track_button, stop_button, record_button, play_or_pause_button, previous_track_button, fast_forward, rewind, twisted_rightwards_arrows, repeat, repeat_one, arrow_backward, arrow_up_small, arrow_down_small, arrow_double_up, arrow_double_down, arrow_right, arrow_left, arrow_up, arrow_down, arrow_upper_right, arrow_lower_right, arrow_lower_left, arrow_upper_left, arrow_up_down, left_right_arrow, arrows_counterclockwise, arrow_right_hook, leftwards_arrow_with_hook, arrow_heading_up, arrow_heading_down, hash, information_source, abc, abcd, capital_abcd, symbols, musical_note, notes, wavy_dash, curly_loop, heavy_check_mark, arrows_clockwise, heavy_plus_sign, heavy_minus_sign, heavy_division_sign, heavy_multiplication_x, infinity, heavy_dollar_sign, currency_exchange, copyright, registered, tm, end, back, on, top, soon, ballot_box_with_check, radio_button, white_circle, black_circle, red_circle, large_blue_circle, small_orange_diamond, small_blue_diamond, large_orange_diamond, large_blue_diamond, small_red_triangle, black_small_square, white_small_square, black_large_square, white_large_square, small_red_triangle_down, black_medium_square, white_medium_square, black_medium_small_square, white_medium_small_square, black_square_button, white_square_button, speaker, sound, loud_sound, mute, mega, loudspeaker, bell, no_bell, black_joker, mahjong, spades, clubs, hearts, diamonds, flower_playing_cards, thought_balloon, right_anger_bubble, speech_balloon, left_speech_bubble, clock1, clock2, clock3, clock4, clock5, clock6, clock7, clock8, clock9, clock10, clock11, clock12, clock130, clock230, clock330, clock430, clock530, clock630, clock730, clock830, clock930, clock1030, clock1130, clock1230, afghanistan, aland_islands, albania, algeria, american_samoa, andorra, angola, anguilla, antarctica, antigua_barbuda, argentina, armenia, aruba, australia, austria, azerbaijan, bahamas, bahrain, bangladesh, barbados, belarus, belgium, belize, benin, bermuda, bhutan, bolivia, caribbean_netherlands, bosnia_herzegovina, botswana, brazil, british_indian_ocean_territory, british_virgin_islands, brunei, bulgaria, burkina_faso, burundi, cape_verde, cambodia, cameroon, canada, canary_islands, cayman_islands, central_african_republic, chad, chile, cn, christmas_island, cocos_islands, colombia, comoros, congo_brazzaville, congo_kinshasa, cook_islands, costa_rica, croatia, cuba, curacao, cyprus, czech_republic, denmark, djibouti, dominica, dominican_republic, ecuador, egypt, el_salvador, equatorial_guinea, eritrea, estonia, ethiopia, eu, falkland_islands, faroe_islands, fiji, finland, fr, french_guiana, french_polynesia, french_southern_territories, gabon, gambia, georgia, de, ghana, gibraltar, greece, greenland, grenada, guadeloupe, guam, guatemala, guernsey, guinea, guinea_bissau, guyana, haiti, honduras, hong_kong, hungary, iceland, india, indonesia, iran, iraq, ireland, isle_of_man, israel, it, cote_divoire, jamaica, jp, jersey, jordan, kazakhstan, kenya, kiribati, kosovo, kuwait, kyrgyzstan, laos, latvia, lebanon, lesotho, liberia, libya, liechtenstein, lithuania, luxembourg, macau, macedonia, madagascar, malawi, malaysia, maldives, mali, malta, marshall_islands, martinique, mauritania, mauritius, mayotte, mexico, micronesia, moldova, monaco, mongolia, montenegro, montserrat, morocco, mozambique, myanmar, namibia, nauru, nepal, netherlands, new_caledonia, new_zealand, nicaragua, niger, nigeria, niue, norfolk_island, northern_mariana_islands, north_korea, norway, oman, pakistan, palau, palestinian_territories, panama, papua_new_guinea, paraguay, peru, philippines, pitcairn_islands, poland, portugal, puerto_rico, qatar, reunion, romania, ru, rwanda, st_barthelemy, st_helena, st_kitts_nevis, st_lucia, st_pierre_miquelon, st_vincent_grenadines, samoa, san_marino, sao_tome_principe, saudi_arabia, senegal, serbia, seychelles, sierra_leone, singapore, sint_maarten, slovakia, slovenia, solomon_islands, somalia, south_africa, south_georgia_south_sandwich_islands, kr, south_sudan, es, sri_lanka, sudan, suriname, swaziland, sweden, switzerland, syria, taiwan, tajikistan, tanzania, thailand, timor_leste, togo, tokelau, tonga, trinidad_tobago, tunisia, tr, turkmenistan, turks_caicos_islands, tuvalu, uganda, ukraine, united_arab_emirates, uk, england, scotland, wales, us, us_virgin_islands, uruguay, uzbekistan, vanuatu, vatican_city, venezuela, vietnam, wallis_futuna, western_sahara, yemen, zambia, zimbabwe, united_nations, pirate_flag, default */
+/***/ (function(module) {
+
+module.exports = {"100":{"keywords":["score","perfect","numbers","century","exam","quiz","test","pass","hundred"],"char":"💯","fitzpatrick_scale":false,"category":"symbols"},"1234":{"keywords":["numbers","blue-square"],"char":"🔢","fitzpatrick_scale":false,"category":"symbols"},"grinning":{"keywords":["face","smile","happy","joy",":D","grin"],"char":"😀","fitzpatrick_scale":false,"category":"people"},"grimacing":{"keywords":["face","grimace","teeth"],"char":"😬","fitzpatrick_scale":false,"category":"people"},"grin":{"keywords":["face","happy","smile","joy","kawaii"],"char":"😁","fitzpatrick_scale":false,"category":"people"},"joy":{"keywords":["face","cry","tears","weep","happy","happytears","haha"],"char":"😂","fitzpatrick_scale":false,"category":"people"},"rofl":{"keywords":["face","rolling","floor","laughing","lol","haha"],"char":"🤣","fitzpatrick_scale":false,"category":"people"},"partying":{"keywords":["face","celebration","woohoo"],"char":"🥳","fitzpatrick_scale":false,"category":"people"},"smiley":{"keywords":["face","happy","joy","haha",":D",":)","smile","funny"],"char":"😃","fitzpatrick_scale":false,"category":"people"},"smile":{"keywords":["face","happy","joy","funny","haha","laugh","like",":D",":)"],"char":"😄","fitzpatrick_scale":false,"category":"people"},"sweat_smile":{"keywords":["face","hot","happy","laugh","sweat","smile","relief"],"char":"😅","fitzpatrick_scale":false,"category":"people"},"laughing":{"keywords":["happy","joy","lol","satisfied","haha","face","glad","XD","laugh"],"char":"😆","fitzpatrick_scale":false,"category":"people"},"innocent":{"keywords":["face","angel","heaven","halo"],"char":"😇","fitzpatrick_scale":false,"category":"people"},"wink":{"keywords":["face","happy","mischievous","secret",";)","smile","eye"],"char":"😉","fitzpatrick_scale":false,"category":"people"},"blush":{"keywords":["face","smile","happy","flushed","crush","embarrassed","shy","joy"],"char":"😊","fitzpatrick_scale":false,"category":"people"},"slightly_smiling_face":{"keywords":["face","smile"],"char":"🙂","fitzpatrick_scale":false,"category":"people"},"upside_down_face":{"keywords":["face","flipped","silly","smile"],"char":"🙃","fitzpatrick_scale":false,"category":"people"},"relaxed":{"keywords":["face","blush","massage","happiness"],"char":"☺️","fitzpatrick_scale":false,"category":"people"},"yum":{"keywords":["happy","joy","tongue","smile","face","silly","yummy","nom","delicious","savouring"],"char":"😋","fitzpatrick_scale":false,"category":"people"},"relieved":{"keywords":["face","relaxed","phew","massage","happiness"],"char":"😌","fitzpatrick_scale":false,"category":"people"},"heart_eyes":{"keywords":["face","love","like","affection","valentines","infatuation","crush","heart"],"char":"😍","fitzpatrick_scale":false,"category":"people"},"smiling_face_with_three_hearts":{"keywords":["face","love","like","affection","valentines","infatuation","crush","hearts","adore"],"char":"🥰","fitzpatrick_scale":false,"category":"people"},"kissing_heart":{"keywords":["face","love","like","affection","valentines","infatuation","kiss"],"char":"😘","fitzpatrick_scale":false,"category":"people"},"kissing":{"keywords":["love","like","face","3","valentines","infatuation","kiss"],"char":"😗","fitzpatrick_scale":false,"category":"people"},"kissing_smiling_eyes":{"keywords":["face","affection","valentines","infatuation","kiss"],"char":"😙","fitzpatrick_scale":false,"category":"people"},"kissing_closed_eyes":{"keywords":["face","love","like","affection","valentines","infatuation","kiss"],"char":"😚","fitzpatrick_scale":false,"category":"people"},"stuck_out_tongue_winking_eye":{"keywords":["face","prank","childish","playful","mischievous","smile","wink","tongue"],"char":"😜","fitzpatrick_scale":false,"category":"people"},"zany":{"keywords":["face","goofy","crazy"],"char":"🤪","fitzpatrick_scale":false,"category":"people"},"raised_eyebrow":{"keywords":["face","distrust","scepticism","disapproval","disbelief","surprise"],"char":"🤨","fitzpatrick_scale":false,"category":"people"},"monocle":{"keywords":["face","stuffy","wealthy"],"char":"🧐","fitzpatrick_scale":false,"category":"people"},"stuck_out_tongue_closed_eyes":{"keywords":["face","prank","playful","mischievous","smile","tongue"],"char":"😝","fitzpatrick_scale":false,"category":"people"},"stuck_out_tongue":{"keywords":["face","prank","childish","playful","mischievous","smile","tongue"],"char":"😛","fitzpatrick_scale":false,"category":"people"},"money_mouth_face":{"keywords":["face","rich","dollar","money"],"char":"🤑","fitzpatrick_scale":false,"category":"people"},"nerd_face":{"keywords":["face","nerdy","geek","dork"],"char":"🤓","fitzpatrick_scale":false,"category":"people"},"sunglasses":{"keywords":["face","cool","smile","summer","beach","sunglass"],"char":"😎","fitzpatrick_scale":false,"category":"people"},"star_struck":{"keywords":["face","smile","starry","eyes","grinning"],"char":"🤩","fitzpatrick_scale":false,"category":"people"},"clown_face":{"keywords":["face"],"char":"🤡","fitzpatrick_scale":false,"category":"people"},"cowboy_hat_face":{"keywords":["face","cowgirl","hat"],"char":"🤠","fitzpatrick_scale":false,"category":"people"},"hugs":{"keywords":["face","smile","hug"],"char":"🤗","fitzpatrick_scale":false,"category":"people"},"smirk":{"keywords":["face","smile","mean","prank","smug","sarcasm"],"char":"😏","fitzpatrick_scale":false,"category":"people"},"no_mouth":{"keywords":["face","hellokitty"],"char":"😶","fitzpatrick_scale":false,"category":"people"},"neutral_face":{"keywords":["indifference","meh",":|","neutral"],"char":"😐","fitzpatrick_scale":false,"category":"people"},"expressionless":{"keywords":["face","indifferent","-_-","meh","deadpan"],"char":"😑","fitzpatrick_scale":false,"category":"people"},"unamused":{"keywords":["indifference","bored","straight face","serious","sarcasm","unimpressed","skeptical","dubious","side_eye"],"char":"😒","fitzpatrick_scale":false,"category":"people"},"roll_eyes":{"keywords":["face","eyeroll","frustrated"],"char":"🙄","fitzpatrick_scale":false,"category":"people"},"thinking":{"keywords":["face","hmmm","think","consider"],"char":"🤔","fitzpatrick_scale":false,"category":"people"},"lying_face":{"keywords":["face","lie","pinocchio"],"char":"🤥","fitzpatrick_scale":false,"category":"people"},"hand_over_mouth":{"keywords":["face","whoops","shock","surprise"],"char":"🤭","fitzpatrick_scale":false,"category":"people"},"shushing":{"keywords":["face","quiet","shhh"],"char":"🤫","fitzpatrick_scale":false,"category":"people"},"symbols_over_mouth":{"keywords":["face","swearing","cursing","cussing","profanity","expletive"],"char":"🤬","fitzpatrick_scale":false,"category":"people"},"exploding_head":{"keywords":["face","shocked","mind","blown"],"char":"🤯","fitzpatrick_scale":false,"category":"people"},"flushed":{"keywords":["face","blush","shy","flattered"],"char":"😳","fitzpatrick_scale":false,"category":"people"},"disappointed":{"keywords":["face","sad","upset","depressed",":("],"char":"😞","fitzpatrick_scale":false,"category":"people"},"worried":{"keywords":["face","concern","nervous",":("],"char":"😟","fitzpatrick_scale":false,"category":"people"},"angry":{"keywords":["mad","face","annoyed","frustrated"],"char":"😠","fitzpatrick_scale":false,"category":"people"},"rage":{"keywords":["angry","mad","hate","despise"],"char":"😡","fitzpatrick_scale":false,"category":"people"},"pensive":{"keywords":["face","sad","depressed","upset"],"char":"😔","fitzpatrick_scale":false,"category":"people"},"confused":{"keywords":["face","indifference","huh","weird","hmmm",":/"],"char":"😕","fitzpatrick_scale":false,"category":"people"},"slightly_frowning_face":{"keywords":["face","frowning","disappointed","sad","upset"],"char":"🙁","fitzpatrick_scale":false,"category":"people"},"frowning_face":{"keywords":["face","sad","upset","frown"],"char":"☹","fitzpatrick_scale":false,"category":"people"},"persevere":{"keywords":["face","sick","no","upset","oops"],"char":"😣","fitzpatrick_scale":false,"category":"people"},"confounded":{"keywords":["face","confused","sick","unwell","oops",":S"],"char":"😖","fitzpatrick_scale":false,"category":"people"},"tired_face":{"keywords":["sick","whine","upset","frustrated"],"char":"😫","fitzpatrick_scale":false,"category":"people"},"weary":{"keywords":["face","tired","sleepy","sad","frustrated","upset"],"char":"😩","fitzpatrick_scale":false,"category":"people"},"pleading":{"keywords":["face","begging","mercy"],"char":"🥺","fitzpatrick_scale":false,"category":"people"},"triumph":{"keywords":["face","gas","phew","proud","pride"],"char":"😤","fitzpatrick_scale":false,"category":"people"},"open_mouth":{"keywords":["face","surprise","impressed","wow","whoa",":O"],"char":"😮","fitzpatrick_scale":false,"category":"people"},"scream":{"keywords":["face","munch","scared","omg"],"char":"😱","fitzpatrick_scale":false,"category":"people"},"fearful":{"keywords":["face","scared","terrified","nervous","oops","huh"],"char":"😨","fitzpatrick_scale":false,"category":"people"},"cold_sweat":{"keywords":["face","nervous","sweat"],"char":"😰","fitzpatrick_scale":false,"category":"people"},"hushed":{"keywords":["face","woo","shh"],"char":"😯","fitzpatrick_scale":false,"category":"people"},"frowning":{"keywords":["face","aw","what"],"char":"😦","fitzpatrick_scale":false,"category":"people"},"anguished":{"keywords":["face","stunned","nervous"],"char":"😧","fitzpatrick_scale":false,"category":"people"},"cry":{"keywords":["face","tears","sad","depressed","upset",":'("],"char":"😢","fitzpatrick_scale":false,"category":"people"},"disappointed_relieved":{"keywords":["face","phew","sweat","nervous"],"char":"😥","fitzpatrick_scale":false,"category":"people"},"drooling_face":{"keywords":["face"],"char":"🤤","fitzpatrick_scale":false,"category":"people"},"sleepy":{"keywords":["face","tired","rest","nap"],"char":"😪","fitzpatrick_scale":false,"category":"people"},"sweat":{"keywords":["face","hot","sad","tired","exercise"],"char":"😓","fitzpatrick_scale":false,"category":"people"},"hot":{"keywords":["face","feverish","heat","red","sweating"],"char":"🥵","fitzpatrick_scale":false,"category":"people"},"cold":{"keywords":["face","blue","freezing","frozen","frostbite","icicles"],"char":"🥶","fitzpatrick_scale":false,"category":"people"},"sob":{"keywords":["face","cry","tears","sad","upset","depressed"],"char":"😭","fitzpatrick_scale":false,"category":"people"},"dizzy_face":{"keywords":["spent","unconscious","xox","dizzy"],"char":"😵","fitzpatrick_scale":false,"category":"people"},"astonished":{"keywords":["face","xox","surprised","poisoned"],"char":"😲","fitzpatrick_scale":false,"category":"people"},"zipper_mouth_face":{"keywords":["face","sealed","zipper","secret"],"char":"🤐","fitzpatrick_scale":false,"category":"people"},"nauseated_face":{"keywords":["face","vomit","gross","green","sick","throw up","ill"],"char":"🤢","fitzpatrick_scale":false,"category":"people"},"sneezing_face":{"keywords":["face","gesundheit","sneeze","sick","allergy"],"char":"🤧","fitzpatrick_scale":false,"category":"people"},"vomiting":{"keywords":["face","sick"],"char":"🤮","fitzpatrick_scale":false,"category":"people"},"mask":{"keywords":["face","sick","ill","disease"],"char":"😷","fitzpatrick_scale":false,"category":"people"},"face_with_thermometer":{"keywords":["sick","temperature","thermometer","cold","fever"],"char":"🤒","fitzpatrick_scale":false,"category":"people"},"face_with_head_bandage":{"keywords":["injured","clumsy","bandage","hurt"],"char":"🤕","fitzpatrick_scale":false,"category":"people"},"woozy":{"keywords":["face","dizzy","intoxicated","tipsy","wavy"],"char":"🥴","fitzpatrick_scale":false,"category":"people"},"sleeping":{"keywords":["face","tired","sleepy","night","zzz"],"char":"😴","fitzpatrick_scale":false,"category":"people"},"zzz":{"keywords":["sleepy","tired","dream"],"char":"💤","fitzpatrick_scale":false,"category":"people"},"poop":{"keywords":["hankey","shitface","fail","turd","shit"],"char":"💩","fitzpatrick_scale":false,"category":"people"},"smiling_imp":{"keywords":["devil","horns"],"char":"😈","fitzpatrick_scale":false,"category":"people"},"imp":{"keywords":["devil","angry","horns"],"char":"👿","fitzpatrick_scale":false,"category":"people"},"japanese_ogre":{"keywords":["monster","red","mask","halloween","scary","creepy","devil","demon","japanese","ogre"],"char":"👹","fitzpatrick_scale":false,"category":"people"},"japanese_goblin":{"keywords":["red","evil","mask","monster","scary","creepy","japanese","goblin"],"char":"👺","fitzpatrick_scale":false,"category":"people"},"skull":{"keywords":["dead","skeleton","creepy","death"],"char":"💀","fitzpatrick_scale":false,"category":"people"},"ghost":{"keywords":["halloween","spooky","scary"],"char":"👻","fitzpatrick_scale":false,"category":"people"},"alien":{"keywords":["UFO","paul","weird","outer_space"],"char":"👽","fitzpatrick_scale":false,"category":"people"},"robot":{"keywords":["computer","machine","bot"],"char":"🤖","fitzpatrick_scale":false,"category":"people"},"smiley_cat":{"keywords":["animal","cats","happy","smile"],"char":"😺","fitzpatrick_scale":false,"category":"people"},"smile_cat":{"keywords":["animal","cats","smile"],"char":"😸","fitzpatrick_scale":false,"category":"people"},"joy_cat":{"keywords":["animal","cats","haha","happy","tears"],"char":"😹","fitzpatrick_scale":false,"category":"people"},"heart_eyes_cat":{"keywords":["animal","love","like","affection","cats","valentines","heart"],"char":"😻","fitzpatrick_scale":false,"category":"people"},"smirk_cat":{"keywords":["animal","cats","smirk"],"char":"😼","fitzpatrick_scale":false,"category":"people"},"kissing_cat":{"keywords":["animal","cats","kiss"],"char":"😽","fitzpatrick_scale":false,"category":"people"},"scream_cat":{"keywords":["animal","cats","munch","scared","scream"],"char":"🙀","fitzpatrick_scale":false,"category":"people"},"crying_cat_face":{"keywords":["animal","tears","weep","sad","cats","upset","cry"],"char":"😿","fitzpatrick_scale":false,"category":"people"},"pouting_cat":{"keywords":["animal","cats"],"char":"😾","fitzpatrick_scale":false,"category":"people"},"palms_up":{"keywords":["hands","gesture","cupped","prayer"],"char":"🤲","fitzpatrick_scale":true,"category":"people"},"raised_hands":{"keywords":["gesture","hooray","yea","celebration","hands"],"char":"🙌","fitzpatrick_scale":true,"category":"people"},"clap":{"keywords":["hands","praise","applause","congrats","yay"],"char":"👏","fitzpatrick_scale":true,"category":"people"},"wave":{"keywords":["hands","gesture","goodbye","solong","farewell","hello","hi","palm"],"char":"👋","fitzpatrick_scale":true,"category":"people"},"call_me_hand":{"keywords":["hands","gesture"],"char":"🤙","fitzpatrick_scale":true,"category":"people"},"+1":{"keywords":["thumbsup","yes","awesome","good","agree","accept","cool","hand","like"],"char":"👍","fitzpatrick_scale":true,"category":"people"},"-1":{"keywords":["thumbsdown","no","dislike","hand"],"char":"👎","fitzpatrick_scale":true,"category":"people"},"facepunch":{"keywords":["angry","violence","fist","hit","attack","hand"],"char":"👊","fitzpatrick_scale":true,"category":"people"},"fist":{"keywords":["fingers","hand","grasp"],"char":"✊","fitzpatrick_scale":true,"category":"people"},"fist_left":{"keywords":["hand","fistbump"],"char":"🤛","fitzpatrick_scale":true,"category":"people"},"fist_right":{"keywords":["hand","fistbump"],"char":"🤜","fitzpatrick_scale":true,"category":"people"},"v":{"keywords":["fingers","ohyeah","hand","peace","victory","two"],"char":"✌","fitzpatrick_scale":true,"category":"people"},"ok_hand":{"keywords":["fingers","limbs","perfect","ok","okay"],"char":"👌","fitzpatrick_scale":true,"category":"people"},"raised_hand":{"keywords":["fingers","stop","highfive","palm","ban"],"char":"✋","fitzpatrick_scale":true,"category":"people"},"raised_back_of_hand":{"keywords":["fingers","raised","backhand"],"char":"🤚","fitzpatrick_scale":true,"category":"people"},"open_hands":{"keywords":["fingers","butterfly","hands","open"],"char":"👐","fitzpatrick_scale":true,"category":"people"},"muscle":{"keywords":["arm","flex","hand","summer","strong","biceps"],"char":"💪","fitzpatrick_scale":true,"category":"people"},"pray":{"keywords":["please","hope","wish","namaste","highfive"],"char":"🙏","fitzpatrick_scale":true,"category":"people"},"foot":{"keywords":["kick","stomp"],"char":"🦶","fitzpatrick_scale":true,"category":"people"},"leg":{"keywords":["kick","limb"],"char":"🦵","fitzpatrick_scale":true,"category":"people"},"handshake":{"keywords":["agreement","shake"],"char":"🤝","fitzpatrick_scale":false,"category":"people"},"point_up":{"keywords":["hand","fingers","direction","up"],"char":"☝","fitzpatrick_scale":true,"category":"people"},"point_up_2":{"keywords":["fingers","hand","direction","up"],"char":"👆","fitzpatrick_scale":true,"category":"people"},"point_down":{"keywords":["fingers","hand","direction","down"],"char":"👇","fitzpatrick_scale":true,"category":"people"},"point_left":{"keywords":["direction","fingers","hand","left"],"char":"👈","fitzpatrick_scale":true,"category":"people"},"point_right":{"keywords":["fingers","hand","direction","right"],"char":"👉","fitzpatrick_scale":true,"category":"people"},"fu":{"keywords":["hand","fingers","rude","middle","flipping"],"char":"🖕","fitzpatrick_scale":true,"category":"people"},"raised_hand_with_fingers_splayed":{"keywords":["hand","fingers","palm"],"char":"🖐","fitzpatrick_scale":true,"category":"people"},"love_you":{"keywords":["hand","fingers","gesture"],"char":"🤟","fitzpatrick_scale":true,"category":"people"},"metal":{"keywords":["hand","fingers","evil_eye","sign_of_horns","rock_on"],"char":"🤘","fitzpatrick_scale":true,"category":"people"},"crossed_fingers":{"keywords":["good","lucky"],"char":"🤞","fitzpatrick_scale":true,"category":"people"},"vulcan_salute":{"keywords":["hand","fingers","spock","star trek"],"char":"🖖","fitzpatrick_scale":true,"category":"people"},"writing_hand":{"keywords":["lower_left_ballpoint_pen","stationery","write","compose"],"char":"✍","fitzpatrick_scale":true,"category":"people"},"selfie":{"keywords":["camera","phone"],"char":"🤳","fitzpatrick_scale":true,"category":"people"},"nail_care":{"keywords":["beauty","manicure","finger","fashion","nail"],"char":"💅","fitzpatrick_scale":true,"category":"people"},"lips":{"keywords":["mouth","kiss"],"char":"👄","fitzpatrick_scale":false,"category":"people"},"tooth":{"keywords":["teeth","dentist"],"char":"🦷","fitzpatrick_scale":false,"category":"people"},"tongue":{"keywords":["mouth","playful"],"char":"👅","fitzpatrick_scale":false,"category":"people"},"ear":{"keywords":["face","hear","sound","listen"],"char":"👂","fitzpatrick_scale":true,"category":"people"},"nose":{"keywords":["smell","sniff"],"char":"👃","fitzpatrick_scale":true,"category":"people"},"eye":{"keywords":["face","look","see","watch","stare"],"char":"👁","fitzpatrick_scale":false,"category":"people"},"eyes":{"keywords":["look","watch","stalk","peek","see"],"char":"👀","fitzpatrick_scale":false,"category":"people"},"brain":{"keywords":["smart","intelligent"],"char":"🧠","fitzpatrick_scale":false,"category":"people"},"bust_in_silhouette":{"keywords":["user","person","human"],"char":"👤","fitzpatrick_scale":false,"category":"people"},"busts_in_silhouette":{"keywords":["user","person","human","group","team"],"char":"👥","fitzpatrick_scale":false,"category":"people"},"speaking_head":{"keywords":["user","person","human","sing","say","talk"],"char":"🗣","fitzpatrick_scale":false,"category":"people"},"baby":{"keywords":["child","boy","girl","toddler"],"char":"👶","fitzpatrick_scale":true,"category":"people"},"child":{"keywords":["gender-neutral","young"],"char":"🧒","fitzpatrick_scale":true,"category":"people"},"boy":{"keywords":["man","male","guy","teenager"],"char":"👦","fitzpatrick_scale":true,"category":"people"},"girl":{"keywords":["female","woman","teenager"],"char":"👧","fitzpatrick_scale":true,"category":"people"},"adult":{"keywords":["gender-neutral","person"],"char":"🧑","fitzpatrick_scale":true,"category":"people"},"man":{"keywords":["mustache","father","dad","guy","classy","sir","moustache"],"char":"👨","fitzpatrick_scale":true,"category":"people"},"woman":{"keywords":["female","girls","lady"],"char":"👩","fitzpatrick_scale":true,"category":"people"},"blonde_woman":{"keywords":["woman","female","girl","blonde","person"],"char":"👱‍♀️","fitzpatrick_scale":true,"category":"people"},"blonde_man":{"keywords":["man","male","boy","blonde","guy","person"],"char":"👱","fitzpatrick_scale":true,"category":"people"},"bearded_person":{"keywords":["person","bewhiskered"],"char":"🧔","fitzpatrick_scale":true,"category":"people"},"older_adult":{"keywords":["human","elder","senior","gender-neutral"],"char":"🧓","fitzpatrick_scale":true,"category":"people"},"older_man":{"keywords":["human","male","men","old","elder","senior"],"char":"👴","fitzpatrick_scale":true,"category":"people"},"older_woman":{"keywords":["human","female","women","lady","old","elder","senior"],"char":"👵","fitzpatrick_scale":true,"category":"people"},"man_with_gua_pi_mao":{"keywords":["male","boy","chinese"],"char":"👲","fitzpatrick_scale":true,"category":"people"},"woman_with_headscarf":{"keywords":["female","hijab","mantilla","tichel"],"char":"🧕","fitzpatrick_scale":true,"category":"people"},"woman_with_turban":{"keywords":["female","indian","hinduism","arabs","woman"],"char":"👳‍♀️","fitzpatrick_scale":true,"category":"people"},"man_with_turban":{"keywords":["male","indian","hinduism","arabs"],"char":"👳","fitzpatrick_scale":true,"category":"people"},"policewoman":{"keywords":["woman","police","law","legal","enforcement","arrest","911","female"],"char":"👮‍♀️","fitzpatrick_scale":true,"category":"people"},"policeman":{"keywords":["man","police","law","legal","enforcement","arrest","911"],"char":"👮","fitzpatrick_scale":true,"category":"people"},"construction_worker_woman":{"keywords":["female","human","wip","build","construction","worker","labor","woman"],"char":"👷‍♀️","fitzpatrick_scale":true,"category":"people"},"construction_worker_man":{"keywords":["male","human","wip","guy","build","construction","worker","labor"],"char":"👷","fitzpatrick_scale":true,"category":"people"},"guardswoman":{"keywords":["uk","gb","british","female","royal","woman"],"char":"💂‍♀️","fitzpatrick_scale":true,"category":"people"},"guardsman":{"keywords":["uk","gb","british","male","guy","royal"],"char":"💂","fitzpatrick_scale":true,"category":"people"},"female_detective":{"keywords":["human","spy","detective","female","woman"],"char":"🕵️‍♀️","fitzpatrick_scale":true,"category":"people"},"male_detective":{"keywords":["human","spy","detective"],"char":"🕵","fitzpatrick_scale":true,"category":"people"},"woman_health_worker":{"keywords":["doctor","nurse","therapist","healthcare","woman","human"],"char":"👩‍⚕️","fitzpatrick_scale":true,"category":"people"},"man_health_worker":{"keywords":["doctor","nurse","therapist","healthcare","man","human"],"char":"👨‍⚕️","fitzpatrick_scale":true,"category":"people"},"woman_farmer":{"keywords":["rancher","gardener","woman","human"],"char":"👩‍🌾","fitzpatrick_scale":true,"category":"people"},"man_farmer":{"keywords":["rancher","gardener","man","human"],"char":"👨‍🌾","fitzpatrick_scale":true,"category":"people"},"woman_cook":{"keywords":["chef","woman","human"],"char":"👩‍🍳","fitzpatrick_scale":true,"category":"people"},"man_cook":{"keywords":["chef","man","human"],"char":"👨‍🍳","fitzpatrick_scale":true,"category":"people"},"woman_student":{"keywords":["graduate","woman","human"],"char":"👩‍🎓","fitzpatrick_scale":true,"category":"people"},"man_student":{"keywords":["graduate","man","human"],"char":"👨‍🎓","fitzpatrick_scale":true,"category":"people"},"woman_singer":{"keywords":["rockstar","entertainer","woman","human"],"char":"👩‍🎤","fitzpatrick_scale":true,"category":"people"},"man_singer":{"keywords":["rockstar","entertainer","man","human"],"char":"👨‍🎤","fitzpatrick_scale":true,"category":"people"},"woman_teacher":{"keywords":["instructor","professor","woman","human"],"char":"👩‍🏫","fitzpatrick_scale":true,"category":"people"},"man_teacher":{"keywords":["instructor","professor","man","human"],"char":"👨‍🏫","fitzpatrick_scale":true,"category":"people"},"woman_factory_worker":{"keywords":["assembly","industrial","woman","human"],"char":"👩‍🏭","fitzpatrick_scale":true,"category":"people"},"man_factory_worker":{"keywords":["assembly","industrial","man","human"],"char":"👨‍🏭","fitzpatrick_scale":true,"category":"people"},"woman_technologist":{"keywords":["coder","developer","engineer","programmer","software","woman","human","laptop","computer"],"char":"👩‍💻","fitzpatrick_scale":true,"category":"people"},"man_technologist":{"keywords":["coder","developer","engineer","programmer","software","man","human","laptop","computer"],"char":"👨‍💻","fitzpatrick_scale":true,"category":"people"},"woman_office_worker":{"keywords":["business","manager","woman","human"],"char":"👩‍💼","fitzpatrick_scale":true,"category":"people"},"man_office_worker":{"keywords":["business","manager","man","human"],"char":"👨‍💼","fitzpatrick_scale":true,"category":"people"},"woman_mechanic":{"keywords":["plumber","woman","human","wrench"],"char":"👩‍🔧","fitzpatrick_scale":true,"category":"people"},"man_mechanic":{"keywords":["plumber","man","human","wrench"],"char":"👨‍🔧","fitzpatrick_scale":true,"category":"people"},"woman_scientist":{"keywords":["biologist","chemist","engineer","physicist","woman","human"],"char":"👩‍🔬","fitzpatrick_scale":true,"category":"people"},"man_scientist":{"keywords":["biologist","chemist","engineer","physicist","man","human"],"char":"👨‍🔬","fitzpatrick_scale":true,"category":"people"},"woman_artist":{"keywords":["painter","woman","human"],"char":"👩‍🎨","fitzpatrick_scale":true,"category":"people"},"man_artist":{"keywords":["painter","man","human"],"char":"👨‍🎨","fitzpatrick_scale":true,"category":"people"},"woman_firefighter":{"keywords":["fireman","woman","human"],"char":"👩‍🚒","fitzpatrick_scale":true,"category":"people"},"man_firefighter":{"keywords":["fireman","man","human"],"char":"👨‍🚒","fitzpatrick_scale":true,"category":"people"},"woman_pilot":{"keywords":["aviator","plane","woman","human"],"char":"👩‍✈️","fitzpatrick_scale":true,"category":"people"},"man_pilot":{"keywords":["aviator","plane","man","human"],"char":"👨‍✈️","fitzpatrick_scale":true,"category":"people"},"woman_astronaut":{"keywords":["space","rocket","woman","human"],"char":"👩‍🚀","fitzpatrick_scale":true,"category":"people"},"man_astronaut":{"keywords":["space","rocket","man","human"],"char":"👨‍🚀","fitzpatrick_scale":true,"category":"people"},"woman_judge":{"keywords":["justice","court","woman","human"],"char":"👩‍⚖️","fitzpatrick_scale":true,"category":"people"},"man_judge":{"keywords":["justice","court","man","human"],"char":"👨‍⚖️","fitzpatrick_scale":true,"category":"people"},"woman_superhero":{"keywords":["woman","female","good","heroine","superpowers"],"char":"🦸‍♀️","fitzpatrick_scale":true,"category":"people"},"man_superhero":{"keywords":["man","male","good","hero","superpowers"],"char":"🦸‍♂️","fitzpatrick_scale":true,"category":"people"},"woman_supervillain":{"keywords":["woman","female","evil","bad","criminal","heroine","superpowers"],"char":"🦹‍♀️","fitzpatrick_scale":true,"category":"people"},"man_supervillain":{"keywords":["man","male","evil","bad","criminal","hero","superpowers"],"char":"🦹‍♂️","fitzpatrick_scale":true,"category":"people"},"mrs_claus":{"keywords":["woman","female","xmas","mother christmas"],"char":"🤶","fitzpatrick_scale":true,"category":"people"},"santa":{"keywords":["festival","man","male","xmas","father christmas"],"char":"🎅","fitzpatrick_scale":true,"category":"people"},"sorceress":{"keywords":["woman","female","mage","witch"],"char":"🧙‍♀️","fitzpatrick_scale":true,"category":"people"},"wizard":{"keywords":["man","male","mage","sorcerer"],"char":"🧙‍♂️","fitzpatrick_scale":true,"category":"people"},"woman_elf":{"keywords":["woman","female"],"char":"🧝‍♀️","fitzpatrick_scale":true,"category":"people"},"man_elf":{"keywords":["man","male"],"char":"🧝‍♂️","fitzpatrick_scale":true,"category":"people"},"woman_vampire":{"keywords":["woman","female"],"char":"🧛‍♀️","fitzpatrick_scale":true,"category":"people"},"man_vampire":{"keywords":["man","male","dracula"],"char":"🧛‍♂️","fitzpatrick_scale":true,"category":"people"},"woman_zombie":{"keywords":["woman","female","undead","walking dead"],"char":"🧟‍♀️","fitzpatrick_scale":false,"category":"people"},"man_zombie":{"keywords":["man","male","dracula","undead","walking dead"],"char":"🧟‍♂️","fitzpatrick_scale":false,"category":"people"},"woman_genie":{"keywords":["woman","female"],"char":"🧞‍♀️","fitzpatrick_scale":false,"category":"people"},"man_genie":{"keywords":["man","male"],"char":"🧞‍♂️","fitzpatrick_scale":false,"category":"people"},"mermaid":{"keywords":["woman","female","merwoman","ariel"],"char":"🧜‍♀️","fitzpatrick_scale":true,"category":"people"},"merman":{"keywords":["man","male","triton"],"char":"🧜‍♂️","fitzpatrick_scale":true,"category":"people"},"woman_fairy":{"keywords":["woman","female"],"char":"🧚‍♀️","fitzpatrick_scale":true,"category":"people"},"man_fairy":{"keywords":["man","male"],"char":"🧚‍♂️","fitzpatrick_scale":true,"category":"people"},"angel":{"keywords":["heaven","wings","halo"],"char":"👼","fitzpatrick_scale":true,"category":"people"},"pregnant_woman":{"keywords":["baby"],"char":"🤰","fitzpatrick_scale":true,"category":"people"},"breastfeeding":{"keywords":["nursing","baby"],"char":"🤱","fitzpatrick_scale":true,"category":"people"},"princess":{"keywords":["girl","woman","female","blond","crown","royal","queen"],"char":"👸","fitzpatrick_scale":true,"category":"people"},"prince":{"keywords":["boy","man","male","crown","royal","king"],"char":"🤴","fitzpatrick_scale":true,"category":"people"},"bride_with_veil":{"keywords":["couple","marriage","wedding","woman","bride"],"char":"👰","fitzpatrick_scale":true,"category":"people"},"man_in_tuxedo":{"keywords":["couple","marriage","wedding","groom"],"char":"🤵","fitzpatrick_scale":true,"category":"people"},"running_woman":{"keywords":["woman","walking","exercise","race","running","female"],"char":"🏃‍♀️","fitzpatrick_scale":true,"category":"people"},"running_man":{"keywords":["man","walking","exercise","race","running"],"char":"🏃","fitzpatrick_scale":true,"category":"people"},"walking_woman":{"keywords":["human","feet","steps","woman","female"],"char":"🚶‍♀️","fitzpatrick_scale":true,"category":"people"},"walking_man":{"keywords":["human","feet","steps"],"char":"🚶","fitzpatrick_scale":true,"category":"people"},"dancer":{"keywords":["female","girl","woman","fun"],"char":"💃","fitzpatrick_scale":true,"category":"people"},"man_dancing":{"keywords":["male","boy","fun","dancer"],"char":"🕺","fitzpatrick_scale":true,"category":"people"},"dancing_women":{"keywords":["female","bunny","women","girls"],"char":"👯","fitzpatrick_scale":false,"category":"people"},"dancing_men":{"keywords":["male","bunny","men","boys"],"char":"👯‍♂️","fitzpatrick_scale":false,"category":"people"},"couple":{"keywords":["pair","people","human","love","date","dating","like","affection","valentines","marriage"],"char":"👫","fitzpatrick_scale":false,"category":"people"},"two_men_holding_hands":{"keywords":["pair","couple","love","like","bromance","friendship","people","human"],"char":"👬","fitzpatrick_scale":false,"category":"people"},"two_women_holding_hands":{"keywords":["pair","friendship","couple","love","like","female","people","human"],"char":"👭","fitzpatrick_scale":false,"category":"people"},"bowing_woman":{"keywords":["woman","female","girl"],"char":"🙇‍♀️","fitzpatrick_scale":true,"category":"people"},"bowing_man":{"keywords":["man","male","boy"],"char":"🙇","fitzpatrick_scale":true,"category":"people"},"man_facepalming":{"keywords":["man","male","boy","disbelief"],"char":"🤦‍♂️","fitzpatrick_scale":true,"category":"people"},"woman_facepalming":{"keywords":["woman","female","girl","disbelief"],"char":"🤦‍♀️","fitzpatrick_scale":true,"category":"people"},"woman_shrugging":{"keywords":["woman","female","girl","confused","indifferent","doubt"],"char":"🤷","fitzpatrick_scale":true,"category":"people"},"man_shrugging":{"keywords":["man","male","boy","confused","indifferent","doubt"],"char":"🤷‍♂️","fitzpatrick_scale":true,"category":"people"},"tipping_hand_woman":{"keywords":["female","girl","woman","human","information"],"char":"💁","fitzpatrick_scale":true,"category":"people"},"tipping_hand_man":{"keywords":["male","boy","man","human","information"],"char":"💁‍♂️","fitzpatrick_scale":true,"category":"people"},"no_good_woman":{"keywords":["female","girl","woman","nope"],"char":"🙅","fitzpatrick_scale":true,"category":"people"},"no_good_man":{"keywords":["male","boy","man","nope"],"char":"🙅‍♂️","fitzpatrick_scale":true,"category":"people"},"ok_woman":{"keywords":["women","girl","female","pink","human","woman"],"char":"🙆","fitzpatrick_scale":true,"category":"people"},"ok_man":{"keywords":["men","boy","male","blue","human","man"],"char":"🙆‍♂️","fitzpatrick_scale":true,"category":"people"},"raising_hand_woman":{"keywords":["female","girl","woman"],"char":"🙋","fitzpatrick_scale":true,"category":"people"},"raising_hand_man":{"keywords":["male","boy","man"],"char":"🙋‍♂️","fitzpatrick_scale":true,"category":"people"},"pouting_woman":{"keywords":["female","girl","woman"],"char":"🙎","fitzpatrick_scale":true,"category":"people"},"pouting_man":{"keywords":["male","boy","man"],"char":"🙎‍♂️","fitzpatrick_scale":true,"category":"people"},"frowning_woman":{"keywords":["female","girl","woman","sad","depressed","discouraged","unhappy"],"char":"🙍","fitzpatrick_scale":true,"category":"people"},"frowning_man":{"keywords":["male","boy","man","sad","depressed","discouraged","unhappy"],"char":"🙍‍♂️","fitzpatrick_scale":true,"category":"people"},"haircut_woman":{"keywords":["female","girl","woman"],"char":"💇","fitzpatrick_scale":true,"category":"people"},"haircut_man":{"keywords":["male","boy","man"],"char":"💇‍♂️","fitzpatrick_scale":true,"category":"people"},"massage_woman":{"keywords":["female","girl","woman","head"],"char":"💆","fitzpatrick_scale":true,"category":"people"},"massage_man":{"keywords":["male","boy","man","head"],"char":"💆‍♂️","fitzpatrick_scale":true,"category":"people"},"woman_in_steamy_room":{"keywords":["female","woman","spa","steamroom","sauna"],"char":"🧖‍♀️","fitzpatrick_scale":true,"category":"people"},"man_in_steamy_room":{"keywords":["male","man","spa","steamroom","sauna"],"char":"🧖‍♂️","fitzpatrick_scale":true,"category":"people"},"couple_with_heart_woman_man":{"keywords":["pair","love","like","affection","human","dating","valentines","marriage"],"char":"💑","fitzpatrick_scale":false,"category":"people"},"couple_with_heart_woman_woman":{"keywords":["pair","love","like","affection","human","dating","valentines","marriage"],"char":"👩‍❤️‍👩","fitzpatrick_scale":false,"category":"people"},"couple_with_heart_man_man":{"keywords":["pair","love","like","affection","human","dating","valentines","marriage"],"char":"👨‍❤️‍👨","fitzpatrick_scale":false,"category":"people"},"couplekiss_man_woman":{"keywords":["pair","valentines","love","like","dating","marriage"],"char":"💏","fitzpatrick_scale":false,"category":"people"},"couplekiss_woman_woman":{"keywords":["pair","valentines","love","like","dating","marriage"],"char":"👩‍❤️‍💋‍👩","fitzpatrick_scale":false,"category":"people"},"couplekiss_man_man":{"keywords":["pair","valentines","love","like","dating","marriage"],"char":"👨‍❤️‍💋‍👨","fitzpatrick_scale":false,"category":"people"},"family_man_woman_boy":{"keywords":["home","parents","child","mom","dad","father","mother","people","human"],"char":"👪","fitzpatrick_scale":false,"category":"people"},"family_man_woman_girl":{"keywords":["home","parents","people","human","child"],"char":"👨‍👩‍👧","fitzpatrick_scale":false,"category":"people"},"family_man_woman_girl_boy":{"keywords":["home","parents","people","human","children"],"char":"👨‍👩‍👧‍👦","fitzpatrick_scale":false,"category":"people"},"family_man_woman_boy_boy":{"keywords":["home","parents","people","human","children"],"char":"👨‍👩‍👦‍👦","fitzpatrick_scale":false,"category":"people"},"family_man_woman_girl_girl":{"keywords":["home","parents","people","human","children"],"char":"👨‍👩‍👧‍👧","fitzpatrick_scale":false,"category":"people"},"family_woman_woman_boy":{"keywords":["home","parents","people","human","children"],"char":"👩‍👩‍👦","fitzpatrick_scale":false,"category":"people"},"family_woman_woman_girl":{"keywords":["home","parents","people","human","children"],"char":"👩‍👩‍👧","fitzpatrick_scale":false,"category":"people"},"family_woman_woman_girl_boy":{"keywords":["home","parents","people","human","children"],"char":"👩‍👩‍👧‍👦","fitzpatrick_scale":false,"category":"people"},"family_woman_woman_boy_boy":{"keywords":["home","parents","people","human","children"],"char":"👩‍👩‍👦‍👦","fitzpatrick_scale":false,"category":"people"},"family_woman_woman_girl_girl":{"keywords":["home","parents","people","human","children"],"char":"👩‍👩‍👧‍👧","fitzpatrick_scale":false,"category":"people"},"family_man_man_boy":{"keywords":["home","parents","people","human","children"],"char":"👨‍👨‍👦","fitzpatrick_scale":false,"category":"people"},"family_man_man_girl":{"keywords":["home","parents","people","human","children"],"char":"👨‍👨‍👧","fitzpatrick_scale":false,"category":"people"},"family_man_man_girl_boy":{"keywords":["home","parents","people","human","children"],"char":"👨‍👨‍👧‍👦","fitzpatrick_scale":false,"category":"people"},"family_man_man_boy_boy":{"keywords":["home","parents","people","human","children"],"char":"👨‍👨‍👦‍👦","fitzpatrick_scale":false,"category":"people"},"family_man_man_girl_girl":{"keywords":["home","parents","people","human","children"],"char":"👨‍👨‍👧‍👧","fitzpatrick_scale":false,"category":"people"},"family_woman_boy":{"keywords":["home","parent","people","human","child"],"char":"👩‍👦","fitzpatrick_scale":false,"category":"people"},"family_woman_girl":{"keywords":["home","parent","people","human","child"],"char":"👩‍👧","fitzpatrick_scale":false,"category":"people"},"family_woman_girl_boy":{"keywords":["home","parent","people","human","children"],"char":"👩‍👧‍👦","fitzpatrick_scale":false,"category":"people"},"family_woman_boy_boy":{"keywords":["home","parent","people","human","children"],"char":"👩‍👦‍👦","fitzpatrick_scale":false,"category":"people"},"family_woman_girl_girl":{"keywords":["home","parent","people","human","children"],"char":"👩‍👧‍👧","fitzpatrick_scale":false,"category":"people"},"family_man_boy":{"keywords":["home","parent","people","human","child"],"char":"👨‍👦","fitzpatrick_scale":false,"category":"people"},"family_man_girl":{"keywords":["home","parent","people","human","child"],"char":"👨‍👧","fitzpatrick_scale":false,"category":"people"},"family_man_girl_boy":{"keywords":["home","parent","people","human","children"],"char":"👨‍👧‍👦","fitzpatrick_scale":false,"category":"people"},"family_man_boy_boy":{"keywords":["home","parent","people","human","children"],"char":"👨‍👦‍👦","fitzpatrick_scale":false,"category":"people"},"family_man_girl_girl":{"keywords":["home","parent","people","human","children"],"char":"👨‍👧‍👧","fitzpatrick_scale":false,"category":"people"},"yarn":{"keywords":["ball","crochet","knit"],"char":"🧶","fitzpatrick_scale":false,"category":"people"},"thread":{"keywords":["needle","sewing","spool","string"],"char":"🧵","fitzpatrick_scale":false,"category":"people"},"coat":{"keywords":["jacket"],"char":"🧥","fitzpatrick_scale":false,"category":"people"},"labcoat":{"keywords":["doctor","experiment","scientist","chemist"],"char":"🥼","fitzpatrick_scale":false,"category":"people"},"womans_clothes":{"keywords":["fashion","shopping_bags","female"],"char":"👚","fitzpatrick_scale":false,"category":"people"},"tshirt":{"keywords":["fashion","cloth","casual","shirt","tee"],"char":"👕","fitzpatrick_scale":false,"category":"people"},"jeans":{"keywords":["fashion","shopping"],"char":"👖","fitzpatrick_scale":false,"category":"people"},"necktie":{"keywords":["shirt","suitup","formal","fashion","cloth","business"],"char":"👔","fitzpatrick_scale":false,"category":"people"},"dress":{"keywords":["clothes","fashion","shopping"],"char":"👗","fitzpatrick_scale":false,"category":"people"},"bikini":{"keywords":["swimming","female","woman","girl","fashion","beach","summer"],"char":"👙","fitzpatrick_scale":false,"category":"people"},"kimono":{"keywords":["dress","fashion","women","female","japanese"],"char":"👘","fitzpatrick_scale":false,"category":"people"},"lipstick":{"keywords":["female","girl","fashion","woman"],"char":"💄","fitzpatrick_scale":false,"category":"people"},"kiss":{"keywords":["face","lips","love","like","affection","valentines"],"char":"💋","fitzpatrick_scale":false,"category":"people"},"footprints":{"keywords":["feet","tracking","walking","beach"],"char":"👣","fitzpatrick_scale":false,"category":"people"},"flat_shoe":{"keywords":["ballet","slip-on","slipper"],"char":"🥿","fitzpatrick_scale":false,"category":"people"},"high_heel":{"keywords":["fashion","shoes","female","pumps","stiletto"],"char":"👠","fitzpatrick_scale":false,"category":"people"},"sandal":{"keywords":["shoes","fashion","flip flops"],"char":"👡","fitzpatrick_scale":false,"category":"people"},"boot":{"keywords":["shoes","fashion"],"char":"👢","fitzpatrick_scale":false,"category":"people"},"mans_shoe":{"keywords":["fashion","male"],"char":"👞","fitzpatrick_scale":false,"category":"people"},"athletic_shoe":{"keywords":["shoes","sports","sneakers"],"char":"👟","fitzpatrick_scale":false,"category":"people"},"hiking_boot":{"keywords":["backpacking","camping","hiking"],"char":"🥾","fitzpatrick_scale":false,"category":"people"},"socks":{"keywords":["stockings","clothes"],"char":"🧦","fitzpatrick_scale":false,"category":"people"},"gloves":{"keywords":["hands","winter","clothes"],"char":"🧤","fitzpatrick_scale":false,"category":"people"},"scarf":{"keywords":["neck","winter","clothes"],"char":"🧣","fitzpatrick_scale":false,"category":"people"},"womans_hat":{"keywords":["fashion","accessories","female","lady","spring"],"char":"👒","fitzpatrick_scale":false,"category":"people"},"tophat":{"keywords":["magic","gentleman","classy","circus"],"char":"🎩","fitzpatrick_scale":false,"category":"people"},"billed_hat":{"keywords":["cap","baseball"],"char":"🧢","fitzpatrick_scale":false,"category":"people"},"rescue_worker_helmet":{"keywords":["construction","build"],"char":"⛑","fitzpatrick_scale":false,"category":"people"},"mortar_board":{"keywords":["school","college","degree","university","graduation","cap","hat","legal","learn","education"],"char":"🎓","fitzpatrick_scale":false,"category":"people"},"crown":{"keywords":["king","kod","leader","royalty","lord"],"char":"👑","fitzpatrick_scale":false,"category":"people"},"school_satchel":{"keywords":["student","education","bag","backpack"],"char":"🎒","fitzpatrick_scale":false,"category":"people"},"luggage":{"keywords":["packing","travel"],"char":"🧳","fitzpatrick_scale":false,"category":"people"},"pouch":{"keywords":["bag","accessories","shopping"],"char":"👝","fitzpatrick_scale":false,"category":"people"},"purse":{"keywords":["fashion","accessories","money","sales","shopping"],"char":"👛","fitzpatrick_scale":false,"category":"people"},"handbag":{"keywords":["fashion","accessory","accessories","shopping"],"char":"👜","fitzpatrick_scale":false,"category":"people"},"briefcase":{"keywords":["business","documents","work","law","legal","job","career"],"char":"💼","fitzpatrick_scale":false,"category":"people"},"eyeglasses":{"keywords":["fashion","accessories","eyesight","nerdy","dork","geek"],"char":"👓","fitzpatrick_scale":false,"category":"people"},"dark_sunglasses":{"keywords":["face","cool","accessories"],"char":"🕶","fitzpatrick_scale":false,"category":"people"},"goggles":{"keywords":["eyes","protection","safety"],"char":"🥽","fitzpatrick_scale":false,"category":"people"},"ring":{"keywords":["wedding","propose","marriage","valentines","diamond","fashion","jewelry","gem","engagement"],"char":"💍","fitzpatrick_scale":false,"category":"people"},"closed_umbrella":{"keywords":["weather","rain","drizzle"],"char":"🌂","fitzpatrick_scale":false,"category":"people"},"dog":{"keywords":["animal","friend","nature","woof","puppy","pet","faithful"],"char":"🐶","fitzpatrick_scale":false,"category":"animals_and_nature"},"cat":{"keywords":["animal","meow","nature","pet","kitten"],"char":"🐱","fitzpatrick_scale":false,"category":"animals_and_nature"},"mouse":{"keywords":["animal","nature","cheese_wedge","rodent"],"char":"🐭","fitzpatrick_scale":false,"category":"animals_and_nature"},"hamster":{"keywords":["animal","nature"],"char":"🐹","fitzpatrick_scale":false,"category":"animals_and_nature"},"rabbit":{"keywords":["animal","nature","pet","spring","magic","bunny"],"char":"🐰","fitzpatrick_scale":false,"category":"animals_and_nature"},"fox_face":{"keywords":["animal","nature","face"],"char":"🦊","fitzpatrick_scale":false,"category":"animals_and_nature"},"bear":{"keywords":["animal","nature","wild"],"char":"🐻","fitzpatrick_scale":false,"category":"animals_and_nature"},"panda_face":{"keywords":["animal","nature","panda"],"char":"🐼","fitzpatrick_scale":false,"category":"animals_and_nature"},"koala":{"keywords":["animal","nature"],"char":"🐨","fitzpatrick_scale":false,"category":"animals_and_nature"},"tiger":{"keywords":["animal","cat","danger","wild","nature","roar"],"char":"🐯","fitzpatrick_scale":false,"category":"animals_and_nature"},"lion":{"keywords":["animal","nature"],"char":"🦁","fitzpatrick_scale":false,"category":"animals_and_nature"},"cow":{"keywords":["beef","ox","animal","nature","moo","milk"],"char":"🐮","fitzpatrick_scale":false,"category":"animals_and_nature"},"pig":{"keywords":["animal","oink","nature"],"char":"🐷","fitzpatrick_scale":false,"category":"animals_and_nature"},"pig_nose":{"keywords":["animal","oink"],"char":"🐽","fitzpatrick_scale":false,"category":"animals_and_nature"},"frog":{"keywords":["animal","nature","croak","toad"],"char":"🐸","fitzpatrick_scale":false,"category":"animals_and_nature"},"squid":{"keywords":["animal","nature","ocean","sea"],"char":"🦑","fitzpatrick_scale":false,"category":"animals_and_nature"},"octopus":{"keywords":["animal","creature","ocean","sea","nature","beach"],"char":"🐙","fitzpatrick_scale":false,"category":"animals_and_nature"},"shrimp":{"keywords":["animal","ocean","nature","seafood"],"char":"🦐","fitzpatrick_scale":false,"category":"animals_and_nature"},"monkey_face":{"keywords":["animal","nature","circus"],"char":"🐵","fitzpatrick_scale":false,"category":"animals_and_nature"},"gorilla":{"keywords":["animal","nature","circus"],"char":"🦍","fitzpatrick_scale":false,"category":"animals_and_nature"},"see_no_evil":{"keywords":["monkey","animal","nature","haha"],"char":"🙈","fitzpatrick_scale":false,"category":"animals_and_nature"},"hear_no_evil":{"keywords":["animal","monkey","nature"],"char":"🙉","fitzpatrick_scale":false,"category":"animals_and_nature"},"speak_no_evil":{"keywords":["monkey","animal","nature","omg"],"char":"🙊","fitzpatrick_scale":false,"category":"animals_and_nature"},"monkey":{"keywords":["animal","nature","banana","circus"],"char":"🐒","fitzpatrick_scale":false,"category":"animals_and_nature"},"chicken":{"keywords":["animal","cluck","nature","bird"],"char":"🐔","fitzpatrick_scale":false,"category":"animals_and_nature"},"penguin":{"keywords":["animal","nature"],"char":"🐧","fitzpatrick_scale":false,"category":"animals_and_nature"},"bird":{"keywords":["animal","nature","fly","tweet","spring"],"char":"🐦","fitzpatrick_scale":false,"category":"animals_and_nature"},"baby_chick":{"keywords":["animal","chicken","bird"],"char":"🐤","fitzpatrick_scale":false,"category":"animals_and_nature"},"hatching_chick":{"keywords":["animal","chicken","egg","born","baby","bird"],"char":"🐣","fitzpatrick_scale":false,"category":"animals_and_nature"},"hatched_chick":{"keywords":["animal","chicken","baby","bird"],"char":"🐥","fitzpatrick_scale":false,"category":"animals_and_nature"},"duck":{"keywords":["animal","nature","bird","mallard"],"char":"🦆","fitzpatrick_scale":false,"category":"animals_and_nature"},"eagle":{"keywords":["animal","nature","bird"],"char":"🦅","fitzpatrick_scale":false,"category":"animals_and_nature"},"owl":{"keywords":["animal","nature","bird","hoot"],"char":"🦉","fitzpatrick_scale":false,"category":"animals_and_nature"},"bat":{"keywords":["animal","nature","blind","vampire"],"char":"🦇","fitzpatrick_scale":false,"category":"animals_and_nature"},"wolf":{"keywords":["animal","nature","wild"],"char":"🐺","fitzpatrick_scale":false,"category":"animals_and_nature"},"boar":{"keywords":["animal","nature"],"char":"🐗","fitzpatrick_scale":false,"category":"animals_and_nature"},"horse":{"keywords":["animal","brown","nature"],"char":"🐴","fitzpatrick_scale":false,"category":"animals_and_nature"},"unicorn":{"keywords":["animal","nature","mystical"],"char":"🦄","fitzpatrick_scale":false,"category":"animals_and_nature"},"honeybee":{"keywords":["animal","insect","nature","bug","spring","honey"],"char":"🐝","fitzpatrick_scale":false,"category":"animals_and_nature"},"bug":{"keywords":["animal","insect","nature","worm"],"char":"🐛","fitzpatrick_scale":false,"category":"animals_and_nature"},"butterfly":{"keywords":["animal","insect","nature","caterpillar"],"char":"🦋","fitzpatrick_scale":false,"category":"animals_and_nature"},"snail":{"keywords":["slow","animal","shell"],"char":"🐌","fitzpatrick_scale":false,"category":"animals_and_nature"},"beetle":{"keywords":["animal","insect","nature","ladybug"],"char":"🐞","fitzpatrick_scale":false,"category":"animals_and_nature"},"ant":{"keywords":["animal","insect","nature","bug"],"char":"🐜","fitzpatrick_scale":false,"category":"animals_and_nature"},"grasshopper":{"keywords":["animal","cricket","chirp"],"char":"🦗","fitzpatrick_scale":false,"category":"animals_and_nature"},"spider":{"keywords":["animal","arachnid"],"char":"🕷","fitzpatrick_scale":false,"category":"animals_and_nature"},"scorpion":{"keywords":["animal","arachnid"],"char":"🦂","fitzpatrick_scale":false,"category":"animals_and_nature"},"crab":{"keywords":["animal","crustacean"],"char":"🦀","fitzpatrick_scale":false,"category":"animals_and_nature"},"snake":{"keywords":["animal","evil","nature","hiss","python"],"char":"🐍","fitzpatrick_scale":false,"category":"animals_and_nature"},"lizard":{"keywords":["animal","nature","reptile"],"char":"🦎","fitzpatrick_scale":false,"category":"animals_and_nature"},"t-rex":{"keywords":["animal","nature","dinosaur","tyrannosaurus","extinct"],"char":"🦖","fitzpatrick_scale":false,"category":"animals_and_nature"},"sauropod":{"keywords":["animal","nature","dinosaur","brachiosaurus","brontosaurus","diplodocus","extinct"],"char":"🦕","fitzpatrick_scale":false,"category":"animals_and_nature"},"turtle":{"keywords":["animal","slow","nature","tortoise"],"char":"🐢","fitzpatrick_scale":false,"category":"animals_and_nature"},"tropical_fish":{"keywords":["animal","swim","ocean","beach","nemo"],"char":"🐠","fitzpatrick_scale":false,"category":"animals_and_nature"},"fish":{"keywords":["animal","food","nature"],"char":"🐟","fitzpatrick_scale":false,"category":"animals_and_nature"},"blowfish":{"keywords":["animal","nature","food","sea","ocean"],"char":"🐡","fitzpatrick_scale":false,"category":"animals_and_nature"},"dolphin":{"keywords":["animal","nature","fish","sea","ocean","flipper","fins","beach"],"char":"🐬","fitzpatrick_scale":false,"category":"animals_and_nature"},"shark":{"keywords":["animal","nature","fish","sea","ocean","jaws","fins","beach"],"char":"🦈","fitzpatrick_scale":false,"category":"animals_and_nature"},"whale":{"keywords":["animal","nature","sea","ocean"],"char":"🐳","fitzpatrick_scale":false,"category":"animals_and_nature"},"whale2":{"keywords":["animal","nature","sea","ocean"],"char":"🐋","fitzpatrick_scale":false,"category":"animals_and_nature"},"crocodile":{"keywords":["animal","nature","reptile","lizard","alligator"],"char":"🐊","fitzpatrick_scale":false,"category":"animals_and_nature"},"leopard":{"keywords":["animal","nature"],"char":"🐆","fitzpatrick_scale":false,"category":"animals_and_nature"},"zebra":{"keywords":["animal","nature","stripes","safari"],"char":"🦓","fitzpatrick_scale":false,"category":"animals_and_nature"},"tiger2":{"keywords":["animal","nature","roar"],"char":"🐅","fitzpatrick_scale":false,"category":"animals_and_nature"},"water_buffalo":{"keywords":["animal","nature","ox","cow"],"char":"🐃","fitzpatrick_scale":false,"category":"animals_and_nature"},"ox":{"keywords":["animal","cow","beef"],"char":"🐂","fitzpatrick_scale":false,"category":"animals_and_nature"},"cow2":{"keywords":["beef","ox","animal","nature","moo","milk"],"char":"🐄","fitzpatrick_scale":false,"category":"animals_and_nature"},"deer":{"keywords":["animal","nature","horns","venison"],"char":"🦌","fitzpatrick_scale":false,"category":"animals_and_nature"},"dromedary_camel":{"keywords":["animal","hot","desert","hump"],"char":"🐪","fitzpatrick_scale":false,"category":"animals_and_nature"},"camel":{"keywords":["animal","nature","hot","desert","hump"],"char":"🐫","fitzpatrick_scale":false,"category":"animals_and_nature"},"giraffe":{"keywords":["animal","nature","spots","safari"],"char":"🦒","fitzpatrick_scale":false,"category":"animals_and_nature"},"elephant":{"keywords":["animal","nature","nose","th","circus"],"char":"🐘","fitzpatrick_scale":false,"category":"animals_and_nature"},"rhinoceros":{"keywords":["animal","nature","horn"],"char":"🦏","fitzpatrick_scale":false,"category":"animals_and_nature"},"goat":{"keywords":["animal","nature"],"char":"🐐","fitzpatrick_scale":false,"category":"animals_and_nature"},"ram":{"keywords":["animal","sheep","nature"],"char":"🐏","fitzpatrick_scale":false,"category":"animals_and_nature"},"sheep":{"keywords":["animal","nature","wool","shipit"],"char":"🐑","fitzpatrick_scale":false,"category":"animals_and_nature"},"racehorse":{"keywords":["animal","gamble","luck"],"char":"🐎","fitzpatrick_scale":false,"category":"animals_and_nature"},"pig2":{"keywords":["animal","nature"],"char":"🐖","fitzpatrick_scale":false,"category":"animals_and_nature"},"rat":{"keywords":["animal","mouse","rodent"],"char":"🐀","fitzpatrick_scale":false,"category":"animals_and_nature"},"mouse2":{"keywords":["animal","nature","rodent"],"char":"🐁","fitzpatrick_scale":false,"category":"animals_and_nature"},"rooster":{"keywords":["animal","nature","chicken"],"char":"🐓","fitzpatrick_scale":false,"category":"animals_and_nature"},"turkey":{"keywords":["animal","bird"],"char":"🦃","fitzpatrick_scale":false,"category":"animals_and_nature"},"dove":{"keywords":["animal","bird"],"char":"🕊","fitzpatrick_scale":false,"category":"animals_and_nature"},"dog2":{"keywords":["animal","nature","friend","doge","pet","faithful"],"char":"🐕","fitzpatrick_scale":false,"category":"animals_and_nature"},"poodle":{"keywords":["dog","animal","101","nature","pet"],"char":"🐩","fitzpatrick_scale":false,"category":"animals_and_nature"},"cat2":{"keywords":["animal","meow","pet","cats"],"char":"🐈","fitzpatrick_scale":false,"category":"animals_and_nature"},"rabbit2":{"keywords":["animal","nature","pet","magic","spring"],"char":"🐇","fitzpatrick_scale":false,"category":"animals_and_nature"},"chipmunk":{"keywords":["animal","nature","rodent","squirrel"],"char":"🐿","fitzpatrick_scale":false,"category":"animals_and_nature"},"hedgehog":{"keywords":["animal","nature","spiny"],"char":"🦔","fitzpatrick_scale":false,"category":"animals_and_nature"},"raccoon":{"keywords":["animal","nature"],"char":"🦝","fitzpatrick_scale":false,"category":"animals_and_nature"},"llama":{"keywords":["animal","nature","alpaca"],"char":"🦙","fitzpatrick_scale":false,"category":"animals_and_nature"},"hippopotamus":{"keywords":["animal","nature"],"char":"🦛","fitzpatrick_scale":false,"category":"animals_and_nature"},"kangaroo":{"keywords":["animal","nature","australia","joey","hop","marsupial"],"char":"🦘","fitzpatrick_scale":false,"category":"animals_and_nature"},"badger":{"keywords":["animal","nature","honey"],"char":"🦡","fitzpatrick_scale":false,"category":"animals_and_nature"},"swan":{"keywords":["animal","nature","bird"],"char":"🦢","fitzpatrick_scale":false,"category":"animals_and_nature"},"peacock":{"keywords":["animal","nature","peahen","bird"],"char":"🦚","fitzpatrick_scale":false,"category":"animals_and_nature"},"parrot":{"keywords":["animal","nature","bird","pirate","talk"],"char":"🦜","fitzpatrick_scale":false,"category":"animals_and_nature"},"lobster":{"keywords":["animal","nature","bisque","claws","seafood"],"char":"🦞","fitzpatrick_scale":false,"category":"animals_and_nature"},"mosquito":{"keywords":["animal","nature","insect","malaria"],"char":"🦟","fitzpatrick_scale":false,"category":"animals_and_nature"},"paw_prints":{"keywords":["animal","tracking","footprints","dog","cat","pet","feet"],"char":"🐾","fitzpatrick_scale":false,"category":"animals_and_nature"},"dragon":{"keywords":["animal","myth","nature","chinese","green"],"char":"🐉","fitzpatrick_scale":false,"category":"animals_and_nature"},"dragon_face":{"keywords":["animal","myth","nature","chinese","green"],"char":"🐲","fitzpatrick_scale":false,"category":"animals_and_nature"},"cactus":{"keywords":["vegetable","plant","nature"],"char":"🌵","fitzpatrick_scale":false,"category":"animals_and_nature"},"christmas_tree":{"keywords":["festival","vacation","december","xmas","celebration"],"char":"🎄","fitzpatrick_scale":false,"category":"animals_and_nature"},"evergreen_tree":{"keywords":["plant","nature"],"char":"🌲","fitzpatrick_scale":false,"category":"animals_and_nature"},"deciduous_tree":{"keywords":["plant","nature"],"char":"🌳","fitzpatrick_scale":false,"category":"animals_and_nature"},"palm_tree":{"keywords":["plant","vegetable","nature","summer","beach","mojito","tropical"],"char":"🌴","fitzpatrick_scale":false,"category":"animals_and_nature"},"seedling":{"keywords":["plant","nature","grass","lawn","spring"],"char":"🌱","fitzpatrick_scale":false,"category":"animals_and_nature"},"herb":{"keywords":["vegetable","plant","medicine","weed","grass","lawn"],"char":"🌿","fitzpatrick_scale":false,"category":"animals_and_nature"},"shamrock":{"keywords":["vegetable","plant","nature","irish","clover"],"char":"☘","fitzpatrick_scale":false,"category":"animals_and_nature"},"four_leaf_clover":{"keywords":["vegetable","plant","nature","lucky","irish"],"char":"🍀","fitzpatrick_scale":false,"category":"animals_and_nature"},"bamboo":{"keywords":["plant","nature","vegetable","panda","pine_decoration"],"char":"🎍","fitzpatrick_scale":false,"category":"animals_and_nature"},"tanabata_tree":{"keywords":["plant","nature","branch","summer"],"char":"🎋","fitzpatrick_scale":false,"category":"animals_and_nature"},"leaves":{"keywords":["nature","plant","tree","vegetable","grass","lawn","spring"],"char":"🍃","fitzpatrick_scale":false,"category":"animals_and_nature"},"fallen_leaf":{"keywords":["nature","plant","vegetable","leaves"],"char":"🍂","fitzpatrick_scale":false,"category":"animals_and_nature"},"maple_leaf":{"keywords":["nature","plant","vegetable","ca","fall"],"char":"🍁","fitzpatrick_scale":false,"category":"animals_and_nature"},"ear_of_rice":{"keywords":["nature","plant"],"char":"🌾","fitzpatrick_scale":false,"category":"animals_and_nature"},"hibiscus":{"keywords":["plant","vegetable","flowers","beach"],"char":"🌺","fitzpatrick_scale":false,"category":"animals_and_nature"},"sunflower":{"keywords":["nature","plant","fall"],"char":"🌻","fitzpatrick_scale":false,"category":"animals_and_nature"},"rose":{"keywords":["flowers","valentines","love","spring"],"char":"🌹","fitzpatrick_scale":false,"category":"animals_and_nature"},"wilted_flower":{"keywords":["plant","nature","flower"],"char":"🥀","fitzpatrick_scale":false,"category":"animals_and_nature"},"tulip":{"keywords":["flowers","plant","nature","summer","spring"],"char":"🌷","fitzpatrick_scale":false,"category":"animals_and_nature"},"blossom":{"keywords":["nature","flowers","yellow"],"char":"🌼","fitzpatrick_scale":false,"category":"animals_and_nature"},"cherry_blossom":{"keywords":["nature","plant","spring","flower"],"char":"🌸","fitzpatrick_scale":false,"category":"animals_and_nature"},"bouquet":{"keywords":["flowers","nature","spring"],"char":"💐","fitzpatrick_scale":false,"category":"animals_and_nature"},"mushroom":{"keywords":["plant","vegetable"],"char":"🍄","fitzpatrick_scale":false,"category":"animals_and_nature"},"chestnut":{"keywords":["food","squirrel"],"char":"🌰","fitzpatrick_scale":false,"category":"animals_and_nature"},"jack_o_lantern":{"keywords":["halloween","light","pumpkin","creepy","fall"],"char":"🎃","fitzpatrick_scale":false,"category":"animals_and_nature"},"shell":{"keywords":["nature","sea","beach"],"char":"🐚","fitzpatrick_scale":false,"category":"animals_and_nature"},"spider_web":{"keywords":["animal","insect","arachnid","silk"],"char":"🕸","fitzpatrick_scale":false,"category":"animals_and_nature"},"earth_americas":{"keywords":["globe","world","USA","international"],"char":"🌎","fitzpatrick_scale":false,"category":"animals_and_nature"},"earth_africa":{"keywords":["globe","world","international"],"char":"🌍","fitzpatrick_scale":false,"category":"animals_and_nature"},"earth_asia":{"keywords":["globe","world","east","international"],"char":"🌏","fitzpatrick_scale":false,"category":"animals_and_nature"},"full_moon":{"keywords":["nature","yellow","twilight","planet","space","night","evening","sleep"],"char":"🌕","fitzpatrick_scale":false,"category":"animals_and_nature"},"waning_gibbous_moon":{"keywords":["nature","twilight","planet","space","night","evening","sleep","waxing_gibbous_moon"],"char":"🌖","fitzpatrick_scale":false,"category":"animals_and_nature"},"last_quarter_moon":{"keywords":["nature","twilight","planet","space","night","evening","sleep"],"char":"🌗","fitzpatrick_scale":false,"category":"animals_and_nature"},"waning_crescent_moon":{"keywords":["nature","twilight","planet","space","night","evening","sleep"],"char":"🌘","fitzpatrick_scale":false,"category":"animals_and_nature"},"new_moon":{"keywords":["nature","twilight","planet","space","night","evening","sleep"],"char":"🌑","fitzpatrick_scale":false,"category":"animals_and_nature"},"waxing_crescent_moon":{"keywords":["nature","twilight","planet","space","night","evening","sleep"],"char":"🌒","fitzpatrick_scale":false,"category":"animals_and_nature"},"first_quarter_moon":{"keywords":["nature","twilight","planet","space","night","evening","sleep"],"char":"🌓","fitzpatrick_scale":false,"category":"animals_and_nature"},"waxing_gibbous_moon":{"keywords":["nature","night","sky","gray","twilight","planet","space","evening","sleep"],"char":"🌔","fitzpatrick_scale":false,"category":"animals_and_nature"},"new_moon_with_face":{"keywords":["nature","twilight","planet","space","night","evening","sleep"],"char":"🌚","fitzpatrick_scale":false,"category":"animals_and_nature"},"full_moon_with_face":{"keywords":["nature","twilight","planet","space","night","evening","sleep"],"char":"🌝","fitzpatrick_scale":false,"category":"animals_and_nature"},"first_quarter_moon_with_face":{"keywords":["nature","twilight","planet","space","night","evening","sleep"],"char":"🌛","fitzpatrick_scale":false,"category":"animals_and_nature"},"last_quarter_moon_with_face":{"keywords":["nature","twilight","planet","space","night","evening","sleep"],"char":"🌜","fitzpatrick_scale":false,"category":"animals_and_nature"},"sun_with_face":{"keywords":["nature","morning","sky"],"char":"🌞","fitzpatrick_scale":false,"category":"animals_and_nature"},"crescent_moon":{"keywords":["night","sleep","sky","evening","magic"],"char":"🌙","fitzpatrick_scale":false,"category":"animals_and_nature"},"star":{"keywords":["night","yellow"],"char":"⭐","fitzpatrick_scale":false,"category":"animals_and_nature"},"star2":{"keywords":["night","sparkle","awesome","good","magic"],"char":"🌟","fitzpatrick_scale":false,"category":"animals_and_nature"},"dizzy":{"keywords":["star","sparkle","shoot","magic"],"char":"💫","fitzpatrick_scale":false,"category":"animals_and_nature"},"sparkles":{"keywords":["stars","shine","shiny","cool","awesome","good","magic"],"char":"✨","fitzpatrick_scale":false,"category":"animals_and_nature"},"comet":{"keywords":["space"],"char":"☄","fitzpatrick_scale":false,"category":"animals_and_nature"},"sunny":{"keywords":["weather","nature","brightness","summer","beach","spring"],"char":"☀️","fitzpatrick_scale":false,"category":"animals_and_nature"},"sun_behind_small_cloud":{"keywords":["weather"],"char":"🌤","fitzpatrick_scale":false,"category":"animals_and_nature"},"partly_sunny":{"keywords":["weather","nature","cloudy","morning","fall","spring"],"char":"⛅","fitzpatrick_scale":false,"category":"animals_and_nature"},"sun_behind_large_cloud":{"keywords":["weather"],"char":"🌥","fitzpatrick_scale":false,"category":"animals_and_nature"},"sun_behind_rain_cloud":{"keywords":["weather"],"char":"🌦","fitzpatrick_scale":false,"category":"animals_and_nature"},"cloud":{"keywords":["weather","sky"],"char":"☁️","fitzpatrick_scale":false,"category":"animals_and_nature"},"cloud_with_rain":{"keywords":["weather"],"char":"🌧","fitzpatrick_scale":false,"category":"animals_and_nature"},"cloud_with_lightning_and_rain":{"keywords":["weather","lightning"],"char":"⛈","fitzpatrick_scale":false,"category":"animals_and_nature"},"cloud_with_lightning":{"keywords":["weather","thunder"],"char":"🌩","fitzpatrick_scale":false,"category":"animals_and_nature"},"zap":{"keywords":["thunder","weather","lightning bolt","fast"],"char":"⚡","fitzpatrick_scale":false,"category":"animals_and_nature"},"fire":{"keywords":["hot","cook","flame"],"char":"🔥","fitzpatrick_scale":false,"category":"animals_and_nature"},"boom":{"keywords":["bomb","explode","explosion","collision","blown"],"char":"💥","fitzpatrick_scale":false,"category":"animals_and_nature"},"snowflake":{"keywords":["winter","season","cold","weather","christmas","xmas"],"char":"❄️","fitzpatrick_scale":false,"category":"animals_and_nature"},"cloud_with_snow":{"keywords":["weather"],"char":"🌨","fitzpatrick_scale":false,"category":"animals_and_nature"},"snowman":{"keywords":["winter","season","cold","weather","christmas","xmas","frozen","without_snow"],"char":"⛄","fitzpatrick_scale":false,"category":"animals_and_nature"},"snowman_with_snow":{"keywords":["winter","season","cold","weather","christmas","xmas","frozen"],"char":"☃","fitzpatrick_scale":false,"category":"animals_and_nature"},"wind_face":{"keywords":["gust","air"],"char":"🌬","fitzpatrick_scale":false,"category":"animals_and_nature"},"dash":{"keywords":["wind","air","fast","shoo","fart","smoke","puff"],"char":"💨","fitzpatrick_scale":false,"category":"animals_and_nature"},"tornado":{"keywords":["weather","cyclone","twister"],"char":"🌪","fitzpatrick_scale":false,"category":"animals_and_nature"},"fog":{"keywords":["weather"],"char":"🌫","fitzpatrick_scale":false,"category":"animals_and_nature"},"open_umbrella":{"keywords":["weather","spring"],"char":"☂","fitzpatrick_scale":false,"category":"animals_and_nature"},"umbrella":{"keywords":["rainy","weather","spring"],"char":"☔","fitzpatrick_scale":false,"category":"animals_and_nature"},"droplet":{"keywords":["water","drip","faucet","spring"],"char":"💧","fitzpatrick_scale":false,"category":"animals_and_nature"},"sweat_drops":{"keywords":["water","drip","oops"],"char":"💦","fitzpatrick_scale":false,"category":"animals_and_nature"},"ocean":{"keywords":["sea","water","wave","nature","tsunami","disaster"],"char":"🌊","fitzpatrick_scale":false,"category":"animals_and_nature"},"green_apple":{"keywords":["fruit","nature"],"char":"🍏","fitzpatrick_scale":false,"category":"food_and_drink"},"apple":{"keywords":["fruit","mac","school"],"char":"🍎","fitzpatrick_scale":false,"category":"food_and_drink"},"pear":{"keywords":["fruit","nature","food"],"char":"🍐","fitzpatrick_scale":false,"category":"food_and_drink"},"tangerine":{"keywords":["food","fruit","nature","orange"],"char":"🍊","fitzpatrick_scale":false,"category":"food_and_drink"},"lemon":{"keywords":["fruit","nature"],"char":"🍋","fitzpatrick_scale":false,"category":"food_and_drink"},"banana":{"keywords":["fruit","food","monkey"],"char":"🍌","fitzpatrick_scale":false,"category":"food_and_drink"},"watermelon":{"keywords":["fruit","food","picnic","summer"],"char":"🍉","fitzpatrick_scale":false,"category":"food_and_drink"},"grapes":{"keywords":["fruit","food","wine"],"char":"🍇","fitzpatrick_scale":false,"category":"food_and_drink"},"strawberry":{"keywords":["fruit","food","nature"],"char":"🍓","fitzpatrick_scale":false,"category":"food_and_drink"},"melon":{"keywords":["fruit","nature","food"],"char":"🍈","fitzpatrick_scale":false,"category":"food_and_drink"},"cherries":{"keywords":["food","fruit"],"char":"🍒","fitzpatrick_scale":false,"category":"food_and_drink"},"peach":{"keywords":["fruit","nature","food"],"char":"🍑","fitzpatrick_scale":false,"category":"food_and_drink"},"pineapple":{"keywords":["fruit","nature","food"],"char":"🍍","fitzpatrick_scale":false,"category":"food_and_drink"},"coconut":{"keywords":["fruit","nature","food","palm"],"char":"🥥","fitzpatrick_scale":false,"category":"food_and_drink"},"kiwi_fruit":{"keywords":["fruit","food"],"char":"🥝","fitzpatrick_scale":false,"category":"food_and_drink"},"mango":{"keywords":["fruit","food","tropical"],"char":"🥭","fitzpatrick_scale":false,"category":"food_and_drink"},"avocado":{"keywords":["fruit","food"],"char":"🥑","fitzpatrick_scale":false,"category":"food_and_drink"},"broccoli":{"keywords":["fruit","food","vegetable"],"char":"🥦","fitzpatrick_scale":false,"category":"food_and_drink"},"tomato":{"keywords":["fruit","vegetable","nature","food"],"char":"🍅","fitzpatrick_scale":false,"category":"food_and_drink"},"eggplant":{"keywords":["vegetable","nature","food","aubergine"],"char":"🍆","fitzpatrick_scale":false,"category":"food_and_drink"},"cucumber":{"keywords":["fruit","food","pickle"],"char":"🥒","fitzpatrick_scale":false,"category":"food_and_drink"},"carrot":{"keywords":["vegetable","food","orange"],"char":"🥕","fitzpatrick_scale":false,"category":"food_and_drink"},"hot_pepper":{"keywords":["food","spicy","chilli","chili"],"char":"🌶","fitzpatrick_scale":false,"category":"food_and_drink"},"potato":{"keywords":["food","tuber","vegatable","starch"],"char":"🥔","fitzpatrick_scale":false,"category":"food_and_drink"},"corn":{"keywords":["food","vegetable","plant"],"char":"🌽","fitzpatrick_scale":false,"category":"food_and_drink"},"leafy_greens":{"keywords":["food","vegetable","plant","bok choy","cabbage","kale","lettuce"],"char":"🥬","fitzpatrick_scale":false,"category":"food_and_drink"},"sweet_potato":{"keywords":["food","nature"],"char":"🍠","fitzpatrick_scale":false,"category":"food_and_drink"},"peanuts":{"keywords":["food","nut"],"char":"🥜","fitzpatrick_scale":false,"category":"food_and_drink"},"honey_pot":{"keywords":["bees","sweet","kitchen"],"char":"🍯","fitzpatrick_scale":false,"category":"food_and_drink"},"croissant":{"keywords":["food","bread","french"],"char":"🥐","fitzpatrick_scale":false,"category":"food_and_drink"},"bread":{"keywords":["food","wheat","breakfast","toast"],"char":"🍞","fitzpatrick_scale":false,"category":"food_and_drink"},"baguette_bread":{"keywords":["food","bread","french"],"char":"🥖","fitzpatrick_scale":false,"category":"food_and_drink"},"bagel":{"keywords":["food","bread","bakery","schmear"],"char":"🥯","fitzpatrick_scale":false,"category":"food_and_drink"},"pretzel":{"keywords":["food","bread","twisted"],"char":"🥨","fitzpatrick_scale":false,"category":"food_and_drink"},"cheese":{"keywords":["food","chadder"],"char":"🧀","fitzpatrick_scale":false,"category":"food_and_drink"},"egg":{"keywords":["food","chicken","breakfast"],"char":"🥚","fitzpatrick_scale":false,"category":"food_and_drink"},"bacon":{"keywords":["food","breakfast","pork","pig","meat"],"char":"🥓","fitzpatrick_scale":false,"category":"food_and_drink"},"steak":{"keywords":["food","cow","meat","cut","chop","lambchop","porkchop"],"char":"🥩","fitzpatrick_scale":false,"category":"food_and_drink"},"pancakes":{"keywords":["food","breakfast","flapjacks","hotcakes"],"char":"🥞","fitzpatrick_scale":false,"category":"food_and_drink"},"poultry_leg":{"keywords":["food","meat","drumstick","bird","chicken","turkey"],"char":"🍗","fitzpatrick_scale":false,"category":"food_and_drink"},"meat_on_bone":{"keywords":["good","food","drumstick"],"char":"🍖","fitzpatrick_scale":false,"category":"food_and_drink"},"bone":{"keywords":["skeleton"],"char":"🦴","fitzpatrick_scale":false,"category":"food_and_drink"},"fried_shrimp":{"keywords":["food","animal","appetizer","summer"],"char":"🍤","fitzpatrick_scale":false,"category":"food_and_drink"},"fried_egg":{"keywords":["food","breakfast","kitchen","egg"],"char":"🍳","fitzpatrick_scale":false,"category":"food_and_drink"},"hamburger":{"keywords":["meat","fast food","beef","cheeseburger","mcdonalds","burger king"],"char":"🍔","fitzpatrick_scale":false,"category":"food_and_drink"},"fries":{"keywords":["chips","snack","fast food"],"char":"🍟","fitzpatrick_scale":false,"category":"food_and_drink"},"stuffed_flatbread":{"keywords":["food","flatbread","stuffed","gyro"],"char":"🥙","fitzpatrick_scale":false,"category":"food_and_drink"},"hotdog":{"keywords":["food","frankfurter"],"char":"🌭","fitzpatrick_scale":false,"category":"food_and_drink"},"pizza":{"keywords":["food","party"],"char":"🍕","fitzpatrick_scale":false,"category":"food_and_drink"},"sandwich":{"keywords":["food","lunch","bread"],"char":"🥪","fitzpatrick_scale":false,"category":"food_and_drink"},"canned_food":{"keywords":["food","soup"],"char":"🥫","fitzpatrick_scale":false,"category":"food_and_drink"},"spaghetti":{"keywords":["food","italian","noodle"],"char":"🍝","fitzpatrick_scale":false,"category":"food_and_drink"},"taco":{"keywords":["food","mexican"],"char":"🌮","fitzpatrick_scale":false,"category":"food_and_drink"},"burrito":{"keywords":["food","mexican"],"char":"🌯","fitzpatrick_scale":false,"category":"food_and_drink"},"green_salad":{"keywords":["food","healthy","lettuce"],"char":"🥗","fitzpatrick_scale":false,"category":"food_and_drink"},"shallow_pan_of_food":{"keywords":["food","cooking","casserole","paella"],"char":"🥘","fitzpatrick_scale":false,"category":"food_and_drink"},"ramen":{"keywords":["food","japanese","noodle","chopsticks"],"char":"🍜","fitzpatrick_scale":false,"category":"food_and_drink"},"stew":{"keywords":["food","meat","soup"],"char":"🍲","fitzpatrick_scale":false,"category":"food_and_drink"},"fish_cake":{"keywords":["food","japan","sea","beach","narutomaki","pink","swirl","kamaboko","surimi","ramen"],"char":"🍥","fitzpatrick_scale":false,"category":"food_and_drink"},"fortune_cookie":{"keywords":["food","prophecy"],"char":"🥠","fitzpatrick_scale":false,"category":"food_and_drink"},"sushi":{"keywords":["food","fish","japanese","rice"],"char":"🍣","fitzpatrick_scale":false,"category":"food_and_drink"},"bento":{"keywords":["food","japanese","box"],"char":"🍱","fitzpatrick_scale":false,"category":"food_and_drink"},"curry":{"keywords":["food","spicy","hot","indian"],"char":"🍛","fitzpatrick_scale":false,"category":"food_and_drink"},"rice_ball":{"keywords":["food","japanese"],"char":"🍙","fitzpatrick_scale":false,"category":"food_and_drink"},"rice":{"keywords":["food","china","asian"],"char":"🍚","fitzpatrick_scale":false,"category":"food_and_drink"},"rice_cracker":{"keywords":["food","japanese"],"char":"🍘","fitzpatrick_scale":false,"category":"food_and_drink"},"oden":{"keywords":["food","japanese"],"char":"🍢","fitzpatrick_scale":false,"category":"food_and_drink"},"dango":{"keywords":["food","dessert","sweet","japanese","barbecue","meat"],"char":"🍡","fitzpatrick_scale":false,"category":"food_and_drink"},"shaved_ice":{"keywords":["hot","dessert","summer"],"char":"🍧","fitzpatrick_scale":false,"category":"food_and_drink"},"ice_cream":{"keywords":["food","hot","dessert"],"char":"🍨","fitzpatrick_scale":false,"category":"food_and_drink"},"icecream":{"keywords":["food","hot","dessert","summer"],"char":"🍦","fitzpatrick_scale":false,"category":"food_and_drink"},"pie":{"keywords":["food","dessert","pastry"],"char":"🥧","fitzpatrick_scale":false,"category":"food_and_drink"},"cake":{"keywords":["food","dessert"],"char":"🍰","fitzpatrick_scale":false,"category":"food_and_drink"},"cupcake":{"keywords":["food","dessert","bakery","sweet"],"char":"🧁","fitzpatrick_scale":false,"category":"food_and_drink"},"moon_cake":{"keywords":["food","autumn"],"char":"🥮","fitzpatrick_scale":false,"category":"food_and_drink"},"birthday":{"keywords":["food","dessert","cake"],"char":"🎂","fitzpatrick_scale":false,"category":"food_and_drink"},"custard":{"keywords":["dessert","food"],"char":"🍮","fitzpatrick_scale":false,"category":"food_and_drink"},"candy":{"keywords":["snack","dessert","sweet","lolly"],"char":"🍬","fitzpatrick_scale":false,"category":"food_and_drink"},"lollipop":{"keywords":["food","snack","candy","sweet"],"char":"🍭","fitzpatrick_scale":false,"category":"food_and_drink"},"chocolate_bar":{"keywords":["food","snack","dessert","sweet"],"char":"🍫","fitzpatrick_scale":false,"category":"food_and_drink"},"popcorn":{"keywords":["food","movie theater","films","snack"],"char":"🍿","fitzpatrick_scale":false,"category":"food_and_drink"},"dumpling":{"keywords":["food","empanada","pierogi","potsticker"],"char":"🥟","fitzpatrick_scale":false,"category":"food_and_drink"},"doughnut":{"keywords":["food","dessert","snack","sweet","donut"],"char":"🍩","fitzpatrick_scale":false,"category":"food_and_drink"},"cookie":{"keywords":["food","snack","oreo","chocolate","sweet","dessert"],"char":"🍪","fitzpatrick_scale":false,"category":"food_and_drink"},"milk_glass":{"keywords":["beverage","drink","cow"],"char":"🥛","fitzpatrick_scale":false,"category":"food_and_drink"},"beer":{"keywords":["relax","beverage","drink","drunk","party","pub","summer","alcohol","booze"],"char":"🍺","fitzpatrick_scale":false,"category":"food_and_drink"},"beers":{"keywords":["relax","beverage","drink","drunk","party","pub","summer","alcohol","booze"],"char":"🍻","fitzpatrick_scale":false,"category":"food_and_drink"},"clinking_glasses":{"keywords":["beverage","drink","party","alcohol","celebrate","cheers","wine","champagne","toast"],"char":"🥂","fitzpatrick_scale":false,"category":"food_and_drink"},"wine_glass":{"keywords":["drink","beverage","drunk","alcohol","booze"],"char":"🍷","fitzpatrick_scale":false,"category":"food_and_drink"},"tumbler_glass":{"keywords":["drink","beverage","drunk","alcohol","liquor","booze","bourbon","scotch","whisky","glass","shot"],"char":"🥃","fitzpatrick_scale":false,"category":"food_and_drink"},"cocktail":{"keywords":["drink","drunk","alcohol","beverage","booze","mojito"],"char":"🍸","fitzpatrick_scale":false,"category":"food_and_drink"},"tropical_drink":{"keywords":["beverage","cocktail","summer","beach","alcohol","booze","mojito"],"char":"🍹","fitzpatrick_scale":false,"category":"food_and_drink"},"champagne":{"keywords":["drink","wine","bottle","celebration"],"char":"🍾","fitzpatrick_scale":false,"category":"food_and_drink"},"sake":{"keywords":["wine","drink","drunk","beverage","japanese","alcohol","booze"],"char":"🍶","fitzpatrick_scale":false,"category":"food_and_drink"},"tea":{"keywords":["drink","bowl","breakfast","green","british"],"char":"🍵","fitzpatrick_scale":false,"category":"food_and_drink"},"cup_with_straw":{"keywords":["drink","soda"],"char":"🥤","fitzpatrick_scale":false,"category":"food_and_drink"},"coffee":{"keywords":["beverage","caffeine","latte","espresso"],"char":"☕","fitzpatrick_scale":false,"category":"food_and_drink"},"baby_bottle":{"keywords":["food","container","milk"],"char":"🍼","fitzpatrick_scale":false,"category":"food_and_drink"},"salt":{"keywords":["condiment","shaker"],"char":"🧂","fitzpatrick_scale":false,"category":"food_and_drink"},"spoon":{"keywords":["cutlery","kitchen","tableware"],"char":"🥄","fitzpatrick_scale":false,"category":"food_and_drink"},"fork_and_knife":{"keywords":["cutlery","kitchen"],"char":"🍴","fitzpatrick_scale":false,"category":"food_and_drink"},"plate_with_cutlery":{"keywords":["food","eat","meal","lunch","dinner","restaurant"],"char":"🍽","fitzpatrick_scale":false,"category":"food_and_drink"},"bowl_with_spoon":{"keywords":["food","breakfast","cereal","oatmeal","porridge"],"char":"🥣","fitzpatrick_scale":false,"category":"food_and_drink"},"takeout_box":{"keywords":["food","leftovers"],"char":"🥡","fitzpatrick_scale":false,"category":"food_and_drink"},"chopsticks":{"keywords":["food"],"char":"🥢","fitzpatrick_scale":false,"category":"food_and_drink"},"soccer":{"keywords":["sports","football"],"char":"⚽","fitzpatrick_scale":false,"category":"activity"},"basketball":{"keywords":["sports","balls","NBA"],"char":"🏀","fitzpatrick_scale":false,"category":"activity"},"football":{"keywords":["sports","balls","NFL"],"char":"🏈","fitzpatrick_scale":false,"category":"activity"},"baseball":{"keywords":["sports","balls"],"char":"⚾","fitzpatrick_scale":false,"category":"activity"},"softball":{"keywords":["sports","balls"],"char":"🥎","fitzpatrick_scale":false,"category":"activity"},"tennis":{"keywords":["sports","balls","green"],"char":"🎾","fitzpatrick_scale":false,"category":"activity"},"volleyball":{"keywords":["sports","balls"],"char":"🏐","fitzpatrick_scale":false,"category":"activity"},"rugby_football":{"keywords":["sports","team"],"char":"🏉","fitzpatrick_scale":false,"category":"activity"},"flying_disc":{"keywords":["sports","frisbee","ultimate"],"char":"🥏","fitzpatrick_scale":false,"category":"activity"},"8ball":{"keywords":["pool","hobby","game","luck","magic"],"char":"🎱","fitzpatrick_scale":false,"category":"activity"},"golf":{"keywords":["sports","business","flag","hole","summer"],"char":"⛳","fitzpatrick_scale":false,"category":"activity"},"golfing_woman":{"keywords":["sports","business","woman","female"],"char":"🏌️‍♀️","fitzpatrick_scale":false,"category":"activity"},"golfing_man":{"keywords":["sports","business"],"char":"🏌","fitzpatrick_scale":true,"category":"activity"},"ping_pong":{"keywords":["sports","pingpong"],"char":"🏓","fitzpatrick_scale":false,"category":"activity"},"badminton":{"keywords":["sports"],"char":"🏸","fitzpatrick_scale":false,"category":"activity"},"goal_net":{"keywords":["sports"],"char":"🥅","fitzpatrick_scale":false,"category":"activity"},"ice_hockey":{"keywords":["sports"],"char":"🏒","fitzpatrick_scale":false,"category":"activity"},"field_hockey":{"keywords":["sports"],"char":"🏑","fitzpatrick_scale":false,"category":"activity"},"lacrosse":{"keywords":["sports","ball","stick"],"char":"🥍","fitzpatrick_scale":false,"category":"activity"},"cricket":{"keywords":["sports"],"char":"🏏","fitzpatrick_scale":false,"category":"activity"},"ski":{"keywords":["sports","winter","cold","snow"],"char":"🎿","fitzpatrick_scale":false,"category":"activity"},"skier":{"keywords":["sports","winter","snow"],"char":"⛷","fitzpatrick_scale":false,"category":"activity"},"snowboarder":{"keywords":["sports","winter"],"char":"🏂","fitzpatrick_scale":true,"category":"activity"},"person_fencing":{"keywords":["sports","fencing","sword"],"char":"🤺","fitzpatrick_scale":false,"category":"activity"},"women_wrestling":{"keywords":["sports","wrestlers"],"char":"🤼‍♀️","fitzpatrick_scale":false,"category":"activity"},"men_wrestling":{"keywords":["sports","wrestlers"],"char":"🤼‍♂️","fitzpatrick_scale":false,"category":"activity"},"woman_cartwheeling":{"keywords":["gymnastics"],"char":"🤸‍♀️","fitzpatrick_scale":true,"category":"activity"},"man_cartwheeling":{"keywords":["gymnastics"],"char":"🤸‍♂️","fitzpatrick_scale":true,"category":"activity"},"woman_playing_handball":{"keywords":["sports"],"char":"🤾‍♀️","fitzpatrick_scale":true,"category":"activity"},"man_playing_handball":{"keywords":["sports"],"char":"🤾‍♂️","fitzpatrick_scale":true,"category":"activity"},"ice_skate":{"keywords":["sports"],"char":"⛸","fitzpatrick_scale":false,"category":"activity"},"curling_stone":{"keywords":["sports"],"char":"🥌","fitzpatrick_scale":false,"category":"activity"},"skateboard":{"keywords":["board"],"char":"🛹","fitzpatrick_scale":false,"category":"activity"},"sled":{"keywords":["sleigh","luge","toboggan"],"char":"🛷","fitzpatrick_scale":false,"category":"activity"},"bow_and_arrow":{"keywords":["sports"],"char":"🏹","fitzpatrick_scale":false,"category":"activity"},"fishing_pole_and_fish":{"keywords":["food","hobby","summer"],"char":"🎣","fitzpatrick_scale":false,"category":"activity"},"boxing_glove":{"keywords":["sports","fighting"],"char":"🥊","fitzpatrick_scale":false,"category":"activity"},"martial_arts_uniform":{"keywords":["judo","karate","taekwondo"],"char":"🥋","fitzpatrick_scale":false,"category":"activity"},"rowing_woman":{"keywords":["sports","hobby","water","ship","woman","female"],"char":"🚣‍♀️","fitzpatrick_scale":true,"category":"activity"},"rowing_man":{"keywords":["sports","hobby","water","ship"],"char":"🚣","fitzpatrick_scale":true,"category":"activity"},"climbing_woman":{"keywords":["sports","hobby","woman","female","rock"],"char":"🧗‍♀️","fitzpatrick_scale":true,"category":"activity"},"climbing_man":{"keywords":["sports","hobby","man","male","rock"],"char":"🧗‍♂️","fitzpatrick_scale":true,"category":"activity"},"swimming_woman":{"keywords":["sports","exercise","human","athlete","water","summer","woman","female"],"char":"🏊‍♀️","fitzpatrick_scale":true,"category":"activity"},"swimming_man":{"keywords":["sports","exercise","human","athlete","water","summer"],"char":"🏊","fitzpatrick_scale":true,"category":"activity"},"woman_playing_water_polo":{"keywords":["sports","pool"],"char":"🤽‍♀️","fitzpatrick_scale":true,"category":"activity"},"man_playing_water_polo":{"keywords":["sports","pool"],"char":"🤽‍♂️","fitzpatrick_scale":true,"category":"activity"},"woman_in_lotus_position":{"keywords":["woman","female","meditation","yoga","serenity","zen","mindfulness"],"char":"🧘‍♀️","fitzpatrick_scale":true,"category":"activity"},"man_in_lotus_position":{"keywords":["man","male","meditation","yoga","serenity","zen","mindfulness"],"char":"🧘‍♂️","fitzpatrick_scale":true,"category":"activity"},"surfing_woman":{"keywords":["sports","ocean","sea","summer","beach","woman","female"],"char":"🏄‍♀️","fitzpatrick_scale":true,"category":"activity"},"surfing_man":{"keywords":["sports","ocean","sea","summer","beach"],"char":"🏄","fitzpatrick_scale":true,"category":"activity"},"bath":{"keywords":["clean","shower","bathroom"],"char":"🛀","fitzpatrick_scale":true,"category":"activity"},"basketball_woman":{"keywords":["sports","human","woman","female"],"char":"⛹️‍♀️","fitzpatrick_scale":true,"category":"activity"},"basketball_man":{"keywords":["sports","human"],"char":"⛹","fitzpatrick_scale":true,"category":"activity"},"weight_lifting_woman":{"keywords":["sports","training","exercise","woman","female"],"char":"🏋️‍♀️","fitzpatrick_scale":true,"category":"activity"},"weight_lifting_man":{"keywords":["sports","training","exercise"],"char":"🏋","fitzpatrick_scale":true,"category":"activity"},"biking_woman":{"keywords":["sports","bike","exercise","hipster","woman","female"],"char":"🚴‍♀️","fitzpatrick_scale":true,"category":"activity"},"biking_man":{"keywords":["sports","bike","exercise","hipster"],"char":"🚴","fitzpatrick_scale":true,"category":"activity"},"mountain_biking_woman":{"keywords":["transportation","sports","human","race","bike","woman","female"],"char":"🚵‍♀️","fitzpatrick_scale":true,"category":"activity"},"mountain_biking_man":{"keywords":["transportation","sports","human","race","bike"],"char":"🚵","fitzpatrick_scale":true,"category":"activity"},"horse_racing":{"keywords":["animal","betting","competition","gambling","luck"],"char":"🏇","fitzpatrick_scale":true,"category":"activity"},"business_suit_levitating":{"keywords":["suit","business","levitate","hover","jump"],"char":"🕴","fitzpatrick_scale":true,"category":"activity"},"trophy":{"keywords":["win","award","contest","place","ftw","ceremony"],"char":"🏆","fitzpatrick_scale":false,"category":"activity"},"running_shirt_with_sash":{"keywords":["play","pageant"],"char":"🎽","fitzpatrick_scale":false,"category":"activity"},"medal_sports":{"keywords":["award","winning"],"char":"🏅","fitzpatrick_scale":false,"category":"activity"},"medal_military":{"keywords":["award","winning","army"],"char":"🎖","fitzpatrick_scale":false,"category":"activity"},"1st_place_medal":{"keywords":["award","winning","first"],"char":"🥇","fitzpatrick_scale":false,"category":"activity"},"2nd_place_medal":{"keywords":["award","second"],"char":"🥈","fitzpatrick_scale":false,"category":"activity"},"3rd_place_medal":{"keywords":["award","third"],"char":"🥉","fitzpatrick_scale":false,"category":"activity"},"reminder_ribbon":{"keywords":["sports","cause","support","awareness"],"char":"🎗","fitzpatrick_scale":false,"category":"activity"},"rosette":{"keywords":["flower","decoration","military"],"char":"🏵","fitzpatrick_scale":false,"category":"activity"},"ticket":{"keywords":["event","concert","pass"],"char":"🎫","fitzpatrick_scale":false,"category":"activity"},"tickets":{"keywords":["sports","concert","entrance"],"char":"🎟","fitzpatrick_scale":false,"category":"activity"},"performing_arts":{"keywords":["acting","theater","drama"],"char":"🎭","fitzpatrick_scale":false,"category":"activity"},"art":{"keywords":["design","paint","draw","colors"],"char":"🎨","fitzpatrick_scale":false,"category":"activity"},"circus_tent":{"keywords":["festival","carnival","party"],"char":"🎪","fitzpatrick_scale":false,"category":"activity"},"woman_juggling":{"keywords":["juggle","balance","skill","multitask"],"char":"🤹‍♀️","fitzpatrick_scale":true,"category":"activity"},"man_juggling":{"keywords":["juggle","balance","skill","multitask"],"char":"🤹‍♂️","fitzpatrick_scale":true,"category":"activity"},"microphone":{"keywords":["sound","music","PA","sing","talkshow"],"char":"🎤","fitzpatrick_scale":false,"category":"activity"},"headphones":{"keywords":["music","score","gadgets"],"char":"🎧","fitzpatrick_scale":false,"category":"activity"},"musical_score":{"keywords":["treble","clef","compose"],"char":"🎼","fitzpatrick_scale":false,"category":"activity"},"musical_keyboard":{"keywords":["piano","instrument","compose"],"char":"🎹","fitzpatrick_scale":false,"category":"activity"},"drum":{"keywords":["music","instrument","drumsticks","snare"],"char":"🥁","fitzpatrick_scale":false,"category":"activity"},"saxophone":{"keywords":["music","instrument","jazz","blues"],"char":"🎷","fitzpatrick_scale":false,"category":"activity"},"trumpet":{"keywords":["music","brass"],"char":"🎺","fitzpatrick_scale":false,"category":"activity"},"guitar":{"keywords":["music","instrument"],"char":"🎸","fitzpatrick_scale":false,"category":"activity"},"violin":{"keywords":["music","instrument","orchestra","symphony"],"char":"🎻","fitzpatrick_scale":false,"category":"activity"},"clapper":{"keywords":["movie","film","record"],"char":"🎬","fitzpatrick_scale":false,"category":"activity"},"video_game":{"keywords":["play","console","PS4","controller"],"char":"🎮","fitzpatrick_scale":false,"category":"activity"},"space_invader":{"keywords":["game","arcade","play"],"char":"👾","fitzpatrick_scale":false,"category":"activity"},"dart":{"keywords":["game","play","bar","target","bullseye"],"char":"🎯","fitzpatrick_scale":false,"category":"activity"},"game_die":{"keywords":["dice","random","tabletop","play","luck"],"char":"🎲","fitzpatrick_scale":false,"category":"activity"},"chess_pawn":{"keywords":["expendable"],"char":"♟","fitzpatrick_scale":false,"category":"activity"},"slot_machine":{"keywords":["bet","gamble","vegas","fruit machine","luck","casino"],"char":"🎰","fitzpatrick_scale":false,"category":"activity"},"jigsaw":{"keywords":["interlocking","puzzle","piece"],"char":"🧩","fitzpatrick_scale":false,"category":"activity"},"bowling":{"keywords":["sports","fun","play"],"char":"🎳","fitzpatrick_scale":false,"category":"activity"},"red_car":{"keywords":["red","transportation","vehicle"],"char":"🚗","fitzpatrick_scale":false,"category":"travel_and_places"},"taxi":{"keywords":["uber","vehicle","cars","transportation"],"char":"🚕","fitzpatrick_scale":false,"category":"travel_and_places"},"blue_car":{"keywords":["transportation","vehicle"],"char":"🚙","fitzpatrick_scale":false,"category":"travel_and_places"},"bus":{"keywords":["car","vehicle","transportation"],"char":"🚌","fitzpatrick_scale":false,"category":"travel_and_places"},"trolleybus":{"keywords":["bart","transportation","vehicle"],"char":"🚎","fitzpatrick_scale":false,"category":"travel_and_places"},"racing_car":{"keywords":["sports","race","fast","formula","f1"],"char":"🏎","fitzpatrick_scale":false,"category":"travel_and_places"},"police_car":{"keywords":["vehicle","cars","transportation","law","legal","enforcement"],"char":"🚓","fitzpatrick_scale":false,"category":"travel_and_places"},"ambulance":{"keywords":["health","911","hospital"],"char":"🚑","fitzpatrick_scale":false,"category":"travel_and_places"},"fire_engine":{"keywords":["transportation","cars","vehicle"],"char":"🚒","fitzpatrick_scale":false,"category":"travel_and_places"},"minibus":{"keywords":["vehicle","car","transportation"],"char":"🚐","fitzpatrick_scale":false,"category":"travel_and_places"},"truck":{"keywords":["cars","transportation"],"char":"🚚","fitzpatrick_scale":false,"category":"travel_and_places"},"articulated_lorry":{"keywords":["vehicle","cars","transportation","express"],"char":"🚛","fitzpatrick_scale":false,"category":"travel_and_places"},"tractor":{"keywords":["vehicle","car","farming","agriculture"],"char":"🚜","fitzpatrick_scale":false,"category":"travel_and_places"},"kick_scooter":{"keywords":["vehicle","kick","razor"],"char":"🛴","fitzpatrick_scale":false,"category":"travel_and_places"},"motorcycle":{"keywords":["race","sports","fast"],"char":"🏍","fitzpatrick_scale":false,"category":"travel_and_places"},"bike":{"keywords":["sports","bicycle","exercise","hipster"],"char":"🚲","fitzpatrick_scale":false,"category":"travel_and_places"},"motor_scooter":{"keywords":["vehicle","vespa","sasha"],"char":"🛵","fitzpatrick_scale":false,"category":"travel_and_places"},"rotating_light":{"keywords":["police","ambulance","911","emergency","alert","error","pinged","law","legal"],"char":"🚨","fitzpatrick_scale":false,"category":"travel_and_places"},"oncoming_police_car":{"keywords":["vehicle","law","legal","enforcement","911"],"char":"🚔","fitzpatrick_scale":false,"category":"travel_and_places"},"oncoming_bus":{"keywords":["vehicle","transportation"],"char":"🚍","fitzpatrick_scale":false,"category":"travel_and_places"},"oncoming_automobile":{"keywords":["car","vehicle","transportation"],"char":"🚘","fitzpatrick_scale":false,"category":"travel_and_places"},"oncoming_taxi":{"keywords":["vehicle","cars","uber"],"char":"🚖","fitzpatrick_scale":false,"category":"travel_and_places"},"aerial_tramway":{"keywords":["transportation","vehicle","ski"],"char":"🚡","fitzpatrick_scale":false,"category":"travel_and_places"},"mountain_cableway":{"keywords":["transportation","vehicle","ski"],"char":"🚠","fitzpatrick_scale":false,"category":"travel_and_places"},"suspension_railway":{"keywords":["vehicle","transportation"],"char":"🚟","fitzpatrick_scale":false,"category":"travel_and_places"},"railway_car":{"keywords":["transportation","vehicle"],"char":"🚃","fitzpatrick_scale":false,"category":"travel_and_places"},"train":{"keywords":["transportation","vehicle","carriage","public","travel"],"char":"🚋","fitzpatrick_scale":false,"category":"travel_and_places"},"monorail":{"keywords":["transportation","vehicle"],"char":"🚝","fitzpatrick_scale":false,"category":"travel_and_places"},"bullettrain_side":{"keywords":["transportation","vehicle"],"char":"🚄","fitzpatrick_scale":false,"category":"travel_and_places"},"bullettrain_front":{"keywords":["transportation","vehicle","speed","fast","public","travel"],"char":"🚅","fitzpatrick_scale":false,"category":"travel_and_places"},"light_rail":{"keywords":["transportation","vehicle"],"char":"🚈","fitzpatrick_scale":false,"category":"travel_and_places"},"mountain_railway":{"keywords":["transportation","vehicle"],"char":"🚞","fitzpatrick_scale":false,"category":"travel_and_places"},"steam_locomotive":{"keywords":["transportation","vehicle","train"],"char":"🚂","fitzpatrick_scale":false,"category":"travel_and_places"},"train2":{"keywords":["transportation","vehicle"],"char":"🚆","fitzpatrick_scale":false,"category":"travel_and_places"},"metro":{"keywords":["transportation","blue-square","mrt","underground","tube"],"char":"🚇","fitzpatrick_scale":false,"category":"travel_and_places"},"tram":{"keywords":["transportation","vehicle"],"char":"🚊","fitzpatrick_scale":false,"category":"travel_and_places"},"station":{"keywords":["transportation","vehicle","public"],"char":"🚉","fitzpatrick_scale":false,"category":"travel_and_places"},"flying_saucer":{"keywords":["transportation","vehicle","ufo"],"char":"🛸","fitzpatrick_scale":false,"category":"travel_and_places"},"helicopter":{"keywords":["transportation","vehicle","fly"],"char":"🚁","fitzpatrick_scale":false,"category":"travel_and_places"},"small_airplane":{"keywords":["flight","transportation","fly","vehicle"],"char":"🛩","fitzpatrick_scale":false,"category":"travel_and_places"},"airplane":{"keywords":["vehicle","transportation","flight","fly"],"char":"✈️","fitzpatrick_scale":false,"category":"travel_and_places"},"flight_departure":{"keywords":["airport","flight","landing"],"char":"🛫","fitzpatrick_scale":false,"category":"travel_and_places"},"flight_arrival":{"keywords":["airport","flight","boarding"],"char":"🛬","fitzpatrick_scale":false,"category":"travel_and_places"},"sailboat":{"keywords":["ship","summer","transportation","water","sailing"],"char":"⛵","fitzpatrick_scale":false,"category":"travel_and_places"},"motor_boat":{"keywords":["ship"],"char":"🛥","fitzpatrick_scale":false,"category":"travel_and_places"},"speedboat":{"keywords":["ship","transportation","vehicle","summer"],"char":"🚤","fitzpatrick_scale":false,"category":"travel_and_places"},"ferry":{"keywords":["boat","ship","yacht"],"char":"⛴","fitzpatrick_scale":false,"category":"travel_and_places"},"passenger_ship":{"keywords":["yacht","cruise","ferry"],"char":"🛳","fitzpatrick_scale":false,"category":"travel_and_places"},"rocket":{"keywords":["launch","ship","staffmode","NASA","outer space","outer_space","fly"],"char":"🚀","fitzpatrick_scale":false,"category":"travel_and_places"},"artificial_satellite":{"keywords":["communication","gps","orbit","spaceflight","NASA","ISS"],"char":"🛰","fitzpatrick_scale":false,"category":"travel_and_places"},"seat":{"keywords":["sit","airplane","transport","bus","flight","fly"],"char":"💺","fitzpatrick_scale":false,"category":"travel_and_places"},"canoe":{"keywords":["boat","paddle","water","ship"],"char":"🛶","fitzpatrick_scale":false,"category":"travel_and_places"},"anchor":{"keywords":["ship","ferry","sea","boat"],"char":"⚓","fitzpatrick_scale":false,"category":"travel_and_places"},"construction":{"keywords":["wip","progress","caution","warning"],"char":"🚧","fitzpatrick_scale":false,"category":"travel_and_places"},"fuelpump":{"keywords":["gas station","petroleum"],"char":"⛽","fitzpatrick_scale":false,"category":"travel_and_places"},"busstop":{"keywords":["transportation","wait"],"char":"🚏","fitzpatrick_scale":false,"category":"travel_and_places"},"vertical_traffic_light":{"keywords":["transportation","driving"],"char":"🚦","fitzpatrick_scale":false,"category":"travel_and_places"},"traffic_light":{"keywords":["transportation","signal"],"char":"🚥","fitzpatrick_scale":false,"category":"travel_and_places"},"checkered_flag":{"keywords":["contest","finishline","race","gokart"],"char":"🏁","fitzpatrick_scale":false,"category":"travel_and_places"},"ship":{"keywords":["transportation","titanic","deploy"],"char":"🚢","fitzpatrick_scale":false,"category":"travel_and_places"},"ferris_wheel":{"keywords":["photo","carnival","londoneye"],"char":"🎡","fitzpatrick_scale":false,"category":"travel_and_places"},"roller_coaster":{"keywords":["carnival","playground","photo","fun"],"char":"🎢","fitzpatrick_scale":false,"category":"travel_and_places"},"carousel_horse":{"keywords":["photo","carnival"],"char":"🎠","fitzpatrick_scale":false,"category":"travel_and_places"},"building_construction":{"keywords":["wip","working","progress"],"char":"🏗","fitzpatrick_scale":false,"category":"travel_and_places"},"foggy":{"keywords":["photo","mountain"],"char":"🌁","fitzpatrick_scale":false,"category":"travel_and_places"},"tokyo_tower":{"keywords":["photo","japanese"],"char":"🗼","fitzpatrick_scale":false,"category":"travel_and_places"},"factory":{"keywords":["building","industry","pollution","smoke"],"char":"🏭","fitzpatrick_scale":false,"category":"travel_and_places"},"fountain":{"keywords":["photo","summer","water","fresh"],"char":"⛲","fitzpatrick_scale":false,"category":"travel_and_places"},"rice_scene":{"keywords":["photo","japan","asia","tsukimi"],"char":"🎑","fitzpatrick_scale":false,"category":"travel_and_places"},"mountain":{"keywords":["photo","nature","environment"],"char":"⛰","fitzpatrick_scale":false,"category":"travel_and_places"},"mountain_snow":{"keywords":["photo","nature","environment","winter","cold"],"char":"🏔","fitzpatrick_scale":false,"category":"travel_and_places"},"mount_fuji":{"keywords":["photo","mountain","nature","japanese"],"char":"🗻","fitzpatrick_scale":false,"category":"travel_and_places"},"volcano":{"keywords":["photo","nature","disaster"],"char":"🌋","fitzpatrick_scale":false,"category":"travel_and_places"},"japan":{"keywords":["nation","country","japanese","asia"],"char":"🗾","fitzpatrick_scale":false,"category":"travel_and_places"},"camping":{"keywords":["photo","outdoors","tent"],"char":"🏕","fitzpatrick_scale":false,"category":"travel_and_places"},"tent":{"keywords":["photo","camping","outdoors"],"char":"⛺","fitzpatrick_scale":false,"category":"travel_and_places"},"national_park":{"keywords":["photo","environment","nature"],"char":"🏞","fitzpatrick_scale":false,"category":"travel_and_places"},"motorway":{"keywords":["road","cupertino","interstate","highway"],"char":"🛣","fitzpatrick_scale":false,"category":"travel_and_places"},"railway_track":{"keywords":["train","transportation"],"char":"🛤","fitzpatrick_scale":false,"category":"travel_and_places"},"sunrise":{"keywords":["morning","view","vacation","photo"],"char":"🌅","fitzpatrick_scale":false,"category":"travel_and_places"},"sunrise_over_mountains":{"keywords":["view","vacation","photo"],"char":"🌄","fitzpatrick_scale":false,"category":"travel_and_places"},"desert":{"keywords":["photo","warm","saharah"],"char":"🏜","fitzpatrick_scale":false,"category":"travel_and_places"},"beach_umbrella":{"keywords":["weather","summer","sunny","sand","mojito"],"char":"🏖","fitzpatrick_scale":false,"category":"travel_and_places"},"desert_island":{"keywords":["photo","tropical","mojito"],"char":"🏝","fitzpatrick_scale":false,"category":"travel_and_places"},"city_sunrise":{"keywords":["photo","good morning","dawn"],"char":"🌇","fitzpatrick_scale":false,"category":"travel_and_places"},"city_sunset":{"keywords":["photo","evening","sky","buildings"],"char":"🌆","fitzpatrick_scale":false,"category":"travel_and_places"},"cityscape":{"keywords":["photo","night life","urban"],"char":"🏙","fitzpatrick_scale":false,"category":"travel_and_places"},"night_with_stars":{"keywords":["evening","city","downtown"],"char":"🌃","fitzpatrick_scale":false,"category":"travel_and_places"},"bridge_at_night":{"keywords":["photo","sanfrancisco"],"char":"🌉","fitzpatrick_scale":false,"category":"travel_and_places"},"milky_way":{"keywords":["photo","space","stars"],"char":"🌌","fitzpatrick_scale":false,"category":"travel_and_places"},"stars":{"keywords":["night","photo"],"char":"🌠","fitzpatrick_scale":false,"category":"travel_and_places"},"sparkler":{"keywords":["stars","night","shine"],"char":"🎇","fitzpatrick_scale":false,"category":"travel_and_places"},"fireworks":{"keywords":["photo","festival","carnival","congratulations"],"char":"🎆","fitzpatrick_scale":false,"category":"travel_and_places"},"rainbow":{"keywords":["nature","happy","unicorn_face","photo","sky","spring"],"char":"🌈","fitzpatrick_scale":false,"category":"travel_and_places"},"houses":{"keywords":["buildings","photo"],"char":"🏘","fitzpatrick_scale":false,"category":"travel_and_places"},"european_castle":{"keywords":["building","royalty","history"],"char":"🏰","fitzpatrick_scale":false,"category":"travel_and_places"},"japanese_castle":{"keywords":["photo","building"],"char":"🏯","fitzpatrick_scale":false,"category":"travel_and_places"},"stadium":{"keywords":["photo","place","sports","concert","venue"],"char":"🏟","fitzpatrick_scale":false,"category":"travel_and_places"},"statue_of_liberty":{"keywords":["american","newyork"],"char":"🗽","fitzpatrick_scale":false,"category":"travel_and_places"},"house":{"keywords":["building","home"],"char":"🏠","fitzpatrick_scale":false,"category":"travel_and_places"},"house_with_garden":{"keywords":["home","plant","nature"],"char":"🏡","fitzpatrick_scale":false,"category":"travel_and_places"},"derelict_house":{"keywords":["abandon","evict","broken","building"],"char":"🏚","fitzpatrick_scale":false,"category":"travel_and_places"},"office":{"keywords":["building","bureau","work"],"char":"🏢","fitzpatrick_scale":false,"category":"travel_and_places"},"department_store":{"keywords":["building","shopping","mall"],"char":"🏬","fitzpatrick_scale":false,"category":"travel_and_places"},"post_office":{"keywords":["building","envelope","communication"],"char":"🏣","fitzpatrick_scale":false,"category":"travel_and_places"},"european_post_office":{"keywords":["building","email"],"char":"🏤","fitzpatrick_scale":false,"category":"travel_and_places"},"hospital":{"keywords":["building","health","surgery","doctor"],"char":"🏥","fitzpatrick_scale":false,"category":"travel_and_places"},"bank":{"keywords":["building","money","sales","cash","business","enterprise"],"char":"🏦","fitzpatrick_scale":false,"category":"travel_and_places"},"hotel":{"keywords":["building","accomodation","checkin"],"char":"🏨","fitzpatrick_scale":false,"category":"travel_and_places"},"convenience_store":{"keywords":["building","shopping","groceries"],"char":"🏪","fitzpatrick_scale":false,"category":"travel_and_places"},"school":{"keywords":["building","student","education","learn","teach"],"char":"🏫","fitzpatrick_scale":false,"category":"travel_and_places"},"love_hotel":{"keywords":["like","affection","dating"],"char":"🏩","fitzpatrick_scale":false,"category":"travel_and_places"},"wedding":{"keywords":["love","like","affection","couple","marriage","bride","groom"],"char":"💒","fitzpatrick_scale":false,"category":"travel_and_places"},"classical_building":{"keywords":["art","culture","history"],"char":"🏛","fitzpatrick_scale":false,"category":"travel_and_places"},"church":{"keywords":["building","religion","christ"],"char":"⛪","fitzpatrick_scale":false,"category":"travel_and_places"},"mosque":{"keywords":["islam","worship","minaret"],"char":"🕌","fitzpatrick_scale":false,"category":"travel_and_places"},"synagogue":{"keywords":["judaism","worship","temple","jewish"],"char":"🕍","fitzpatrick_scale":false,"category":"travel_and_places"},"kaaba":{"keywords":["mecca","mosque","islam"],"char":"🕋","fitzpatrick_scale":false,"category":"travel_and_places"},"shinto_shrine":{"keywords":["temple","japan","kyoto"],"char":"⛩","fitzpatrick_scale":false,"category":"travel_and_places"},"watch":{"keywords":["time","accessories"],"char":"⌚","fitzpatrick_scale":false,"category":"objects"},"iphone":{"keywords":["technology","apple","gadgets","dial"],"char":"📱","fitzpatrick_scale":false,"category":"objects"},"calling":{"keywords":["iphone","incoming"],"char":"📲","fitzpatrick_scale":false,"category":"objects"},"computer":{"keywords":["technology","laptop","screen","display","monitor"],"char":"💻","fitzpatrick_scale":false,"category":"objects"},"keyboard":{"keywords":["technology","computer","type","input","text"],"char":"⌨","fitzpatrick_scale":false,"category":"objects"},"desktop_computer":{"keywords":["technology","computing","screen"],"char":"🖥","fitzpatrick_scale":false,"category":"objects"},"printer":{"keywords":["paper","ink"],"char":"🖨","fitzpatrick_scale":false,"category":"objects"},"computer_mouse":{"keywords":["click"],"char":"🖱","fitzpatrick_scale":false,"category":"objects"},"trackball":{"keywords":["technology","trackpad"],"char":"🖲","fitzpatrick_scale":false,"category":"objects"},"joystick":{"keywords":["game","play"],"char":"🕹","fitzpatrick_scale":false,"category":"objects"},"clamp":{"keywords":["tool"],"char":"🗜","fitzpatrick_scale":false,"category":"objects"},"minidisc":{"keywords":["technology","record","data","disk","90s"],"char":"💽","fitzpatrick_scale":false,"category":"objects"},"floppy_disk":{"keywords":["oldschool","technology","save","90s","80s"],"char":"💾","fitzpatrick_scale":false,"category":"objects"},"cd":{"keywords":["technology","dvd","disk","disc","90s"],"char":"💿","fitzpatrick_scale":false,"category":"objects"},"dvd":{"keywords":["cd","disk","disc"],"char":"📀","fitzpatrick_scale":false,"category":"objects"},"vhs":{"keywords":["record","video","oldschool","90s","80s"],"char":"📼","fitzpatrick_scale":false,"category":"objects"},"camera":{"keywords":["gadgets","photography"],"char":"📷","fitzpatrick_scale":false,"category":"objects"},"camera_flash":{"keywords":["photography","gadgets"],"char":"📸","fitzpatrick_scale":false,"category":"objects"},"video_camera":{"keywords":["film","record"],"char":"📹","fitzpatrick_scale":false,"category":"objects"},"movie_camera":{"keywords":["film","record"],"char":"🎥","fitzpatrick_scale":false,"category":"objects"},"film_projector":{"keywords":["video","tape","record","movie"],"char":"📽","fitzpatrick_scale":false,"category":"objects"},"film_strip":{"keywords":["movie"],"char":"🎞","fitzpatrick_scale":false,"category":"objects"},"telephone_receiver":{"keywords":["technology","communication","dial"],"char":"📞","fitzpatrick_scale":false,"category":"objects"},"phone":{"keywords":["technology","communication","dial","telephone"],"char":"☎️","fitzpatrick_scale":false,"category":"objects"},"pager":{"keywords":["bbcall","oldschool","90s"],"char":"📟","fitzpatrick_scale":false,"category":"objects"},"fax":{"keywords":["communication","technology"],"char":"📠","fitzpatrick_scale":false,"category":"objects"},"tv":{"keywords":["technology","program","oldschool","show","television"],"char":"📺","fitzpatrick_scale":false,"category":"objects"},"radio":{"keywords":["communication","music","podcast","program"],"char":"📻","fitzpatrick_scale":false,"category":"objects"},"studio_microphone":{"keywords":["sing","recording","artist","talkshow"],"char":"🎙","fitzpatrick_scale":false,"category":"objects"},"level_slider":{"keywords":["scale"],"char":"🎚","fitzpatrick_scale":false,"category":"objects"},"control_knobs":{"keywords":["dial"],"char":"🎛","fitzpatrick_scale":false,"category":"objects"},"compass":{"keywords":["magnetic","navigation","orienteering"],"char":"🧭","fitzpatrick_scale":false,"category":"objects"},"stopwatch":{"keywords":["time","deadline"],"char":"⏱","fitzpatrick_scale":false,"category":"objects"},"timer_clock":{"keywords":["alarm"],"char":"⏲","fitzpatrick_scale":false,"category":"objects"},"alarm_clock":{"keywords":["time","wake"],"char":"⏰","fitzpatrick_scale":false,"category":"objects"},"mantelpiece_clock":{"keywords":["time"],"char":"🕰","fitzpatrick_scale":false,"category":"objects"},"hourglass_flowing_sand":{"keywords":["oldschool","time","countdown"],"char":"⏳","fitzpatrick_scale":false,"category":"objects"},"hourglass":{"keywords":["time","clock","oldschool","limit","exam","quiz","test"],"char":"⌛","fitzpatrick_scale":false,"category":"objects"},"satellite":{"keywords":["communication","future","radio","space"],"char":"📡","fitzpatrick_scale":false,"category":"objects"},"battery":{"keywords":["power","energy","sustain"],"char":"🔋","fitzpatrick_scale":false,"category":"objects"},"electric_plug":{"keywords":["charger","power"],"char":"🔌","fitzpatrick_scale":false,"category":"objects"},"bulb":{"keywords":["light","electricity","idea"],"char":"💡","fitzpatrick_scale":false,"category":"objects"},"flashlight":{"keywords":["dark","camping","sight","night"],"char":"🔦","fitzpatrick_scale":false,"category":"objects"},"candle":{"keywords":["fire","wax"],"char":"🕯","fitzpatrick_scale":false,"category":"objects"},"fire_extinguisher":{"keywords":["quench"],"char":"🧯","fitzpatrick_scale":false,"category":"objects"},"wastebasket":{"keywords":["bin","trash","rubbish","garbage","toss"],"char":"🗑","fitzpatrick_scale":false,"category":"objects"},"oil_drum":{"keywords":["barrell"],"char":"🛢","fitzpatrick_scale":false,"category":"objects"},"money_with_wings":{"keywords":["dollar","bills","payment","sale"],"char":"💸","fitzpatrick_scale":false,"category":"objects"},"dollar":{"keywords":["money","sales","bill","currency"],"char":"💵","fitzpatrick_scale":false,"category":"objects"},"yen":{"keywords":["money","sales","japanese","dollar","currency"],"char":"💴","fitzpatrick_scale":false,"category":"objects"},"euro":{"keywords":["money","sales","dollar","currency"],"char":"💶","fitzpatrick_scale":false,"category":"objects"},"pound":{"keywords":["british","sterling","money","sales","bills","uk","england","currency"],"char":"💷","fitzpatrick_scale":false,"category":"objects"},"moneybag":{"keywords":["dollar","payment","coins","sale"],"char":"💰","fitzpatrick_scale":false,"category":"objects"},"credit_card":{"keywords":["money","sales","dollar","bill","payment","shopping"],"char":"💳","fitzpatrick_scale":false,"category":"objects"},"gem":{"keywords":["blue","ruby","diamond","jewelry"],"char":"💎","fitzpatrick_scale":false,"category":"objects"},"balance_scale":{"keywords":["law","fairness","weight"],"char":"⚖","fitzpatrick_scale":false,"category":"objects"},"toolbox":{"keywords":["tools","diy","fix","maintainer","mechanic"],"char":"🧰","fitzpatrick_scale":false,"category":"objects"},"wrench":{"keywords":["tools","diy","ikea","fix","maintainer"],"char":"🔧","fitzpatrick_scale":false,"category":"objects"},"hammer":{"keywords":["tools","build","create"],"char":"🔨","fitzpatrick_scale":false,"category":"objects"},"hammer_and_pick":{"keywords":["tools","build","create"],"char":"⚒","fitzpatrick_scale":false,"category":"objects"},"hammer_and_wrench":{"keywords":["tools","build","create"],"char":"🛠","fitzpatrick_scale":false,"category":"objects"},"pick":{"keywords":["tools","dig"],"char":"⛏","fitzpatrick_scale":false,"category":"objects"},"nut_and_bolt":{"keywords":["handy","tools","fix"],"char":"🔩","fitzpatrick_scale":false,"category":"objects"},"gear":{"keywords":["cog"],"char":"⚙","fitzpatrick_scale":false,"category":"objects"},"brick":{"keywords":["bricks"],"char":"🧱","fitzpatrick_scale":false,"category":"objects"},"chains":{"keywords":["lock","arrest"],"char":"⛓","fitzpatrick_scale":false,"category":"objects"},"magnet":{"keywords":["attraction","magnetic"],"char":"🧲","fitzpatrick_scale":false,"category":"objects"},"gun":{"keywords":["violence","weapon","pistol","revolver"],"char":"🔫","fitzpatrick_scale":false,"category":"objects"},"bomb":{"keywords":["boom","explode","explosion","terrorism"],"char":"💣","fitzpatrick_scale":false,"category":"objects"},"firecracker":{"keywords":["dynamite","boom","explode","explosion","explosive"],"char":"🧨","fitzpatrick_scale":false,"category":"objects"},"hocho":{"keywords":["knife","blade","cutlery","kitchen","weapon"],"char":"🔪","fitzpatrick_scale":false,"category":"objects"},"dagger":{"keywords":["weapon"],"char":"🗡","fitzpatrick_scale":false,"category":"objects"},"crossed_swords":{"keywords":["weapon"],"char":"⚔","fitzpatrick_scale":false,"category":"objects"},"shield":{"keywords":["protection","security"],"char":"🛡","fitzpatrick_scale":false,"category":"objects"},"smoking":{"keywords":["kills","tobacco","cigarette","joint","smoke"],"char":"🚬","fitzpatrick_scale":false,"category":"objects"},"skull_and_crossbones":{"keywords":["poison","danger","deadly","scary","death","pirate","evil"],"char":"☠","fitzpatrick_scale":false,"category":"objects"},"coffin":{"keywords":["vampire","dead","die","death","rip","graveyard","cemetery","casket","funeral","box"],"char":"⚰","fitzpatrick_scale":false,"category":"objects"},"funeral_urn":{"keywords":["dead","die","death","rip","ashes"],"char":"⚱","fitzpatrick_scale":false,"category":"objects"},"amphora":{"keywords":["vase","jar"],"char":"🏺","fitzpatrick_scale":false,"category":"objects"},"crystal_ball":{"keywords":["disco","party","magic","circus","fortune_teller"],"char":"🔮","fitzpatrick_scale":false,"category":"objects"},"prayer_beads":{"keywords":["dhikr","religious"],"char":"📿","fitzpatrick_scale":false,"category":"objects"},"nazar_amulet":{"keywords":["bead","charm"],"char":"🧿","fitzpatrick_scale":false,"category":"objects"},"barber":{"keywords":["hair","salon","style"],"char":"💈","fitzpatrick_scale":false,"category":"objects"},"alembic":{"keywords":["distilling","science","experiment","chemistry"],"char":"⚗","fitzpatrick_scale":false,"category":"objects"},"telescope":{"keywords":["stars","space","zoom","science","astronomy"],"char":"🔭","fitzpatrick_scale":false,"category":"objects"},"microscope":{"keywords":["laboratory","experiment","zoomin","science","study"],"char":"🔬","fitzpatrick_scale":false,"category":"objects"},"hole":{"keywords":["embarrassing"],"char":"🕳","fitzpatrick_scale":false,"category":"objects"},"pill":{"keywords":["health","medicine","doctor","pharmacy","drug"],"char":"💊","fitzpatrick_scale":false,"category":"objects"},"syringe":{"keywords":["health","hospital","drugs","blood","medicine","needle","doctor","nurse"],"char":"💉","fitzpatrick_scale":false,"category":"objects"},"dna":{"keywords":["biologist","genetics","life"],"char":"🧬","fitzpatrick_scale":false,"category":"objects"},"microbe":{"keywords":["amoeba","bacteria","germs"],"char":"🦠","fitzpatrick_scale":false,"category":"objects"},"petri_dish":{"keywords":["bacteria","biology","culture","lab"],"char":"🧫","fitzpatrick_scale":false,"category":"objects"},"test_tube":{"keywords":["chemistry","experiment","lab","science"],"char":"🧪","fitzpatrick_scale":false,"category":"objects"},"thermometer":{"keywords":["weather","temperature","hot","cold"],"char":"🌡","fitzpatrick_scale":false,"category":"objects"},"broom":{"keywords":["cleaning","sweeping","witch"],"char":"🧹","fitzpatrick_scale":false,"category":"objects"},"basket":{"keywords":["laundry"],"char":"🧺","fitzpatrick_scale":false,"category":"objects"},"toilet_paper":{"keywords":["roll"],"char":"🧻","fitzpatrick_scale":false,"category":"objects"},"label":{"keywords":["sale","tag"],"char":"🏷","fitzpatrick_scale":false,"category":"objects"},"bookmark":{"keywords":["favorite","label","save"],"char":"🔖","fitzpatrick_scale":false,"category":"objects"},"toilet":{"keywords":["restroom","wc","washroom","bathroom","potty"],"char":"🚽","fitzpatrick_scale":false,"category":"objects"},"shower":{"keywords":["clean","water","bathroom"],"char":"🚿","fitzpatrick_scale":false,"category":"objects"},"bathtub":{"keywords":["clean","shower","bathroom"],"char":"🛁","fitzpatrick_scale":false,"category":"objects"},"soap":{"keywords":["bar","bathing","cleaning","lather"],"char":"🧼","fitzpatrick_scale":false,"category":"objects"},"sponge":{"keywords":["absorbing","cleaning","porous"],"char":"🧽","fitzpatrick_scale":false,"category":"objects"},"lotion_bottle":{"keywords":["moisturizer","sunscreen"],"char":"🧴","fitzpatrick_scale":false,"category":"objects"},"key":{"keywords":["lock","door","password"],"char":"🔑","fitzpatrick_scale":false,"category":"objects"},"old_key":{"keywords":["lock","door","password"],"char":"🗝","fitzpatrick_scale":false,"category":"objects"},"couch_and_lamp":{"keywords":["read","chill"],"char":"🛋","fitzpatrick_scale":false,"category":"objects"},"sleeping_bed":{"keywords":["bed","rest"],"char":"🛌","fitzpatrick_scale":true,"category":"objects"},"bed":{"keywords":["sleep","rest"],"char":"🛏","fitzpatrick_scale":false,"category":"objects"},"door":{"keywords":["house","entry","exit"],"char":"🚪","fitzpatrick_scale":false,"category":"objects"},"bellhop_bell":{"keywords":["service"],"char":"🛎","fitzpatrick_scale":false,"category":"objects"},"teddy_bear":{"keywords":["plush","stuffed"],"char":"🧸","fitzpatrick_scale":false,"category":"objects"},"framed_picture":{"keywords":["photography"],"char":"🖼","fitzpatrick_scale":false,"category":"objects"},"world_map":{"keywords":["location","direction"],"char":"🗺","fitzpatrick_scale":false,"category":"objects"},"parasol_on_ground":{"keywords":["weather","summer"],"char":"⛱","fitzpatrick_scale":false,"category":"objects"},"moyai":{"keywords":["rock","easter island","moai"],"char":"🗿","fitzpatrick_scale":false,"category":"objects"},"shopping":{"keywords":["mall","buy","purchase"],"char":"🛍","fitzpatrick_scale":false,"category":"objects"},"shopping_cart":{"keywords":["trolley"],"char":"🛒","fitzpatrick_scale":false,"category":"objects"},"balloon":{"keywords":["party","celebration","birthday","circus"],"char":"🎈","fitzpatrick_scale":false,"category":"objects"},"flags":{"keywords":["fish","japanese","koinobori","carp","banner"],"char":"🎏","fitzpatrick_scale":false,"category":"objects"},"ribbon":{"keywords":["decoration","pink","girl","bowtie"],"char":"🎀","fitzpatrick_scale":false,"category":"objects"},"gift":{"keywords":["present","birthday","christmas","xmas"],"char":"🎁","fitzpatrick_scale":false,"category":"objects"},"confetti_ball":{"keywords":["festival","party","birthday","circus"],"char":"🎊","fitzpatrick_scale":false,"category":"objects"},"tada":{"keywords":["party","congratulations","birthday","magic","circus","celebration"],"char":"🎉","fitzpatrick_scale":false,"category":"objects"},"dolls":{"keywords":["japanese","toy","kimono"],"char":"🎎","fitzpatrick_scale":false,"category":"objects"},"wind_chime":{"keywords":["nature","ding","spring","bell"],"char":"🎐","fitzpatrick_scale":false,"category":"objects"},"crossed_flags":{"keywords":["japanese","nation","country","border"],"char":"🎌","fitzpatrick_scale":false,"category":"objects"},"izakaya_lantern":{"keywords":["light","paper","halloween","spooky"],"char":"🏮","fitzpatrick_scale":false,"category":"objects"},"red_envelope":{"keywords":["gift"],"char":"🧧","fitzpatrick_scale":false,"category":"objects"},"email":{"keywords":["letter","postal","inbox","communication"],"char":"✉️","fitzpatrick_scale":false,"category":"objects"},"envelope_with_arrow":{"keywords":["email","communication"],"char":"📩","fitzpatrick_scale":false,"category":"objects"},"incoming_envelope":{"keywords":["email","inbox"],"char":"📨","fitzpatrick_scale":false,"category":"objects"},"e-mail":{"keywords":["communication","inbox"],"char":"📧","fitzpatrick_scale":false,"category":"objects"},"love_letter":{"keywords":["email","like","affection","envelope","valentines"],"char":"💌","fitzpatrick_scale":false,"category":"objects"},"postbox":{"keywords":["email","letter","envelope"],"char":"📮","fitzpatrick_scale":false,"category":"objects"},"mailbox_closed":{"keywords":["email","communication","inbox"],"char":"📪","fitzpatrick_scale":false,"category":"objects"},"mailbox":{"keywords":["email","inbox","communication"],"char":"📫","fitzpatrick_scale":false,"category":"objects"},"mailbox_with_mail":{"keywords":["email","inbox","communication"],"char":"📬","fitzpatrick_scale":false,"category":"objects"},"mailbox_with_no_mail":{"keywords":["email","inbox"],"char":"📭","fitzpatrick_scale":false,"category":"objects"},"package":{"keywords":["mail","gift","cardboard","box","moving"],"char":"📦","fitzpatrick_scale":false,"category":"objects"},"postal_horn":{"keywords":["instrument","music"],"char":"📯","fitzpatrick_scale":false,"category":"objects"},"inbox_tray":{"keywords":["email","documents"],"char":"📥","fitzpatrick_scale":false,"category":"objects"},"outbox_tray":{"keywords":["inbox","email"],"char":"📤","fitzpatrick_scale":false,"category":"objects"},"scroll":{"keywords":["documents","ancient","history","paper"],"char":"📜","fitzpatrick_scale":false,"category":"objects"},"page_with_curl":{"keywords":["documents","office","paper"],"char":"📃","fitzpatrick_scale":false,"category":"objects"},"bookmark_tabs":{"keywords":["favorite","save","order","tidy"],"char":"📑","fitzpatrick_scale":false,"category":"objects"},"receipt":{"keywords":["accounting","expenses"],"char":"🧾","fitzpatrick_scale":false,"category":"objects"},"bar_chart":{"keywords":["graph","presentation","stats"],"char":"📊","fitzpatrick_scale":false,"category":"objects"},"chart_with_upwards_trend":{"keywords":["graph","presentation","stats","recovery","business","economics","money","sales","good","success"],"char":"📈","fitzpatrick_scale":false,"category":"objects"},"chart_with_downwards_trend":{"keywords":["graph","presentation","stats","recession","business","economics","money","sales","bad","failure"],"char":"📉","fitzpatrick_scale":false,"category":"objects"},"page_facing_up":{"keywords":["documents","office","paper","information"],"char":"📄","fitzpatrick_scale":false,"category":"objects"},"date":{"keywords":["calendar","schedule"],"char":"📅","fitzpatrick_scale":false,"category":"objects"},"calendar":{"keywords":["schedule","date","planning"],"char":"📆","fitzpatrick_scale":false,"category":"objects"},"spiral_calendar":{"keywords":["date","schedule","planning"],"char":"🗓","fitzpatrick_scale":false,"category":"objects"},"card_index":{"keywords":["business","stationery"],"char":"📇","fitzpatrick_scale":false,"category":"objects"},"card_file_box":{"keywords":["business","stationery"],"char":"🗃","fitzpatrick_scale":false,"category":"objects"},"ballot_box":{"keywords":["election","vote"],"char":"🗳","fitzpatrick_scale":false,"category":"objects"},"file_cabinet":{"keywords":["filing","organizing"],"char":"🗄","fitzpatrick_scale":false,"category":"objects"},"clipboard":{"keywords":["stationery","documents"],"char":"📋","fitzpatrick_scale":false,"category":"objects"},"spiral_notepad":{"keywords":["memo","stationery"],"char":"🗒","fitzpatrick_scale":false,"category":"objects"},"file_folder":{"keywords":["documents","business","office"],"char":"📁","fitzpatrick_scale":false,"category":"objects"},"open_file_folder":{"keywords":["documents","load"],"char":"📂","fitzpatrick_scale":false,"category":"objects"},"card_index_dividers":{"keywords":["organizing","business","stationery"],"char":"🗂","fitzpatrick_scale":false,"category":"objects"},"newspaper_roll":{"keywords":["press","headline"],"char":"🗞","fitzpatrick_scale":false,"category":"objects"},"newspaper":{"keywords":["press","headline"],"char":"📰","fitzpatrick_scale":false,"category":"objects"},"notebook":{"keywords":["stationery","record","notes","paper","study"],"char":"📓","fitzpatrick_scale":false,"category":"objects"},"closed_book":{"keywords":["read","library","knowledge","textbook","learn"],"char":"📕","fitzpatrick_scale":false,"category":"objects"},"green_book":{"keywords":["read","library","knowledge","study"],"char":"📗","fitzpatrick_scale":false,"category":"objects"},"blue_book":{"keywords":["read","library","knowledge","learn","study"],"char":"📘","fitzpatrick_scale":false,"category":"objects"},"orange_book":{"keywords":["read","library","knowledge","textbook","study"],"char":"📙","fitzpatrick_scale":false,"category":"objects"},"notebook_with_decorative_cover":{"keywords":["classroom","notes","record","paper","study"],"char":"📔","fitzpatrick_scale":false,"category":"objects"},"ledger":{"keywords":["notes","paper"],"char":"📒","fitzpatrick_scale":false,"category":"objects"},"books":{"keywords":["literature","library","study"],"char":"📚","fitzpatrick_scale":false,"category":"objects"},"open_book":{"keywords":["book","read","library","knowledge","literature","learn","study"],"char":"📖","fitzpatrick_scale":false,"category":"objects"},"safety_pin":{"keywords":["diaper"],"char":"🧷","fitzpatrick_scale":false,"category":"objects"},"link":{"keywords":["rings","url"],"char":"🔗","fitzpatrick_scale":false,"category":"objects"},"paperclip":{"keywords":["documents","stationery"],"char":"📎","fitzpatrick_scale":false,"category":"objects"},"paperclips":{"keywords":["documents","stationery"],"char":"🖇","fitzpatrick_scale":false,"category":"objects"},"scissors":{"keywords":["stationery","cut"],"char":"✂️","fitzpatrick_scale":false,"category":"objects"},"triangular_ruler":{"keywords":["stationery","math","architect","sketch"],"char":"📐","fitzpatrick_scale":false,"category":"objects"},"straight_ruler":{"keywords":["stationery","calculate","length","math","school","drawing","architect","sketch"],"char":"📏","fitzpatrick_scale":false,"category":"objects"},"abacus":{"keywords":["calculation"],"char":"🧮","fitzpatrick_scale":false,"category":"objects"},"pushpin":{"keywords":["stationery","mark","here"],"char":"📌","fitzpatrick_scale":false,"category":"objects"},"round_pushpin":{"keywords":["stationery","location","map","here"],"char":"📍","fitzpatrick_scale":false,"category":"objects"},"triangular_flag_on_post":{"keywords":["mark","milestone","place"],"char":"🚩","fitzpatrick_scale":false,"category":"objects"},"white_flag":{"keywords":["losing","loser","lost","surrender","give up","fail"],"char":"🏳","fitzpatrick_scale":false,"category":"objects"},"black_flag":{"keywords":["pirate"],"char":"🏴","fitzpatrick_scale":false,"category":"objects"},"rainbow_flag":{"keywords":["flag","rainbow","pride","gay","lgbt","glbt","queer","homosexual","lesbian","bisexual","transgender"],"char":"🏳️‍🌈","fitzpatrick_scale":false,"category":"objects"},"closed_lock_with_key":{"keywords":["security","privacy"],"char":"🔐","fitzpatrick_scale":false,"category":"objects"},"lock":{"keywords":["security","password","padlock"],"char":"🔒","fitzpatrick_scale":false,"category":"objects"},"unlock":{"keywords":["privacy","security"],"char":"🔓","fitzpatrick_scale":false,"category":"objects"},"lock_with_ink_pen":{"keywords":["security","secret"],"char":"🔏","fitzpatrick_scale":false,"category":"objects"},"pen":{"keywords":["stationery","writing","write"],"char":"🖊","fitzpatrick_scale":false,"category":"objects"},"fountain_pen":{"keywords":["stationery","writing","write"],"char":"🖋","fitzpatrick_scale":false,"category":"objects"},"black_nib":{"keywords":["pen","stationery","writing","write"],"char":"✒️","fitzpatrick_scale":false,"category":"objects"},"memo":{"keywords":["write","documents","stationery","pencil","paper","writing","legal","exam","quiz","test","study","compose"],"char":"📝","fitzpatrick_scale":false,"category":"objects"},"pencil2":{"keywords":["stationery","write","paper","writing","school","study"],"char":"✏️","fitzpatrick_scale":false,"category":"objects"},"crayon":{"keywords":["drawing","creativity"],"char":"🖍","fitzpatrick_scale":false,"category":"objects"},"paintbrush":{"keywords":["drawing","creativity","art"],"char":"🖌","fitzpatrick_scale":false,"category":"objects"},"mag":{"keywords":["search","zoom","find","detective"],"char":"🔍","fitzpatrick_scale":false,"category":"objects"},"mag_right":{"keywords":["search","zoom","find","detective"],"char":"🔎","fitzpatrick_scale":false,"category":"objects"},"heart":{"keywords":["love","like","valentines"],"char":"❤️","fitzpatrick_scale":false,"category":"symbols"},"orange_heart":{"keywords":["love","like","affection","valentines"],"char":"🧡","fitzpatrick_scale":false,"category":"symbols"},"yellow_heart":{"keywords":["love","like","affection","valentines"],"char":"💛","fitzpatrick_scale":false,"category":"symbols"},"green_heart":{"keywords":["love","like","affection","valentines"],"char":"💚","fitzpatrick_scale":false,"category":"symbols"},"blue_heart":{"keywords":["love","like","affection","valentines"],"char":"💙","fitzpatrick_scale":false,"category":"symbols"},"purple_heart":{"keywords":["love","like","affection","valentines"],"char":"💜","fitzpatrick_scale":false,"category":"symbols"},"black_heart":{"keywords":["evil"],"char":"🖤","fitzpatrick_scale":false,"category":"symbols"},"broken_heart":{"keywords":["sad","sorry","break","heart","heartbreak"],"char":"💔","fitzpatrick_scale":false,"category":"symbols"},"heavy_heart_exclamation":{"keywords":["decoration","love"],"char":"❣","fitzpatrick_scale":false,"category":"symbols"},"two_hearts":{"keywords":["love","like","affection","valentines","heart"],"char":"💕","fitzpatrick_scale":false,"category":"symbols"},"revolving_hearts":{"keywords":["love","like","affection","valentines"],"char":"💞","fitzpatrick_scale":false,"category":"symbols"},"heartbeat":{"keywords":["love","like","affection","valentines","pink","heart"],"char":"💓","fitzpatrick_scale":false,"category":"symbols"},"heartpulse":{"keywords":["like","love","affection","valentines","pink"],"char":"💗","fitzpatrick_scale":false,"category":"symbols"},"sparkling_heart":{"keywords":["love","like","affection","valentines"],"char":"💖","fitzpatrick_scale":false,"category":"symbols"},"cupid":{"keywords":["love","like","heart","affection","valentines"],"char":"💘","fitzpatrick_scale":false,"category":"symbols"},"gift_heart":{"keywords":["love","valentines"],"char":"💝","fitzpatrick_scale":false,"category":"symbols"},"heart_decoration":{"keywords":["purple-square","love","like"],"char":"💟","fitzpatrick_scale":false,"category":"symbols"},"peace_symbol":{"keywords":["hippie"],"char":"☮","fitzpatrick_scale":false,"category":"symbols"},"latin_cross":{"keywords":["christianity"],"char":"✝","fitzpatrick_scale":false,"category":"symbols"},"star_and_crescent":{"keywords":["islam"],"char":"☪","fitzpatrick_scale":false,"category":"symbols"},"om":{"keywords":["hinduism","buddhism","sikhism","jainism"],"char":"🕉","fitzpatrick_scale":false,"category":"symbols"},"wheel_of_dharma":{"keywords":["hinduism","buddhism","sikhism","jainism"],"char":"☸","fitzpatrick_scale":false,"category":"symbols"},"star_of_david":{"keywords":["judaism"],"char":"✡","fitzpatrick_scale":false,"category":"symbols"},"six_pointed_star":{"keywords":["purple-square","religion","jewish","hexagram"],"char":"🔯","fitzpatrick_scale":false,"category":"symbols"},"menorah":{"keywords":["hanukkah","candles","jewish"],"char":"🕎","fitzpatrick_scale":false,"category":"symbols"},"yin_yang":{"keywords":["balance"],"char":"☯","fitzpatrick_scale":false,"category":"symbols"},"orthodox_cross":{"keywords":["suppedaneum","religion"],"char":"☦","fitzpatrick_scale":false,"category":"symbols"},"place_of_worship":{"keywords":["religion","church","temple","prayer"],"char":"🛐","fitzpatrick_scale":false,"category":"symbols"},"ophiuchus":{"keywords":["sign","purple-square","constellation","astrology"],"char":"⛎","fitzpatrick_scale":false,"category":"symbols"},"aries":{"keywords":["sign","purple-square","zodiac","astrology"],"char":"♈","fitzpatrick_scale":false,"category":"symbols"},"taurus":{"keywords":["purple-square","sign","zodiac","astrology"],"char":"♉","fitzpatrick_scale":false,"category":"symbols"},"gemini":{"keywords":["sign","zodiac","purple-square","astrology"],"char":"♊","fitzpatrick_scale":false,"category":"symbols"},"cancer":{"keywords":["sign","zodiac","purple-square","astrology"],"char":"♋","fitzpatrick_scale":false,"category":"symbols"},"leo":{"keywords":["sign","purple-square","zodiac","astrology"],"char":"♌","fitzpatrick_scale":false,"category":"symbols"},"virgo":{"keywords":["sign","zodiac","purple-square","astrology"],"char":"♍","fitzpatrick_scale":false,"category":"symbols"},"libra":{"keywords":["sign","purple-square","zodiac","astrology"],"char":"♎","fitzpatrick_scale":false,"category":"symbols"},"scorpius":{"keywords":["sign","zodiac","purple-square","astrology","scorpio"],"char":"♏","fitzpatrick_scale":false,"category":"symbols"},"sagittarius":{"keywords":["sign","zodiac","purple-square","astrology"],"char":"♐","fitzpatrick_scale":false,"category":"symbols"},"capricorn":{"keywords":["sign","zodiac","purple-square","astrology"],"char":"♑","fitzpatrick_scale":false,"category":"symbols"},"aquarius":{"keywords":["sign","purple-square","zodiac","astrology"],"char":"♒","fitzpatrick_scale":false,"category":"symbols"},"pisces":{"keywords":["purple-square","sign","zodiac","astrology"],"char":"♓","fitzpatrick_scale":false,"category":"symbols"},"id":{"keywords":["purple-square","words"],"char":"🆔","fitzpatrick_scale":false,"category":"symbols"},"atom_symbol":{"keywords":["science","physics","chemistry"],"char":"⚛","fitzpatrick_scale":false,"category":"symbols"},"u7a7a":{"keywords":["kanji","japanese","chinese","empty","sky","blue-square"],"char":"🈳","fitzpatrick_scale":false,"category":"symbols"},"u5272":{"keywords":["cut","divide","chinese","kanji","pink-square"],"char":"🈹","fitzpatrick_scale":false,"category":"symbols"},"radioactive":{"keywords":["nuclear","danger"],"char":"☢","fitzpatrick_scale":false,"category":"symbols"},"biohazard":{"keywords":["danger"],"char":"☣","fitzpatrick_scale":false,"category":"symbols"},"mobile_phone_off":{"keywords":["mute","orange-square","silence","quiet"],"char":"📴","fitzpatrick_scale":false,"category":"symbols"},"vibration_mode":{"keywords":["orange-square","phone"],"char":"📳","fitzpatrick_scale":false,"category":"symbols"},"u6709":{"keywords":["orange-square","chinese","have","kanji"],"char":"🈶","fitzpatrick_scale":false,"category":"symbols"},"u7121":{"keywords":["nothing","chinese","kanji","japanese","orange-square"],"char":"🈚","fitzpatrick_scale":false,"category":"symbols"},"u7533":{"keywords":["chinese","japanese","kanji","orange-square"],"char":"🈸","fitzpatrick_scale":false,"category":"symbols"},"u55b6":{"keywords":["japanese","opening hours","orange-square"],"char":"🈺","fitzpatrick_scale":false,"category":"symbols"},"u6708":{"keywords":["chinese","month","moon","japanese","orange-square","kanji"],"char":"🈷️","fitzpatrick_scale":false,"category":"symbols"},"eight_pointed_black_star":{"keywords":["orange-square","shape","polygon"],"char":"✴️","fitzpatrick_scale":false,"category":"symbols"},"vs":{"keywords":["words","orange-square"],"char":"🆚","fitzpatrick_scale":false,"category":"symbols"},"accept":{"keywords":["ok","good","chinese","kanji","agree","yes","orange-circle"],"char":"🉑","fitzpatrick_scale":false,"category":"symbols"},"white_flower":{"keywords":["japanese","spring"],"char":"💮","fitzpatrick_scale":false,"category":"symbols"},"ideograph_advantage":{"keywords":["chinese","kanji","obtain","get","circle"],"char":"🉐","fitzpatrick_scale":false,"category":"symbols"},"secret":{"keywords":["privacy","chinese","sshh","kanji","red-circle"],"char":"㊙️","fitzpatrick_scale":false,"category":"symbols"},"congratulations":{"keywords":["chinese","kanji","japanese","red-circle"],"char":"㊗️","fitzpatrick_scale":false,"category":"symbols"},"u5408":{"keywords":["japanese","chinese","join","kanji","red-square"],"char":"🈴","fitzpatrick_scale":false,"category":"symbols"},"u6e80":{"keywords":["full","chinese","japanese","red-square","kanji"],"char":"🈵","fitzpatrick_scale":false,"category":"symbols"},"u7981":{"keywords":["kanji","japanese","chinese","forbidden","limit","restricted","red-square"],"char":"🈲","fitzpatrick_scale":false,"category":"symbols"},"a":{"keywords":["red-square","alphabet","letter"],"char":"🅰️","fitzpatrick_scale":false,"category":"symbols"},"b":{"keywords":["red-square","alphabet","letter"],"char":"🅱️","fitzpatrick_scale":false,"category":"symbols"},"ab":{"keywords":["red-square","alphabet"],"char":"🆎","fitzpatrick_scale":false,"category":"symbols"},"cl":{"keywords":["alphabet","words","red-square"],"char":"🆑","fitzpatrick_scale":false,"category":"symbols"},"o2":{"keywords":["alphabet","red-square","letter"],"char":"🅾️","fitzpatrick_scale":false,"category":"symbols"},"sos":{"keywords":["help","red-square","words","emergency","911"],"char":"🆘","fitzpatrick_scale":false,"category":"symbols"},"no_entry":{"keywords":["limit","security","privacy","bad","denied","stop","circle"],"char":"⛔","fitzpatrick_scale":false,"category":"symbols"},"name_badge":{"keywords":["fire","forbid"],"char":"📛","fitzpatrick_scale":false,"category":"symbols"},"no_entry_sign":{"keywords":["forbid","stop","limit","denied","disallow","circle"],"char":"🚫","fitzpatrick_scale":false,"category":"symbols"},"x":{"keywords":["no","delete","remove","cancel","red"],"char":"❌","fitzpatrick_scale":false,"category":"symbols"},"o":{"keywords":["circle","round"],"char":"⭕","fitzpatrick_scale":false,"category":"symbols"},"stop_sign":{"keywords":["stop"],"char":"🛑","fitzpatrick_scale":false,"category":"symbols"},"anger":{"keywords":["angry","mad"],"char":"💢","fitzpatrick_scale":false,"category":"symbols"},"hotsprings":{"keywords":["bath","warm","relax"],"char":"♨️","fitzpatrick_scale":false,"category":"symbols"},"no_pedestrians":{"keywords":["rules","crossing","walking","circle"],"char":"🚷","fitzpatrick_scale":false,"category":"symbols"},"do_not_litter":{"keywords":["trash","bin","garbage","circle"],"char":"🚯","fitzpatrick_scale":false,"category":"symbols"},"no_bicycles":{"keywords":["cyclist","prohibited","circle"],"char":"🚳","fitzpatrick_scale":false,"category":"symbols"},"non-potable_water":{"keywords":["drink","faucet","tap","circle"],"char":"🚱","fitzpatrick_scale":false,"category":"symbols"},"underage":{"keywords":["18","drink","pub","night","minor","circle"],"char":"🔞","fitzpatrick_scale":false,"category":"symbols"},"no_mobile_phones":{"keywords":["iphone","mute","circle"],"char":"📵","fitzpatrick_scale":false,"category":"symbols"},"exclamation":{"keywords":["heavy_exclamation_mark","danger","surprise","punctuation","wow","warning"],"char":"❗","fitzpatrick_scale":false,"category":"symbols"},"grey_exclamation":{"keywords":["surprise","punctuation","gray","wow","warning"],"char":"❕","fitzpatrick_scale":false,"category":"symbols"},"question":{"keywords":["doubt","confused"],"char":"❓","fitzpatrick_scale":false,"category":"symbols"},"grey_question":{"keywords":["doubts","gray","huh","confused"],"char":"❔","fitzpatrick_scale":false,"category":"symbols"},"bangbang":{"keywords":["exclamation","surprise"],"char":"‼️","fitzpatrick_scale":false,"category":"symbols"},"interrobang":{"keywords":["wat","punctuation","surprise"],"char":"⁉️","fitzpatrick_scale":false,"category":"symbols"},"low_brightness":{"keywords":["sun","afternoon","warm","summer"],"char":"🔅","fitzpatrick_scale":false,"category":"symbols"},"high_brightness":{"keywords":["sun","light"],"char":"🔆","fitzpatrick_scale":false,"category":"symbols"},"trident":{"keywords":["weapon","spear"],"char":"🔱","fitzpatrick_scale":false,"category":"symbols"},"fleur_de_lis":{"keywords":["decorative","scout"],"char":"⚜","fitzpatrick_scale":false,"category":"symbols"},"part_alternation_mark":{"keywords":["graph","presentation","stats","business","economics","bad"],"char":"〽️","fitzpatrick_scale":false,"category":"symbols"},"warning":{"keywords":["exclamation","wip","alert","error","problem","issue"],"char":"⚠️","fitzpatrick_scale":false,"category":"symbols"},"children_crossing":{"keywords":["school","warning","danger","sign","driving","yellow-diamond"],"char":"🚸","fitzpatrick_scale":false,"category":"symbols"},"beginner":{"keywords":["badge","shield"],"char":"🔰","fitzpatrick_scale":false,"category":"symbols"},"recycle":{"keywords":["arrow","environment","garbage","trash"],"char":"♻️","fitzpatrick_scale":false,"category":"symbols"},"u6307":{"keywords":["chinese","point","green-square","kanji"],"char":"🈯","fitzpatrick_scale":false,"category":"symbols"},"chart":{"keywords":["green-square","graph","presentation","stats"],"char":"💹","fitzpatrick_scale":false,"category":"symbols"},"sparkle":{"keywords":["stars","green-square","awesome","good","fireworks"],"char":"❇️","fitzpatrick_scale":false,"category":"symbols"},"eight_spoked_asterisk":{"keywords":["star","sparkle","green-square"],"char":"✳️","fitzpatrick_scale":false,"category":"symbols"},"negative_squared_cross_mark":{"keywords":["x","green-square","no","deny"],"char":"❎","fitzpatrick_scale":false,"category":"symbols"},"white_check_mark":{"keywords":["green-square","ok","agree","vote","election","answer","tick"],"char":"✅","fitzpatrick_scale":false,"category":"symbols"},"diamond_shape_with_a_dot_inside":{"keywords":["jewel","blue","gem","crystal","fancy"],"char":"💠","fitzpatrick_scale":false,"category":"symbols"},"cyclone":{"keywords":["weather","swirl","blue","cloud","vortex","spiral","whirlpool","spin","tornado","hurricane","typhoon"],"char":"🌀","fitzpatrick_scale":false,"category":"symbols"},"loop":{"keywords":["tape","cassette"],"char":"➿","fitzpatrick_scale":false,"category":"symbols"},"globe_with_meridians":{"keywords":["earth","international","world","internet","interweb","i18n"],"char":"🌐","fitzpatrick_scale":false,"category":"symbols"},"m":{"keywords":["alphabet","blue-circle","letter"],"char":"Ⓜ️","fitzpatrick_scale":false,"category":"symbols"},"atm":{"keywords":["money","sales","cash","blue-square","payment","bank"],"char":"🏧","fitzpatrick_scale":false,"category":"symbols"},"sa":{"keywords":["japanese","blue-square","katakana"],"char":"🈂️","fitzpatrick_scale":false,"category":"symbols"},"passport_control":{"keywords":["custom","blue-square"],"char":"🛂","fitzpatrick_scale":false,"category":"symbols"},"customs":{"keywords":["passport","border","blue-square"],"char":"🛃","fitzpatrick_scale":false,"category":"symbols"},"baggage_claim":{"keywords":["blue-square","airport","transport"],"char":"🛄","fitzpatrick_scale":false,"category":"symbols"},"left_luggage":{"keywords":["blue-square","travel"],"char":"🛅","fitzpatrick_scale":false,"category":"symbols"},"wheelchair":{"keywords":["blue-square","disabled","a11y","accessibility"],"char":"♿","fitzpatrick_scale":false,"category":"symbols"},"no_smoking":{"keywords":["cigarette","blue-square","smell","smoke"],"char":"🚭","fitzpatrick_scale":false,"category":"symbols"},"wc":{"keywords":["toilet","restroom","blue-square"],"char":"🚾","fitzpatrick_scale":false,"category":"symbols"},"parking":{"keywords":["cars","blue-square","alphabet","letter"],"char":"🅿️","fitzpatrick_scale":false,"category":"symbols"},"potable_water":{"keywords":["blue-square","liquid","restroom","cleaning","faucet"],"char":"🚰","fitzpatrick_scale":false,"category":"symbols"},"mens":{"keywords":["toilet","restroom","wc","blue-square","gender","male"],"char":"🚹","fitzpatrick_scale":false,"category":"symbols"},"womens":{"keywords":["purple-square","woman","female","toilet","loo","restroom","gender"],"char":"🚺","fitzpatrick_scale":false,"category":"symbols"},"baby_symbol":{"keywords":["orange-square","child"],"char":"🚼","fitzpatrick_scale":false,"category":"symbols"},"restroom":{"keywords":["blue-square","toilet","refresh","wc","gender"],"char":"🚻","fitzpatrick_scale":false,"category":"symbols"},"put_litter_in_its_place":{"keywords":["blue-square","sign","human","info"],"char":"🚮","fitzpatrick_scale":false,"category":"symbols"},"cinema":{"keywords":["blue-square","record","film","movie","curtain","stage","theater"],"char":"🎦","fitzpatrick_scale":false,"category":"symbols"},"signal_strength":{"keywords":["blue-square","reception","phone","internet","connection","wifi","bluetooth","bars"],"char":"📶","fitzpatrick_scale":false,"category":"symbols"},"koko":{"keywords":["blue-square","here","katakana","japanese","destination"],"char":"🈁","fitzpatrick_scale":false,"category":"symbols"},"ng":{"keywords":["blue-square","words","shape","icon"],"char":"🆖","fitzpatrick_scale":false,"category":"symbols"},"ok":{"keywords":["good","agree","yes","blue-square"],"char":"🆗","fitzpatrick_scale":false,"category":"symbols"},"up":{"keywords":["blue-square","above","high"],"char":"🆙","fitzpatrick_scale":false,"category":"symbols"},"cool":{"keywords":["words","blue-square"],"char":"🆒","fitzpatrick_scale":false,"category":"symbols"},"new":{"keywords":["blue-square","words","start"],"char":"🆕","fitzpatrick_scale":false,"category":"symbols"},"free":{"keywords":["blue-square","words"],"char":"🆓","fitzpatrick_scale":false,"category":"symbols"},"zero":{"keywords":["0","numbers","blue-square","null"],"char":"0️⃣","fitzpatrick_scale":false,"category":"symbols"},"one":{"keywords":["blue-square","numbers","1"],"char":"1️⃣","fitzpatrick_scale":false,"category":"symbols"},"two":{"keywords":["numbers","2","prime","blue-square"],"char":"2️⃣","fitzpatrick_scale":false,"category":"symbols"},"three":{"keywords":["3","numbers","prime","blue-square"],"char":"3️⃣","fitzpatrick_scale":false,"category":"symbols"},"four":{"keywords":["4","numbers","blue-square"],"char":"4️⃣","fitzpatrick_scale":false,"category":"symbols"},"five":{"keywords":["5","numbers","blue-square","prime"],"char":"5️⃣","fitzpatrick_scale":false,"category":"symbols"},"six":{"keywords":["6","numbers","blue-square"],"char":"6️⃣","fitzpatrick_scale":false,"category":"symbols"},"seven":{"keywords":["7","numbers","blue-square","prime"],"char":"7️⃣","fitzpatrick_scale":false,"category":"symbols"},"eight":{"keywords":["8","blue-square","numbers"],"char":"8️⃣","fitzpatrick_scale":false,"category":"symbols"},"nine":{"keywords":["blue-square","numbers","9"],"char":"9️⃣","fitzpatrick_scale":false,"category":"symbols"},"keycap_ten":{"keywords":["numbers","10","blue-square"],"char":"🔟","fitzpatrick_scale":false,"category":"symbols"},"asterisk":{"keywords":["star","keycap"],"char":"*⃣","fitzpatrick_scale":false,"category":"symbols"},"eject_button":{"keywords":["blue-square"],"char":"⏏️","fitzpatrick_scale":false,"category":"symbols"},"arrow_forward":{"keywords":["blue-square","right","direction","play"],"char":"▶️","fitzpatrick_scale":false,"category":"symbols"},"pause_button":{"keywords":["pause","blue-square"],"char":"⏸","fitzpatrick_scale":false,"category":"symbols"},"next_track_button":{"keywords":["forward","next","blue-square"],"char":"⏭","fitzpatrick_scale":false,"category":"symbols"},"stop_button":{"keywords":["blue-square"],"char":"⏹","fitzpatrick_scale":false,"category":"symbols"},"record_button":{"keywords":["blue-square"],"char":"⏺","fitzpatrick_scale":false,"category":"symbols"},"play_or_pause_button":{"keywords":["blue-square","play","pause"],"char":"⏯","fitzpatrick_scale":false,"category":"symbols"},"previous_track_button":{"keywords":["backward"],"char":"⏮","fitzpatrick_scale":false,"category":"symbols"},"fast_forward":{"keywords":["blue-square","play","speed","continue"],"char":"⏩","fitzpatrick_scale":false,"category":"symbols"},"rewind":{"keywords":["play","blue-square"],"char":"⏪","fitzpatrick_scale":false,"category":"symbols"},"twisted_rightwards_arrows":{"keywords":["blue-square","shuffle","music","random"],"char":"🔀","fitzpatrick_scale":false,"category":"symbols"},"repeat":{"keywords":["loop","record"],"char":"🔁","fitzpatrick_scale":false,"category":"symbols"},"repeat_one":{"keywords":["blue-square","loop"],"char":"🔂","fitzpatrick_scale":false,"category":"symbols"},"arrow_backward":{"keywords":["blue-square","left","direction"],"char":"◀️","fitzpatrick_scale":false,"category":"symbols"},"arrow_up_small":{"keywords":["blue-square","triangle","direction","point","forward","top"],"char":"🔼","fitzpatrick_scale":false,"category":"symbols"},"arrow_down_small":{"keywords":["blue-square","direction","bottom"],"char":"🔽","fitzpatrick_scale":false,"category":"symbols"},"arrow_double_up":{"keywords":["blue-square","direction","top"],"char":"⏫","fitzpatrick_scale":false,"category":"symbols"},"arrow_double_down":{"keywords":["blue-square","direction","bottom"],"char":"⏬","fitzpatrick_scale":false,"category":"symbols"},"arrow_right":{"keywords":["blue-square","next"],"char":"➡️","fitzpatrick_scale":false,"category":"symbols"},"arrow_left":{"keywords":["blue-square","previous","back"],"char":"⬅️","fitzpatrick_scale":false,"category":"symbols"},"arrow_up":{"keywords":["blue-square","continue","top","direction"],"char":"⬆️","fitzpatrick_scale":false,"category":"symbols"},"arrow_down":{"keywords":["blue-square","direction","bottom"],"char":"⬇️","fitzpatrick_scale":false,"category":"symbols"},"arrow_upper_right":{"keywords":["blue-square","point","direction","diagonal","northeast"],"char":"↗️","fitzpatrick_scale":false,"category":"symbols"},"arrow_lower_right":{"keywords":["blue-square","direction","diagonal","southeast"],"char":"↘️","fitzpatrick_scale":false,"category":"symbols"},"arrow_lower_left":{"keywords":["blue-square","direction","diagonal","southwest"],"char":"↙️","fitzpatrick_scale":false,"category":"symbols"},"arrow_upper_left":{"keywords":["blue-square","point","direction","diagonal","northwest"],"char":"↖️","fitzpatrick_scale":false,"category":"symbols"},"arrow_up_down":{"keywords":["blue-square","direction","way","vertical"],"char":"↕️","fitzpatrick_scale":false,"category":"symbols"},"left_right_arrow":{"keywords":["shape","direction","horizontal","sideways"],"char":"↔️","fitzpatrick_scale":false,"category":"symbols"},"arrows_counterclockwise":{"keywords":["blue-square","sync","cycle"],"char":"🔄","fitzpatrick_scale":false,"category":"symbols"},"arrow_right_hook":{"keywords":["blue-square","return","rotate","direction"],"char":"↪️","fitzpatrick_scale":false,"category":"symbols"},"leftwards_arrow_with_hook":{"keywords":["back","return","blue-square","undo","enter"],"char":"↩️","fitzpatrick_scale":false,"category":"symbols"},"arrow_heading_up":{"keywords":["blue-square","direction","top"],"char":"⤴️","fitzpatrick_scale":false,"category":"symbols"},"arrow_heading_down":{"keywords":["blue-square","direction","bottom"],"char":"⤵️","fitzpatrick_scale":false,"category":"symbols"},"hash":{"keywords":["symbol","blue-square","twitter"],"char":"#️⃣","fitzpatrick_scale":false,"category":"symbols"},"information_source":{"keywords":["blue-square","alphabet","letter"],"char":"ℹ️","fitzpatrick_scale":false,"category":"symbols"},"abc":{"keywords":["blue-square","alphabet"],"char":"🔤","fitzpatrick_scale":false,"category":"symbols"},"abcd":{"keywords":["blue-square","alphabet"],"char":"🔡","fitzpatrick_scale":false,"category":"symbols"},"capital_abcd":{"keywords":["alphabet","words","blue-square"],"char":"🔠","fitzpatrick_scale":false,"category":"symbols"},"symbols":{"keywords":["blue-square","music","note","ampersand","percent","glyphs","characters"],"char":"🔣","fitzpatrick_scale":false,"category":"symbols"},"musical_note":{"keywords":["score","tone","sound"],"char":"🎵","fitzpatrick_scale":false,"category":"symbols"},"notes":{"keywords":["music","score"],"char":"🎶","fitzpatrick_scale":false,"category":"symbols"},"wavy_dash":{"keywords":["draw","line","moustache","mustache","squiggle","scribble"],"char":"〰️","fitzpatrick_scale":false,"category":"symbols"},"curly_loop":{"keywords":["scribble","draw","shape","squiggle"],"char":"➰","fitzpatrick_scale":false,"category":"symbols"},"heavy_check_mark":{"keywords":["ok","nike","answer","yes","tick"],"char":"✔️","fitzpatrick_scale":false,"category":"symbols"},"arrows_clockwise":{"keywords":["sync","cycle","round","repeat"],"char":"🔃","fitzpatrick_scale":false,"category":"symbols"},"heavy_plus_sign":{"keywords":["math","calculation","addition","more","increase"],"char":"➕","fitzpatrick_scale":false,"category":"symbols"},"heavy_minus_sign":{"keywords":["math","calculation","subtract","less"],"char":"➖","fitzpatrick_scale":false,"category":"symbols"},"heavy_division_sign":{"keywords":["divide","math","calculation"],"char":"➗","fitzpatrick_scale":false,"category":"symbols"},"heavy_multiplication_x":{"keywords":["math","calculation"],"char":"✖️","fitzpatrick_scale":false,"category":"symbols"},"infinity":{"keywords":["forever"],"char":"♾","fitzpatrick_scale":false,"category":"symbols"},"heavy_dollar_sign":{"keywords":["money","sales","payment","currency","buck"],"char":"💲","fitzpatrick_scale":false,"category":"symbols"},"currency_exchange":{"keywords":["money","sales","dollar","travel"],"char":"💱","fitzpatrick_scale":false,"category":"symbols"},"copyright":{"keywords":["ip","license","circle","law","legal"],"char":"©️","fitzpatrick_scale":false,"category":"symbols"},"registered":{"keywords":["alphabet","circle"],"char":"®️","fitzpatrick_scale":false,"category":"symbols"},"tm":{"keywords":["trademark","brand","law","legal"],"char":"™️","fitzpatrick_scale":false,"category":"symbols"},"end":{"keywords":["words","arrow"],"char":"🔚","fitzpatrick_scale":false,"category":"symbols"},"back":{"keywords":["arrow","words","return"],"char":"🔙","fitzpatrick_scale":false,"category":"symbols"},"on":{"keywords":["arrow","words"],"char":"🔛","fitzpatrick_scale":false,"category":"symbols"},"top":{"keywords":["words","blue-square"],"char":"🔝","fitzpatrick_scale":false,"category":"symbols"},"soon":{"keywords":["arrow","words"],"char":"🔜","fitzpatrick_scale":false,"category":"symbols"},"ballot_box_with_check":{"keywords":["ok","agree","confirm","black-square","vote","election","yes","tick"],"char":"☑️","fitzpatrick_scale":false,"category":"symbols"},"radio_button":{"keywords":["input","old","music","circle"],"char":"🔘","fitzpatrick_scale":false,"category":"symbols"},"white_circle":{"keywords":["shape","round"],"char":"⚪","fitzpatrick_scale":false,"category":"symbols"},"black_circle":{"keywords":["shape","button","round"],"char":"⚫","fitzpatrick_scale":false,"category":"symbols"},"red_circle":{"keywords":["shape","error","danger"],"char":"🔴","fitzpatrick_scale":false,"category":"symbols"},"large_blue_circle":{"keywords":["shape","icon","button"],"char":"🔵","fitzpatrick_scale":false,"category":"symbols"},"small_orange_diamond":{"keywords":["shape","jewel","gem"],"char":"🔸","fitzpatrick_scale":false,"category":"symbols"},"small_blue_diamond":{"keywords":["shape","jewel","gem"],"char":"🔹","fitzpatrick_scale":false,"category":"symbols"},"large_orange_diamond":{"keywords":["shape","jewel","gem"],"char":"🔶","fitzpatrick_scale":false,"category":"symbols"},"large_blue_diamond":{"keywords":["shape","jewel","gem"],"char":"🔷","fitzpatrick_scale":false,"category":"symbols"},"small_red_triangle":{"keywords":["shape","direction","up","top"],"char":"🔺","fitzpatrick_scale":false,"category":"symbols"},"black_small_square":{"keywords":["shape","icon"],"char":"▪️","fitzpatrick_scale":false,"category":"symbols"},"white_small_square":{"keywords":["shape","icon"],"char":"▫️","fitzpatrick_scale":false,"category":"symbols"},"black_large_square":{"keywords":["shape","icon","button"],"char":"⬛","fitzpatrick_scale":false,"category":"symbols"},"white_large_square":{"keywords":["shape","icon","stone","button"],"char":"⬜","fitzpatrick_scale":false,"category":"symbols"},"small_red_triangle_down":{"keywords":["shape","direction","bottom"],"char":"🔻","fitzpatrick_scale":false,"category":"symbols"},"black_medium_square":{"keywords":["shape","button","icon"],"char":"◼️","fitzpatrick_scale":false,"category":"symbols"},"white_medium_square":{"keywords":["shape","stone","icon"],"char":"◻️","fitzpatrick_scale":false,"category":"symbols"},"black_medium_small_square":{"keywords":["icon","shape","button"],"char":"◾","fitzpatrick_scale":false,"category":"symbols"},"white_medium_small_square":{"keywords":["shape","stone","icon","button"],"char":"◽","fitzpatrick_scale":false,"category":"symbols"},"black_square_button":{"keywords":["shape","input","frame"],"char":"🔲","fitzpatrick_scale":false,"category":"symbols"},"white_square_button":{"keywords":["shape","input"],"char":"🔳","fitzpatrick_scale":false,"category":"symbols"},"speaker":{"keywords":["sound","volume","silence","broadcast"],"char":"🔈","fitzpatrick_scale":false,"category":"symbols"},"sound":{"keywords":["volume","speaker","broadcast"],"char":"🔉","fitzpatrick_scale":false,"category":"symbols"},"loud_sound":{"keywords":["volume","noise","noisy","speaker","broadcast"],"char":"🔊","fitzpatrick_scale":false,"category":"symbols"},"mute":{"keywords":["sound","volume","silence","quiet"],"char":"🔇","fitzpatrick_scale":false,"category":"symbols"},"mega":{"keywords":["sound","speaker","volume"],"char":"📣","fitzpatrick_scale":false,"category":"symbols"},"loudspeaker":{"keywords":["volume","sound"],"char":"📢","fitzpatrick_scale":false,"category":"symbols"},"bell":{"keywords":["sound","notification","christmas","xmas","chime"],"char":"🔔","fitzpatrick_scale":false,"category":"symbols"},"no_bell":{"keywords":["sound","volume","mute","quiet","silent"],"char":"🔕","fitzpatrick_scale":false,"category":"symbols"},"black_joker":{"keywords":["poker","cards","game","play","magic"],"char":"🃏","fitzpatrick_scale":false,"category":"symbols"},"mahjong":{"keywords":["game","play","chinese","kanji"],"char":"🀄","fitzpatrick_scale":false,"category":"symbols"},"spades":{"keywords":["poker","cards","suits","magic"],"char":"♠️","fitzpatrick_scale":false,"category":"symbols"},"clubs":{"keywords":["poker","cards","magic","suits"],"char":"♣️","fitzpatrick_scale":false,"category":"symbols"},"hearts":{"keywords":["poker","cards","magic","suits"],"char":"♥️","fitzpatrick_scale":false,"category":"symbols"},"diamonds":{"keywords":["poker","cards","magic","suits"],"char":"♦️","fitzpatrick_scale":false,"category":"symbols"},"flower_playing_cards":{"keywords":["game","sunset","red"],"char":"🎴","fitzpatrick_scale":false,"category":"symbols"},"thought_balloon":{"keywords":["bubble","cloud","speech","thinking","dream"],"char":"💭","fitzpatrick_scale":false,"category":"symbols"},"right_anger_bubble":{"keywords":["caption","speech","thinking","mad"],"char":"🗯","fitzpatrick_scale":false,"category":"symbols"},"speech_balloon":{"keywords":["bubble","words","message","talk","chatting"],"char":"💬","fitzpatrick_scale":false,"category":"symbols"},"left_speech_bubble":{"keywords":["words","message","talk","chatting"],"char":"🗨","fitzpatrick_scale":false,"category":"symbols"},"clock1":{"keywords":["time","late","early","schedule"],"char":"🕐","fitzpatrick_scale":false,"category":"symbols"},"clock2":{"keywords":["time","late","early","schedule"],"char":"🕑","fitzpatrick_scale":false,"category":"symbols"},"clock3":{"keywords":["time","late","early","schedule"],"char":"🕒","fitzpatrick_scale":false,"category":"symbols"},"clock4":{"keywords":["time","late","early","schedule"],"char":"🕓","fitzpatrick_scale":false,"category":"symbols"},"clock5":{"keywords":["time","late","early","schedule"],"char":"🕔","fitzpatrick_scale":false,"category":"symbols"},"clock6":{"keywords":["time","late","early","schedule","dawn","dusk"],"char":"🕕","fitzpatrick_scale":false,"category":"symbols"},"clock7":{"keywords":["time","late","early","schedule"],"char":"🕖","fitzpatrick_scale":false,"category":"symbols"},"clock8":{"keywords":["time","late","early","schedule"],"char":"🕗","fitzpatrick_scale":false,"category":"symbols"},"clock9":{"keywords":["time","late","early","schedule"],"char":"🕘","fitzpatrick_scale":false,"category":"symbols"},"clock10":{"keywords":["time","late","early","schedule"],"char":"🕙","fitzpatrick_scale":false,"category":"symbols"},"clock11":{"keywords":["time","late","early","schedule"],"char":"🕚","fitzpatrick_scale":false,"category":"symbols"},"clock12":{"keywords":["time","noon","midnight","midday","late","early","schedule"],"char":"🕛","fitzpatrick_scale":false,"category":"symbols"},"clock130":{"keywords":["time","late","early","schedule"],"char":"🕜","fitzpatrick_scale":false,"category":"symbols"},"clock230":{"keywords":["time","late","early","schedule"],"char":"🕝","fitzpatrick_scale":false,"category":"symbols"},"clock330":{"keywords":["time","late","early","schedule"],"char":"🕞","fitzpatrick_scale":false,"category":"symbols"},"clock430":{"keywords":["time","late","early","schedule"],"char":"🕟","fitzpatrick_scale":false,"category":"symbols"},"clock530":{"keywords":["time","late","early","schedule"],"char":"🕠","fitzpatrick_scale":false,"category":"symbols"},"clock630":{"keywords":["time","late","early","schedule"],"char":"🕡","fitzpatrick_scale":false,"category":"symbols"},"clock730":{"keywords":["time","late","early","schedule"],"char":"🕢","fitzpatrick_scale":false,"category":"symbols"},"clock830":{"keywords":["time","late","early","schedule"],"char":"🕣","fitzpatrick_scale":false,"category":"symbols"},"clock930":{"keywords":["time","late","early","schedule"],"char":"🕤","fitzpatrick_scale":false,"category":"symbols"},"clock1030":{"keywords":["time","late","early","schedule"],"char":"🕥","fitzpatrick_scale":false,"category":"symbols"},"clock1130":{"keywords":["time","late","early","schedule"],"char":"🕦","fitzpatrick_scale":false,"category":"symbols"},"clock1230":{"keywords":["time","late","early","schedule"],"char":"🕧","fitzpatrick_scale":false,"category":"symbols"},"afghanistan":{"keywords":["af","flag","nation","country","banner"],"char":"🇦🇫","fitzpatrick_scale":false,"category":"flags"},"aland_islands":{"keywords":["Åland","islands","flag","nation","country","banner"],"char":"🇦🇽","fitzpatrick_scale":false,"category":"flags"},"albania":{"keywords":["al","flag","nation","country","banner"],"char":"🇦🇱","fitzpatrick_scale":false,"category":"flags"},"algeria":{"keywords":["dz","flag","nation","country","banner"],"char":"🇩🇿","fitzpatrick_scale":false,"category":"flags"},"american_samoa":{"keywords":["american","ws","flag","nation","country","banner"],"char":"🇦🇸","fitzpatrick_scale":false,"category":"flags"},"andorra":{"keywords":["ad","flag","nation","country","banner"],"char":"🇦🇩","fitzpatrick_scale":false,"category":"flags"},"angola":{"keywords":["ao","flag","nation","country","banner"],"char":"🇦🇴","fitzpatrick_scale":false,"category":"flags"},"anguilla":{"keywords":["ai","flag","nation","country","banner"],"char":"🇦🇮","fitzpatrick_scale":false,"category":"flags"},"antarctica":{"keywords":["aq","flag","nation","country","banner"],"char":"🇦🇶","fitzpatrick_scale":false,"category":"flags"},"antigua_barbuda":{"keywords":["antigua","barbuda","flag","nation","country","banner"],"char":"🇦🇬","fitzpatrick_scale":false,"category":"flags"},"argentina":{"keywords":["ar","flag","nation","country","banner"],"char":"🇦🇷","fitzpatrick_scale":false,"category":"flags"},"armenia":{"keywords":["am","flag","nation","country","banner"],"char":"🇦🇲","fitzpatrick_scale":false,"category":"flags"},"aruba":{"keywords":["aw","flag","nation","country","banner"],"char":"🇦🇼","fitzpatrick_scale":false,"category":"flags"},"australia":{"keywords":["au","flag","nation","country","banner"],"char":"🇦🇺","fitzpatrick_scale":false,"category":"flags"},"austria":{"keywords":["at","flag","nation","country","banner"],"char":"🇦🇹","fitzpatrick_scale":false,"category":"flags"},"azerbaijan":{"keywords":["az","flag","nation","country","banner"],"char":"🇦🇿","fitzpatrick_scale":false,"category":"flags"},"bahamas":{"keywords":["bs","flag","nation","country","banner"],"char":"🇧🇸","fitzpatrick_scale":false,"category":"flags"},"bahrain":{"keywords":["bh","flag","nation","country","banner"],"char":"🇧🇭","fitzpatrick_scale":false,"category":"flags"},"bangladesh":{"keywords":["bd","flag","nation","country","banner"],"char":"🇧🇩","fitzpatrick_scale":false,"category":"flags"},"barbados":{"keywords":["bb","flag","nation","country","banner"],"char":"🇧🇧","fitzpatrick_scale":false,"category":"flags"},"belarus":{"keywords":["by","flag","nation","country","banner"],"char":"🇧🇾","fitzpatrick_scale":false,"category":"flags"},"belgium":{"keywords":["be","flag","nation","country","banner"],"char":"🇧🇪","fitzpatrick_scale":false,"category":"flags"},"belize":{"keywords":["bz","flag","nation","country","banner"],"char":"🇧🇿","fitzpatrick_scale":false,"category":"flags"},"benin":{"keywords":["bj","flag","nation","country","banner"],"char":"🇧🇯","fitzpatrick_scale":false,"category":"flags"},"bermuda":{"keywords":["bm","flag","nation","country","banner"],"char":"🇧🇲","fitzpatrick_scale":false,"category":"flags"},"bhutan":{"keywords":["bt","flag","nation","country","banner"],"char":"🇧🇹","fitzpatrick_scale":false,"category":"flags"},"bolivia":{"keywords":["bo","flag","nation","country","banner"],"char":"🇧🇴","fitzpatrick_scale":false,"category":"flags"},"caribbean_netherlands":{"keywords":["bonaire","flag","nation","country","banner"],"char":"🇧🇶","fitzpatrick_scale":false,"category":"flags"},"bosnia_herzegovina":{"keywords":["bosnia","herzegovina","flag","nation","country","banner"],"char":"🇧🇦","fitzpatrick_scale":false,"category":"flags"},"botswana":{"keywords":["bw","flag","nation","country","banner"],"char":"🇧🇼","fitzpatrick_scale":false,"category":"flags"},"brazil":{"keywords":["br","flag","nation","country","banner"],"char":"🇧🇷","fitzpatrick_scale":false,"category":"flags"},"british_indian_ocean_territory":{"keywords":["british","indian","ocean","territory","flag","nation","country","banner"],"char":"🇮🇴","fitzpatrick_scale":false,"category":"flags"},"british_virgin_islands":{"keywords":["british","virgin","islands","bvi","flag","nation","country","banner"],"char":"🇻🇬","fitzpatrick_scale":false,"category":"flags"},"brunei":{"keywords":["bn","darussalam","flag","nation","country","banner"],"char":"🇧🇳","fitzpatrick_scale":false,"category":"flags"},"bulgaria":{"keywords":["bg","flag","nation","country","banner"],"char":"🇧🇬","fitzpatrick_scale":false,"category":"flags"},"burkina_faso":{"keywords":["burkina","faso","flag","nation","country","banner"],"char":"🇧🇫","fitzpatrick_scale":false,"category":"flags"},"burundi":{"keywords":["bi","flag","nation","country","banner"],"char":"🇧🇮","fitzpatrick_scale":false,"category":"flags"},"cape_verde":{"keywords":["cabo","verde","flag","nation","country","banner"],"char":"🇨🇻","fitzpatrick_scale":false,"category":"flags"},"cambodia":{"keywords":["kh","flag","nation","country","banner"],"char":"🇰🇭","fitzpatrick_scale":false,"category":"flags"},"cameroon":{"keywords":["cm","flag","nation","country","banner"],"char":"🇨🇲","fitzpatrick_scale":false,"category":"flags"},"canada":{"keywords":["ca","flag","nation","country","banner"],"char":"🇨🇦","fitzpatrick_scale":false,"category":"flags"},"canary_islands":{"keywords":["canary","islands","flag","nation","country","banner"],"char":"🇮🇨","fitzpatrick_scale":false,"category":"flags"},"cayman_islands":{"keywords":["cayman","islands","flag","nation","country","banner"],"char":"🇰🇾","fitzpatrick_scale":false,"category":"flags"},"central_african_republic":{"keywords":["central","african","republic","flag","nation","country","banner"],"char":"🇨🇫","fitzpatrick_scale":false,"category":"flags"},"chad":{"keywords":["td","flag","nation","country","banner"],"char":"🇹🇩","fitzpatrick_scale":false,"category":"flags"},"chile":{"keywords":["flag","nation","country","banner"],"char":"🇨🇱","fitzpatrick_scale":false,"category":"flags"},"cn":{"keywords":["china","chinese","prc","flag","country","nation","banner"],"char":"🇨🇳","fitzpatrick_scale":false,"category":"flags"},"christmas_island":{"keywords":["christmas","island","flag","nation","country","banner"],"char":"🇨🇽","fitzpatrick_scale":false,"category":"flags"},"cocos_islands":{"keywords":["cocos","keeling","islands","flag","nation","country","banner"],"char":"🇨🇨","fitzpatrick_scale":false,"category":"flags"},"colombia":{"keywords":["co","flag","nation","country","banner"],"char":"🇨🇴","fitzpatrick_scale":false,"category":"flags"},"comoros":{"keywords":["km","flag","nation","country","banner"],"char":"🇰🇲","fitzpatrick_scale":false,"category":"flags"},"congo_brazzaville":{"keywords":["congo","flag","nation","country","banner"],"char":"🇨🇬","fitzpatrick_scale":false,"category":"flags"},"congo_kinshasa":{"keywords":["congo","democratic","republic","flag","nation","country","banner"],"char":"🇨🇩","fitzpatrick_scale":false,"category":"flags"},"cook_islands":{"keywords":["cook","islands","flag","nation","country","banner"],"char":"🇨🇰","fitzpatrick_scale":false,"category":"flags"},"costa_rica":{"keywords":["costa","rica","flag","nation","country","banner"],"char":"🇨🇷","fitzpatrick_scale":false,"category":"flags"},"croatia":{"keywords":["hr","flag","nation","country","banner"],"char":"🇭🇷","fitzpatrick_scale":false,"category":"flags"},"cuba":{"keywords":["cu","flag","nation","country","banner"],"char":"🇨🇺","fitzpatrick_scale":false,"category":"flags"},"curacao":{"keywords":["curaçao","flag","nation","country","banner"],"char":"🇨🇼","fitzpatrick_scale":false,"category":"flags"},"cyprus":{"keywords":["cy","flag","nation","country","banner"],"char":"🇨🇾","fitzpatrick_scale":false,"category":"flags"},"czech_republic":{"keywords":["cz","flag","nation","country","banner"],"char":"🇨🇿","fitzpatrick_scale":false,"category":"flags"},"denmark":{"keywords":["dk","flag","nation","country","banner"],"char":"🇩🇰","fitzpatrick_scale":false,"category":"flags"},"djibouti":{"keywords":["dj","flag","nation","country","banner"],"char":"🇩🇯","fitzpatrick_scale":false,"category":"flags"},"dominica":{"keywords":["dm","flag","nation","country","banner"],"char":"🇩🇲","fitzpatrick_scale":false,"category":"flags"},"dominican_republic":{"keywords":["dominican","republic","flag","nation","country","banner"],"char":"🇩🇴","fitzpatrick_scale":false,"category":"flags"},"ecuador":{"keywords":["ec","flag","nation","country","banner"],"char":"🇪🇨","fitzpatrick_scale":false,"category":"flags"},"egypt":{"keywords":["eg","flag","nation","country","banner"],"char":"🇪🇬","fitzpatrick_scale":false,"category":"flags"},"el_salvador":{"keywords":["el","salvador","flag","nation","country","banner"],"char":"🇸🇻","fitzpatrick_scale":false,"category":"flags"},"equatorial_guinea":{"keywords":["equatorial","gn","flag","nation","country","banner"],"char":"🇬🇶","fitzpatrick_scale":false,"category":"flags"},"eritrea":{"keywords":["er","flag","nation","country","banner"],"char":"🇪🇷","fitzpatrick_scale":false,"category":"flags"},"estonia":{"keywords":["ee","flag","nation","country","banner"],"char":"🇪🇪","fitzpatrick_scale":false,"category":"flags"},"ethiopia":{"keywords":["et","flag","nation","country","banner"],"char":"🇪🇹","fitzpatrick_scale":false,"category":"flags"},"eu":{"keywords":["european","union","flag","banner"],"char":"🇪🇺","fitzpatrick_scale":false,"category":"flags"},"falkland_islands":{"keywords":["falkland","islands","malvinas","flag","nation","country","banner"],"char":"🇫🇰","fitzpatrick_scale":false,"category":"flags"},"faroe_islands":{"keywords":["faroe","islands","flag","nation","country","banner"],"char":"🇫🇴","fitzpatrick_scale":false,"category":"flags"},"fiji":{"keywords":["fj","flag","nation","country","banner"],"char":"🇫🇯","fitzpatrick_scale":false,"category":"flags"},"finland":{"keywords":["fi","flag","nation","country","banner"],"char":"🇫🇮","fitzpatrick_scale":false,"category":"flags"},"fr":{"keywords":["banner","flag","nation","france","french","country"],"char":"🇫🇷","fitzpatrick_scale":false,"category":"flags"},"french_guiana":{"keywords":["french","guiana","flag","nation","country","banner"],"char":"🇬🇫","fitzpatrick_scale":false,"category":"flags"},"french_polynesia":{"keywords":["french","polynesia","flag","nation","country","banner"],"char":"🇵🇫","fitzpatrick_scale":false,"category":"flags"},"french_southern_territories":{"keywords":["french","southern","territories","flag","nation","country","banner"],"char":"🇹🇫","fitzpatrick_scale":false,"category":"flags"},"gabon":{"keywords":["ga","flag","nation","country","banner"],"char":"🇬🇦","fitzpatrick_scale":false,"category":"flags"},"gambia":{"keywords":["gm","flag","nation","country","banner"],"char":"🇬🇲","fitzpatrick_scale":false,"category":"flags"},"georgia":{"keywords":["ge","flag","nation","country","banner"],"char":"🇬🇪","fitzpatrick_scale":false,"category":"flags"},"de":{"keywords":["german","nation","flag","country","banner"],"char":"🇩🇪","fitzpatrick_scale":false,"category":"flags"},"ghana":{"keywords":["gh","flag","nation","country","banner"],"char":"🇬🇭","fitzpatrick_scale":false,"category":"flags"},"gibraltar":{"keywords":["gi","flag","nation","country","banner"],"char":"🇬🇮","fitzpatrick_scale":false,"category":"flags"},"greece":{"keywords":["gr","flag","nation","country","banner"],"char":"🇬🇷","fitzpatrick_scale":false,"category":"flags"},"greenland":{"keywords":["gl","flag","nation","country","banner"],"char":"🇬🇱","fitzpatrick_scale":false,"category":"flags"},"grenada":{"keywords":["gd","flag","nation","country","banner"],"char":"🇬🇩","fitzpatrick_scale":false,"category":"flags"},"guadeloupe":{"keywords":["gp","flag","nation","country","banner"],"char":"🇬🇵","fitzpatrick_scale":false,"category":"flags"},"guam":{"keywords":["gu","flag","nation","country","banner"],"char":"🇬🇺","fitzpatrick_scale":false,"category":"flags"},"guatemala":{"keywords":["gt","flag","nation","country","banner"],"char":"🇬🇹","fitzpatrick_scale":false,"category":"flags"},"guernsey":{"keywords":["gg","flag","nation","country","banner"],"char":"🇬🇬","fitzpatrick_scale":false,"category":"flags"},"guinea":{"keywords":["gn","flag","nation","country","banner"],"char":"🇬🇳","fitzpatrick_scale":false,"category":"flags"},"guinea_bissau":{"keywords":["gw","bissau","flag","nation","country","banner"],"char":"🇬🇼","fitzpatrick_scale":false,"category":"flags"},"guyana":{"keywords":["gy","flag","nation","country","banner"],"char":"🇬🇾","fitzpatrick_scale":false,"category":"flags"},"haiti":{"keywords":["ht","flag","nation","country","banner"],"char":"🇭🇹","fitzpatrick_scale":false,"category":"flags"},"honduras":{"keywords":["hn","flag","nation","country","banner"],"char":"🇭🇳","fitzpatrick_scale":false,"category":"flags"},"hong_kong":{"keywords":["hong","kong","flag","nation","country","banner"],"char":"🇭🇰","fitzpatrick_scale":false,"category":"flags"},"hungary":{"keywords":["hu","flag","nation","country","banner"],"char":"🇭🇺","fitzpatrick_scale":false,"category":"flags"},"iceland":{"keywords":["is","flag","nation","country","banner"],"char":"🇮🇸","fitzpatrick_scale":false,"category":"flags"},"india":{"keywords":["in","flag","nation","country","banner"],"char":"🇮🇳","fitzpatrick_scale":false,"category":"flags"},"indonesia":{"keywords":["flag","nation","country","banner"],"char":"🇮🇩","fitzpatrick_scale":false,"category":"flags"},"iran":{"keywords":["iran,","islamic","republic","flag","nation","country","banner"],"char":"🇮🇷","fitzpatrick_scale":false,"category":"flags"},"iraq":{"keywords":["iq","flag","nation","country","banner"],"char":"🇮🇶","fitzpatrick_scale":false,"category":"flags"},"ireland":{"keywords":["ie","flag","nation","country","banner"],"char":"🇮🇪","fitzpatrick_scale":false,"category":"flags"},"isle_of_man":{"keywords":["isle","man","flag","nation","country","banner"],"char":"🇮🇲","fitzpatrick_scale":false,"category":"flags"},"israel":{"keywords":["il","flag","nation","country","banner"],"char":"🇮🇱","fitzpatrick_scale":false,"category":"flags"},"it":{"keywords":["italy","flag","nation","country","banner"],"char":"🇮🇹","fitzpatrick_scale":false,"category":"flags"},"cote_divoire":{"keywords":["ivory","coast","flag","nation","country","banner"],"char":"🇨🇮","fitzpatrick_scale":false,"category":"flags"},"jamaica":{"keywords":["jm","flag","nation","country","banner"],"char":"🇯🇲","fitzpatrick_scale":false,"category":"flags"},"jp":{"keywords":["japanese","nation","flag","country","banner"],"char":"🇯🇵","fitzpatrick_scale":false,"category":"flags"},"jersey":{"keywords":["je","flag","nation","country","banner"],"char":"🇯🇪","fitzpatrick_scale":false,"category":"flags"},"jordan":{"keywords":["jo","flag","nation","country","banner"],"char":"🇯🇴","fitzpatrick_scale":false,"category":"flags"},"kazakhstan":{"keywords":["kz","flag","nation","country","banner"],"char":"🇰🇿","fitzpatrick_scale":false,"category":"flags"},"kenya":{"keywords":["ke","flag","nation","country","banner"],"char":"🇰🇪","fitzpatrick_scale":false,"category":"flags"},"kiribati":{"keywords":["ki","flag","nation","country","banner"],"char":"🇰🇮","fitzpatrick_scale":false,"category":"flags"},"kosovo":{"keywords":["xk","flag","nation","country","banner"],"char":"🇽🇰","fitzpatrick_scale":false,"category":"flags"},"kuwait":{"keywords":["kw","flag","nation","country","banner"],"char":"🇰🇼","fitzpatrick_scale":false,"category":"flags"},"kyrgyzstan":{"keywords":["kg","flag","nation","country","banner"],"char":"🇰🇬","fitzpatrick_scale":false,"category":"flags"},"laos":{"keywords":["lao","democratic","republic","flag","nation","country","banner"],"char":"🇱🇦","fitzpatrick_scale":false,"category":"flags"},"latvia":{"keywords":["lv","flag","nation","country","banner"],"char":"🇱🇻","fitzpatrick_scale":false,"category":"flags"},"lebanon":{"keywords":["lb","flag","nation","country","banner"],"char":"🇱🇧","fitzpatrick_scale":false,"category":"flags"},"lesotho":{"keywords":["ls","flag","nation","country","banner"],"char":"🇱🇸","fitzpatrick_scale":false,"category":"flags"},"liberia":{"keywords":["lr","flag","nation","country","banner"],"char":"🇱🇷","fitzpatrick_scale":false,"category":"flags"},"libya":{"keywords":["ly","flag","nation","country","banner"],"char":"🇱🇾","fitzpatrick_scale":false,"category":"flags"},"liechtenstein":{"keywords":["li","flag","nation","country","banner"],"char":"🇱🇮","fitzpatrick_scale":false,"category":"flags"},"lithuania":{"keywords":["lt","flag","nation","country","banner"],"char":"🇱🇹","fitzpatrick_scale":false,"category":"flags"},"luxembourg":{"keywords":["lu","flag","nation","country","banner"],"char":"🇱🇺","fitzpatrick_scale":false,"category":"flags"},"macau":{"keywords":["macao","flag","nation","country","banner"],"char":"🇲🇴","fitzpatrick_scale":false,"category":"flags"},"macedonia":{"keywords":["macedonia,","flag","nation","country","banner"],"char":"🇲🇰","fitzpatrick_scale":false,"category":"flags"},"madagascar":{"keywords":["mg","flag","nation","country","banner"],"char":"🇲🇬","fitzpatrick_scale":false,"category":"flags"},"malawi":{"keywords":["mw","flag","nation","country","banner"],"char":"🇲🇼","fitzpatrick_scale":false,"category":"flags"},"malaysia":{"keywords":["my","flag","nation","country","banner"],"char":"🇲🇾","fitzpatrick_scale":false,"category":"flags"},"maldives":{"keywords":["mv","flag","nation","country","banner"],"char":"🇲🇻","fitzpatrick_scale":false,"category":"flags"},"mali":{"keywords":["ml","flag","nation","country","banner"],"char":"🇲🇱","fitzpatrick_scale":false,"category":"flags"},"malta":{"keywords":["mt","flag","nation","country","banner"],"char":"🇲🇹","fitzpatrick_scale":false,"category":"flags"},"marshall_islands":{"keywords":["marshall","islands","flag","nation","country","banner"],"char":"🇲🇭","fitzpatrick_scale":false,"category":"flags"},"martinique":{"keywords":["mq","flag","nation","country","banner"],"char":"🇲🇶","fitzpatrick_scale":false,"category":"flags"},"mauritania":{"keywords":["mr","flag","nation","country","banner"],"char":"🇲🇷","fitzpatrick_scale":false,"category":"flags"},"mauritius":{"keywords":["mu","flag","nation","country","banner"],"char":"🇲🇺","fitzpatrick_scale":false,"category":"flags"},"mayotte":{"keywords":["yt","flag","nation","country","banner"],"char":"🇾🇹","fitzpatrick_scale":false,"category":"flags"},"mexico":{"keywords":["mx","flag","nation","country","banner"],"char":"🇲🇽","fitzpatrick_scale":false,"category":"flags"},"micronesia":{"keywords":["micronesia,","federated","states","flag","nation","country","banner"],"char":"🇫🇲","fitzpatrick_scale":false,"category":"flags"},"moldova":{"keywords":["moldova,","republic","flag","nation","country","banner"],"char":"🇲🇩","fitzpatrick_scale":false,"category":"flags"},"monaco":{"keywords":["mc","flag","nation","country","banner"],"char":"🇲🇨","fitzpatrick_scale":false,"category":"flags"},"mongolia":{"keywords":["mn","flag","nation","country","banner"],"char":"🇲🇳","fitzpatrick_scale":false,"category":"flags"},"montenegro":{"keywords":["me","flag","nation","country","banner"],"char":"🇲🇪","fitzpatrick_scale":false,"category":"flags"},"montserrat":{"keywords":["ms","flag","nation","country","banner"],"char":"🇲🇸","fitzpatrick_scale":false,"category":"flags"},"morocco":{"keywords":["ma","flag","nation","country","banner"],"char":"🇲🇦","fitzpatrick_scale":false,"category":"flags"},"mozambique":{"keywords":["mz","flag","nation","country","banner"],"char":"🇲🇿","fitzpatrick_scale":false,"category":"flags"},"myanmar":{"keywords":["mm","flag","nation","country","banner"],"char":"🇲🇲","fitzpatrick_scale":false,"category":"flags"},"namibia":{"keywords":["na","flag","nation","country","banner"],"char":"🇳🇦","fitzpatrick_scale":false,"category":"flags"},"nauru":{"keywords":["nr","flag","nation","country","banner"],"char":"🇳🇷","fitzpatrick_scale":false,"category":"flags"},"nepal":{"keywords":["np","flag","nation","country","banner"],"char":"🇳🇵","fitzpatrick_scale":false,"category":"flags"},"netherlands":{"keywords":["nl","flag","nation","country","banner"],"char":"🇳🇱","fitzpatrick_scale":false,"category":"flags"},"new_caledonia":{"keywords":["new","caledonia","flag","nation","country","banner"],"char":"🇳🇨","fitzpatrick_scale":false,"category":"flags"},"new_zealand":{"keywords":["new","zealand","flag","nation","country","banner"],"char":"🇳🇿","fitzpatrick_scale":false,"category":"flags"},"nicaragua":{"keywords":["ni","flag","nation","country","banner"],"char":"🇳🇮","fitzpatrick_scale":false,"category":"flags"},"niger":{"keywords":["ne","flag","nation","country","banner"],"char":"🇳🇪","fitzpatrick_scale":false,"category":"flags"},"nigeria":{"keywords":["flag","nation","country","banner"],"char":"🇳🇬","fitzpatrick_scale":false,"category":"flags"},"niue":{"keywords":["nu","flag","nation","country","banner"],"char":"🇳🇺","fitzpatrick_scale":false,"category":"flags"},"norfolk_island":{"keywords":["norfolk","island","flag","nation","country","banner"],"char":"🇳🇫","fitzpatrick_scale":false,"category":"flags"},"northern_mariana_islands":{"keywords":["northern","mariana","islands","flag","nation","country","banner"],"char":"🇲🇵","fitzpatrick_scale":false,"category":"flags"},"north_korea":{"keywords":["north","korea","nation","flag","country","banner"],"char":"🇰🇵","fitzpatrick_scale":false,"category":"flags"},"norway":{"keywords":["no","flag","nation","country","banner"],"char":"🇳🇴","fitzpatrick_scale":false,"category":"flags"},"oman":{"keywords":["om_symbol","flag","nation","country","banner"],"char":"🇴🇲","fitzpatrick_scale":false,"category":"flags"},"pakistan":{"keywords":["pk","flag","nation","country","banner"],"char":"🇵🇰","fitzpatrick_scale":false,"category":"flags"},"palau":{"keywords":["pw","flag","nation","country","banner"],"char":"🇵🇼","fitzpatrick_scale":false,"category":"flags"},"palestinian_territories":{"keywords":["palestine","palestinian","territories","flag","nation","country","banner"],"char":"🇵🇸","fitzpatrick_scale":false,"category":"flags"},"panama":{"keywords":["pa","flag","nation","country","banner"],"char":"🇵🇦","fitzpatrick_scale":false,"category":"flags"},"papua_new_guinea":{"keywords":["papua","new","guinea","flag","nation","country","banner"],"char":"🇵🇬","fitzpatrick_scale":false,"category":"flags"},"paraguay":{"keywords":["py","flag","nation","country","banner"],"char":"🇵🇾","fitzpatrick_scale":false,"category":"flags"},"peru":{"keywords":["pe","flag","nation","country","banner"],"char":"🇵🇪","fitzpatrick_scale":false,"category":"flags"},"philippines":{"keywords":["ph","flag","nation","country","banner"],"char":"🇵🇭","fitzpatrick_scale":false,"category":"flags"},"pitcairn_islands":{"keywords":["pitcairn","flag","nation","country","banner"],"char":"🇵🇳","fitzpatrick_scale":false,"category":"flags"},"poland":{"keywords":["pl","flag","nation","country","banner"],"char":"🇵🇱","fitzpatrick_scale":false,"category":"flags"},"portugal":{"keywords":["pt","flag","nation","country","banner"],"char":"🇵🇹","fitzpatrick_scale":false,"category":"flags"},"puerto_rico":{"keywords":["puerto","rico","flag","nation","country","banner"],"char":"🇵🇷","fitzpatrick_scale":false,"category":"flags"},"qatar":{"keywords":["qa","flag","nation","country","banner"],"char":"🇶🇦","fitzpatrick_scale":false,"category":"flags"},"reunion":{"keywords":["réunion","flag","nation","country","banner"],"char":"🇷🇪","fitzpatrick_scale":false,"category":"flags"},"romania":{"keywords":["ro","flag","nation","country","banner"],"char":"🇷🇴","fitzpatrick_scale":false,"category":"flags"},"ru":{"keywords":["russian","federation","flag","nation","country","banner"],"char":"🇷🇺","fitzpatrick_scale":false,"category":"flags"},"rwanda":{"keywords":["rw","flag","nation","country","banner"],"char":"🇷🇼","fitzpatrick_scale":false,"category":"flags"},"st_barthelemy":{"keywords":["saint","barthélemy","flag","nation","country","banner"],"char":"🇧🇱","fitzpatrick_scale":false,"category":"flags"},"st_helena":{"keywords":["saint","helena","ascension","tristan","cunha","flag","nation","country","banner"],"char":"🇸🇭","fitzpatrick_scale":false,"category":"flags"},"st_kitts_nevis":{"keywords":["saint","kitts","nevis","flag","nation","country","banner"],"char":"🇰🇳","fitzpatrick_scale":false,"category":"flags"},"st_lucia":{"keywords":["saint","lucia","flag","nation","country","banner"],"char":"🇱🇨","fitzpatrick_scale":false,"category":"flags"},"st_pierre_miquelon":{"keywords":["saint","pierre","miquelon","flag","nation","country","banner"],"char":"🇵🇲","fitzpatrick_scale":false,"category":"flags"},"st_vincent_grenadines":{"keywords":["saint","vincent","grenadines","flag","nation","country","banner"],"char":"🇻🇨","fitzpatrick_scale":false,"category":"flags"},"samoa":{"keywords":["ws","flag","nation","country","banner"],"char":"🇼🇸","fitzpatrick_scale":false,"category":"flags"},"san_marino":{"keywords":["san","marino","flag","nation","country","banner"],"char":"🇸🇲","fitzpatrick_scale":false,"category":"flags"},"sao_tome_principe":{"keywords":["sao","tome","principe","flag","nation","country","banner"],"char":"🇸🇹","fitzpatrick_scale":false,"category":"flags"},"saudi_arabia":{"keywords":["flag","nation","country","banner"],"char":"🇸🇦","fitzpatrick_scale":false,"category":"flags"},"senegal":{"keywords":["sn","flag","nation","country","banner"],"char":"🇸🇳","fitzpatrick_scale":false,"category":"flags"},"serbia":{"keywords":["rs","flag","nation","country","banner"],"char":"🇷🇸","fitzpatrick_scale":false,"category":"flags"},"seychelles":{"keywords":["sc","flag","nation","country","banner"],"char":"🇸🇨","fitzpatrick_scale":false,"category":"flags"},"sierra_leone":{"keywords":["sierra","leone","flag","nation","country","banner"],"char":"🇸🇱","fitzpatrick_scale":false,"category":"flags"},"singapore":{"keywords":["sg","flag","nation","country","banner"],"char":"🇸🇬","fitzpatrick_scale":false,"category":"flags"},"sint_maarten":{"keywords":["sint","maarten","dutch","flag","nation","country","banner"],"char":"🇸🇽","fitzpatrick_scale":false,"category":"flags"},"slovakia":{"keywords":["sk","flag","nation","country","banner"],"char":"🇸🇰","fitzpatrick_scale":false,"category":"flags"},"slovenia":{"keywords":["si","flag","nation","country","banner"],"char":"🇸🇮","fitzpatrick_scale":false,"category":"flags"},"solomon_islands":{"keywords":["solomon","islands","flag","nation","country","banner"],"char":"🇸🇧","fitzpatrick_scale":false,"category":"flags"},"somalia":{"keywords":["so","flag","nation","country","banner"],"char":"🇸🇴","fitzpatrick_scale":false,"category":"flags"},"south_africa":{"keywords":["south","africa","flag","nation","country","banner"],"char":"🇿🇦","fitzpatrick_scale":false,"category":"flags"},"south_georgia_south_sandwich_islands":{"keywords":["south","georgia","sandwich","islands","flag","nation","country","banner"],"char":"🇬🇸","fitzpatrick_scale":false,"category":"flags"},"kr":{"keywords":["south","korea","nation","flag","country","banner"],"char":"🇰🇷","fitzpatrick_scale":false,"category":"flags"},"south_sudan":{"keywords":["south","sd","flag","nation","country","banner"],"char":"🇸🇸","fitzpatrick_scale":false,"category":"flags"},"es":{"keywords":["spain","flag","nation","country","banner"],"char":"🇪🇸","fitzpatrick_scale":false,"category":"flags"},"sri_lanka":{"keywords":["sri","lanka","flag","nation","country","banner"],"char":"🇱🇰","fitzpatrick_scale":false,"category":"flags"},"sudan":{"keywords":["sd","flag","nation","country","banner"],"char":"🇸🇩","fitzpatrick_scale":false,"category":"flags"},"suriname":{"keywords":["sr","flag","nation","country","banner"],"char":"🇸🇷","fitzpatrick_scale":false,"category":"flags"},"swaziland":{"keywords":["sz","flag","nation","country","banner"],"char":"🇸🇿","fitzpatrick_scale":false,"category":"flags"},"sweden":{"keywords":["se","flag","nation","country","banner"],"char":"🇸🇪","fitzpatrick_scale":false,"category":"flags"},"switzerland":{"keywords":["ch","flag","nation","country","banner"],"char":"🇨🇭","fitzpatrick_scale":false,"category":"flags"},"syria":{"keywords":["syrian","arab","republic","flag","nation","country","banner"],"char":"🇸🇾","fitzpatrick_scale":false,"category":"flags"},"taiwan":{"keywords":["tw","flag","nation","country","banner"],"char":"🇹🇼","fitzpatrick_scale":false,"category":"flags"},"tajikistan":{"keywords":["tj","flag","nation","country","banner"],"char":"🇹🇯","fitzpatrick_scale":false,"category":"flags"},"tanzania":{"keywords":["tanzania,","united","republic","flag","nation","country","banner"],"char":"🇹🇿","fitzpatrick_scale":false,"category":"flags"},"thailand":{"keywords":["th","flag","nation","country","banner"],"char":"🇹🇭","fitzpatrick_scale":false,"category":"flags"},"timor_leste":{"keywords":["timor","leste","flag","nation","country","banner"],"char":"🇹🇱","fitzpatrick_scale":false,"category":"flags"},"togo":{"keywords":["tg","flag","nation","country","banner"],"char":"🇹🇬","fitzpatrick_scale":false,"category":"flags"},"tokelau":{"keywords":["tk","flag","nation","country","banner"],"char":"🇹🇰","fitzpatrick_scale":false,"category":"flags"},"tonga":{"keywords":["to","flag","nation","country","banner"],"char":"🇹🇴","fitzpatrick_scale":false,"category":"flags"},"trinidad_tobago":{"keywords":["trinidad","tobago","flag","nation","country","banner"],"char":"🇹🇹","fitzpatrick_scale":false,"category":"flags"},"tunisia":{"keywords":["tn","flag","nation","country","banner"],"char":"🇹🇳","fitzpatrick_scale":false,"category":"flags"},"tr":{"keywords":["turkey","flag","nation","country","banner"],"char":"🇹🇷","fitzpatrick_scale":false,"category":"flags"},"turkmenistan":{"keywords":["flag","nation","country","banner"],"char":"🇹🇲","fitzpatrick_scale":false,"category":"flags"},"turks_caicos_islands":{"keywords":["turks","caicos","islands","flag","nation","country","banner"],"char":"🇹🇨","fitzpatrick_scale":false,"category":"flags"},"tuvalu":{"keywords":["flag","nation","country","banner"],"char":"🇹🇻","fitzpatrick_scale":false,"category":"flags"},"uganda":{"keywords":["ug","flag","nation","country","banner"],"char":"🇺🇬","fitzpatrick_scale":false,"category":"flags"},"ukraine":{"keywords":["ua","flag","nation","country","banner"],"char":"🇺🇦","fitzpatrick_scale":false,"category":"flags"},"united_arab_emirates":{"keywords":["united","arab","emirates","flag","nation","country","banner"],"char":"🇦🇪","fitzpatrick_scale":false,"category":"flags"},"uk":{"keywords":["united","kingdom","great","britain","northern","ireland","flag","nation","country","banner","british","UK","english","england","union jack"],"char":"🇬🇧","fitzpatrick_scale":false,"category":"flags"},"england":{"keywords":["flag","english"],"char":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","fitzpatrick_scale":false,"category":"flags"},"scotland":{"keywords":["flag","scottish"],"char":"🏴󠁧󠁢󠁳󠁣󠁴󠁿","fitzpatrick_scale":false,"category":"flags"},"wales":{"keywords":["flag","welsh"],"char":"🏴󠁧󠁢󠁷󠁬󠁳󠁿","fitzpatrick_scale":false,"category":"flags"},"us":{"keywords":["united","states","america","flag","nation","country","banner"],"char":"🇺🇸","fitzpatrick_scale":false,"category":"flags"},"us_virgin_islands":{"keywords":["virgin","islands","us","flag","nation","country","banner"],"char":"🇻🇮","fitzpatrick_scale":false,"category":"flags"},"uruguay":{"keywords":["uy","flag","nation","country","banner"],"char":"🇺🇾","fitzpatrick_scale":false,"category":"flags"},"uzbekistan":{"keywords":["uz","flag","nation","country","banner"],"char":"🇺🇿","fitzpatrick_scale":false,"category":"flags"},"vanuatu":{"keywords":["vu","flag","nation","country","banner"],"char":"🇻🇺","fitzpatrick_scale":false,"category":"flags"},"vatican_city":{"keywords":["vatican","city","flag","nation","country","banner"],"char":"🇻🇦","fitzpatrick_scale":false,"category":"flags"},"venezuela":{"keywords":["ve","bolivarian","republic","flag","nation","country","banner"],"char":"🇻🇪","fitzpatrick_scale":false,"category":"flags"},"vietnam":{"keywords":["viet","nam","flag","nation","country","banner"],"char":"🇻🇳","fitzpatrick_scale":false,"category":"flags"},"wallis_futuna":{"keywords":["wallis","futuna","flag","nation","country","banner"],"char":"🇼🇫","fitzpatrick_scale":false,"category":"flags"},"western_sahara":{"keywords":["western","sahara","flag","nation","country","banner"],"char":"🇪🇭","fitzpatrick_scale":false,"category":"flags"},"yemen":{"keywords":["ye","flag","nation","country","banner"],"char":"🇾🇪","fitzpatrick_scale":false,"category":"flags"},"zambia":{"keywords":["zm","flag","nation","country","banner"],"char":"🇿🇲","fitzpatrick_scale":false,"category":"flags"},"zimbabwe":{"keywords":["zw","flag","nation","country","banner"],"char":"🇿🇼","fitzpatrick_scale":false,"category":"flags"},"united_nations":{"keywords":["un","flag","banner"],"char":"🇺🇳","fitzpatrick_scale":false,"category":"flags"},"pirate_flag":{"keywords":["skull","crossbones","flag","banner"],"char":"🏴‍☠️","fitzpatrick_scale":false,"category":"flags"}};
+
+/***/ }),
+
+/***/ "./node_modules/emojilib/index.js":
+/*!****************************************!*\
+  !*** ./node_modules/emojilib/index.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = {
+  lib: __webpack_require__(/*! ./emojis */ "./node_modules/emojilib/emojis.json"),
+  ordered: __webpack_require__(/*! ./ordered */ "./node_modules/emojilib/ordered.json"),
+  fitzpatrick_scale_modifiers: ["🏻", "🏼", "🏽", "🏾", "🏿"]
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/emojilib/ordered.json":
+/*!********************************************!*\
+  !*** ./node_modules/emojilib/ordered.json ***!
+  \********************************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881, 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 980, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079, 1080, 1081, 1082, 1083, 1084, 1085, 1086, 1087, 1088, 1089, 1090, 1091, 1092, 1093, 1094, 1095, 1096, 1097, 1098, 1099, 1100, 1101, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1130, 1131, 1132, 1133, 1134, 1135, 1136, 1137, 1138, 1139, 1140, 1141, 1142, 1143, 1144, 1145, 1146, 1147, 1148, 1149, 1150, 1151, 1152, 1153, 1154, 1155, 1156, 1157, 1158, 1159, 1160, 1161, 1162, 1163, 1164, 1165, 1166, 1167, 1168, 1169, 1170, 1171, 1172, 1173, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1181, 1182, 1183, 1184, 1185, 1186, 1187, 1188, 1189, 1190, 1191, 1192, 1193, 1194, 1195, 1196, 1197, 1198, 1199, 1200, 1201, 1202, 1203, 1204, 1205, 1206, 1207, 1208, 1209, 1210, 1211, 1212, 1213, 1214, 1215, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1224, 1225, 1226, 1227, 1228, 1229, 1230, 1231, 1232, 1233, 1234, 1235, 1236, 1237, 1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 1255, 1256, 1257, 1258, 1259, 1260, 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1273, 1274, 1275, 1276, 1277, 1278, 1279, 1280, 1281, 1282, 1283, 1284, 1285, 1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293, 1294, 1295, 1296, 1297, 1298, 1299, 1300, 1301, 1302, 1303, 1304, 1305, 1306, 1307, 1308, 1309, 1310, 1311, 1312, 1313, 1314, 1315, 1316, 1317, 1318, 1319, 1320, 1321, 1322, 1323, 1324, 1325, 1326, 1327, 1328, 1329, 1330, 1331, 1332, 1333, 1334, 1335, 1336, 1337, 1338, 1339, 1340, 1341, 1342, 1343, 1344, 1345, 1346, 1347, 1348, 1349, 1350, 1351, 1352, 1353, 1354, 1355, 1356, 1357, 1358, 1359, 1360, 1361, 1362, 1363, 1364, 1365, 1366, 1367, 1368, 1369, 1370, 1371, 1372, 1373, 1374, 1375, 1376, 1377, 1378, 1379, 1380, 1381, 1382, 1383, 1384, 1385, 1386, 1387, 1388, 1389, 1390, 1391, 1392, 1393, 1394, 1395, 1396, 1397, 1398, 1399, 1400, 1401, 1402, 1403, 1404, 1405, 1406, 1407, 1408, 1409, 1410, 1411, 1412, 1413, 1414, 1415, 1416, 1417, 1418, 1419, 1420, 1421, 1422, 1423, 1424, 1425, 1426, 1427, 1428, 1429, 1430, 1431, 1432, 1433, 1434, 1435, 1436, 1437, 1438, 1439, 1440, 1441, 1442, 1443, 1444, 1445, 1446, 1447, 1448, 1449, 1450, 1451, 1452, 1453, 1454, 1455, 1456, 1457, 1458, 1459, 1460, 1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471, 1472, 1473, 1474, 1475, 1476, 1477, 1478, 1479, 1480, 1481, 1482, 1483, 1484, 1485, 1486, 1487, 1488, 1489, 1490, 1491, 1492, 1493, 1494, 1495, 1496, 1497, 1498, 1499, 1500, 1501, 1502, 1503, 1504, 1505, 1506, 1507, 1508, 1509, 1510, 1511, 1512, 1513, 1514, 1515, 1516, 1517, 1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525, 1526, 1527, 1528, 1529, 1530, 1531, 1532, 1533, 1534, 1535, 1536, 1537, 1538, 1539, 1540, 1541, 1542, 1543, 1544, 1545, 1546, 1547, 1548, 1549, 1550, 1551, 1552, 1553, 1554, 1555, 1556, 1557, 1558, 1559, 1560, 1561, 1562, 1563, 1564, 1565, 1566, 1567, 1568, 1569, default */
+/***/ (function(module) {
+
+module.exports = ["grinning","smiley","smile","grin","laughing","sweat_smile","joy","rofl","relaxed","blush","innocent","slightly_smiling_face","upside_down_face","wink","relieved","heart_eyes","smiling_face_with_three_hearts","kissing_heart","kissing","kissing_smiling_eyes","kissing_closed_eyes","yum","stuck_out_tongue","stuck_out_tongue_closed_eyes","stuck_out_tongue_winking_eye","zany","raised_eyebrow","monocle","nerd_face","sunglasses","star_struck","partying","smirk","unamused","disappointed","pensive","worried","confused","slightly_frowning_face","frowning_face","persevere","confounded","tired_face","weary","pleading","cry","sob","triumph","angry","rage","symbols_over_mouth","exploding_head","flushed","hot","cold","scream","fearful","cold_sweat","disappointed_relieved","sweat","hugs","thinking","hand_over_mouth","shushing","lying_face","no_mouth","neutral_face","expressionless","grimacing","roll_eyes","hushed","frowning","anguished","open_mouth","astonished","sleeping","drooling_face","sleepy","dizzy_face","zipper_mouth_face","woozy","nauseated_face","vomiting","sneezing_face","mask","face_with_thermometer","face_with_head_bandage","money_mouth_face","cowboy_hat_face","smiling_imp","imp","japanese_ogre","japanese_goblin","clown_face","poop","ghost","skull","skull_and_crossbones","alien","space_invader","robot","jack_o_lantern","smiley_cat","smile_cat","joy_cat","heart_eyes_cat","smirk_cat","kissing_cat","scream_cat","crying_cat_face","pouting_cat","palms_up","open_hands","raised_hands","clap","handshake","+1","-1","facepunch","fist","fist_left","fist_right","crossed_fingers","v","love_you","metal","ok_hand","point_left","point_right","point_up","point_down","point_up_2","raised_hand","raised_back_of_hand","raised_hand_with_fingers_splayed","vulcan_salute","wave","call_me_hand","muscle","fu","writing_hand","pray","foot","leg","ring","lipstick","kiss","lips","tooth","tongue","ear","nose","footprints","eye","eyes","brain","speaking_head","bust_in_silhouette","busts_in_silhouette","baby","girl","child","boy","woman","adult","man","blonde_woman","blonde_man","bearded_person","older_woman","older_adult","older_man","man_with_gua_pi_mao","woman_with_headscarf","woman_with_turban","man_with_turban","policewoman","policeman","construction_worker_woman","construction_worker_man","guardswoman","guardsman","female_detective","male_detective","woman_health_worker","man_health_worker","woman_farmer","man_farmer","woman_cook","man_cook","woman_student","man_student","woman_singer","man_singer","woman_teacher","man_teacher","woman_factory_worker","man_factory_worker","woman_technologist","man_technologist","woman_office_worker","man_office_worker","woman_mechanic","man_mechanic","woman_scientist","man_scientist","woman_artist","man_artist","woman_firefighter","man_firefighter","woman_pilot","man_pilot","woman_astronaut","man_astronaut","woman_judge","man_judge","bride_with_veil","man_in_tuxedo","princess","prince","woman_superhero","man_superhero","woman_supervillain","man_supervillain","mrs_claus","santa","sorceress","wizard","woman_elf","man_elf","woman_vampire","man_vampire","woman_zombie","man_zombie","woman_genie","man_genie","mermaid","merman","woman_fairy","man_fairy","angel","pregnant_woman","breastfeeding","bowing_woman","bowing_man","tipping_hand_woman","tipping_hand_man","no_good_woman","no_good_man","ok_woman","ok_man","raising_hand_woman","raising_hand_man","woman_facepalming","man_facepalming","woman_shrugging","man_shrugging","pouting_woman","pouting_man","frowning_woman","frowning_man","haircut_woman","haircut_man","massage_woman","massage_man","woman_in_steamy_room","man_in_steamy_room","nail_care","selfie","dancer","man_dancing","dancing_women","dancing_men","business_suit_levitating","walking_woman","walking_man","running_woman","running_man","couple","two_women_holding_hands","two_men_holding_hands","couple_with_heart_woman_man","couple_with_heart_woman_woman","couple_with_heart_man_man","couplekiss_man_woman","couplekiss_woman_woman","couplekiss_man_man","family_man_woman_boy","family_man_woman_girl","family_man_woman_girl_boy","family_man_woman_boy_boy","family_man_woman_girl_girl","family_woman_woman_boy","family_woman_woman_girl","family_woman_woman_girl_boy","family_woman_woman_boy_boy","family_woman_woman_girl_girl","family_man_man_boy","family_man_man_girl","family_man_man_girl_boy","family_man_man_boy_boy","family_man_man_girl_girl","family_woman_boy","family_woman_girl","family_woman_girl_boy","family_woman_boy_boy","family_woman_girl_girl","family_man_boy","family_man_girl","family_man_girl_boy","family_man_boy_boy","family_man_girl_girl","yarn","thread","coat","labcoat","womans_clothes","tshirt","jeans","necktie","dress","bikini","kimono","flat_shoe","high_heel","sandal","boot","mans_shoe","athletic_shoe","hiking_boot","socks","gloves","scarf","tophat","billed_hat","womans_hat","mortar_board","rescue_worker_helmet","crown","pouch","purse","handbag","briefcase","school_satchel","luggage","eyeglasses","dark_sunglasses","goggles","closed_umbrella","dog","cat","mouse","hamster","rabbit","fox_face","bear","panda_face","koala","tiger","lion","cow","pig","pig_nose","frog","monkey_face","see_no_evil","hear_no_evil","speak_no_evil","monkey","chicken","penguin","bird","baby_chick","hatching_chick","hatched_chick","duck","eagle","owl","bat","wolf","boar","horse","unicorn","honeybee","bug","butterfly","snail","shell","beetle","ant","mosquito","grasshopper","spider","spider_web","scorpion","turtle","snake","lizard","t-rex","sauropod","octopus","squid","shrimp","lobster","crab","blowfish","tropical_fish","fish","dolphin","whale","whale2","shark","crocodile","tiger2","leopard","zebra","gorilla","elephant","hippopotamus","rhinoceros","dromedary_camel","giraffe","kangaroo","camel","water_buffalo","ox","cow2","racehorse","pig2","ram","sheep","llama","goat","deer","dog2","poodle","cat2","rooster","turkey","peacock","parrot","swan","dove","rabbit2","raccoon","badger","rat","mouse2","chipmunk","hedgehog","paw_prints","dragon","dragon_face","cactus","christmas_tree","evergreen_tree","deciduous_tree","palm_tree","seedling","herb","shamrock","four_leaf_clover","bamboo","tanabata_tree","leaves","fallen_leaf","maple_leaf","ear_of_rice","hibiscus","sunflower","rose","wilted_flower","tulip","blossom","cherry_blossom","bouquet","mushroom","earth_americas","earth_africa","earth_asia","full_moon","waning_gibbous_moon","last_quarter_moon","waning_crescent_moon","new_moon","waxing_crescent_moon","first_quarter_moon","waxing_gibbous_moon","new_moon_with_face","full_moon_with_face","first_quarter_moon_with_face","last_quarter_moon_with_face","sun_with_face","crescent_moon","star","star2","dizzy","sparkles","comet","sunny","sun_behind_small_cloud","partly_sunny","sun_behind_large_cloud","sun_behind_rain_cloud","cloud","cloud_with_rain","cloud_with_lightning_and_rain","cloud_with_lightning","zap","fire","boom","snowflake","cloud_with_snow","snowman","snowman_with_snow","wind_face","dash","tornado","fog","open_umbrella","umbrella","droplet","sweat_drops","ocean","green_apple","apple","pear","tangerine","lemon","banana","watermelon","grapes","strawberry","melon","cherries","peach","mango","pineapple","coconut","kiwi_fruit","tomato","eggplant","avocado","broccoli","leafy_greens","cucumber","hot_pepper","corn","carrot","potato","sweet_potato","croissant","bagel","bread","baguette_bread","pretzel","cheese","egg","fried_egg","pancakes","bacon","steak","poultry_leg","meat_on_bone","bone","hotdog","hamburger","fries","pizza","sandwich","stuffed_flatbread","taco","burrito","green_salad","shallow_pan_of_food","canned_food","spaghetti","ramen","stew","curry","sushi","bento","fried_shrimp","rice_ball","rice","rice_cracker","fish_cake","fortune_cookie","moon_cake","oden","dango","shaved_ice","ice_cream","icecream","pie","cupcake","cake","birthday","custard","lollipop","candy","chocolate_bar","popcorn","doughnut","dumpling","cookie","chestnut","peanuts","honey_pot","milk_glass","baby_bottle","coffee","tea","cup_with_straw","sake","beer","beers","clinking_glasses","wine_glass","tumbler_glass","cocktail","tropical_drink","champagne","spoon","fork_and_knife","plate_with_cutlery","bowl_with_spoon","takeout_box","chopsticks","salt","soccer","basketball","football","baseball","softball","tennis","volleyball","rugby_football","flying_disc","8ball","golf","golfing_woman","golfing_man","ping_pong","badminton","goal_net","ice_hockey","field_hockey","lacrosse","cricket","ski","skier","snowboarder","person_fencing","women_wrestling","men_wrestling","woman_cartwheeling","man_cartwheeling","woman_playing_handball","man_playing_handball","ice_skate","curling_stone","skateboard","sled","bow_and_arrow","fishing_pole_and_fish","boxing_glove","martial_arts_uniform","rowing_woman","rowing_man","climbing_woman","climbing_man","swimming_woman","swimming_man","woman_playing_water_polo","man_playing_water_polo","woman_in_lotus_position","man_in_lotus_position","surfing_woman","surfing_man","basketball_woman","basketball_man","weight_lifting_woman","weight_lifting_man","biking_woman","biking_man","mountain_biking_woman","mountain_biking_man","horse_racing","trophy","running_shirt_with_sash","medal_sports","medal_military","1st_place_medal","2nd_place_medal","3rd_place_medal","reminder_ribbon","rosette","ticket","tickets","performing_arts","art","circus_tent","woman_juggling","man_juggling","microphone","headphones","musical_score","musical_keyboard","drum","saxophone","trumpet","guitar","violin","clapper","video_game","dart","game_die","chess_pawn","slot_machine","jigsaw","bowling","red_car","taxi","blue_car","bus","trolleybus","racing_car","police_car","ambulance","fire_engine","minibus","truck","articulated_lorry","tractor","kick_scooter","motorcycle","bike","motor_scooter","rotating_light","oncoming_police_car","oncoming_bus","oncoming_automobile","oncoming_taxi","aerial_tramway","mountain_cableway","suspension_railway","railway_car","train","monorail","bullettrain_side","bullettrain_front","light_rail","mountain_railway","steam_locomotive","train2","metro","tram","station","flying_saucer","helicopter","small_airplane","airplane","flight_departure","flight_arrival","sailboat","motor_boat","speedboat","ferry","passenger_ship","rocket","artificial_satellite","seat","canoe","anchor","construction","fuelpump","busstop","vertical_traffic_light","traffic_light","ship","ferris_wheel","roller_coaster","carousel_horse","building_construction","foggy","tokyo_tower","factory","fountain","rice_scene","mountain","mountain_snow","mount_fuji","volcano","japan","camping","tent","national_park","motorway","railway_track","sunrise","sunrise_over_mountains","desert","beach_umbrella","desert_island","city_sunrise","city_sunset","cityscape","night_with_stars","bridge_at_night","milky_way","stars","sparkler","fireworks","rainbow","houses","european_castle","japanese_castle","stadium","statue_of_liberty","house","house_with_garden","derelict_house","office","department_store","post_office","european_post_office","hospital","bank","hotel","convenience_store","school","love_hotel","wedding","classical_building","church","mosque","synagogue","kaaba","shinto_shrine","watch","iphone","calling","computer","keyboard","desktop_computer","printer","computer_mouse","trackball","joystick","clamp","minidisc","floppy_disk","cd","dvd","vhs","camera","camera_flash","video_camera","movie_camera","film_projector","film_strip","telephone_receiver","phone","pager","fax","tv","radio","studio_microphone","level_slider","control_knobs","compass","stopwatch","timer_clock","alarm_clock","mantelpiece_clock","hourglass_flowing_sand","hourglass","satellite","battery","electric_plug","bulb","flashlight","candle","fire_extinguisher","wastebasket","oil_drum","money_with_wings","dollar","yen","euro","pound","moneybag","credit_card","gem","balance_scale","toolbox","wrench","hammer","hammer_and_pick","hammer_and_wrench","pick","nut_and_bolt","gear","brick","chains","magnet","gun","bomb","firecracker","hocho","dagger","crossed_swords","shield","smoking","coffin","funeral_urn","amphora","crystal_ball","prayer_beads","nazar_amulet","barber","alembic","telescope","microscope","hole","pill","syringe","dna","microbe","petri_dish","test_tube","thermometer","broom","basket","toilet_paper","label","bookmark","toilet","shower","bathtub","bath","soap","sponge","lotion_bottle","key","old_key","couch_and_lamp","sleeping_bed","bed","door","bellhop_bell","teddy_bear","framed_picture","world_map","parasol_on_ground","moyai","shopping","shopping_cart","balloon","flags","ribbon","gift","confetti_ball","tada","dolls","wind_chime","crossed_flags","izakaya_lantern","red_envelope","email","envelope_with_arrow","incoming_envelope","e-mail","love_letter","postbox","mailbox_closed","mailbox","mailbox_with_mail","mailbox_with_no_mail","package","postal_horn","inbox_tray","outbox_tray","scroll","page_with_curl","bookmark_tabs","receipt","bar_chart","chart_with_upwards_trend","chart_with_downwards_trend","page_facing_up","date","calendar","spiral_calendar","card_index","card_file_box","ballot_box","file_cabinet","clipboard","spiral_notepad","file_folder","open_file_folder","card_index_dividers","newspaper_roll","newspaper","notebook","closed_book","green_book","blue_book","orange_book","notebook_with_decorative_cover","ledger","books","open_book","safety_pin","link","paperclip","paperclips","scissors","triangular_ruler","straight_ruler","abacus","pushpin","round_pushpin","closed_lock_with_key","lock","unlock","lock_with_ink_pen","pen","fountain_pen","black_nib","memo","pencil2","crayon","paintbrush","mag","mag_right","heart","orange_heart","yellow_heart","green_heart","blue_heart","purple_heart","black_heart","broken_heart","heavy_heart_exclamation","two_hearts","revolving_hearts","heartbeat","heartpulse","sparkling_heart","cupid","gift_heart","heart_decoration","peace_symbol","latin_cross","star_and_crescent","om","wheel_of_dharma","star_of_david","six_pointed_star","menorah","yin_yang","orthodox_cross","place_of_worship","ophiuchus","aries","taurus","gemini","cancer","leo","virgo","libra","scorpius","sagittarius","capricorn","aquarius","pisces","id","atom_symbol","u7a7a","u5272","radioactive","biohazard","mobile_phone_off","vibration_mode","u6709","u7121","u7533","u55b6","u6708","eight_pointed_black_star","vs","accept","white_flower","ideograph_advantage","secret","congratulations","u5408","u6e80","u7981","a","b","ab","cl","o2","sos","no_entry","name_badge","no_entry_sign","x","o","stop_sign","anger","hotsprings","no_pedestrians","do_not_litter","no_bicycles","non-potable_water","underage","no_mobile_phones","exclamation","grey_exclamation","question","grey_question","bangbang","interrobang","100","low_brightness","high_brightness","trident","fleur_de_lis","part_alternation_mark","warning","children_crossing","beginner","recycle","u6307","chart","sparkle","eight_spoked_asterisk","negative_squared_cross_mark","white_check_mark","diamond_shape_with_a_dot_inside","cyclone","loop","globe_with_meridians","m","atm","zzz","sa","passport_control","customs","baggage_claim","left_luggage","wheelchair","no_smoking","wc","parking","potable_water","mens","womens","baby_symbol","restroom","put_litter_in_its_place","cinema","signal_strength","koko","ng","ok","up","cool","new","free","zero","one","two","three","four","five","six","seven","eight","nine","keycap_ten","asterisk","1234","eject_button","arrow_forward","pause_button","next_track_button","stop_button","record_button","play_or_pause_button","previous_track_button","fast_forward","rewind","twisted_rightwards_arrows","repeat","repeat_one","arrow_backward","arrow_up_small","arrow_down_small","arrow_double_up","arrow_double_down","arrow_right","arrow_left","arrow_up","arrow_down","arrow_upper_right","arrow_lower_right","arrow_lower_left","arrow_upper_left","arrow_up_down","left_right_arrow","arrows_counterclockwise","arrow_right_hook","leftwards_arrow_with_hook","arrow_heading_up","arrow_heading_down","hash","information_source","abc","abcd","capital_abcd","symbols","musical_note","notes","wavy_dash","curly_loop","heavy_check_mark","arrows_clockwise","heavy_plus_sign","heavy_minus_sign","heavy_division_sign","heavy_multiplication_x","infinity","heavy_dollar_sign","currency_exchange","copyright","registered","tm","end","back","on","top","soon","ballot_box_with_check","radio_button","white_circle","black_circle","red_circle","large_blue_circle","small_orange_diamond","small_blue_diamond","large_orange_diamond","large_blue_diamond","small_red_triangle","black_small_square","white_small_square","black_large_square","white_large_square","small_red_triangle_down","black_medium_square","white_medium_square","black_medium_small_square","white_medium_small_square","black_square_button","white_square_button","speaker","sound","loud_sound","mute","mega","loudspeaker","bell","no_bell","black_joker","mahjong","spades","clubs","hearts","diamonds","flower_playing_cards","thought_balloon","right_anger_bubble","speech_balloon","left_speech_bubble","clock1","clock2","clock3","clock4","clock5","clock6","clock7","clock8","clock9","clock10","clock11","clock12","clock130","clock230","clock330","clock430","clock530","clock630","clock730","clock830","clock930","clock1030","clock1130","clock1230","white_flag","black_flag","pirate_flag","checkered_flag","triangular_flag_on_post","rainbow_flag","united_nations","afghanistan","aland_islands","albania","algeria","american_samoa","andorra","angola","anguilla","antarctica","antigua_barbuda","argentina","armenia","aruba","australia","austria","azerbaijan","bahamas","bahrain","bangladesh","barbados","belarus","belgium","belize","benin","bermuda","bhutan","bolivia","caribbean_netherlands","bosnia_herzegovina","botswana","brazil","british_indian_ocean_territory","british_virgin_islands","brunei","bulgaria","burkina_faso","burundi","cape_verde","cambodia","cameroon","canada","canary_islands","cayman_islands","central_african_republic","chad","chile","cn","christmas_island","cocos_islands","colombia","comoros","congo_brazzaville","congo_kinshasa","cook_islands","costa_rica","croatia","cuba","curacao","cyprus","czech_republic","denmark","djibouti","dominica","dominican_republic","ecuador","egypt","el_salvador","equatorial_guinea","eritrea","estonia","ethiopia","eu","falkland_islands","faroe_islands","fiji","finland","fr","french_guiana","french_polynesia","french_southern_territories","gabon","gambia","georgia","de","ghana","gibraltar","greece","greenland","grenada","guadeloupe","guam","guatemala","guernsey","guinea","guinea_bissau","guyana","haiti","honduras","hong_kong","hungary","iceland","india","indonesia","iran","iraq","ireland","isle_of_man","israel","it","cote_divoire","jamaica","jp","jersey","jordan","kazakhstan","kenya","kiribati","kosovo","kuwait","kyrgyzstan","laos","latvia","lebanon","lesotho","liberia","libya","liechtenstein","lithuania","luxembourg","macau","macedonia","madagascar","malawi","malaysia","maldives","mali","malta","marshall_islands","martinique","mauritania","mauritius","mayotte","mexico","micronesia","moldova","monaco","mongolia","montenegro","montserrat","morocco","mozambique","myanmar","namibia","nauru","nepal","netherlands","new_caledonia","new_zealand","nicaragua","niger","nigeria","niue","norfolk_island","northern_mariana_islands","north_korea","norway","oman","pakistan","palau","palestinian_territories","panama","papua_new_guinea","paraguay","peru","philippines","pitcairn_islands","poland","portugal","puerto_rico","qatar","reunion","romania","ru","rwanda","st_barthelemy","st_helena","st_kitts_nevis","st_lucia","st_pierre_miquelon","st_vincent_grenadines","samoa","san_marino","sao_tome_principe","saudi_arabia","senegal","serbia","seychelles","sierra_leone","singapore","sint_maarten","slovakia","slovenia","solomon_islands","somalia","south_africa","south_georgia_south_sandwich_islands","kr","south_sudan","es","sri_lanka","sudan","suriname","swaziland","sweden","switzerland","syria","taiwan","tajikistan","tanzania","thailand","timor_leste","togo","tokelau","tonga","trinidad_tobago","tunisia","tr","turkmenistan","turks_caicos_islands","tuvalu","uganda","ukraine","united_arab_emirates","uk","england","scotland","wales","us","us_virgin_islands","uruguay","uzbekistan","vanuatu","vatican_city","venezuela","vietnam","wallis_futuna","western_sahara","yemen","zambia","zimbabwe"];
+
+/***/ }),
+
+/***/ "./node_modules/extend/index.js":
+/*!**************************************!*\
+  !*** ./node_modules/extend/index.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var hasOwn = Object.prototype.hasOwnProperty;
+var toStr = Object.prototype.toString;
+var defineProperty = Object.defineProperty;
+var gOPD = Object.getOwnPropertyDescriptor;
+
+var isArray = function isArray(arr) {
+	if (typeof Array.isArray === 'function') {
+		return Array.isArray(arr);
+	}
+
+	return toStr.call(arr) === '[object Array]';
+};
+
+var isPlainObject = function isPlainObject(obj) {
+	if (!obj || toStr.call(obj) !== '[object Object]') {
+		return false;
+	}
+
+	var hasOwnConstructor = hasOwn.call(obj, 'constructor');
+	var hasIsPrototypeOf = obj.constructor && obj.constructor.prototype && hasOwn.call(obj.constructor.prototype, 'isPrototypeOf');
+	// Not own constructor property must be Object
+	if (obj.constructor && !hasOwnConstructor && !hasIsPrototypeOf) {
+		return false;
+	}
+
+	// Own properties are enumerated firstly, so to speed up,
+	// if last one is own, then all properties are own.
+	var key;
+	for (key in obj) { /**/ }
+
+	return typeof key === 'undefined' || hasOwn.call(obj, key);
+};
+
+// If name is '__proto__', and Object.defineProperty is available, define __proto__ as an own property on target
+var setProperty = function setProperty(target, options) {
+	if (defineProperty && options.name === '__proto__') {
+		defineProperty(target, options.name, {
+			enumerable: true,
+			configurable: true,
+			value: options.newValue,
+			writable: true
+		});
+	} else {
+		target[options.name] = options.newValue;
+	}
+};
+
+// Return undefined instead of __proto__ if '__proto__' is not an own property
+var getProperty = function getProperty(obj, name) {
+	if (name === '__proto__') {
+		if (!hasOwn.call(obj, name)) {
+			return void 0;
+		} else if (gOPD) {
+			// In early versions of node, obj['__proto__'] is buggy when obj has
+			// __proto__ as an own property. Object.getOwnPropertyDescriptor() works.
+			return gOPD(obj, name).value;
+		}
+	}
+
+	return obj[name];
+};
+
+module.exports = function extend() {
+	var options, name, src, copy, copyIsArray, clone;
+	var target = arguments[0];
+	var i = 1;
+	var length = arguments.length;
+	var deep = false;
+
+	// Handle a deep copy situation
+	if (typeof target === 'boolean') {
+		deep = target;
+		target = arguments[1] || {};
+		// skip the boolean and the target
+		i = 2;
+	}
+	if (target == null || (typeof target !== 'object' && typeof target !== 'function')) {
+		target = {};
+	}
+
+	for (; i < length; ++i) {
+		options = arguments[i];
+		// Only deal with non-null/undefined values
+		if (options != null) {
+			// Extend the base object
+			for (name in options) {
+				src = getProperty(target, name);
+				copy = getProperty(options, name);
+
+				// Prevent never-ending loop
+				if (target !== copy) {
+					// Recurse if we're merging plain objects or arrays
+					if (deep && copy && (isPlainObject(copy) || (copyIsArray = isArray(copy)))) {
+						if (copyIsArray) {
+							copyIsArray = false;
+							clone = src && isArray(src) ? src : [];
+						} else {
+							clone = src && isPlainObject(src) ? src : {};
+						}
+
+						// Never move original objects, clone them
+						setProperty(target, { name: name, newValue: extend(deep, clone, copy) });
+
+					// Don't bring in undefined values
+					} else if (typeof copy !== 'undefined') {
+						setProperty(target, { name: name, newValue: copy });
+					}
+				}
+			}
+		}
+	}
+
+	// Return the modified object
+	return target;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/fast-json-stable-stringify/index.js":
 /*!**********************************************************!*\
   !*** ./node_modules/fast-json-stable-stringify/index.js ***!
@@ -25721,6 +26110,40 @@ module.exports = hoistNonReactStatics;
 
 /***/ }),
 
+/***/ "./node_modules/inherits/inherits_browser.js":
+/*!***************************************************!*\
+  !*** ./node_modules/inherits/inherits_browser.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+if (typeof Object.create === 'function') {
+  // implementation from standard node.js 'util' module
+  module.exports = function inherits(ctor, superCtor) {
+    ctor.super_ = superCtor
+    ctor.prototype = Object.create(superCtor.prototype, {
+      constructor: {
+        value: ctor,
+        enumerable: false,
+        writable: true,
+        configurable: true
+      }
+    });
+  };
+} else {
+  // old school shim for old browsers
+  module.exports = function inherits(ctor, superCtor) {
+    ctor.super_ = superCtor
+    var TempCtor = function () {}
+    TempCtor.prototype = superCtor.prototype
+    ctor.prototype = new TempCtor()
+    ctor.prototype.constructor = ctor
+  }
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/invariant/browser.js":
 /*!*******************************************!*\
   !*** ./node_modules/invariant/browser.js ***!
@@ -25778,6 +26201,252 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 };
 
 module.exports = invariant;
+
+
+/***/ }),
+
+/***/ "./node_modules/is-alphabetical/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/is-alphabetical/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = alphabetical
+
+/* Check if the given character code, or the character
+ * code at the first character, is alphabetical. */
+function alphabetical(character) {
+  var code = typeof character === 'string' ? character.charCodeAt(0) : character
+
+  return (
+    (code >= 97 && code <= 122) /* a-z */ ||
+    (code >= 65 && code <= 90) /* A-Z */
+  )
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/is-alphanumerical/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/is-alphanumerical/index.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var alphabetical = __webpack_require__(/*! is-alphabetical */ "./node_modules/is-alphabetical/index.js")
+var decimal = __webpack_require__(/*! is-decimal */ "./node_modules/is-decimal/index.js")
+
+module.exports = alphanumerical
+
+/* Check if the given character code, or the character
+ * code at the first character, is alphanumerical. */
+function alphanumerical(character) {
+  return alphabetical(character) || decimal(character)
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/is-buffer/index.js":
+/*!*****************************************!*\
+  !*** ./node_modules/is-buffer/index.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+// The _isBuffer check is for Safari 5-7 support, because it's missing
+// Object.prototype.constructor. Remove this eventually
+module.exports = function (obj) {
+  return obj != null && (isBuffer(obj) || isSlowBuffer(obj) || !!obj._isBuffer)
+}
+
+function isBuffer (obj) {
+  return !!obj.constructor && typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj)
+}
+
+// For Node v0.10 support. Remove this eventually.
+function isSlowBuffer (obj) {
+  return typeof obj.readFloatLE === 'function' && typeof obj.slice === 'function' && isBuffer(obj.slice(0, 0))
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/is-decimal/index.js":
+/*!******************************************!*\
+  !*** ./node_modules/is-decimal/index.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = decimal
+
+/* Check if the given character code, or the character
+ * code at the first character, is decimal. */
+function decimal(character) {
+  var code = typeof character === 'string' ? character.charCodeAt(0) : character
+
+  return code >= 48 && code <= 57 /* 0-9 */
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/is-hexadecimal/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/is-hexadecimal/index.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = hexadecimal
+
+/* Check if the given character code, or the character
+ * code at the first character, is hexadecimal. */
+function hexadecimal(character) {
+  var code = typeof character === 'string' ? character.charCodeAt(0) : character
+
+  return (
+    (code >= 97 /* a */ && code <= 102) /* z */ ||
+    (code >= 65 /* A */ && code <= 70) /* Z */ ||
+    (code >= 48 /* A */ && code <= 57) /* Z */
+  )
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/is-plain-obj/index.js":
+/*!********************************************!*\
+  !*** ./node_modules/is-plain-obj/index.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var toString = Object.prototype.toString;
+
+module.exports = function (x) {
+	var prototype;
+	return toString.call(x) === '[object Object]' && (prototype = Object.getPrototypeOf(x), prototype === null || prototype === Object.getPrototypeOf({}));
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/is-whitespace-character/index.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/is-whitespace-character/index.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = whitespace
+
+var fromCode = String.fromCharCode
+var re = /\s/
+
+/* Check if the given character code, or the character
+ * code at the first character, is a whitespace character. */
+function whitespace(character) {
+  return re.test(
+    typeof character === 'number' ? fromCode(character) : character.charAt(0)
+  )
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/is-word-character/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/is-word-character/index.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = wordCharacter
+
+var fromCode = String.fromCharCode
+var re = /\w/
+
+/* Check if the given character code, or the character
+ * code at the first character, is a word character. */
+function wordCharacter(character) {
+  return re.test(
+    typeof character === 'number' ? fromCode(character) : character.charAt(0)
+  )
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/iterate-object/lib/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/iterate-object/lib/index.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * iterateObject
+ * Iterates an object. Note the object field order may differ.
+ *
+ * @name iterateObject
+ * @function
+ * @param {Object} obj The input object.
+ * @param {Function} fn A function that will be called with the current value, field name and provided object.
+ * @return {Function} The `iterateObject` function.
+ */
+function iterateObject(obj, fn) {
+    var i = 0
+      , keys = []
+      ;
+
+    if (Array.isArray(obj)) {
+        for (; i < obj.length; ++i) {
+            if (fn(obj[i], i, obj) === false) {
+                break;
+            }
+        }
+    } else if (typeof obj === "object" && obj !== null) {
+        keys = Object.keys(obj);
+        for (; i < keys.length; ++i) {
+            if (fn(obj[keys[i]], keys[i], obj) === false) {
+                break;
+            }
+        }
+    }
+}
+
+module.exports = iterateObject;
 
 
 /***/ }),
@@ -26233,6 +26902,144 @@ var flowRight = createFlow(true);
 module.exports = flowRight;
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/map-o/lib/index.js":
+/*!*****************************************!*\
+  !*** ./node_modules/map-o/lib/index.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// Dependencies
+var iterateObject = __webpack_require__(/*! iterate-object */ "./node_modules/iterate-object/lib/index.js");
+
+/**
+ * mapObject
+ * Array-map like for objects.
+ *
+ * @name mapObject
+ * @function
+ * @param {Object} obj The input object.
+ * @param {Function} fn A function returning the field values.
+ * @param {Boolean|Object} clone If `true`, the input object will be cloned.
+ * If `clone` is an object, it will be used as target object.
+ * @return {Object} The modified object.
+ */
+function mapObject(obj, fn, clone) {
+    var dst = clone === true ? {} : clone ? clone : obj;
+    iterateObject(obj, function (v, n, o) {
+        dst[n] = fn(v, n, o);
+    });
+    return dst;
+}
+
+module.exports = mapObject;
+
+/***/ }),
+
+/***/ "./node_modules/markdown-escapes/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/markdown-escapes/index.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = escapes
+
+var defaults = [
+  '\\',
+  '`',
+  '*',
+  '{',
+  '}',
+  '[',
+  ']',
+  '(',
+  ')',
+  '#',
+  '+',
+  '-',
+  '.',
+  '!',
+  '_',
+  '>'
+]
+
+var gfm = defaults.concat(['~', '|'])
+
+var commonmark = gfm.concat([
+  '\n',
+  '"',
+  '$',
+  '%',
+  '&',
+  "'",
+  ',',
+  '/',
+  ':',
+  ';',
+  '<',
+  '=',
+  '?',
+  '@',
+  '^'
+])
+
+escapes.default = defaults
+escapes.gfm = gfm
+escapes.commonmark = commonmark
+
+/* Get markdown escapes. */
+function escapes(options) {
+  var settings = options || {}
+
+  if (settings.commonmark) {
+    return commonmark
+  }
+
+  return settings.gfm ? gfm : defaults
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/mdast-add-list-metadata/index.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/mdast-add-list-metadata/index.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var visitWithParents = __webpack_require__(/*! unist-util-visit-parents */ "./node_modules/unist-util-visit-parents/index.js");
+
+function addListMetadata() {
+  return function (ast) {
+    visitWithParents(ast, 'list', function (listNode, parents) {
+      var depth = 0, i, n;
+      for (i = 0, n = parents.length; i < n; i++) {
+        if (parents[i].type === 'list') depth += 1;
+      }
+      for (i = 0, n = listNode.children.length; i < n; i++) {
+        var child = listNode.children[i];
+        child.index = i;
+        child.ordered = listNode.ordered;
+      }
+      listNode.depth = depth;
+    });
+    return ast;
+  };
+}
+
+module.exports = addListMetadata;
+
 
 /***/ }),
 
@@ -28067,6 +28874,18 @@ module.exports = __webpack_require__(/*! ./dist/lib/link */ "./node_modules/next
 
 /***/ }),
 
+/***/ "./node_modules/next/router.js":
+/*!*************************************!*\
+  !*** ./node_modules/next/router.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./dist/lib/router */ "./node_modules/next/dist/lib/router/index.js")
+
+
+/***/ }),
+
 /***/ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js":
 /*!**************************************************************************!*\
   !*** ./node_modules/node-libs-browser/node_modules/punycode/punycode.js ***!
@@ -28959,6 +29778,741 @@ module.exports = function shimAssign() {
 	return polyfill;
 };
 
+
+/***/ }),
+
+/***/ "./node_modules/parse-entities/decode-entity.browser.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/parse-entities/decode-entity.browser.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/* eslint-env browser */
+
+var el
+
+module.exports = decodeEntity
+
+function decodeEntity(characters) {
+  var entity = '&' + characters + ';'
+  var char
+
+  el = el || document.createElement('i')
+  el.innerHTML = entity
+  char = el.textContent
+
+  // Some entities do not require the closing semicolon (&not - for instance),
+  // which leads to situations where parsing the assumed entity of &notit; will
+  // result in the string `¬it;`.  When we encounter a trailing semicolon after
+  // parsing and the entity to decode was not a semicolon (&semi;), we can
+  // assume that the matching was incomplete
+  if (char.slice(-1) === ';' && characters !== 'semi') {
+    return false
+  }
+
+  // If the decoded string is equal to the input, the entity was not valid
+  return char === entity ? false : char
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/parse-entities/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/parse-entities/index.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var legacy = __webpack_require__(/*! character-entities-legacy */ "./node_modules/character-entities-legacy/index.json")
+var invalid = __webpack_require__(/*! character-reference-invalid */ "./node_modules/character-reference-invalid/index.json")
+var decimal = __webpack_require__(/*! is-decimal */ "./node_modules/is-decimal/index.js")
+var hexadecimal = __webpack_require__(/*! is-hexadecimal */ "./node_modules/is-hexadecimal/index.js")
+var alphanumerical = __webpack_require__(/*! is-alphanumerical */ "./node_modules/is-alphanumerical/index.js")
+var decodeEntity = __webpack_require__(/*! ./decode-entity */ "./node_modules/parse-entities/decode-entity.browser.js")
+
+module.exports = parseEntities
+
+var own = {}.hasOwnProperty
+var fromCharCode = String.fromCharCode
+var noop = Function.prototype
+
+/* Default settings. */
+var defaults = {
+  warning: null,
+  reference: null,
+  text: null,
+  warningContext: null,
+  referenceContext: null,
+  textContext: null,
+  position: {},
+  additional: null,
+  attribute: false,
+  nonTerminated: true
+}
+
+/* Reference types. */
+var NAMED = 'named'
+var HEXADECIMAL = 'hexadecimal'
+var DECIMAL = 'decimal'
+
+/* Map of bases. */
+var BASE = {}
+
+BASE[HEXADECIMAL] = 16
+BASE[DECIMAL] = 10
+
+/* Map of types to tests. Each type of character reference
+ * accepts different characters. This test is used to
+ * detect whether a reference has ended (as the semicolon
+ * is not strictly needed). */
+var TESTS = {}
+
+TESTS[NAMED] = alphanumerical
+TESTS[DECIMAL] = decimal
+TESTS[HEXADECIMAL] = hexadecimal
+
+/* Warning messages. */
+var NAMED_NOT_TERMINATED = 1
+var NUMERIC_NOT_TERMINATED = 2
+var NAMED_EMPTY = 3
+var NUMERIC_EMPTY = 4
+var NAMED_UNKNOWN = 5
+var NUMERIC_DISALLOWED = 6
+var NUMERIC_PROHIBITED = 7
+
+var MESSAGES = {}
+
+MESSAGES[NAMED_NOT_TERMINATED] =
+  'Named character references must be terminated by a semicolon'
+MESSAGES[NUMERIC_NOT_TERMINATED] =
+  'Numeric character references must be terminated by a semicolon'
+MESSAGES[NAMED_EMPTY] = 'Named character references cannot be empty'
+MESSAGES[NUMERIC_EMPTY] = 'Numeric character references cannot be empty'
+MESSAGES[NAMED_UNKNOWN] = 'Named character references must be known'
+MESSAGES[NUMERIC_DISALLOWED] =
+  'Numeric character references cannot be disallowed'
+MESSAGES[NUMERIC_PROHIBITED] =
+  'Numeric character references cannot be outside the permissible Unicode range'
+
+/* Wrap to ensure clean parameters are given to `parse`. */
+function parseEntities(value, options) {
+  var settings = {}
+  var option
+  var key
+
+  if (!options) {
+    options = {}
+  }
+
+  for (key in defaults) {
+    option = options[key]
+    settings[key] =
+      option === null || option === undefined ? defaults[key] : option
+  }
+
+  if (settings.position.indent || settings.position.start) {
+    settings.indent = settings.position.indent || []
+    settings.position = settings.position.start
+  }
+
+  return parse(value, settings)
+}
+
+/* Parse entities. */
+function parse(value, settings) {
+  var additional = settings.additional
+  var nonTerminated = settings.nonTerminated
+  var handleText = settings.text
+  var handleReference = settings.reference
+  var handleWarning = settings.warning
+  var textContext = settings.textContext
+  var referenceContext = settings.referenceContext
+  var warningContext = settings.warningContext
+  var pos = settings.position
+  var indent = settings.indent || []
+  var length = value.length
+  var index = 0
+  var lines = -1
+  var column = pos.column || 1
+  var line = pos.line || 1
+  var queue = ''
+  var result = []
+  var entityCharacters
+  var namedEntity
+  var terminated
+  var characters
+  var character
+  var reference
+  var following
+  var warning
+  var reason
+  var output
+  var entity
+  var begin
+  var start
+  var type
+  var test
+  var prev
+  var next
+  var diff
+  var end
+
+  /* Cache the current point. */
+  prev = now()
+
+  /* Wrap `handleWarning`. */
+  warning = handleWarning ? parseError : noop
+
+  /* Ensure the algorithm walks over the first character
+   * and the end (inclusive). */
+  index--
+  length++
+
+  while (++index < length) {
+    /* If the previous character was a newline. */
+    if (character === '\n') {
+      column = indent[lines] || 1
+    }
+
+    character = at(index)
+
+    /* Handle anything other than an ampersand,
+     * including newlines and EOF. */
+    if (character !== '&') {
+      if (character === '\n') {
+        line++
+        lines++
+        column = 0
+      }
+
+      if (character) {
+        queue += character
+        column++
+      } else {
+        flush()
+      }
+    } else {
+      following = at(index + 1)
+
+      /* The behaviour depends on the identity of the next
+       * character. */
+      if (
+        following === '\t' /* Tab */ ||
+        following === '\n' /* Newline */ ||
+        following === '\f' /* Form feed */ ||
+        following === ' ' /* Space */ ||
+        following === '<' /* Less-than */ ||
+        following === '&' /* Ampersand */ ||
+        following === '' ||
+        (additional && following === additional)
+      ) {
+        /* Not a character reference. No characters
+         * are consumed, and nothing is returned.
+         * This is not an error, either. */
+        queue += character
+        column++
+
+        continue
+      }
+
+      start = index + 1
+      begin = start
+      end = start
+
+      /* Numerical entity. */
+      if (following !== '#') {
+        type = NAMED
+      } else {
+        end = ++begin
+
+        /* The behaviour further depends on the
+         * character after the U+0023 NUMBER SIGN. */
+        following = at(end)
+
+        if (following === 'x' || following === 'X') {
+          /* ASCII hex digits. */
+          type = HEXADECIMAL
+          end = ++begin
+        } else {
+          /* ASCII digits. */
+          type = DECIMAL
+        }
+      }
+
+      entityCharacters = ''
+      entity = ''
+      characters = ''
+      test = TESTS[type]
+      end--
+
+      while (++end < length) {
+        following = at(end)
+
+        if (!test(following)) {
+          break
+        }
+
+        characters += following
+
+        /* Check if we can match a legacy named
+         * reference.  If so, we cache that as the
+         * last viable named reference.  This
+         * ensures we do not need to walk backwards
+         * later. */
+        if (type === NAMED && own.call(legacy, characters)) {
+          entityCharacters = characters
+          entity = legacy[characters]
+        }
+      }
+
+      terminated = at(end) === ';'
+
+      if (terminated) {
+        end++
+
+        namedEntity = type === NAMED ? decodeEntity(characters) : false
+
+        if (namedEntity) {
+          entityCharacters = characters
+          entity = namedEntity
+        }
+      }
+
+      diff = 1 + end - start
+
+      if (!terminated && !nonTerminated) {
+        /* Empty. */
+      } else if (!characters) {
+        /* An empty (possible) entity is valid, unless
+         * its numeric (thus an ampersand followed by
+         * an octothorp). */
+        if (type !== NAMED) {
+          warning(NUMERIC_EMPTY, diff)
+        }
+      } else if (type === NAMED) {
+        /* An ampersand followed by anything
+         * unknown, and not terminated, is invalid. */
+        if (terminated && !entity) {
+          warning(NAMED_UNKNOWN, 1)
+        } else {
+          /* If theres something after an entity
+           * name which is not known, cap the
+           * reference. */
+          if (entityCharacters !== characters) {
+            end = begin + entityCharacters.length
+            diff = 1 + end - begin
+            terminated = false
+          }
+
+          /* If the reference is not terminated,
+           * warn. */
+          if (!terminated) {
+            reason = entityCharacters ? NAMED_NOT_TERMINATED : NAMED_EMPTY
+
+            if (!settings.attribute) {
+              warning(reason, diff)
+            } else {
+              following = at(end)
+
+              if (following === '=') {
+                warning(reason, diff)
+                entity = null
+              } else if (alphanumerical(following)) {
+                entity = null
+              } else {
+                warning(reason, diff)
+              }
+            }
+          }
+        }
+
+        reference = entity
+      } else {
+        if (!terminated) {
+          /* All non-terminated numeric entities are
+           * not rendered, and trigger a warning. */
+          warning(NUMERIC_NOT_TERMINATED, diff)
+        }
+
+        /* When terminated and number, parse as
+         * either hexadecimal or decimal. */
+        reference = parseInt(characters, BASE[type])
+
+        /* Trigger a warning when the parsed number
+         * is prohibited, and replace with
+         * replacement character. */
+        if (prohibited(reference)) {
+          warning(NUMERIC_PROHIBITED, diff)
+          reference = '\uFFFD'
+        } else if (reference in invalid) {
+          /* Trigger a warning when the parsed number
+           * is disallowed, and replace by an
+           * alternative. */
+          warning(NUMERIC_DISALLOWED, diff)
+          reference = invalid[reference]
+        } else {
+          /* Parse the number. */
+          output = ''
+
+          /* Trigger a warning when the parsed
+           * number should not be used. */
+          if (disallowed(reference)) {
+            warning(NUMERIC_DISALLOWED, diff)
+          }
+
+          /* Stringify the number. */
+          if (reference > 0xffff) {
+            reference -= 0x10000
+            output += fromCharCode((reference >>> (10 & 0x3ff)) | 0xd800)
+            reference = 0xdc00 | (reference & 0x3ff)
+          }
+
+          reference = output + fromCharCode(reference)
+        }
+      }
+
+      /* If we could not find a reference, queue the
+       * checked characters (as normal characters),
+       * and move the pointer to their end. This is
+       * possible because we can be certain neither
+       * newlines nor ampersands are included. */
+      if (!reference) {
+        characters = value.slice(start - 1, end)
+        queue += characters
+        column += characters.length
+        index = end - 1
+      } else {
+        /* Found it! First eat the queued
+         * characters as normal text, then eat
+         * an entity. */
+        flush()
+
+        prev = now()
+        index = end - 1
+        column += end - start + 1
+        result.push(reference)
+        next = now()
+        next.offset++
+
+        if (handleReference) {
+          handleReference.call(
+            referenceContext,
+            reference,
+            {start: prev, end: next},
+            value.slice(start - 1, end)
+          )
+        }
+
+        prev = next
+      }
+    }
+  }
+
+  /* Return the reduced nodes, and any possible warnings. */
+  return result.join('')
+
+  /* Get current position. */
+  function now() {
+    return {
+      line: line,
+      column: column,
+      offset: index + (pos.offset || 0)
+    }
+  }
+
+  /* “Throw” a parse-error: a warning. */
+  function parseError(code, offset) {
+    var position = now()
+
+    position.column += offset
+    position.offset += offset
+
+    handleWarning.call(warningContext, MESSAGES[code], position, code)
+  }
+
+  /* Get character at position. */
+  function at(position) {
+    return value.charAt(position)
+  }
+
+  /* Flush `queue` (normal text). Macro invoked before
+   * each entity and at the end of `value`.
+   * Does nothing when `queue` is empty. */
+  function flush() {
+    if (queue) {
+      result.push(queue)
+
+      if (handleText) {
+        handleText.call(textContext, queue, {start: prev, end: now()})
+      }
+
+      queue = ''
+    }
+  }
+}
+
+/* Check if `character` is outside the permissible unicode range. */
+function prohibited(code) {
+  return (code >= 0xd800 && code <= 0xdfff) || code > 0x10ffff
+}
+
+/* Check if `character` is disallowed. */
+function disallowed(code) {
+  return (
+    (code >= 0x0001 && code <= 0x0008) ||
+    code === 0x000b ||
+    (code >= 0x000d && code <= 0x001f) ||
+    (code >= 0x007f && code <= 0x009f) ||
+    (code >= 0xfdd0 && code <= 0xfdef) ||
+    (code & 0xffff) === 0xffff ||
+    (code & 0xffff) === 0xfffe
+  )
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/path-browserify/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/path-browserify/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(process) {// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+// resolves . and .. elements in a path array with directory names there
+// must be no slashes, empty elements, or device names (c:\) in the array
+// (so also no leading and trailing slashes - it does not distinguish
+// relative and absolute paths)
+function normalizeArray(parts, allowAboveRoot) {
+  // if the path tries to go above the root, `up` ends up > 0
+  var up = 0;
+  for (var i = parts.length - 1; i >= 0; i--) {
+    var last = parts[i];
+    if (last === '.') {
+      parts.splice(i, 1);
+    } else if (last === '..') {
+      parts.splice(i, 1);
+      up++;
+    } else if (up) {
+      parts.splice(i, 1);
+      up--;
+    }
+  }
+
+  // if the path is allowed to go above the root, restore leading ..s
+  if (allowAboveRoot) {
+    for (; up--; up) {
+      parts.unshift('..');
+    }
+  }
+
+  return parts;
+}
+
+// Split a filename into [root, dir, basename, ext], unix version
+// 'root' is just a slash, or nothing.
+var splitPathRe =
+    /^(\/?|)([\s\S]*?)((?:\.{1,2}|[^\/]+?|)(\.[^.\/]*|))(?:[\/]*)$/;
+var splitPath = function(filename) {
+  return splitPathRe.exec(filename).slice(1);
+};
+
+// path.resolve([from ...], to)
+// posix version
+exports.resolve = function() {
+  var resolvedPath = '',
+      resolvedAbsolute = false;
+
+  for (var i = arguments.length - 1; i >= -1 && !resolvedAbsolute; i--) {
+    var path = (i >= 0) ? arguments[i] : process.cwd();
+
+    // Skip empty and invalid entries
+    if (typeof path !== 'string') {
+      throw new TypeError('Arguments to path.resolve must be strings');
+    } else if (!path) {
+      continue;
+    }
+
+    resolvedPath = path + '/' + resolvedPath;
+    resolvedAbsolute = path.charAt(0) === '/';
+  }
+
+  // At this point the path should be resolved to a full absolute path, but
+  // handle relative paths to be safe (might happen when process.cwd() fails)
+
+  // Normalize the path
+  resolvedPath = normalizeArray(filter(resolvedPath.split('/'), function(p) {
+    return !!p;
+  }), !resolvedAbsolute).join('/');
+
+  return ((resolvedAbsolute ? '/' : '') + resolvedPath) || '.';
+};
+
+// path.normalize(path)
+// posix version
+exports.normalize = function(path) {
+  var isAbsolute = exports.isAbsolute(path),
+      trailingSlash = substr(path, -1) === '/';
+
+  // Normalize the path
+  path = normalizeArray(filter(path.split('/'), function(p) {
+    return !!p;
+  }), !isAbsolute).join('/');
+
+  if (!path && !isAbsolute) {
+    path = '.';
+  }
+  if (path && trailingSlash) {
+    path += '/';
+  }
+
+  return (isAbsolute ? '/' : '') + path;
+};
+
+// posix version
+exports.isAbsolute = function(path) {
+  return path.charAt(0) === '/';
+};
+
+// posix version
+exports.join = function() {
+  var paths = Array.prototype.slice.call(arguments, 0);
+  return exports.normalize(filter(paths, function(p, index) {
+    if (typeof p !== 'string') {
+      throw new TypeError('Arguments to path.join must be strings');
+    }
+    return p;
+  }).join('/'));
+};
+
+
+// path.relative(from, to)
+// posix version
+exports.relative = function(from, to) {
+  from = exports.resolve(from).substr(1);
+  to = exports.resolve(to).substr(1);
+
+  function trim(arr) {
+    var start = 0;
+    for (; start < arr.length; start++) {
+      if (arr[start] !== '') break;
+    }
+
+    var end = arr.length - 1;
+    for (; end >= 0; end--) {
+      if (arr[end] !== '') break;
+    }
+
+    if (start > end) return [];
+    return arr.slice(start, end - start + 1);
+  }
+
+  var fromParts = trim(from.split('/'));
+  var toParts = trim(to.split('/'));
+
+  var length = Math.min(fromParts.length, toParts.length);
+  var samePartsLength = length;
+  for (var i = 0; i < length; i++) {
+    if (fromParts[i] !== toParts[i]) {
+      samePartsLength = i;
+      break;
+    }
+  }
+
+  var outputParts = [];
+  for (var i = samePartsLength; i < fromParts.length; i++) {
+    outputParts.push('..');
+  }
+
+  outputParts = outputParts.concat(toParts.slice(samePartsLength));
+
+  return outputParts.join('/');
+};
+
+exports.sep = '/';
+exports.delimiter = ':';
+
+exports.dirname = function(path) {
+  var result = splitPath(path),
+      root = result[0],
+      dir = result[1];
+
+  if (!root && !dir) {
+    // No dirname whatsoever
+    return '.';
+  }
+
+  if (dir) {
+    // It has a dirname, strip trailing slash
+    dir = dir.substr(0, dir.length - 1);
+  }
+
+  return root + dir;
+};
+
+
+exports.basename = function(path, ext) {
+  var f = splitPath(path)[2];
+  // TODO: make this comparison case-insensitive on windows?
+  if (ext && f.substr(-1 * ext.length) === ext) {
+    f = f.substr(0, f.length - ext.length);
+  }
+  return f;
+};
+
+
+exports.extname = function(path) {
+  return splitPath(path)[3];
+};
+
+function filter (xs, f) {
+    if (xs.filter) return xs.filter(f);
+    var res = [];
+    for (var i = 0; i < xs.length; i++) {
+        if (f(xs[i], i, xs)) res.push(xs[i]);
+    }
+    return res;
+}
+
+// String.prototype.substr - negative index don't work in IE8
+var substr = 'ab'.substr(-1) === 'b'
+    ? function (str, start, len) { return str.substr(start, len) }
+    : function (str, start, len) {
+        if (start < 0) start = str.length + start;
+        return str.substr(start, len);
+    }
+;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../process/browser.js */ "./node_modules/process/browser.js")))
 
 /***/ }),
 
@@ -36454,6 +38008,851 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/react-markdown/lib/ast-to-react.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-markdown/lib/ast-to-react.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var xtend = __webpack_require__(/*! xtend */ "./node_modules/xtend/immutable.js");
+
+function astToReact(node, options) {
+  var parent = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+  var index = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 0;
+  var renderer = options.renderers[node.type];
+  var pos = node.position.start;
+  var key = [node.type, pos.line, pos.column].join('-');
+
+  if (typeof renderer !== 'function' && typeof renderer !== 'string' && !isReactFragment(renderer)) {
+    throw new Error("Renderer for type `".concat(node.type, "` not defined or is not renderable"));
+  }
+
+  var nodeProps = getNodeProps(node, key, options, renderer, parent, index);
+  return React.createElement(renderer, nodeProps, nodeProps.children || resolveChildren() || undefined);
+
+  function resolveChildren() {
+    return node.children && node.children.map(function (childNode, i) {
+      return astToReact(childNode, options, {
+        node: node,
+        props: nodeProps
+      }, i);
+    });
+  }
+}
+
+function isReactFragment(renderer) {
+  return React.Fragment && React.Fragment === renderer;
+} // eslint-disable-next-line max-params, complexity
+
+
+function getNodeProps(node, key, opts, renderer, parent, index) {
+  var props = {
+    key: key
+  };
+  var isTagRenderer = typeof renderer === 'string'; // `sourcePos` is true if the user wants source information (line/column info from markdown source)
+
+  if (opts.sourcePos && node.position) {
+    props['data-sourcepos'] = flattenPosition(node.position);
+  }
+
+  if (opts.rawSourcePos && !isTagRenderer) {
+    props.sourcePosition = node.position;
+  } // If `includeNodeIndex` is true, pass node index info to all non-tag renderers
+
+
+  if (opts.includeNodeIndex && parent.node && parent.node.children && !isTagRenderer) {
+    props.index = parent.node.children.indexOf(node);
+    props.parentChildCount = parent.node.children.length;
+  }
+
+  var ref = node.identifier !== null && node.identifier !== undefined ? opts.definitions[node.identifier] || {} : null;
+
+  switch (node.type) {
+    case 'root':
+      assignDefined(props, {
+        className: opts.className
+      });
+      break;
+
+    case 'text':
+      props.nodeKey = key;
+      props.children = node.value;
+      break;
+
+    case 'heading':
+      props.level = node.depth;
+      break;
+
+    case 'list':
+      props.start = node.start;
+      props.ordered = node.ordered;
+      props.tight = !node.loose;
+      props.depth = node.depth;
+      break;
+
+    case 'listItem':
+      props.checked = node.checked;
+      props.tight = !node.loose;
+      props.ordered = node.ordered;
+      props.index = node.index;
+      props.children = getListItemChildren(node, parent).map(function (childNode, i) {
+        return astToReact(childNode, opts, {
+          node: node,
+          props: props
+        }, i);
+      });
+      break;
+
+    case 'definition':
+      assignDefined(props, {
+        identifier: node.identifier,
+        title: node.title,
+        url: node.url
+      });
+      break;
+
+    case 'code':
+      assignDefined(props, {
+        language: node.lang && node.lang.split(/\s/, 1)[0]
+      });
+      break;
+
+    case 'inlineCode':
+      props.children = node.value;
+      props.inline = true;
+      break;
+
+    case 'link':
+      assignDefined(props, {
+        title: node.title || undefined,
+        target: typeof opts.linkTarget === 'function' ? opts.linkTarget(node.url, node.children, node.title) : opts.linkTarget,
+        href: opts.transformLinkUri ? opts.transformLinkUri(node.url, node.children, node.title) : node.url
+      });
+      break;
+
+    case 'image':
+      assignDefined(props, {
+        alt: node.alt || undefined,
+        title: node.title || undefined,
+        src: opts.transformImageUri ? opts.transformImageUri(node.url, node.children, node.title, node.alt) : node.url
+      });
+      break;
+
+    case 'linkReference':
+      assignDefined(props, xtend(ref, {
+        href: opts.transformLinkUri ? opts.transformLinkUri(ref.href) : ref.href
+      }));
+      break;
+
+    case 'imageReference':
+      assignDefined(props, {
+        src: opts.transformImageUri && ref.href ? opts.transformImageUri(ref.href, node.children, ref.title, node.alt) : ref.href,
+        title: ref.title || undefined,
+        alt: node.alt || undefined
+      });
+      break;
+
+    case 'table':
+    case 'tableHead':
+    case 'tableBody':
+      props.columnAlignment = node.align;
+      break;
+
+    case 'tableRow':
+      props.isHeader = parent.node.type === 'tableHead';
+      props.columnAlignment = parent.props.columnAlignment;
+      break;
+
+    case 'tableCell':
+      assignDefined(props, {
+        isHeader: parent.props.isHeader,
+        align: parent.props.columnAlignment[index]
+      });
+      break;
+
+    case 'virtualHtml':
+      props.tag = node.tag;
+      break;
+
+    case 'html':
+      // @todo find a better way than this
+      props.isBlock = node.position.start.line !== node.position.end.line;
+      props.escapeHtml = opts.escapeHtml;
+      props.skipHtml = opts.skipHtml;
+      break;
+
+    case 'parsedHtml':
+      props.escapeHtml = opts.escapeHtml;
+      props.skipHtml = opts.skipHtml;
+      props.element = mergeNodeChildren(node, (node.children || []).map(function (child, i) {
+        return astToReact(child, opts, {
+          node: node,
+          props: props
+        }, i);
+      }));
+      break;
+
+    default:
+      assignDefined(props, xtend(node, {
+        type: undefined,
+        position: undefined,
+        children: undefined
+      }));
+  }
+
+  if (!isTagRenderer && node.value) {
+    props.value = node.value;
+  }
+
+  return props;
+}
+
+function assignDefined(target, attrs) {
+  for (var key in attrs) {
+    if (typeof attrs[key] !== 'undefined') {
+      target[key] = attrs[key];
+    }
+  }
+}
+
+function mergeNodeChildren(node, parsedChildren) {
+  var el = node.element;
+
+  if (Array.isArray(el)) {
+    var Fragment = React.Fragment || 'div';
+    return React.createElement(Fragment, null, el);
+  }
+
+  var children = (el.props.children || []).concat(parsedChildren);
+  return React.cloneElement(el, null, children);
+}
+
+function flattenPosition(pos) {
+  return [pos.start.line, ':', pos.start.column, '-', pos.end.line, ':', pos.end.column].map(String).join('');
+}
+
+function getListItemChildren(node, parent) {
+  if (node.loose) {
+    return node.children;
+  }
+
+  if (parent.node && node.index > 0 && parent.node.children[node.index - 1].loose) {
+    return node.children;
+  }
+
+  return unwrapParagraphs(node);
+}
+
+function unwrapParagraphs(node) {
+  return node.children.reduce(function (array, child) {
+    return array.concat(child.type === 'paragraph' ? child.children || [] : [child]);
+  }, []);
+}
+
+module.exports = astToReact;
+
+/***/ }),
+
+/***/ "./node_modules/react-markdown/lib/get-definitions.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-markdown/lib/get-definitions.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function getDefinitions(node) {
+  var defs = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  return (node.children || []).reduce(function (definitions, child) {
+    if (child.type === 'definition') {
+      definitions[child.identifier] = {
+        href: child.url,
+        title: child.title
+      };
+    }
+
+    return getDefinitions(child, definitions);
+  }, defs);
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-markdown/lib/plugins/disallow-node.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-markdown/lib/plugins/disallow-node.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var visit = __webpack_require__(/*! unist-util-visit */ "./node_modules/unist-util-visit/index.js");
+
+exports.ofType = function (types, mode) {
+  return function (node) {
+    types.forEach(function (type) {
+      return visit(node, type, disallow, true);
+    });
+    return node;
+  };
+
+  function disallow(node, index, parent) {
+    if (parent) {
+      untangle(node, index, parent, mode);
+    }
+  }
+};
+
+exports.ifNotMatch = function (allowNode, mode) {
+  return function (node) {
+    visit(node, disallow, true);
+    return node;
+  };
+
+  function disallow(node, index, parent) {
+    if (parent && !allowNode(node, index, parent)) {
+      untangle(node, index, parent, mode);
+    }
+  }
+};
+
+function untangle(node, index, parent, mode) {
+  if (mode === 'remove') {
+    parent.children.splice(index, 1);
+  } else if (mode === 'unwrap') {
+    var args = [index, 1];
+
+    if (node.children) {
+      args = args.concat(node.children);
+    }
+
+    Array.prototype.splice.apply(parent.children, args);
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-markdown/lib/plugins/naive-html.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/react-markdown/lib/plugins/naive-html.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Naive, simple plugin to match inline nodes without attributes
+ * This allows say <strong>foo</strong>, but not <strong class="very">foo</strong>
+ * For proper HTML support, you'll want a different plugin
+ **/
+var visit = __webpack_require__(/*! unist-util-visit */ "./node_modules/unist-util-visit/index.js");
+
+var type = 'virtualHtml';
+var selfClosingRe = /^<(area|base|br|col|embed|hr|img|input|keygen|link|meta|param|source|track|wbr)\s*\/?>$/i;
+var simpleTagRe = /^<(\/?)([a-z]+)\s*>$/;
+
+module.exports = function (tree) {
+  var open;
+  var currentParent;
+  visit(tree, 'html', function (node, index, parent) {
+    if (currentParent !== parent) {
+      open = [];
+      currentParent = parent;
+    }
+
+    var selfClosing = getSelfClosing(node);
+
+    if (selfClosing) {
+      parent.children.splice(index, 1, {
+        type: type,
+        tag: selfClosing,
+        position: node.position
+      });
+      return true;
+    }
+
+    var current = getSimpleTag(node, parent);
+
+    if (!current) {
+      return true;
+    }
+
+    var matching = findAndPull(open, current.tag);
+
+    if (matching) {
+      parent.children.splice(index, 0, virtual(current, matching, parent));
+    } else if (!current.opening) {
+      open.push(current);
+    }
+
+    return true;
+  }, true // Iterate in reverse
+  );
+  return tree;
+};
+
+function findAndPull(open, matchingTag) {
+  var i = open.length;
+
+  while (i--) {
+    if (open[i].tag === matchingTag) {
+      return open.splice(i, 1)[0];
+    }
+  }
+
+  return false;
+}
+
+function getSimpleTag(node, parent) {
+  var match = node.value.match(simpleTagRe);
+  return match ? {
+    tag: match[2],
+    opening: !match[1],
+    node: node
+  } : false;
+}
+
+function getSelfClosing(node) {
+  var match = node.value.match(selfClosingRe);
+  return match ? match[1] : false;
+}
+
+function virtual(fromNode, toNode, parent) {
+  var fromIndex = parent.children.indexOf(fromNode.node);
+  var toIndex = parent.children.indexOf(toNode.node);
+  var extracted = parent.children.splice(fromIndex, toIndex - fromIndex + 1);
+  var children = extracted.slice(1, -1);
+  return {
+    type: type,
+    children: children,
+    tag: fromNode.tag,
+    position: {
+      start: fromNode.node.position.start,
+      end: toNode.node.position.end,
+      indent: []
+    }
+  };
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-markdown/lib/react-markdown.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-markdown/lib/react-markdown.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
+var xtend = __webpack_require__(/*! xtend */ "./node_modules/xtend/immutable.js");
+
+var unified = __webpack_require__(/*! unified */ "./node_modules/unified/index.js");
+
+var parse = __webpack_require__(/*! remark-parse */ "./node_modules/remark-parse/index.js");
+
+var PropTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var addListMetadata = __webpack_require__(/*! mdast-add-list-metadata */ "./node_modules/mdast-add-list-metadata/index.js");
+
+var naiveHtml = __webpack_require__(/*! ./plugins/naive-html */ "./node_modules/react-markdown/lib/plugins/naive-html.js");
+
+var disallowNode = __webpack_require__(/*! ./plugins/disallow-node */ "./node_modules/react-markdown/lib/plugins/disallow-node.js");
+
+var astToReact = __webpack_require__(/*! ./ast-to-react */ "./node_modules/react-markdown/lib/ast-to-react.js");
+
+var wrapTableRows = __webpack_require__(/*! ./wrap-table-rows */ "./node_modules/react-markdown/lib/wrap-table-rows.js");
+
+var getDefinitions = __webpack_require__(/*! ./get-definitions */ "./node_modules/react-markdown/lib/get-definitions.js");
+
+var uriTransformer = __webpack_require__(/*! ./uri-transformer */ "./node_modules/react-markdown/lib/uri-transformer.js");
+
+var defaultRenderers = __webpack_require__(/*! ./renderers */ "./node_modules/react-markdown/lib/renderers.js");
+
+var symbols = __webpack_require__(/*! ./symbols */ "./node_modules/react-markdown/lib/symbols.js");
+
+var allTypes = Object.keys(defaultRenderers);
+
+var ReactMarkdown = function ReactMarkdown(props) {
+  var src = props.source || props.children || '';
+
+  if (props.allowedTypes && props.disallowedTypes) {
+    throw new Error('Only one of `allowedTypes` and `disallowedTypes` should be defined');
+  }
+
+  var renderers = xtend(defaultRenderers, props.renderers);
+  var plugins = [parse].concat(props.plugins || []);
+  var parser = plugins.reduce(applyParserPlugin, unified());
+  var rawAst = parser.parse(src);
+  var renderProps = xtend(props, {
+    renderers: renderers,
+    definitions: getDefinitions(rawAst)
+  });
+  var astPlugins = determineAstPlugins(props);
+  var ast = astPlugins.reduce(function (node, plugin) {
+    return plugin(node, renderProps);
+  }, rawAst);
+  return astToReact(ast, renderProps);
+};
+
+function applyParserPlugin(parser, plugin) {
+  return Array.isArray(plugin) ? parser.use.apply(parser, _toConsumableArray(plugin)) : parser.use(plugin);
+}
+
+function determineAstPlugins(props) {
+  var plugins = [wrapTableRows, addListMetadata()];
+  var disallowedTypes = props.disallowedTypes;
+
+  if (props.allowedTypes) {
+    disallowedTypes = allTypes.filter(function (type) {
+      return type !== 'root' && props.allowedTypes.indexOf(type) === -1;
+    });
+  }
+
+  var removalMethod = props.unwrapDisallowed ? 'unwrap' : 'remove';
+
+  if (disallowedTypes && disallowedTypes.length > 0) {
+    plugins.push(disallowNode.ofType(disallowedTypes, removalMethod));
+  }
+
+  if (props.allowNode) {
+    plugins.push(disallowNode.ifNotMatch(props.allowNode, removalMethod));
+  }
+
+  var renderHtml = !props.escapeHtml && !props.skipHtml;
+  var hasHtmlParser = (props.astPlugins || []).some(function (item) {
+    var plugin = Array.isArray(item) ? item[0] : item;
+    return plugin.identity === symbols.HtmlParser;
+  });
+
+  if (renderHtml && !hasHtmlParser) {
+    plugins.push(naiveHtml);
+  }
+
+  return props.astPlugins ? plugins.concat(props.astPlugins) : plugins;
+}
+
+ReactMarkdown.defaultProps = {
+  renderers: {},
+  escapeHtml: true,
+  skipHtml: false,
+  sourcePos: false,
+  rawSourcePos: false,
+  transformLinkUri: uriTransformer,
+  astPlugins: [],
+  plugins: []
+};
+ReactMarkdown.propTypes = {
+  className: PropTypes.string,
+  source: PropTypes.string,
+  children: PropTypes.string,
+  sourcePos: PropTypes.bool,
+  rawSourcePos: PropTypes.bool,
+  escapeHtml: PropTypes.bool,
+  skipHtml: PropTypes.bool,
+  allowNode: PropTypes.func,
+  allowedTypes: PropTypes.arrayOf(PropTypes.oneOf(allTypes)),
+  disallowedTypes: PropTypes.arrayOf(PropTypes.oneOf(allTypes)),
+  transformLinkUri: PropTypes.oneOfType([PropTypes.func, PropTypes.bool]),
+  linkTarget: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  transformImageUri: PropTypes.func,
+  astPlugins: PropTypes.arrayOf(PropTypes.func),
+  unwrapDisallowed: PropTypes.bool,
+  renderers: PropTypes.object,
+  plugins: PropTypes.array
+};
+ReactMarkdown.types = allTypes;
+ReactMarkdown.renderers = defaultRenderers;
+ReactMarkdown.uriTransformer = uriTransformer;
+module.exports = ReactMarkdown;
+
+/***/ }),
+
+/***/ "./node_modules/react-markdown/lib/renderers.js":
+/*!******************************************************!*\
+  !*** ./node_modules/react-markdown/lib/renderers.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* eslint-disable react/prop-types, react/no-multi-comp */
+
+
+var xtend = __webpack_require__(/*! xtend */ "./node_modules/xtend/immutable.js");
+
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var supportsStringRender = parseInt((React.version || '16').slice(0, 2), 10) >= 16;
+var createElement = React.createElement;
+module.exports = {
+  break: 'br',
+  paragraph: 'p',
+  emphasis: 'em',
+  strong: 'strong',
+  thematicBreak: 'hr',
+  blockquote: 'blockquote',
+  delete: 'del',
+  link: 'a',
+  image: 'img',
+  linkReference: 'a',
+  imageReference: 'img',
+  table: SimpleRenderer.bind(null, 'table'),
+  tableHead: SimpleRenderer.bind(null, 'thead'),
+  tableBody: SimpleRenderer.bind(null, 'tbody'),
+  tableRow: SimpleRenderer.bind(null, 'tr'),
+  tableCell: TableCell,
+  root: Root,
+  text: TextRenderer,
+  list: List,
+  listItem: ListItem,
+  definition: NullRenderer,
+  heading: Heading,
+  inlineCode: InlineCode,
+  code: CodeBlock,
+  html: Html,
+  virtualHtml: VirtualHtml,
+  parsedHtml: ParsedHtml
+};
+
+function TextRenderer(props) {
+  return supportsStringRender ? props.children : createElement('span', null, props.children);
+}
+
+function Root(props) {
+  var useFragment = !props.className;
+  var root = useFragment ? React.Fragment || 'div' : 'div';
+  return createElement(root, useFragment ? null : props, props.children);
+}
+
+function SimpleRenderer(tag, props) {
+  return createElement(tag, getCoreProps(props), props.children);
+}
+
+function TableCell(props) {
+  var style = props.align ? {
+    textAlign: props.align
+  } : undefined;
+  var coreProps = getCoreProps(props);
+  return createElement(props.isHeader ? 'th' : 'td', style ? xtend({
+    style: style
+  }, coreProps) : coreProps, props.children);
+}
+
+function Heading(props) {
+  return createElement("h".concat(props.level), getCoreProps(props), props.children);
+}
+
+function List(props) {
+  var attrs = getCoreProps(props);
+
+  if (props.start !== null && props.start !== 1) {
+    attrs.start = props.start.toString();
+  }
+
+  return createElement(props.ordered ? 'ol' : 'ul', attrs, props.children);
+}
+
+function ListItem(props) {
+  var checkbox = null;
+
+  if (props.checked !== null) {
+    var checked = props.checked;
+    checkbox = createElement('input', {
+      type: 'checkbox',
+      checked: checked,
+      readOnly: true
+    });
+  }
+
+  return createElement('li', getCoreProps(props), checkbox, props.children);
+}
+
+function CodeBlock(props) {
+  var className = props.language && "language-".concat(props.language);
+  var code = createElement('code', className ? {
+    className: className
+  } : null, props.value);
+  return createElement('pre', getCoreProps(props), code);
+}
+
+function InlineCode(props) {
+  return createElement('code', getCoreProps(props), props.children);
+}
+
+function Html(props) {
+  if (props.skipHtml) {
+    return null;
+  }
+
+  var tag = props.isBlock ? 'div' : 'span';
+
+  if (props.escapeHtml) {
+    var comp = React.Fragment || tag;
+    return createElement(comp, null, props.value);
+  }
+
+  var nodeProps = {
+    dangerouslySetInnerHTML: {
+      __html: props.value
+    }
+  };
+  return createElement(tag, nodeProps);
+}
+
+function ParsedHtml(props) {
+  return props['data-sourcepos'] ? React.cloneElement(props.element, {
+    'data-sourcepos': props['data-sourcepos']
+  }) : props.element;
+}
+
+function VirtualHtml(props) {
+  return createElement(props.tag, getCoreProps(props), props.children);
+}
+
+function NullRenderer() {
+  return null;
+}
+
+function getCoreProps(props) {
+  return props['data-sourcepos'] ? {
+    'data-sourcepos': props['data-sourcepos']
+  } : {};
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-markdown/lib/symbols.js":
+/*!****************************************************!*\
+  !*** ./node_modules/react-markdown/lib/symbols.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var HtmlParser = '__RMD_HTML_PARSER__';
+exports.HtmlParser = typeof Symbol === 'undefined' ? HtmlParser : Symbol(HtmlParser);
+
+/***/ }),
+
+/***/ "./node_modules/react-markdown/lib/uri-transformer.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-markdown/lib/uri-transformer.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var protocols = ['http', 'https', 'mailto', 'tel'];
+
+module.exports = function uriTransformer(uri) {
+  var url = (uri || '').trim();
+  var first = url.charAt(0);
+
+  if (first === '#' || first === '/') {
+    return url;
+  }
+
+  var colon = url.indexOf(':');
+
+  if (colon === -1) {
+    return url;
+  }
+
+  var length = protocols.length;
+  var index = -1;
+
+  while (++index < length) {
+    var protocol = protocols[index];
+
+    if (colon === protocol.length && url.slice(0, protocol.length).toLowerCase() === protocol) {
+      return url;
+    }
+  }
+
+  index = url.indexOf('?');
+
+  if (index !== -1 && colon > index) {
+    return url;
+  }
+
+  index = url.indexOf('#');
+
+  if (index !== -1 && colon > index) {
+    return url;
+  } // eslint-disable-next-line no-script-url
+
+
+  return 'javascript:void(0)';
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-markdown/lib/wrap-table-rows.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-markdown/lib/wrap-table-rows.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var visit = __webpack_require__(/*! unist-util-visit */ "./node_modules/unist-util-visit/index.js");
+
+module.exports = function (node) {
+  visit(node, 'table', wrap);
+  return node;
+};
+
+function wrap(table) {
+  var children = table.children;
+  table.children = [{
+    type: 'tableHead',
+    align: table.align,
+    children: [children[0]],
+    position: children[0].position
+  }];
+
+  if (children.length > 1) {
+    table.children.push({
+      type: 'tableBody',
+      align: table.align,
+      children: children.slice(1),
+      position: {
+        start: children[1].position.start,
+        end: children[children.length - 1].position.end
+      }
+    });
+  }
+}
+
+/***/ }),
+
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
   !*** delegated ./node_modules/react/index.js from dll-reference dll_b2d9fd95b535cd8bf589 ***!
@@ -37241,6 +39640,5401 @@ if (hadRuntime) {
     return this || (typeof self === "object" && self);
   })() || Function("return this")()
 );
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/index.js":
+/*!********************************************!*\
+  !*** ./node_modules/remark-parse/index.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var unherit = __webpack_require__(/*! unherit */ "./node_modules/unherit/index.js");
+var xtend = __webpack_require__(/*! xtend */ "./node_modules/xtend/immutable.js");
+var Parser = __webpack_require__(/*! ./lib/parser.js */ "./node_modules/remark-parse/lib/parser.js");
+
+module.exports = parse;
+parse.Parser = Parser;
+
+function parse(options) {
+  var Local = unherit(Parser);
+  Local.prototype.options = xtend(Local.prototype.options, this.data('settings'), options);
+  this.Parser = Local;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/block-elements.json":
+/*!***********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/block-elements.json ***!
+  \***********************************************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, default */
+/***/ (function(module) {
+
+module.exports = ["address","article","aside","base","basefont","blockquote","body","caption","center","col","colgroup","dd","details","dialog","dir","div","dl","dt","fieldset","figcaption","figure","footer","form","frame","frameset","h1","h2","h3","h4","h5","h6","head","header","hgroup","hr","html","iframe","legend","li","link","main","menu","menuitem","meta","nav","noframes","ol","optgroup","option","p","param","pre","section","source","title","summary","table","tbody","td","tfoot","th","thead","title","tr","track","ul"];
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/decode.js":
+/*!*************************************************!*\
+  !*** ./node_modules/remark-parse/lib/decode.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var xtend = __webpack_require__(/*! xtend */ "./node_modules/xtend/immutable.js");
+var entities = __webpack_require__(/*! parse-entities */ "./node_modules/parse-entities/index.js");
+
+module.exports = factory;
+
+/* Factory to create an entity decoder. */
+function factory(ctx) {
+  decoder.raw = decodeRaw;
+
+  return decoder;
+
+  /* Normalize `position` to add an `indent`. */
+  function normalize(position) {
+    var offsets = ctx.offset;
+    var line = position.line;
+    var result = [];
+
+    while (++line) {
+      if (!(line in offsets)) {
+        break;
+      }
+
+      result.push((offsets[line] || 0) + 1);
+    }
+
+    return {
+      start: position,
+      indent: result
+    };
+  }
+
+  /* Handle a warning.
+   * See https://github.com/wooorm/parse-entities
+   * for the warnings. */
+  function handleWarning(reason, position, code) {
+    if (code === 3) {
+      return;
+    }
+
+    ctx.file.message(reason, position);
+  }
+
+  /* Decode `value` (at `position`) into text-nodes. */
+  function decoder(value, position, handler) {
+    entities(value, {
+      position: normalize(position),
+      warning: handleWarning,
+      text: handler,
+      reference: handler,
+      textContext: ctx,
+      referenceContext: ctx
+    });
+  }
+
+  /* Decode `value` (at `position`) into a string. */
+  function decodeRaw(value, position, options) {
+    return entities(value, xtend(options, {
+      position: normalize(position),
+      warning: handleWarning
+    }));
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/defaults.js":
+/*!***************************************************!*\
+  !*** ./node_modules/remark-parse/lib/defaults.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = {
+  position: true,
+  gfm: true,
+  commonmark: false,
+  footnotes: false,
+  pedantic: false,
+  blocks: __webpack_require__(/*! ./block-elements.json */ "./node_modules/remark-parse/lib/block-elements.json")
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/break.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/break.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = locate;
+
+function locate(value, fromIndex) {
+  var index = value.indexOf('\n', fromIndex);
+
+  while (index > fromIndex) {
+    if (value.charAt(index - 1) !== ' ') {
+      break;
+    }
+
+    index--;
+  }
+
+  return index;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/code-inline.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/code-inline.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = locate;
+
+function locate(value, fromIndex) {
+  return value.indexOf('`', fromIndex);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/delete.js":
+/*!********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/delete.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = locate;
+
+function locate(value, fromIndex) {
+  return value.indexOf('~~', fromIndex);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/emphasis.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/emphasis.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = locate;
+
+function locate(value, fromIndex) {
+  var asterisk = value.indexOf('*', fromIndex);
+  var underscore = value.indexOf('_', fromIndex);
+
+  if (underscore === -1) {
+    return asterisk;
+  }
+
+  if (asterisk === -1) {
+    return underscore;
+  }
+
+  return underscore < asterisk ? underscore : asterisk;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/escape.js":
+/*!********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/escape.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = locate;
+
+function locate(value, fromIndex) {
+  return value.indexOf('\\', fromIndex);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/link.js":
+/*!******************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/link.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = locate;
+
+function locate(value, fromIndex) {
+  var link = value.indexOf('[', fromIndex);
+  var image = value.indexOf('![', fromIndex);
+
+  if (image === -1) {
+    return link;
+  }
+
+  /* Link can never be `-1` if an image is found, so we don’t need
+   * to check for that :) */
+  return link < image ? link : image;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/strong.js":
+/*!********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/strong.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = locate;
+
+function locate(value, fromIndex) {
+  var asterisk = value.indexOf('**', fromIndex);
+  var underscore = value.indexOf('__', fromIndex);
+
+  if (underscore === -1) {
+    return asterisk;
+  }
+
+  if (asterisk === -1) {
+    return underscore;
+  }
+
+  return underscore < asterisk ? underscore : asterisk;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/tag.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/tag.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = locate;
+
+function locate(value, fromIndex) {
+  return value.indexOf('<', fromIndex);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/url.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/url.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = locate;
+
+var PROTOCOLS = ['https://', 'http://', 'mailto:'];
+
+function locate(value, fromIndex) {
+  var length = PROTOCOLS.length;
+  var index = -1;
+  var min = -1;
+  var position;
+
+  if (!this.options.gfm) {
+    return -1;
+  }
+
+  while (++index < length) {
+    position = value.indexOf(PROTOCOLS[index], fromIndex);
+
+    if (position !== -1 && (position < min || min === -1)) {
+      min = position;
+    }
+  }
+
+  return min;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/parse.js":
+/*!************************************************!*\
+  !*** ./node_modules/remark-parse/lib/parse.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var xtend = __webpack_require__(/*! xtend */ "./node_modules/xtend/immutable.js");
+var removePosition = __webpack_require__(/*! unist-util-remove-position */ "./node_modules/unist-util-remove-position/index.js");
+
+module.exports = parse;
+
+var C_NEWLINE = '\n';
+var EXPRESSION_LINE_BREAKS = /\r\n|\r/g;
+
+/* Parse the bound file. */
+function parse() {
+  var self = this;
+  var value = String(self.file);
+  var start = {line: 1, column: 1, offset: 0};
+  var content = xtend(start);
+  var node;
+
+  /* Clean non-unix newlines: `\r\n` and `\r` are all
+   * changed to `\n`.  This should not affect positional
+   * information. */
+  value = value.replace(EXPRESSION_LINE_BREAKS, C_NEWLINE);
+
+  if (value.charCodeAt(0) === 0xFEFF) {
+    value = value.slice(1);
+
+    content.column++;
+    content.offset++;
+  }
+
+  node = {
+    type: 'root',
+    children: self.tokenizeBlock(value, content),
+    position: {
+      start: start,
+      end: self.eof || xtend(start)
+    }
+  };
+
+  if (!self.options.position) {
+    removePosition(node, true);
+  }
+
+  return node;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/parser.js":
+/*!*************************************************!*\
+  !*** ./node_modules/remark-parse/lib/parser.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var xtend = __webpack_require__(/*! xtend */ "./node_modules/xtend/immutable.js");
+var toggle = __webpack_require__(/*! state-toggle */ "./node_modules/state-toggle/index.js");
+var vfileLocation = __webpack_require__(/*! vfile-location */ "./node_modules/vfile-location/index.js");
+var unescape = __webpack_require__(/*! ./unescape */ "./node_modules/remark-parse/lib/unescape.js");
+var decode = __webpack_require__(/*! ./decode */ "./node_modules/remark-parse/lib/decode.js");
+var tokenizer = __webpack_require__(/*! ./tokenizer */ "./node_modules/remark-parse/lib/tokenizer.js");
+
+module.exports = Parser;
+
+function Parser(doc, file) {
+  this.file = file;
+  this.offset = {};
+  this.options = xtend(this.options);
+  this.setOptions({});
+
+  this.inList = false;
+  this.inBlock = false;
+  this.inLink = false;
+  this.atStart = true;
+
+  this.toOffset = vfileLocation(file).toOffset;
+  this.unescape = unescape(this, 'escape');
+  this.decode = decode(this);
+}
+
+var proto = Parser.prototype;
+
+/* Expose core. */
+proto.setOptions = __webpack_require__(/*! ./set-options */ "./node_modules/remark-parse/lib/set-options.js");
+proto.parse = __webpack_require__(/*! ./parse */ "./node_modules/remark-parse/lib/parse.js");
+
+/* Expose `defaults`. */
+proto.options = __webpack_require__(/*! ./defaults */ "./node_modules/remark-parse/lib/defaults.js");
+
+/* Enter and exit helpers. */
+proto.exitStart = toggle('atStart', true);
+proto.enterList = toggle('inList', false);
+proto.enterLink = toggle('inLink', false);
+proto.enterBlock = toggle('inBlock', false);
+
+/* Nodes that can interupt a paragraph:
+ *
+ * ```markdown
+ * A paragraph, followed by a thematic break.
+ * ___
+ * ```
+ *
+ * In the above example, the thematic break “interupts”
+ * the paragraph. */
+proto.interruptParagraph = [
+  ['thematicBreak'],
+  ['atxHeading'],
+  ['fencedCode'],
+  ['blockquote'],
+  ['html'],
+  ['setextHeading', {commonmark: false}],
+  ['definition', {commonmark: false}],
+  ['footnote', {commonmark: false}]
+];
+
+/* Nodes that can interupt a list:
+ *
+ * ```markdown
+ * - One
+ * ___
+ * ```
+ *
+ * In the above example, the thematic break “interupts”
+ * the list. */
+proto.interruptList = [
+  ['atxHeading', {pedantic: false}],
+  ['fencedCode', {pedantic: false}],
+  ['thematicBreak', {pedantic: false}],
+  ['definition', {commonmark: false}],
+  ['footnote', {commonmark: false}]
+];
+
+/* Nodes that can interupt a blockquote:
+ *
+ * ```markdown
+ * > A paragraph.
+ * ___
+ * ```
+ *
+ * In the above example, the thematic break “interupts”
+ * the blockquote. */
+proto.interruptBlockquote = [
+  ['indentedCode', {commonmark: true}],
+  ['fencedCode', {commonmark: true}],
+  ['atxHeading', {commonmark: true}],
+  ['setextHeading', {commonmark: true}],
+  ['thematicBreak', {commonmark: true}],
+  ['html', {commonmark: true}],
+  ['list', {commonmark: true}],
+  ['definition', {commonmark: false}],
+  ['footnote', {commonmark: false}]
+];
+
+/* Handlers. */
+proto.blockTokenizers = {
+  newline: __webpack_require__(/*! ./tokenize/newline */ "./node_modules/remark-parse/lib/tokenize/newline.js"),
+  indentedCode: __webpack_require__(/*! ./tokenize/code-indented */ "./node_modules/remark-parse/lib/tokenize/code-indented.js"),
+  fencedCode: __webpack_require__(/*! ./tokenize/code-fenced */ "./node_modules/remark-parse/lib/tokenize/code-fenced.js"),
+  blockquote: __webpack_require__(/*! ./tokenize/blockquote */ "./node_modules/remark-parse/lib/tokenize/blockquote.js"),
+  atxHeading: __webpack_require__(/*! ./tokenize/heading-atx */ "./node_modules/remark-parse/lib/tokenize/heading-atx.js"),
+  thematicBreak: __webpack_require__(/*! ./tokenize/thematic-break */ "./node_modules/remark-parse/lib/tokenize/thematic-break.js"),
+  list: __webpack_require__(/*! ./tokenize/list */ "./node_modules/remark-parse/lib/tokenize/list.js"),
+  setextHeading: __webpack_require__(/*! ./tokenize/heading-setext */ "./node_modules/remark-parse/lib/tokenize/heading-setext.js"),
+  html: __webpack_require__(/*! ./tokenize/html-block */ "./node_modules/remark-parse/lib/tokenize/html-block.js"),
+  footnote: __webpack_require__(/*! ./tokenize/footnote-definition */ "./node_modules/remark-parse/lib/tokenize/footnote-definition.js"),
+  definition: __webpack_require__(/*! ./tokenize/definition */ "./node_modules/remark-parse/lib/tokenize/definition.js"),
+  table: __webpack_require__(/*! ./tokenize/table */ "./node_modules/remark-parse/lib/tokenize/table.js"),
+  paragraph: __webpack_require__(/*! ./tokenize/paragraph */ "./node_modules/remark-parse/lib/tokenize/paragraph.js")
+};
+
+proto.inlineTokenizers = {
+  escape: __webpack_require__(/*! ./tokenize/escape */ "./node_modules/remark-parse/lib/tokenize/escape.js"),
+  autoLink: __webpack_require__(/*! ./tokenize/auto-link */ "./node_modules/remark-parse/lib/tokenize/auto-link.js"),
+  url: __webpack_require__(/*! ./tokenize/url */ "./node_modules/remark-parse/lib/tokenize/url.js"),
+  html: __webpack_require__(/*! ./tokenize/html-inline */ "./node_modules/remark-parse/lib/tokenize/html-inline.js"),
+  link: __webpack_require__(/*! ./tokenize/link */ "./node_modules/remark-parse/lib/tokenize/link.js"),
+  reference: __webpack_require__(/*! ./tokenize/reference */ "./node_modules/remark-parse/lib/tokenize/reference.js"),
+  strong: __webpack_require__(/*! ./tokenize/strong */ "./node_modules/remark-parse/lib/tokenize/strong.js"),
+  emphasis: __webpack_require__(/*! ./tokenize/emphasis */ "./node_modules/remark-parse/lib/tokenize/emphasis.js"),
+  deletion: __webpack_require__(/*! ./tokenize/delete */ "./node_modules/remark-parse/lib/tokenize/delete.js"),
+  code: __webpack_require__(/*! ./tokenize/code-inline */ "./node_modules/remark-parse/lib/tokenize/code-inline.js"),
+  break: __webpack_require__(/*! ./tokenize/break */ "./node_modules/remark-parse/lib/tokenize/break.js"),
+  text: __webpack_require__(/*! ./tokenize/text */ "./node_modules/remark-parse/lib/tokenize/text.js")
+};
+
+/* Expose precedence. */
+proto.blockMethods = keys(proto.blockTokenizers);
+proto.inlineMethods = keys(proto.inlineTokenizers);
+
+/* Tokenizers. */
+proto.tokenizeBlock = tokenizer('block');
+proto.tokenizeInline = tokenizer('inline');
+proto.tokenizeFactory = tokenizer;
+
+/* Get all keys in `value`. */
+function keys(value) {
+  var result = [];
+  var key;
+
+  for (key in value) {
+    result.push(key);
+  }
+
+  return result;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/set-options.js":
+/*!******************************************************!*\
+  !*** ./node_modules/remark-parse/lib/set-options.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var xtend = __webpack_require__(/*! xtend */ "./node_modules/xtend/immutable.js");
+var escapes = __webpack_require__(/*! markdown-escapes */ "./node_modules/markdown-escapes/index.js");
+var defaults = __webpack_require__(/*! ./defaults */ "./node_modules/remark-parse/lib/defaults.js");
+
+module.exports = setOptions;
+
+function setOptions(options) {
+  var self = this;
+  var current = self.options;
+  var key;
+  var value;
+
+  if (options == null) {
+    options = {};
+  } else if (typeof options === 'object') {
+    options = xtend(options);
+  } else {
+    throw new Error(
+      'Invalid value `' + options + '` ' +
+      'for setting `options`'
+    );
+  }
+
+  for (key in defaults) {
+    value = options[key];
+
+    if (value == null) {
+      value = current[key];
+    }
+
+    if (
+      (key !== 'blocks' && typeof value !== 'boolean') ||
+      (key === 'blocks' && typeof value !== 'object')
+    ) {
+      throw new Error('Invalid value `' + value + '` for setting `options.' + key + '`');
+    }
+
+    options[key] = value;
+  }
+
+  self.options = options;
+  self.escape = escapes(options);
+
+  return self;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/auto-link.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/auto-link.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var whitespace = __webpack_require__(/*! is-whitespace-character */ "./node_modules/is-whitespace-character/index.js");
+var decode = __webpack_require__(/*! parse-entities */ "./node_modules/parse-entities/index.js");
+var locate = __webpack_require__(/*! ../locate/tag */ "./node_modules/remark-parse/lib/locate/tag.js");
+
+module.exports = autoLink;
+autoLink.locator = locate;
+autoLink.notInLink = true;
+
+var C_LT = '<';
+var C_GT = '>';
+var C_AT_SIGN = '@';
+var C_SLASH = '/';
+var MAILTO = 'mailto:';
+var MAILTO_LENGTH = MAILTO.length;
+
+/* Tokenise a link. */
+function autoLink(eat, value, silent) {
+  var self;
+  var subvalue;
+  var length;
+  var index;
+  var queue;
+  var character;
+  var hasAtCharacter;
+  var link;
+  var now;
+  var content;
+  var tokenizers;
+  var exit;
+
+  if (value.charAt(0) !== C_LT) {
+    return;
+  }
+
+  self = this;
+  subvalue = '';
+  length = value.length;
+  index = 0;
+  queue = '';
+  hasAtCharacter = false;
+  link = '';
+
+  index++;
+  subvalue = C_LT;
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (
+      whitespace(character) ||
+      character === C_GT ||
+      character === C_AT_SIGN ||
+      (character === ':' && value.charAt(index + 1) === C_SLASH)
+    ) {
+      break;
+    }
+
+    queue += character;
+    index++;
+  }
+
+  if (!queue) {
+    return;
+  }
+
+  link += queue;
+  queue = '';
+
+  character = value.charAt(index);
+  link += character;
+  index++;
+
+  if (character === C_AT_SIGN) {
+    hasAtCharacter = true;
+  } else {
+    if (
+      character !== ':' ||
+      value.charAt(index + 1) !== C_SLASH
+    ) {
+      return;
+    }
+
+    link += C_SLASH;
+    index++;
+  }
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (whitespace(character) || character === C_GT) {
+      break;
+    }
+
+    queue += character;
+    index++;
+  }
+
+  character = value.charAt(index);
+
+  if (!queue || character !== C_GT) {
+    return;
+  }
+
+  /* istanbul ignore if - never used (yet) */
+  if (silent) {
+    return true;
+  }
+
+  link += queue;
+  content = link;
+  subvalue += link + character;
+  now = eat.now();
+  now.column++;
+  now.offset++;
+
+  if (hasAtCharacter) {
+    if (link.slice(0, MAILTO_LENGTH).toLowerCase() === MAILTO) {
+      content = content.substr(MAILTO_LENGTH);
+      now.column += MAILTO_LENGTH;
+      now.offset += MAILTO_LENGTH;
+    } else {
+      link = MAILTO + link;
+    }
+  }
+
+  /* Temporarily remove all tokenizers except text in autolinks. */
+  tokenizers = self.inlineTokenizers;
+  self.inlineTokenizers = {text: tokenizers.text};
+
+  exit = self.enterLink();
+
+  content = self.tokenizeInline(content, now);
+
+  self.inlineTokenizers = tokenizers;
+  exit();
+
+  return eat(subvalue)({
+    type: 'link',
+    title: null,
+    url: decode(link, {nonTerminated: false}),
+    children: content
+  });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/blockquote.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/blockquote.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var trim = __webpack_require__(/*! trim */ "./node_modules/trim/index.js");
+var interrupt = __webpack_require__(/*! ../util/interrupt */ "./node_modules/remark-parse/lib/util/interrupt.js");
+
+module.exports = blockquote;
+
+var C_NEWLINE = '\n';
+var C_TAB = '\t';
+var C_SPACE = ' ';
+var C_GT = '>';
+
+/* Tokenise a blockquote. */
+function blockquote(eat, value, silent) {
+  var self = this;
+  var offsets = self.offset;
+  var tokenizers = self.blockTokenizers;
+  var interruptors = self.interruptBlockquote;
+  var now = eat.now();
+  var currentLine = now.line;
+  var length = value.length;
+  var values = [];
+  var contents = [];
+  var indents = [];
+  var add;
+  var index = 0;
+  var character;
+  var rest;
+  var nextIndex;
+  var content;
+  var line;
+  var startIndex;
+  var prefixed;
+  var exit;
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character !== C_SPACE && character !== C_TAB) {
+      break;
+    }
+
+    index++;
+  }
+
+  if (value.charAt(index) !== C_GT) {
+    return;
+  }
+
+  if (silent) {
+    return true;
+  }
+
+  index = 0;
+
+  while (index < length) {
+    nextIndex = value.indexOf(C_NEWLINE, index);
+    startIndex = index;
+    prefixed = false;
+
+    if (nextIndex === -1) {
+      nextIndex = length;
+    }
+
+    while (index < length) {
+      character = value.charAt(index);
+
+      if (character !== C_SPACE && character !== C_TAB) {
+        break;
+      }
+
+      index++;
+    }
+
+    if (value.charAt(index) === C_GT) {
+      index++;
+      prefixed = true;
+
+      if (value.charAt(index) === C_SPACE) {
+        index++;
+      }
+    } else {
+      index = startIndex;
+    }
+
+    content = value.slice(index, nextIndex);
+
+    if (!prefixed && !trim(content)) {
+      index = startIndex;
+      break;
+    }
+
+    if (!prefixed) {
+      rest = value.slice(index);
+
+      /* Check if the following code contains a possible
+       * block. */
+      if (interrupt(interruptors, tokenizers, self, [eat, rest, true])) {
+        break;
+      }
+    }
+
+    line = startIndex === index ? content : value.slice(startIndex, nextIndex);
+
+    indents.push(index - startIndex);
+    values.push(line);
+    contents.push(content);
+
+    index = nextIndex + 1;
+  }
+
+  index = -1;
+  length = indents.length;
+  add = eat(values.join(C_NEWLINE));
+
+  while (++index < length) {
+    offsets[currentLine] = (offsets[currentLine] || 0) + indents[index];
+    currentLine++;
+  }
+
+  exit = self.enterBlock();
+  contents = self.tokenizeBlock(contents.join(C_NEWLINE), now);
+  exit();
+
+  return add({
+    type: 'blockquote',
+    children: contents
+  });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/break.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/break.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var locate = __webpack_require__(/*! ../locate/break */ "./node_modules/remark-parse/lib/locate/break.js");
+
+module.exports = hardBreak;
+hardBreak.locator = locate;
+
+var MIN_BREAK_LENGTH = 2;
+
+function hardBreak(eat, value, silent) {
+  var length = value.length;
+  var index = -1;
+  var queue = '';
+  var character;
+
+  while (++index < length) {
+    character = value.charAt(index);
+
+    if (character === '\n') {
+      if (index < MIN_BREAK_LENGTH) {
+        return;
+      }
+
+      /* istanbul ignore if - never used (yet) */
+      if (silent) {
+        return true;
+      }
+
+      queue += character;
+
+      return eat(queue)({type: 'break'});
+    }
+
+    if (character !== ' ') {
+      return;
+    }
+
+    queue += character;
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/code-fenced.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/code-fenced.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var trim = __webpack_require__(/*! trim-trailing-lines */ "./node_modules/trim-trailing-lines/index.js");
+
+module.exports = fencedCode;
+
+var C_NEWLINE = '\n';
+var C_TAB = '\t';
+var C_SPACE = ' ';
+var C_TILDE = '~';
+var C_TICK = '`';
+
+var MIN_FENCE_COUNT = 3;
+var CODE_INDENT_COUNT = 4;
+
+function fencedCode(eat, value, silent) {
+  var self = this;
+  var settings = self.options;
+  var length = value.length + 1;
+  var index = 0;
+  var subvalue = '';
+  var fenceCount;
+  var marker;
+  var character;
+  var flag;
+  var queue;
+  var content;
+  var exdentedContent;
+  var closing;
+  var exdentedClosing;
+  var indent;
+  var now;
+
+  if (!settings.gfm) {
+    return;
+  }
+
+  /* Eat initial spacing. */
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character !== C_SPACE && character !== C_TAB) {
+      break;
+    }
+
+    subvalue += character;
+    index++;
+  }
+
+  indent = index;
+
+  /* Eat the fence. */
+  character = value.charAt(index);
+
+  if (character !== C_TILDE && character !== C_TICK) {
+    return;
+  }
+
+  index++;
+  marker = character;
+  fenceCount = 1;
+  subvalue += character;
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character !== marker) {
+      break;
+    }
+
+    subvalue += character;
+    fenceCount++;
+    index++;
+  }
+
+  if (fenceCount < MIN_FENCE_COUNT) {
+    return;
+  }
+
+  /* Eat spacing before flag. */
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character !== C_SPACE && character !== C_TAB) {
+      break;
+    }
+
+    subvalue += character;
+    index++;
+  }
+
+  /* Eat flag. */
+  flag = '';
+  queue = '';
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (
+      character === C_NEWLINE ||
+      character === C_TILDE ||
+      character === C_TICK
+    ) {
+      break;
+    }
+
+    if (character === C_SPACE || character === C_TAB) {
+      queue += character;
+    } else {
+      flag += queue + character;
+      queue = '';
+    }
+
+    index++;
+  }
+
+  character = value.charAt(index);
+
+  if (character && character !== C_NEWLINE) {
+    return;
+  }
+
+  if (silent) {
+    return true;
+  }
+
+  now = eat.now();
+  now.column += subvalue.length;
+  now.offset += subvalue.length;
+
+  subvalue += flag;
+  flag = self.decode.raw(self.unescape(flag), now);
+
+  if (queue) {
+    subvalue += queue;
+  }
+
+  queue = '';
+  closing = '';
+  exdentedClosing = '';
+  content = '';
+  exdentedContent = '';
+
+  /* Eat content. */
+  while (index < length) {
+    character = value.charAt(index);
+    content += closing;
+    exdentedContent += exdentedClosing;
+    closing = '';
+    exdentedClosing = '';
+
+    if (character !== C_NEWLINE) {
+      content += character;
+      exdentedClosing += character;
+      index++;
+      continue;
+    }
+
+    /* Add the newline to `subvalue` if its the first
+     * character.  Otherwise, add it to the `closing`
+     * queue. */
+    if (content) {
+      closing += character;
+      exdentedClosing += character;
+    } else {
+      subvalue += character;
+    }
+
+    queue = '';
+    index++;
+
+    while (index < length) {
+      character = value.charAt(index);
+
+      if (character !== C_SPACE) {
+        break;
+      }
+
+      queue += character;
+      index++;
+    }
+
+    closing += queue;
+    exdentedClosing += queue.slice(indent);
+
+    if (queue.length >= CODE_INDENT_COUNT) {
+      continue;
+    }
+
+    queue = '';
+
+    while (index < length) {
+      character = value.charAt(index);
+
+      if (character !== marker) {
+        break;
+      }
+
+      queue += character;
+      index++;
+    }
+
+    closing += queue;
+    exdentedClosing += queue;
+
+    if (queue.length < fenceCount) {
+      continue;
+    }
+
+    queue = '';
+
+    while (index < length) {
+      character = value.charAt(index);
+
+      if (character !== C_SPACE && character !== C_TAB) {
+        break;
+      }
+
+      closing += character;
+      exdentedClosing += character;
+      index++;
+    }
+
+    if (!character || character === C_NEWLINE) {
+      break;
+    }
+  }
+
+  subvalue += content + closing;
+
+  return eat(subvalue)({
+    type: 'code',
+    lang: flag || null,
+    value: trim(exdentedContent)
+  });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/code-indented.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/code-indented.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var repeat = __webpack_require__(/*! repeat-string */ "./node_modules/repeat-string/index.js");
+var trim = __webpack_require__(/*! trim-trailing-lines */ "./node_modules/trim-trailing-lines/index.js");
+
+module.exports = indentedCode;
+
+var C_NEWLINE = '\n';
+var C_TAB = '\t';
+var C_SPACE = ' ';
+
+var CODE_INDENT_COUNT = 4;
+var CODE_INDENT = repeat(C_SPACE, CODE_INDENT_COUNT);
+
+/* Tokenise indented code. */
+function indentedCode(eat, value, silent) {
+  var index = -1;
+  var length = value.length;
+  var subvalue = '';
+  var content = '';
+  var subvalueQueue = '';
+  var contentQueue = '';
+  var character;
+  var blankQueue;
+  var indent;
+
+  while (++index < length) {
+    character = value.charAt(index);
+
+    if (indent) {
+      indent = false;
+
+      subvalue += subvalueQueue;
+      content += contentQueue;
+      subvalueQueue = '';
+      contentQueue = '';
+
+      if (character === C_NEWLINE) {
+        subvalueQueue = character;
+        contentQueue = character;
+      } else {
+        subvalue += character;
+        content += character;
+
+        while (++index < length) {
+          character = value.charAt(index);
+
+          if (!character || character === C_NEWLINE) {
+            contentQueue = character;
+            subvalueQueue = character;
+            break;
+          }
+
+          subvalue += character;
+          content += character;
+        }
+      }
+    } else if (
+      character === C_SPACE &&
+      value.charAt(index + 1) === character &&
+      value.charAt(index + 2) === character &&
+      value.charAt(index + 3) === character
+    ) {
+      subvalueQueue += CODE_INDENT;
+      index += 3;
+      indent = true;
+    } else if (character === C_TAB) {
+      subvalueQueue += character;
+      indent = true;
+    } else {
+      blankQueue = '';
+
+      while (character === C_TAB || character === C_SPACE) {
+        blankQueue += character;
+        character = value.charAt(++index);
+      }
+
+      if (character !== C_NEWLINE) {
+        break;
+      }
+
+      subvalueQueue += blankQueue + character;
+      contentQueue += character;
+    }
+  }
+
+  if (content) {
+    if (silent) {
+      return true;
+    }
+
+    return eat(subvalue)({
+      type: 'code',
+      lang: null,
+      value: trim(content)
+    });
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/code-inline.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/code-inline.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var whitespace = __webpack_require__(/*! is-whitespace-character */ "./node_modules/is-whitespace-character/index.js");
+var locate = __webpack_require__(/*! ../locate/code-inline */ "./node_modules/remark-parse/lib/locate/code-inline.js");
+
+module.exports = inlineCode;
+inlineCode.locator = locate;
+
+var C_TICK = '`';
+
+/* Tokenise inline code. */
+function inlineCode(eat, value, silent) {
+  var length = value.length;
+  var index = 0;
+  var queue = '';
+  var tickQueue = '';
+  var contentQueue;
+  var subqueue;
+  var count;
+  var openingCount;
+  var subvalue;
+  var character;
+  var found;
+  var next;
+
+  while (index < length) {
+    if (value.charAt(index) !== C_TICK) {
+      break;
+    }
+
+    queue += C_TICK;
+    index++;
+  }
+
+  if (!queue) {
+    return;
+  }
+
+  subvalue = queue;
+  openingCount = index;
+  queue = '';
+  next = value.charAt(index);
+  count = 0;
+
+  while (index < length) {
+    character = next;
+    next = value.charAt(index + 1);
+
+    if (character === C_TICK) {
+      count++;
+      tickQueue += character;
+    } else {
+      count = 0;
+      queue += character;
+    }
+
+    if (count && next !== C_TICK) {
+      if (count === openingCount) {
+        subvalue += queue + tickQueue;
+        found = true;
+        break;
+      }
+
+      queue += tickQueue;
+      tickQueue = '';
+    }
+
+    index++;
+  }
+
+  if (!found) {
+    if (openingCount % 2 !== 0) {
+      return;
+    }
+
+    queue = '';
+  }
+
+  /* istanbul ignore if - never used (yet) */
+  if (silent) {
+    return true;
+  }
+
+  contentQueue = '';
+  subqueue = '';
+  length = queue.length;
+  index = -1;
+
+  while (++index < length) {
+    character = queue.charAt(index);
+
+    if (whitespace(character)) {
+      subqueue += character;
+      continue;
+    }
+
+    if (subqueue) {
+      if (contentQueue) {
+        contentQueue += subqueue;
+      }
+
+      subqueue = '';
+    }
+
+    contentQueue += character;
+  }
+
+  return eat(subvalue)({
+    type: 'inlineCode',
+    value: contentQueue
+  });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/definition.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/definition.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var whitespace = __webpack_require__(/*! is-whitespace-character */ "./node_modules/is-whitespace-character/index.js");
+var normalize = __webpack_require__(/*! ../util/normalize */ "./node_modules/remark-parse/lib/util/normalize.js");
+
+module.exports = definition;
+definition.notInList = true;
+definition.notInBlock = true;
+
+var C_DOUBLE_QUOTE = '"';
+var C_SINGLE_QUOTE = '\'';
+var C_BACKSLASH = '\\';
+var C_NEWLINE = '\n';
+var C_TAB = '\t';
+var C_SPACE = ' ';
+var C_BRACKET_OPEN = '[';
+var C_BRACKET_CLOSE = ']';
+var C_PAREN_OPEN = '(';
+var C_PAREN_CLOSE = ')';
+var C_COLON = ':';
+var C_LT = '<';
+var C_GT = '>';
+
+function definition(eat, value, silent) {
+  var self = this;
+  var commonmark = self.options.commonmark;
+  var index = 0;
+  var length = value.length;
+  var subvalue = '';
+  var beforeURL;
+  var beforeTitle;
+  var queue;
+  var character;
+  var test;
+  var identifier;
+  var url;
+  var title;
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character !== C_SPACE && character !== C_TAB) {
+      break;
+    }
+
+    subvalue += character;
+    index++;
+  }
+
+  character = value.charAt(index);
+
+  if (character !== C_BRACKET_OPEN) {
+    return;
+  }
+
+  index++;
+  subvalue += character;
+  queue = '';
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character === C_BRACKET_CLOSE) {
+      break;
+    } else if (character === C_BACKSLASH) {
+      queue += character;
+      index++;
+      character = value.charAt(index);
+    }
+
+    queue += character;
+    index++;
+  }
+
+  if (
+    !queue ||
+    value.charAt(index) !== C_BRACKET_CLOSE ||
+    value.charAt(index + 1) !== C_COLON
+  ) {
+    return;
+  }
+
+  identifier = queue;
+  subvalue += queue + C_BRACKET_CLOSE + C_COLON;
+  index = subvalue.length;
+  queue = '';
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (
+      character !== C_TAB &&
+      character !== C_SPACE &&
+      character !== C_NEWLINE
+    ) {
+      break;
+    }
+
+    subvalue += character;
+    index++;
+  }
+
+  character = value.charAt(index);
+  queue = '';
+  beforeURL = subvalue;
+
+  if (character === C_LT) {
+    index++;
+
+    while (index < length) {
+      character = value.charAt(index);
+
+      if (!isEnclosedURLCharacter(character)) {
+        break;
+      }
+
+      queue += character;
+      index++;
+    }
+
+    character = value.charAt(index);
+
+    if (character === isEnclosedURLCharacter.delimiter) {
+      subvalue += C_LT + queue + character;
+      index++;
+    } else {
+      if (commonmark) {
+        return;
+      }
+
+      index -= queue.length + 1;
+      queue = '';
+    }
+  }
+
+  if (!queue) {
+    while (index < length) {
+      character = value.charAt(index);
+
+      if (!isUnclosedURLCharacter(character)) {
+        break;
+      }
+
+      queue += character;
+      index++;
+    }
+
+    subvalue += queue;
+  }
+
+  if (!queue) {
+    return;
+  }
+
+  url = queue;
+  queue = '';
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (
+      character !== C_TAB &&
+      character !== C_SPACE &&
+      character !== C_NEWLINE
+    ) {
+      break;
+    }
+
+    queue += character;
+    index++;
+  }
+
+  character = value.charAt(index);
+  test = null;
+
+  if (character === C_DOUBLE_QUOTE) {
+    test = C_DOUBLE_QUOTE;
+  } else if (character === C_SINGLE_QUOTE) {
+    test = C_SINGLE_QUOTE;
+  } else if (character === C_PAREN_OPEN) {
+    test = C_PAREN_CLOSE;
+  }
+
+  if (!test) {
+    queue = '';
+    index = subvalue.length;
+  } else if (queue) {
+    subvalue += queue + character;
+    index = subvalue.length;
+    queue = '';
+
+    while (index < length) {
+      character = value.charAt(index);
+
+      if (character === test) {
+        break;
+      }
+
+      if (character === C_NEWLINE) {
+        index++;
+        character = value.charAt(index);
+
+        if (character === C_NEWLINE || character === test) {
+          return;
+        }
+
+        queue += C_NEWLINE;
+      }
+
+      queue += character;
+      index++;
+    }
+
+    character = value.charAt(index);
+
+    if (character !== test) {
+      return;
+    }
+
+    beforeTitle = subvalue;
+    subvalue += queue + character;
+    index++;
+    title = queue;
+    queue = '';
+  } else {
+    return;
+  }
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character !== C_TAB && character !== C_SPACE) {
+      break;
+    }
+
+    subvalue += character;
+    index++;
+  }
+
+  character = value.charAt(index);
+
+  if (!character || character === C_NEWLINE) {
+    if (silent) {
+      return true;
+    }
+
+    beforeURL = eat(beforeURL).test().end;
+    url = self.decode.raw(self.unescape(url), beforeURL, {nonTerminated: false});
+
+    if (title) {
+      beforeTitle = eat(beforeTitle).test().end;
+      title = self.decode.raw(self.unescape(title), beforeTitle);
+    }
+
+    return eat(subvalue)({
+      type: 'definition',
+      identifier: normalize(identifier),
+      title: title || null,
+      url: url
+    });
+  }
+}
+
+/* Check if `character` can be inside an enclosed URI. */
+function isEnclosedURLCharacter(character) {
+  return character !== C_GT &&
+    character !== C_BRACKET_OPEN &&
+    character !== C_BRACKET_CLOSE;
+}
+
+isEnclosedURLCharacter.delimiter = C_GT;
+
+/* Check if `character` can be inside an unclosed URI. */
+function isUnclosedURLCharacter(character) {
+  return character !== C_BRACKET_OPEN &&
+    character !== C_BRACKET_CLOSE &&
+    !whitespace(character);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/delete.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/delete.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var whitespace = __webpack_require__(/*! is-whitespace-character */ "./node_modules/is-whitespace-character/index.js");
+var locate = __webpack_require__(/*! ../locate/delete */ "./node_modules/remark-parse/lib/locate/delete.js");
+
+module.exports = strikethrough;
+strikethrough.locator = locate;
+
+var C_TILDE = '~';
+var DOUBLE = '~~';
+
+function strikethrough(eat, value, silent) {
+  var self = this;
+  var character = '';
+  var previous = '';
+  var preceding = '';
+  var subvalue = '';
+  var index;
+  var length;
+  var now;
+
+  if (
+    !self.options.gfm ||
+    value.charAt(0) !== C_TILDE ||
+    value.charAt(1) !== C_TILDE ||
+    whitespace(value.charAt(2))
+  ) {
+    return;
+  }
+
+  index = 1;
+  length = value.length;
+  now = eat.now();
+  now.column += 2;
+  now.offset += 2;
+
+  while (++index < length) {
+    character = value.charAt(index);
+
+    if (
+      character === C_TILDE &&
+      previous === C_TILDE &&
+      (!preceding || !whitespace(preceding))
+    ) {
+      /* istanbul ignore if - never used (yet) */
+      if (silent) {
+        return true;
+      }
+
+      return eat(DOUBLE + subvalue + DOUBLE)({
+        type: 'delete',
+        children: self.tokenizeInline(subvalue, now)
+      });
+    }
+
+    subvalue += previous;
+    preceding = previous;
+    previous = character;
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/emphasis.js":
+/*!************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/emphasis.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var trim = __webpack_require__(/*! trim */ "./node_modules/trim/index.js");
+var word = __webpack_require__(/*! is-word-character */ "./node_modules/is-word-character/index.js");
+var whitespace = __webpack_require__(/*! is-whitespace-character */ "./node_modules/is-whitespace-character/index.js");
+var locate = __webpack_require__(/*! ../locate/emphasis */ "./node_modules/remark-parse/lib/locate/emphasis.js");
+
+module.exports = emphasis;
+emphasis.locator = locate;
+
+var C_ASTERISK = '*';
+var C_UNDERSCORE = '_';
+
+function emphasis(eat, value, silent) {
+  var self = this;
+  var index = 0;
+  var character = value.charAt(index);
+  var now;
+  var pedantic;
+  var marker;
+  var queue;
+  var subvalue;
+  var length;
+  var prev;
+
+  if (character !== C_ASTERISK && character !== C_UNDERSCORE) {
+    return;
+  }
+
+  pedantic = self.options.pedantic;
+  subvalue = character;
+  marker = character;
+  length = value.length;
+  index++;
+  queue = '';
+  character = '';
+
+  if (pedantic && whitespace(value.charAt(index))) {
+    return;
+  }
+
+  while (index < length) {
+    prev = character;
+    character = value.charAt(index);
+
+    if (character === marker && (!pedantic || !whitespace(prev))) {
+      character = value.charAt(++index);
+
+      if (character !== marker) {
+        if (!trim(queue) || prev === marker) {
+          return;
+        }
+
+        if (!pedantic && marker === C_UNDERSCORE && word(character)) {
+          queue += marker;
+          continue;
+        }
+
+        /* istanbul ignore if - never used (yet) */
+        if (silent) {
+          return true;
+        }
+
+        now = eat.now();
+        now.column++;
+        now.offset++;
+
+        return eat(subvalue + queue + marker)({
+          type: 'emphasis',
+          children: self.tokenizeInline(queue, now)
+        });
+      }
+
+      queue += marker;
+    }
+
+    if (!pedantic && character === '\\') {
+      queue += character;
+      character = value.charAt(++index);
+    }
+
+    queue += character;
+    index++;
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/escape.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/escape.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var locate = __webpack_require__(/*! ../locate/escape */ "./node_modules/remark-parse/lib/locate/escape.js");
+
+module.exports = escape;
+escape.locator = locate;
+
+function escape(eat, value, silent) {
+  var self = this;
+  var character;
+  var node;
+
+  if (value.charAt(0) === '\\') {
+    character = value.charAt(1);
+
+    if (self.escape.indexOf(character) !== -1) {
+      /* istanbul ignore if - never used (yet) */
+      if (silent) {
+        return true;
+      }
+
+      if (character === '\n') {
+        node = {type: 'break'};
+      } else {
+        node = {
+          type: 'text',
+          value: character
+        };
+      }
+
+      return eat('\\' + character)(node);
+    }
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/footnote-definition.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/footnote-definition.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var whitespace = __webpack_require__(/*! is-whitespace-character */ "./node_modules/is-whitespace-character/index.js");
+var normalize = __webpack_require__(/*! ../util/normalize */ "./node_modules/remark-parse/lib/util/normalize.js");
+
+module.exports = footnoteDefinition;
+footnoteDefinition.notInList = true;
+footnoteDefinition.notInBlock = true;
+
+var C_BACKSLASH = '\\';
+var C_NEWLINE = '\n';
+var C_TAB = '\t';
+var C_SPACE = ' ';
+var C_BRACKET_OPEN = '[';
+var C_BRACKET_CLOSE = ']';
+var C_CARET = '^';
+var C_COLON = ':';
+
+var EXPRESSION_INITIAL_TAB = /^( {4}|\t)?/gm;
+
+function footnoteDefinition(eat, value, silent) {
+  var self = this;
+  var offsets = self.offset;
+  var index;
+  var length;
+  var subvalue;
+  var now;
+  var currentLine;
+  var content;
+  var queue;
+  var subqueue;
+  var character;
+  var identifier;
+  var add;
+  var exit;
+
+  if (!self.options.footnotes) {
+    return;
+  }
+
+  index = 0;
+  length = value.length;
+  subvalue = '';
+  now = eat.now();
+  currentLine = now.line;
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (!whitespace(character)) {
+      break;
+    }
+
+    subvalue += character;
+    index++;
+  }
+
+  if (
+    value.charAt(index) !== C_BRACKET_OPEN ||
+    value.charAt(index + 1) !== C_CARET
+  ) {
+    return;
+  }
+
+  subvalue += C_BRACKET_OPEN + C_CARET;
+  index = subvalue.length;
+  queue = '';
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character === C_BRACKET_CLOSE) {
+      break;
+    } else if (character === C_BACKSLASH) {
+      queue += character;
+      index++;
+      character = value.charAt(index);
+    }
+
+    queue += character;
+    index++;
+  }
+
+  if (
+    !queue ||
+    value.charAt(index) !== C_BRACKET_CLOSE ||
+    value.charAt(index + 1) !== C_COLON
+  ) {
+    return;
+  }
+
+  if (silent) {
+    return true;
+  }
+
+  identifier = normalize(queue);
+  subvalue += queue + C_BRACKET_CLOSE + C_COLON;
+  index = subvalue.length;
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character !== C_TAB && character !== C_SPACE) {
+      break;
+    }
+
+    subvalue += character;
+    index++;
+  }
+
+  now.column += subvalue.length;
+  now.offset += subvalue.length;
+  queue = '';
+  content = '';
+  subqueue = '';
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character === C_NEWLINE) {
+      subqueue = character;
+      index++;
+
+      while (index < length) {
+        character = value.charAt(index);
+
+        if (character !== C_NEWLINE) {
+          break;
+        }
+
+        subqueue += character;
+        index++;
+      }
+
+      queue += subqueue;
+      subqueue = '';
+
+      while (index < length) {
+        character = value.charAt(index);
+
+        if (character !== C_SPACE) {
+          break;
+        }
+
+        subqueue += character;
+        index++;
+      }
+
+      if (subqueue.length === 0) {
+        break;
+      }
+
+      queue += subqueue;
+    }
+
+    if (queue) {
+      content += queue;
+      queue = '';
+    }
+
+    content += character;
+    index++;
+  }
+
+  subvalue += content;
+
+  content = content.replace(EXPRESSION_INITIAL_TAB, function (line) {
+    offsets[currentLine] = (offsets[currentLine] || 0) + line.length;
+    currentLine++;
+
+    return '';
+  });
+
+  add = eat(subvalue);
+
+  exit = self.enterBlock();
+  content = self.tokenizeBlock(content, now);
+  exit();
+
+  return add({
+    type: 'footnoteDefinition',
+    identifier: identifier,
+    children: content
+  });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/heading-atx.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/heading-atx.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = atxHeading;
+
+var C_NEWLINE = '\n';
+var C_TAB = '\t';
+var C_SPACE = ' ';
+var C_HASH = '#';
+
+var MAX_ATX_COUNT = 6;
+
+function atxHeading(eat, value, silent) {
+  var self = this;
+  var settings = self.options;
+  var length = value.length + 1;
+  var index = -1;
+  var now = eat.now();
+  var subvalue = '';
+  var content = '';
+  var character;
+  var queue;
+  var depth;
+
+  /* Eat initial spacing. */
+  while (++index < length) {
+    character = value.charAt(index);
+
+    if (character !== C_SPACE && character !== C_TAB) {
+      index--;
+      break;
+    }
+
+    subvalue += character;
+  }
+
+  /* Eat hashes. */
+  depth = 0;
+
+  while (++index <= length) {
+    character = value.charAt(index);
+
+    if (character !== C_HASH) {
+      index--;
+      break;
+    }
+
+    subvalue += character;
+    depth++;
+  }
+
+  if (depth > MAX_ATX_COUNT) {
+    return;
+  }
+
+  if (
+    !depth ||
+    (!settings.pedantic && value.charAt(index + 1) === C_HASH)
+  ) {
+    return;
+  }
+
+  length = value.length + 1;
+
+  /* Eat intermediate white-space. */
+  queue = '';
+
+  while (++index < length) {
+    character = value.charAt(index);
+
+    if (character !== C_SPACE && character !== C_TAB) {
+      index--;
+      break;
+    }
+
+    queue += character;
+  }
+
+  /* Exit when not in pedantic mode without spacing. */
+  if (
+    !settings.pedantic &&
+    queue.length === 0 &&
+    character &&
+    character !== C_NEWLINE
+  ) {
+    return;
+  }
+
+  if (silent) {
+    return true;
+  }
+
+  /* Eat content. */
+  subvalue += queue;
+  queue = '';
+  content = '';
+
+  while (++index < length) {
+    character = value.charAt(index);
+
+    if (!character || character === C_NEWLINE) {
+      break;
+    }
+
+    if (
+      character !== C_SPACE &&
+      character !== C_TAB &&
+      character !== C_HASH
+    ) {
+      content += queue + character;
+      queue = '';
+      continue;
+    }
+
+    while (character === C_SPACE || character === C_TAB) {
+      queue += character;
+      character = value.charAt(++index);
+    }
+
+    while (character === C_HASH) {
+      queue += character;
+      character = value.charAt(++index);
+    }
+
+    while (character === C_SPACE || character === C_TAB) {
+      queue += character;
+      character = value.charAt(++index);
+    }
+
+    index--;
+  }
+
+  now.column += subvalue.length;
+  now.offset += subvalue.length;
+  subvalue += content + queue;
+
+  return eat(subvalue)({
+    type: 'heading',
+    depth: depth,
+    children: self.tokenizeInline(content, now)
+  });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/heading-setext.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/heading-setext.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = setextHeading;
+
+var C_NEWLINE = '\n';
+var C_TAB = '\t';
+var C_SPACE = ' ';
+var C_EQUALS = '=';
+var C_DASH = '-';
+
+var MAX_HEADING_INDENT = 3;
+
+/* Map of characters which can be used to mark setext
+ * headers, mapping to their corresponding depth. */
+var SETEXT_MARKERS = {};
+
+SETEXT_MARKERS[C_EQUALS] = 1;
+SETEXT_MARKERS[C_DASH] = 2;
+
+function setextHeading(eat, value, silent) {
+  var self = this;
+  var now = eat.now();
+  var length = value.length;
+  var index = -1;
+  var subvalue = '';
+  var content;
+  var queue;
+  var character;
+  var marker;
+  var depth;
+
+  /* Eat initial indentation. */
+  while (++index < length) {
+    character = value.charAt(index);
+
+    if (character !== C_SPACE || index >= MAX_HEADING_INDENT) {
+      index--;
+      break;
+    }
+
+    subvalue += character;
+  }
+
+  /* Eat content. */
+  content = '';
+  queue = '';
+
+  while (++index < length) {
+    character = value.charAt(index);
+
+    if (character === C_NEWLINE) {
+      index--;
+      break;
+    }
+
+    if (character === C_SPACE || character === C_TAB) {
+      queue += character;
+    } else {
+      content += queue + character;
+      queue = '';
+    }
+  }
+
+  now.column += subvalue.length;
+  now.offset += subvalue.length;
+  subvalue += content + queue;
+
+  /* Ensure the content is followed by a newline and a
+   * valid marker. */
+  character = value.charAt(++index);
+  marker = value.charAt(++index);
+
+  if (character !== C_NEWLINE || !SETEXT_MARKERS[marker]) {
+    return;
+  }
+
+  subvalue += character;
+
+  /* Eat Setext-line. */
+  queue = marker;
+  depth = SETEXT_MARKERS[marker];
+
+  while (++index < length) {
+    character = value.charAt(index);
+
+    if (character !== marker) {
+      if (character !== C_NEWLINE) {
+        return;
+      }
+
+      index--;
+      break;
+    }
+
+    queue += character;
+  }
+
+  if (silent) {
+    return true;
+  }
+
+  return eat(subvalue + queue)({
+    type: 'heading',
+    depth: depth,
+    children: self.tokenizeInline(content, now)
+  });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/html-block.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/html-block.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var openCloseTag = __webpack_require__(/*! ../util/html */ "./node_modules/remark-parse/lib/util/html.js").openCloseTag;
+
+module.exports = blockHTML;
+
+var C_TAB = '\t';
+var C_SPACE = ' ';
+var C_NEWLINE = '\n';
+var C_LT = '<';
+
+function blockHTML(eat, value, silent) {
+  var self = this;
+  var blocks = self.options.blocks;
+  var length = value.length;
+  var index = 0;
+  var next;
+  var line;
+  var offset;
+  var character;
+  var count;
+  var sequence;
+  var subvalue;
+
+  var sequences = [
+    [/^<(script|pre|style)(?=(\s|>|$))/i, /<\/(script|pre|style)>/i, true],
+    [/^<!--/, /-->/, true],
+    [/^<\?/, /\?>/, true],
+    [/^<![A-Za-z]/, />/, true],
+    [/^<!\[CDATA\[/, /\]\]>/, true],
+    [new RegExp('^</?(' + blocks.join('|') + ')(?=(\\s|/?>|$))', 'i'), /^$/, true],
+    [new RegExp(openCloseTag.source + '\\s*$'), /^$/, false]
+  ];
+
+  /* Eat initial spacing. */
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character !== C_TAB && character !== C_SPACE) {
+      break;
+    }
+
+    index++;
+  }
+
+  if (value.charAt(index) !== C_LT) {
+    return;
+  }
+
+  next = value.indexOf(C_NEWLINE, index + 1);
+  next = next === -1 ? length : next;
+  line = value.slice(index, next);
+  offset = -1;
+  count = sequences.length;
+
+  while (++offset < count) {
+    if (sequences[offset][0].test(line)) {
+      sequence = sequences[offset];
+      break;
+    }
+  }
+
+  if (!sequence) {
+    return;
+  }
+
+  if (silent) {
+    return sequence[2];
+  }
+
+  index = next;
+
+  if (!sequence[1].test(line)) {
+    while (index < length) {
+      next = value.indexOf(C_NEWLINE, index + 1);
+      next = next === -1 ? length : next;
+      line = value.slice(index + 1, next);
+
+      if (sequence[1].test(line)) {
+        if (line) {
+          index = next;
+        }
+
+        break;
+      }
+
+      index = next;
+    }
+  }
+
+  subvalue = value.slice(0, index);
+
+  return eat(subvalue)({type: 'html', value: subvalue});
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/html-inline.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/html-inline.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var alphabetical = __webpack_require__(/*! is-alphabetical */ "./node_modules/is-alphabetical/index.js");
+var locate = __webpack_require__(/*! ../locate/tag */ "./node_modules/remark-parse/lib/locate/tag.js");
+var tag = __webpack_require__(/*! ../util/html */ "./node_modules/remark-parse/lib/util/html.js").tag;
+
+module.exports = inlineHTML;
+inlineHTML.locator = locate;
+
+var EXPRESSION_HTML_LINK_OPEN = /^<a /i;
+var EXPRESSION_HTML_LINK_CLOSE = /^<\/a>/i;
+
+function inlineHTML(eat, value, silent) {
+  var self = this;
+  var length = value.length;
+  var character;
+  var subvalue;
+
+  if (value.charAt(0) !== '<' || length < 3) {
+    return;
+  }
+
+  character = value.charAt(1);
+
+  if (
+    !alphabetical(character) &&
+    character !== '?' &&
+    character !== '!' &&
+    character !== '/'
+  ) {
+    return;
+  }
+
+  subvalue = value.match(tag);
+
+  if (!subvalue) {
+    return;
+  }
+
+  /* istanbul ignore if - not used yet. */
+  if (silent) {
+    return true;
+  }
+
+  subvalue = subvalue[0];
+
+  if (!self.inLink && EXPRESSION_HTML_LINK_OPEN.test(subvalue)) {
+    self.inLink = true;
+  } else if (self.inLink && EXPRESSION_HTML_LINK_CLOSE.test(subvalue)) {
+    self.inLink = false;
+  }
+
+  return eat(subvalue)({type: 'html', value: subvalue});
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/link.js":
+/*!********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/link.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var whitespace = __webpack_require__(/*! is-whitespace-character */ "./node_modules/is-whitespace-character/index.js");
+var locate = __webpack_require__(/*! ../locate/link */ "./node_modules/remark-parse/lib/locate/link.js");
+
+module.exports = link;
+link.locator = locate;
+
+var own = {}.hasOwnProperty;
+
+var C_BACKSLASH = '\\';
+var C_BRACKET_OPEN = '[';
+var C_BRACKET_CLOSE = ']';
+var C_PAREN_OPEN = '(';
+var C_PAREN_CLOSE = ')';
+var C_LT = '<';
+var C_GT = '>';
+var C_TICK = '`';
+var C_DOUBLE_QUOTE = '"';
+var C_SINGLE_QUOTE = '\'';
+
+/* Map of characters, which can be used to mark link
+ * and image titles. */
+var LINK_MARKERS = {};
+
+LINK_MARKERS[C_DOUBLE_QUOTE] = C_DOUBLE_QUOTE;
+LINK_MARKERS[C_SINGLE_QUOTE] = C_SINGLE_QUOTE;
+
+/* Map of characters, which can be used to mark link
+ * and image titles in commonmark-mode. */
+var COMMONMARK_LINK_MARKERS = {};
+
+COMMONMARK_LINK_MARKERS[C_DOUBLE_QUOTE] = C_DOUBLE_QUOTE;
+COMMONMARK_LINK_MARKERS[C_SINGLE_QUOTE] = C_SINGLE_QUOTE;
+COMMONMARK_LINK_MARKERS[C_PAREN_OPEN] = C_PAREN_CLOSE;
+
+function link(eat, value, silent) {
+  var self = this;
+  var subvalue = '';
+  var index = 0;
+  var character = value.charAt(0);
+  var pedantic = self.options.pedantic;
+  var commonmark = self.options.commonmark;
+  var gfm = self.options.gfm;
+  var closed;
+  var count;
+  var opening;
+  var beforeURL;
+  var beforeTitle;
+  var subqueue;
+  var hasMarker;
+  var markers;
+  var isImage;
+  var content;
+  var marker;
+  var length;
+  var title;
+  var depth;
+  var queue;
+  var url;
+  var now;
+  var exit;
+  var node;
+
+  /* Detect whether this is an image. */
+  if (character === '!') {
+    isImage = true;
+    subvalue = character;
+    character = value.charAt(++index);
+  }
+
+  /* Eat the opening. */
+  if (character !== C_BRACKET_OPEN) {
+    return;
+  }
+
+  /* Exit when this is a link and we’re already inside
+   * a link. */
+  if (!isImage && self.inLink) {
+    return;
+  }
+
+  subvalue += character;
+  queue = '';
+  index++;
+
+  /* Eat the content. */
+  length = value.length;
+  now = eat.now();
+  depth = 0;
+
+  now.column += index;
+  now.offset += index;
+
+  while (index < length) {
+    character = value.charAt(index);
+    subqueue = character;
+
+    if (character === C_TICK) {
+      /* Inline-code in link content. */
+      count = 1;
+
+      while (value.charAt(index + 1) === C_TICK) {
+        subqueue += character;
+        index++;
+        count++;
+      }
+
+      if (!opening) {
+        opening = count;
+      } else if (count >= opening) {
+        opening = 0;
+      }
+    } else if (character === C_BACKSLASH) {
+      /* Allow brackets to be escaped. */
+      index++;
+      subqueue += value.charAt(index);
+    /* In GFM mode, brackets in code still count.
+     * In all other modes, they don’t.  This empty
+     * block prevents the next statements are
+     * entered. */
+    } else if ((!opening || gfm) && character === C_BRACKET_OPEN) {
+      depth++;
+    } else if ((!opening || gfm) && character === C_BRACKET_CLOSE) {
+      if (depth) {
+        depth--;
+      } else {
+        /* Allow white-space between content and
+         * url in GFM mode. */
+        if (!pedantic) {
+          while (index < length) {
+            character = value.charAt(index + 1);
+
+            if (!whitespace(character)) {
+              break;
+            }
+
+            subqueue += character;
+            index++;
+          }
+        }
+
+        if (value.charAt(index + 1) !== C_PAREN_OPEN) {
+          return;
+        }
+
+        subqueue += C_PAREN_OPEN;
+        closed = true;
+        index++;
+
+        break;
+      }
+    }
+
+    queue += subqueue;
+    subqueue = '';
+    index++;
+  }
+
+  /* Eat the content closing. */
+  if (!closed) {
+    return;
+  }
+
+  content = queue;
+  subvalue += queue + subqueue;
+  index++;
+
+  /* Eat white-space. */
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (!whitespace(character)) {
+      break;
+    }
+
+    subvalue += character;
+    index++;
+  }
+
+  /* Eat the URL. */
+  character = value.charAt(index);
+  markers = commonmark ? COMMONMARK_LINK_MARKERS : LINK_MARKERS;
+  queue = '';
+  beforeURL = subvalue;
+
+  if (character === C_LT) {
+    index++;
+    beforeURL += C_LT;
+
+    while (index < length) {
+      character = value.charAt(index);
+
+      if (character === C_GT) {
+        break;
+      }
+
+      if (commonmark && character === '\n') {
+        return;
+      }
+
+      queue += character;
+      index++;
+    }
+
+    if (value.charAt(index) !== C_GT) {
+      return;
+    }
+
+    subvalue += C_LT + queue + C_GT;
+    url = queue;
+    index++;
+  } else {
+    character = null;
+    subqueue = '';
+
+    while (index < length) {
+      character = value.charAt(index);
+
+      if (subqueue && own.call(markers, character)) {
+        break;
+      }
+
+      if (whitespace(character)) {
+        if (!pedantic) {
+          break;
+        }
+
+        subqueue += character;
+      } else {
+        if (character === C_PAREN_OPEN) {
+          depth++;
+        } else if (character === C_PAREN_CLOSE) {
+          if (depth === 0) {
+            break;
+          }
+
+          depth--;
+        }
+
+        queue += subqueue;
+        subqueue = '';
+
+        if (character === C_BACKSLASH) {
+          queue += C_BACKSLASH;
+          character = value.charAt(++index);
+        }
+
+        queue += character;
+      }
+
+      index++;
+    }
+
+    subvalue += queue;
+    url = queue;
+    index = subvalue.length;
+  }
+
+  /* Eat white-space. */
+  queue = '';
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (!whitespace(character)) {
+      break;
+    }
+
+    queue += character;
+    index++;
+  }
+
+  character = value.charAt(index);
+  subvalue += queue;
+
+  /* Eat the title. */
+  if (queue && own.call(markers, character)) {
+    index++;
+    subvalue += character;
+    queue = '';
+    marker = markers[character];
+    beforeTitle = subvalue;
+
+    /* In commonmark-mode, things are pretty easy: the
+     * marker cannot occur inside the title.
+     *
+     * Non-commonmark does, however, support nested
+     * delimiters. */
+    if (commonmark) {
+      while (index < length) {
+        character = value.charAt(index);
+
+        if (character === marker) {
+          break;
+        }
+
+        if (character === C_BACKSLASH) {
+          queue += C_BACKSLASH;
+          character = value.charAt(++index);
+        }
+
+        index++;
+        queue += character;
+      }
+
+      character = value.charAt(index);
+
+      if (character !== marker) {
+        return;
+      }
+
+      title = queue;
+      subvalue += queue + character;
+      index++;
+
+      while (index < length) {
+        character = value.charAt(index);
+
+        if (!whitespace(character)) {
+          break;
+        }
+
+        subvalue += character;
+        index++;
+      }
+    } else {
+      subqueue = '';
+
+      while (index < length) {
+        character = value.charAt(index);
+
+        if (character === marker) {
+          if (hasMarker) {
+            queue += marker + subqueue;
+            subqueue = '';
+          }
+
+          hasMarker = true;
+        } else if (!hasMarker) {
+          queue += character;
+        } else if (character === C_PAREN_CLOSE) {
+          subvalue += queue + marker + subqueue;
+          title = queue;
+          break;
+        } else if (whitespace(character)) {
+          subqueue += character;
+        } else {
+          queue += marker + subqueue + character;
+          subqueue = '';
+          hasMarker = false;
+        }
+
+        index++;
+      }
+    }
+  }
+
+  if (value.charAt(index) !== C_PAREN_CLOSE) {
+    return;
+  }
+
+  /* istanbul ignore if - never used (yet) */
+  if (silent) {
+    return true;
+  }
+
+  subvalue += C_PAREN_CLOSE;
+
+  url = self.decode.raw(self.unescape(url), eat(beforeURL).test().end, {nonTerminated: false});
+
+  if (title) {
+    beforeTitle = eat(beforeTitle).test().end;
+    title = self.decode.raw(self.unescape(title), beforeTitle);
+  }
+
+  node = {
+    type: isImage ? 'image' : 'link',
+    title: title || null,
+    url: url
+  };
+
+  if (isImage) {
+    node.alt = self.decode.raw(self.unescape(content), now) || null;
+  } else {
+    exit = self.enterLink();
+    node.children = self.tokenizeInline(content, now);
+    exit();
+  }
+
+  return eat(subvalue)(node);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/list.js":
+/*!********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/list.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/* eslint-disable max-params */
+
+var trim = __webpack_require__(/*! trim */ "./node_modules/trim/index.js");
+var repeat = __webpack_require__(/*! repeat-string */ "./node_modules/repeat-string/index.js");
+var decimal = __webpack_require__(/*! is-decimal */ "./node_modules/is-decimal/index.js");
+var getIndent = __webpack_require__(/*! ../util/get-indentation */ "./node_modules/remark-parse/lib/util/get-indentation.js");
+var removeIndent = __webpack_require__(/*! ../util/remove-indentation */ "./node_modules/remark-parse/lib/util/remove-indentation.js");
+var interrupt = __webpack_require__(/*! ../util/interrupt */ "./node_modules/remark-parse/lib/util/interrupt.js");
+
+module.exports = list;
+
+var C_ASTERISK = '*';
+var C_UNDERSCORE = '_';
+var C_PLUS = '+';
+var C_DASH = '-';
+var C_DOT = '.';
+var C_SPACE = ' ';
+var C_NEWLINE = '\n';
+var C_TAB = '\t';
+var C_PAREN_CLOSE = ')';
+var C_X_LOWER = 'x';
+
+var TAB_SIZE = 4;
+var EXPRESSION_LOOSE_LIST_ITEM = /\n\n(?!\s*$)/;
+var EXPRESSION_TASK_ITEM = /^\[([ \t]|x|X)][ \t]/;
+var EXPRESSION_BULLET = /^([ \t]*)([*+-]|\d+[.)])( {1,4}(?! )| |\t|$|(?=\n))([^\n]*)/;
+var EXPRESSION_PEDANTIC_BULLET = /^([ \t]*)([*+-]|\d+[.)])([ \t]+)/;
+var EXPRESSION_INITIAL_INDENT = /^( {1,4}|\t)?/gm;
+
+/* Map of characters which can be used to mark
+ * list-items. */
+var LIST_UNORDERED_MARKERS = {};
+
+LIST_UNORDERED_MARKERS[C_ASTERISK] = true;
+LIST_UNORDERED_MARKERS[C_PLUS] = true;
+LIST_UNORDERED_MARKERS[C_DASH] = true;
+
+/* Map of characters which can be used to mark
+ * list-items after a digit. */
+var LIST_ORDERED_MARKERS = {};
+
+LIST_ORDERED_MARKERS[C_DOT] = true;
+
+/* Map of characters which can be used to mark
+ * list-items after a digit. */
+var LIST_ORDERED_COMMONMARK_MARKERS = {};
+
+LIST_ORDERED_COMMONMARK_MARKERS[C_DOT] = true;
+LIST_ORDERED_COMMONMARK_MARKERS[C_PAREN_CLOSE] = true;
+
+function list(eat, value, silent) {
+  var self = this;
+  var commonmark = self.options.commonmark;
+  var pedantic = self.options.pedantic;
+  var tokenizers = self.blockTokenizers;
+  var interuptors = self.interruptList;
+  var markers;
+  var index = 0;
+  var length = value.length;
+  var start = null;
+  var size = 0;
+  var queue;
+  var ordered;
+  var character;
+  var marker;
+  var nextIndex;
+  var startIndex;
+  var prefixed;
+  var currentMarker;
+  var content;
+  var line;
+  var prevEmpty;
+  var empty;
+  var items;
+  var allLines;
+  var emptyLines;
+  var item;
+  var enterTop;
+  var exitBlockquote;
+  var isLoose;
+  var node;
+  var now;
+  var end;
+  var indented;
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character === C_TAB) {
+      size += TAB_SIZE - (size % TAB_SIZE);
+    } else if (character === C_SPACE) {
+      size++;
+    } else {
+      break;
+    }
+
+    index++;
+  }
+
+  if (size >= TAB_SIZE) {
+    return;
+  }
+
+  character = value.charAt(index);
+
+  markers = commonmark ?
+    LIST_ORDERED_COMMONMARK_MARKERS :
+    LIST_ORDERED_MARKERS;
+
+  if (LIST_UNORDERED_MARKERS[character] === true) {
+    marker = character;
+    ordered = false;
+  } else {
+    ordered = true;
+    queue = '';
+
+    while (index < length) {
+      character = value.charAt(index);
+
+      if (!decimal(character)) {
+        break;
+      }
+
+      queue += character;
+      index++;
+    }
+
+    character = value.charAt(index);
+
+    if (!queue || markers[character] !== true) {
+      return;
+    }
+
+    start = parseInt(queue, 10);
+    marker = character;
+  }
+
+  character = value.charAt(++index);
+
+  if (character !== C_SPACE && character !== C_TAB) {
+    return;
+  }
+
+  if (silent) {
+    return true;
+  }
+
+  index = 0;
+  items = [];
+  allLines = [];
+  emptyLines = [];
+
+  while (index < length) {
+    nextIndex = value.indexOf(C_NEWLINE, index);
+    startIndex = index;
+    prefixed = false;
+    indented = false;
+
+    if (nextIndex === -1) {
+      nextIndex = length;
+    }
+
+    end = index + TAB_SIZE;
+    size = 0;
+
+    while (index < length) {
+      character = value.charAt(index);
+
+      if (character === C_TAB) {
+        size += TAB_SIZE - (size % TAB_SIZE);
+      } else if (character === C_SPACE) {
+        size++;
+      } else {
+        break;
+      }
+
+      index++;
+    }
+
+    if (size >= TAB_SIZE) {
+      indented = true;
+    }
+
+    if (item && size >= item.indent) {
+      indented = true;
+    }
+
+    character = value.charAt(index);
+    currentMarker = null;
+
+    if (!indented) {
+      if (LIST_UNORDERED_MARKERS[character] === true) {
+        currentMarker = character;
+        index++;
+        size++;
+      } else {
+        queue = '';
+
+        while (index < length) {
+          character = value.charAt(index);
+
+          if (!decimal(character)) {
+            break;
+          }
+
+          queue += character;
+          index++;
+        }
+
+        character = value.charAt(index);
+        index++;
+
+        if (queue && markers[character] === true) {
+          currentMarker = character;
+          size += queue.length + 1;
+        }
+      }
+
+      if (currentMarker) {
+        character = value.charAt(index);
+
+        if (character === C_TAB) {
+          size += TAB_SIZE - (size % TAB_SIZE);
+          index++;
+        } else if (character === C_SPACE) {
+          end = index + TAB_SIZE;
+
+          while (index < end) {
+            if (value.charAt(index) !== C_SPACE) {
+              break;
+            }
+
+            index++;
+            size++;
+          }
+
+          if (index === end && value.charAt(index) === C_SPACE) {
+            index -= TAB_SIZE - 1;
+            size -= TAB_SIZE - 1;
+          }
+        } else if (character !== C_NEWLINE && character !== '') {
+          currentMarker = null;
+        }
+      }
+    }
+
+    if (currentMarker) {
+      if (!pedantic && marker !== currentMarker) {
+        break;
+      }
+
+      prefixed = true;
+    } else {
+      if (!commonmark && !indented && value.charAt(startIndex) === C_SPACE) {
+        indented = true;
+      } else if (commonmark && item) {
+        indented = size >= item.indent || size > TAB_SIZE;
+      }
+
+      prefixed = false;
+      index = startIndex;
+    }
+
+    line = value.slice(startIndex, nextIndex);
+    content = startIndex === index ? line : value.slice(index, nextIndex);
+
+    if (
+      currentMarker === C_ASTERISK ||
+      currentMarker === C_UNDERSCORE ||
+      currentMarker === C_DASH
+    ) {
+      if (tokenizers.thematicBreak.call(self, eat, line, true)) {
+        break;
+      }
+    }
+
+    prevEmpty = empty;
+    empty = !trim(content).length;
+
+    if (indented && item) {
+      item.value = item.value.concat(emptyLines, line);
+      allLines = allLines.concat(emptyLines, line);
+      emptyLines = [];
+    } else if (prefixed) {
+      if (emptyLines.length !== 0) {
+        item.value.push('');
+        item.trail = emptyLines.concat();
+      }
+
+      item = {
+        value: [line],
+        indent: size,
+        trail: []
+      };
+
+      items.push(item);
+      allLines = allLines.concat(emptyLines, line);
+      emptyLines = [];
+    } else if (empty) {
+      if (prevEmpty) {
+        break;
+      }
+
+      emptyLines.push(line);
+    } else {
+      if (prevEmpty) {
+        break;
+      }
+
+      if (interrupt(interuptors, tokenizers, self, [eat, line, true])) {
+        break;
+      }
+
+      item.value = item.value.concat(emptyLines, line);
+      allLines = allLines.concat(emptyLines, line);
+      emptyLines = [];
+    }
+
+    index = nextIndex + 1;
+  }
+
+  node = eat(allLines.join(C_NEWLINE)).reset({
+    type: 'list',
+    ordered: ordered,
+    start: start,
+    loose: null,
+    children: []
+  });
+
+  enterTop = self.enterList();
+  exitBlockquote = self.enterBlock();
+  isLoose = false;
+  index = -1;
+  length = items.length;
+
+  while (++index < length) {
+    item = items[index].value.join(C_NEWLINE);
+    now = eat.now();
+
+    item = eat(item)(listItem(self, item, now), node);
+
+    if (item.loose) {
+      isLoose = true;
+    }
+
+    item = items[index].trail.join(C_NEWLINE);
+
+    if (index !== length - 1) {
+      item += C_NEWLINE;
+    }
+
+    eat(item);
+  }
+
+  enterTop();
+  exitBlockquote();
+
+  node.loose = isLoose;
+
+  return node;
+}
+
+function listItem(ctx, value, position) {
+  var offsets = ctx.offset;
+  var fn = ctx.options.pedantic ? pedanticListItem : normalListItem;
+  var checked = null;
+  var task;
+  var indent;
+
+  value = fn.apply(null, arguments);
+
+  if (ctx.options.gfm) {
+    task = value.match(EXPRESSION_TASK_ITEM);
+
+    if (task) {
+      indent = task[0].length;
+      checked = task[1].toLowerCase() === C_X_LOWER;
+      offsets[position.line] += indent;
+      value = value.slice(indent);
+    }
+  }
+
+  return {
+    type: 'listItem',
+    loose: EXPRESSION_LOOSE_LIST_ITEM.test(value) ||
+      value.charAt(value.length - 1) === C_NEWLINE,
+    checked: checked,
+    children: ctx.tokenizeBlock(value, position)
+  };
+}
+
+/* Create a list-item using overly simple mechanics. */
+function pedanticListItem(ctx, value, position) {
+  var offsets = ctx.offset;
+  var line = position.line;
+
+  /* Remove the list-item’s bullet. */
+  value = value.replace(EXPRESSION_PEDANTIC_BULLET, replacer);
+
+  /* The initial line was also matched by the below, so
+   * we reset the `line`. */
+  line = position.line;
+
+  return value.replace(EXPRESSION_INITIAL_INDENT, replacer);
+
+  /* A simple replacer which removed all matches,
+   * and adds their length to `offset`. */
+  function replacer($0) {
+    offsets[line] = (offsets[line] || 0) + $0.length;
+    line++;
+
+    return '';
+  }
+}
+
+/* Create a list-item using sane mechanics. */
+function normalListItem(ctx, value, position) {
+  var offsets = ctx.offset;
+  var line = position.line;
+  var max;
+  var bullet;
+  var rest;
+  var lines;
+  var trimmedLines;
+  var index;
+  var length;
+
+  /* Remove the list-item’s bullet. */
+  value = value.replace(EXPRESSION_BULLET, replacer);
+
+  lines = value.split(C_NEWLINE);
+
+  trimmedLines = removeIndent(value, getIndent(max).indent).split(C_NEWLINE);
+
+  /* We replaced the initial bullet with something
+   * else above, which was used to trick
+   * `removeIndentation` into removing some more
+   * characters when possible.  However, that could
+   * result in the initial line to be stripped more
+   * than it should be. */
+  trimmedLines[0] = rest;
+
+  offsets[line] = (offsets[line] || 0) + bullet.length;
+  line++;
+
+  index = 0;
+  length = lines.length;
+
+  while (++index < length) {
+    offsets[line] = (offsets[line] || 0) +
+      lines[index].length - trimmedLines[index].length;
+    line++;
+  }
+
+  return trimmedLines.join(C_NEWLINE);
+
+  function replacer($0, $1, $2, $3, $4) {
+    bullet = $1 + $2 + $3;
+    rest = $4;
+
+    /* Make sure that the first nine numbered list items
+     * can indent with an extra space.  That is, when
+     * the bullet did not receive an extra final space. */
+    if (Number($2) < 10 && bullet.length % 2 === 1) {
+      $2 = C_SPACE + $2;
+    }
+
+    max = $1 + repeat(C_SPACE, $2.length) + $3;
+
+    return max + rest;
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/newline.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/newline.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var whitespace = __webpack_require__(/*! is-whitespace-character */ "./node_modules/is-whitespace-character/index.js");
+
+module.exports = newline;
+
+/* Tokenise newline. */
+function newline(eat, value, silent) {
+  var character = value.charAt(0);
+  var length;
+  var subvalue;
+  var queue;
+  var index;
+
+  if (character !== '\n') {
+    return;
+  }
+
+  /* istanbul ignore if - never used (yet) */
+  if (silent) {
+    return true;
+  }
+
+  index = 1;
+  length = value.length;
+  subvalue = character;
+  queue = '';
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (!whitespace(character)) {
+      break;
+    }
+
+    queue += character;
+
+    if (character === '\n') {
+      subvalue += queue;
+      queue = '';
+    }
+
+    index++;
+  }
+
+  eat(subvalue);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/paragraph.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/paragraph.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var trim = __webpack_require__(/*! trim */ "./node_modules/trim/index.js");
+var decimal = __webpack_require__(/*! is-decimal */ "./node_modules/is-decimal/index.js");
+var trimTrailingLines = __webpack_require__(/*! trim-trailing-lines */ "./node_modules/trim-trailing-lines/index.js");
+var interrupt = __webpack_require__(/*! ../util/interrupt */ "./node_modules/remark-parse/lib/util/interrupt.js");
+
+module.exports = paragraph;
+
+var C_NEWLINE = '\n';
+var C_TAB = '\t';
+var C_SPACE = ' ';
+
+var TAB_SIZE = 4;
+
+/* Tokenise paragraph. */
+function paragraph(eat, value, silent) {
+  var self = this;
+  var settings = self.options;
+  var commonmark = settings.commonmark;
+  var gfm = settings.gfm;
+  var tokenizers = self.blockTokenizers;
+  var interruptors = self.interruptParagraph;
+  var index = value.indexOf(C_NEWLINE);
+  var length = value.length;
+  var position;
+  var subvalue;
+  var character;
+  var size;
+  var now;
+
+  while (index < length) {
+    /* Eat everything if there’s no following newline. */
+    if (index === -1) {
+      index = length;
+      break;
+    }
+
+    /* Stop if the next character is NEWLINE. */
+    if (value.charAt(index + 1) === C_NEWLINE) {
+      break;
+    }
+
+    /* In commonmark-mode, following indented lines
+     * are part of the paragraph. */
+    if (commonmark) {
+      size = 0;
+      position = index + 1;
+
+      while (position < length) {
+        character = value.charAt(position);
+
+        if (character === C_TAB) {
+          size = TAB_SIZE;
+          break;
+        } else if (character === C_SPACE) {
+          size++;
+        } else {
+          break;
+        }
+
+        position++;
+      }
+
+      if (size >= TAB_SIZE) {
+        index = value.indexOf(C_NEWLINE, index + 1);
+        continue;
+      }
+    }
+
+    subvalue = value.slice(index + 1);
+
+    /* Check if the following code contains a possible
+     * block. */
+    if (interrupt(interruptors, tokenizers, self, [eat, subvalue, true])) {
+      break;
+    }
+
+    /* Break if the following line starts a list, when
+     * already in a list, or when in commonmark, or when
+     * in gfm mode and the bullet is *not* numeric. */
+    if (
+      tokenizers.list.call(self, eat, subvalue, true) &&
+      (
+        self.inList ||
+        commonmark ||
+        (gfm && !decimal(trim.left(subvalue).charAt(0)))
+      )
+    ) {
+      break;
+    }
+
+    position = index;
+    index = value.indexOf(C_NEWLINE, index + 1);
+
+    if (index !== -1 && trim(value.slice(position, index)) === '') {
+      index = position;
+      break;
+    }
+  }
+
+  subvalue = value.slice(0, index);
+
+  if (trim(subvalue) === '') {
+    eat(subvalue);
+
+    return null;
+  }
+
+  /* istanbul ignore if - never used (yet) */
+  if (silent) {
+    return true;
+  }
+
+  now = eat.now();
+  subvalue = trimTrailingLines(subvalue);
+
+  return eat(subvalue)({
+    type: 'paragraph',
+    children: self.tokenizeInline(subvalue, now)
+  });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/reference.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/reference.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var whitespace = __webpack_require__(/*! is-whitespace-character */ "./node_modules/is-whitespace-character/index.js");
+var locate = __webpack_require__(/*! ../locate/link */ "./node_modules/remark-parse/lib/locate/link.js");
+var normalize = __webpack_require__(/*! ../util/normalize */ "./node_modules/remark-parse/lib/util/normalize.js");
+
+module.exports = reference;
+reference.locator = locate;
+
+var T_LINK = 'link';
+var T_IMAGE = 'image';
+var T_FOOTNOTE = 'footnote';
+var REFERENCE_TYPE_SHORTCUT = 'shortcut';
+var REFERENCE_TYPE_COLLAPSED = 'collapsed';
+var REFERENCE_TYPE_FULL = 'full';
+var C_CARET = '^';
+var C_BACKSLASH = '\\';
+var C_BRACKET_OPEN = '[';
+var C_BRACKET_CLOSE = ']';
+
+function reference(eat, value, silent) {
+  var self = this;
+  var character = value.charAt(0);
+  var index = 0;
+  var length = value.length;
+  var subvalue = '';
+  var intro = '';
+  var type = T_LINK;
+  var referenceType = REFERENCE_TYPE_SHORTCUT;
+  var content;
+  var identifier;
+  var now;
+  var node;
+  var exit;
+  var queue;
+  var bracketed;
+  var depth;
+
+  /* Check whether we’re eating an image. */
+  if (character === '!') {
+    type = T_IMAGE;
+    intro = character;
+    character = value.charAt(++index);
+  }
+
+  if (character !== C_BRACKET_OPEN) {
+    return;
+  }
+
+  index++;
+  intro += character;
+  queue = '';
+
+  /* Check whether we’re eating a footnote. */
+  if (self.options.footnotes && value.charAt(index) === C_CARET) {
+    /* Exit if `![^` is found, so the `!` will be seen as text after this,
+     * and we’ll enter this function again when `[^` is found. */
+    if (type === T_IMAGE) {
+      return;
+    }
+
+    intro += C_CARET;
+    index++;
+    type = T_FOOTNOTE;
+  }
+
+  /* Eat the text. */
+  depth = 0;
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (character === C_BRACKET_OPEN) {
+      bracketed = true;
+      depth++;
+    } else if (character === C_BRACKET_CLOSE) {
+      if (!depth) {
+        break;
+      }
+
+      depth--;
+    }
+
+    if (character === C_BACKSLASH) {
+      queue += C_BACKSLASH;
+      character = value.charAt(++index);
+    }
+
+    queue += character;
+    index++;
+  }
+
+  subvalue = queue;
+  content = queue;
+  character = value.charAt(index);
+
+  if (character !== C_BRACKET_CLOSE) {
+    return;
+  }
+
+  index++;
+  subvalue += character;
+  queue = '';
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (!whitespace(character)) {
+      break;
+    }
+
+    queue += character;
+    index++;
+  }
+
+  character = value.charAt(index);
+
+  /* Inline footnotes cannot have an identifier. */
+  if (type !== T_FOOTNOTE && character === C_BRACKET_OPEN) {
+    identifier = '';
+    queue += character;
+    index++;
+
+    while (index < length) {
+      character = value.charAt(index);
+
+      if (character === C_BRACKET_OPEN || character === C_BRACKET_CLOSE) {
+        break;
+      }
+
+      if (character === C_BACKSLASH) {
+        identifier += C_BACKSLASH;
+        character = value.charAt(++index);
+      }
+
+      identifier += character;
+      index++;
+    }
+
+    character = value.charAt(index);
+
+    if (character === C_BRACKET_CLOSE) {
+      referenceType = identifier ? REFERENCE_TYPE_FULL : REFERENCE_TYPE_COLLAPSED;
+      queue += identifier + character;
+      index++;
+    } else {
+      identifier = '';
+    }
+
+    subvalue += queue;
+    queue = '';
+  } else {
+    if (!content) {
+      return;
+    }
+
+    identifier = content;
+  }
+
+  /* Brackets cannot be inside the identifier. */
+  if (referenceType !== REFERENCE_TYPE_FULL && bracketed) {
+    return;
+  }
+
+  subvalue = intro + subvalue;
+
+  if (type === T_LINK && self.inLink) {
+    return null;
+  }
+
+  /* istanbul ignore if - never used (yet) */
+  if (silent) {
+    return true;
+  }
+
+  if (type === T_FOOTNOTE && content.indexOf(' ') !== -1) {
+    return eat(subvalue)({
+      type: 'footnote',
+      children: this.tokenizeInline(content, eat.now())
+    });
+  }
+
+  now = eat.now();
+  now.column += intro.length;
+  now.offset += intro.length;
+  identifier = referenceType === REFERENCE_TYPE_FULL ? identifier : content;
+
+  node = {
+    type: type + 'Reference',
+    identifier: normalize(identifier)
+  };
+
+  if (type === T_LINK || type === T_IMAGE) {
+    node.referenceType = referenceType;
+  }
+
+  if (type === T_LINK) {
+    exit = self.enterLink();
+    node.children = self.tokenizeInline(content, now);
+    exit();
+  } else if (type === T_IMAGE) {
+    node.alt = self.decode.raw(self.unescape(content), now) || null;
+  }
+
+  return eat(subvalue)(node);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/strong.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/strong.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var trim = __webpack_require__(/*! trim */ "./node_modules/trim/index.js");
+var whitespace = __webpack_require__(/*! is-whitespace-character */ "./node_modules/is-whitespace-character/index.js");
+var locate = __webpack_require__(/*! ../locate/strong */ "./node_modules/remark-parse/lib/locate/strong.js");
+
+module.exports = strong;
+strong.locator = locate;
+
+var C_ASTERISK = '*';
+var C_UNDERSCORE = '_';
+
+function strong(eat, value, silent) {
+  var self = this;
+  var index = 0;
+  var character = value.charAt(index);
+  var now;
+  var pedantic;
+  var marker;
+  var queue;
+  var subvalue;
+  var length;
+  var prev;
+
+  if (
+    (character !== C_ASTERISK && character !== C_UNDERSCORE) ||
+    value.charAt(++index) !== character
+  ) {
+    return;
+  }
+
+  pedantic = self.options.pedantic;
+  marker = character;
+  subvalue = marker + marker;
+  length = value.length;
+  index++;
+  queue = '';
+  character = '';
+
+  if (pedantic && whitespace(value.charAt(index))) {
+    return;
+  }
+
+  while (index < length) {
+    prev = character;
+    character = value.charAt(index);
+
+    if (
+      character === marker &&
+      value.charAt(index + 1) === marker &&
+      (!pedantic || !whitespace(prev))
+    ) {
+      character = value.charAt(index + 2);
+
+      if (character !== marker) {
+        if (!trim(queue)) {
+          return;
+        }
+
+        /* istanbul ignore if - never used (yet) */
+        if (silent) {
+          return true;
+        }
+
+        now = eat.now();
+        now.column += 2;
+        now.offset += 2;
+
+        return eat(subvalue + queue + subvalue)({
+          type: 'strong',
+          children: self.tokenizeInline(queue, now)
+        });
+      }
+    }
+
+    if (!pedantic && character === '\\') {
+      queue += character;
+      character = value.charAt(++index);
+    }
+
+    queue += character;
+    index++;
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/table.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/table.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var whitespace = __webpack_require__(/*! is-whitespace-character */ "./node_modules/is-whitespace-character/index.js");
+
+module.exports = table;
+
+var C_BACKSLASH = '\\';
+var C_TICK = '`';
+var C_DASH = '-';
+var C_PIPE = '|';
+var C_COLON = ':';
+var C_SPACE = ' ';
+var C_NEWLINE = '\n';
+var C_TAB = '\t';
+
+var MIN_TABLE_COLUMNS = 1;
+var MIN_TABLE_ROWS = 2;
+
+var TABLE_ALIGN_LEFT = 'left';
+var TABLE_ALIGN_CENTER = 'center';
+var TABLE_ALIGN_RIGHT = 'right';
+var TABLE_ALIGN_NONE = null;
+
+function table(eat, value, silent) {
+  var self = this;
+  var index;
+  var alignments;
+  var alignment;
+  var subvalue;
+  var row;
+  var length;
+  var lines;
+  var queue;
+  var character;
+  var hasDash;
+  var align;
+  var cell;
+  var preamble;
+  var count;
+  var opening;
+  var now;
+  var position;
+  var lineCount;
+  var line;
+  var rows;
+  var table;
+  var lineIndex;
+  var pipeIndex;
+  var first;
+
+  /* Exit when not in gfm-mode. */
+  if (!self.options.gfm) {
+    return;
+  }
+
+  /* Get the rows.
+   * Detecting tables soon is hard, so there are some
+   * checks for performance here, such as the minimum
+   * number of rows, and allowed characters in the
+   * alignment row. */
+  index = 0;
+  lineCount = 0;
+  length = value.length + 1;
+  lines = [];
+
+  while (index < length) {
+    lineIndex = value.indexOf(C_NEWLINE, index);
+    pipeIndex = value.indexOf(C_PIPE, index + 1);
+
+    if (lineIndex === -1) {
+      lineIndex = value.length;
+    }
+
+    if (pipeIndex === -1 || pipeIndex > lineIndex) {
+      if (lineCount < MIN_TABLE_ROWS) {
+        return;
+      }
+
+      break;
+    }
+
+    lines.push(value.slice(index, lineIndex));
+    lineCount++;
+    index = lineIndex + 1;
+  }
+
+  /* Parse the alignment row. */
+  subvalue = lines.join(C_NEWLINE);
+  alignments = lines.splice(1, 1)[0] || [];
+  index = 0;
+  length = alignments.length;
+  lineCount--;
+  alignment = false;
+  align = [];
+
+  while (index < length) {
+    character = alignments.charAt(index);
+
+    if (character === C_PIPE) {
+      hasDash = null;
+
+      if (alignment === false) {
+        if (first === false) {
+          return;
+        }
+      } else {
+        align.push(alignment);
+        alignment = false;
+      }
+
+      first = false;
+    } else if (character === C_DASH) {
+      hasDash = true;
+      alignment = alignment || TABLE_ALIGN_NONE;
+    } else if (character === C_COLON) {
+      if (alignment === TABLE_ALIGN_LEFT) {
+        alignment = TABLE_ALIGN_CENTER;
+      } else if (hasDash && alignment === TABLE_ALIGN_NONE) {
+        alignment = TABLE_ALIGN_RIGHT;
+      } else {
+        alignment = TABLE_ALIGN_LEFT;
+      }
+    } else if (!whitespace(character)) {
+      return;
+    }
+
+    index++;
+  }
+
+  if (alignment !== false) {
+    align.push(alignment);
+  }
+
+  /* Exit when without enough columns. */
+  if (align.length < MIN_TABLE_COLUMNS) {
+    return;
+  }
+
+  /* istanbul ignore if - never used (yet) */
+  if (silent) {
+    return true;
+  }
+
+  /* Parse the rows. */
+  position = -1;
+  rows = [];
+
+  table = eat(subvalue).reset({
+    type: 'table',
+    align: align,
+    children: rows
+  });
+
+  while (++position < lineCount) {
+    line = lines[position];
+    row = {type: 'tableRow', children: []};
+
+    /* Eat a newline character when this is not the
+     * first row. */
+    if (position) {
+      eat(C_NEWLINE);
+    }
+
+    /* Eat the row. */
+    eat(line).reset(row, table);
+
+    length = line.length + 1;
+    index = 0;
+    queue = '';
+    cell = '';
+    preamble = true;
+    count = null;
+    opening = null;
+
+    while (index < length) {
+      character = line.charAt(index);
+
+      if (character === C_TAB || character === C_SPACE) {
+        if (cell) {
+          queue += character;
+        } else {
+          eat(character);
+        }
+
+        index++;
+        continue;
+      }
+
+      if (character === '' || character === C_PIPE) {
+        if (preamble) {
+          eat(character);
+        } else {
+          if (character && opening) {
+            queue += character;
+            index++;
+            continue;
+          }
+
+          if ((cell || character) && !preamble) {
+            subvalue = cell;
+
+            if (queue.length > 1) {
+              if (character) {
+                subvalue += queue.slice(0, queue.length - 1);
+                queue = queue.charAt(queue.length - 1);
+              } else {
+                subvalue += queue;
+                queue = '';
+              }
+            }
+
+            now = eat.now();
+
+            eat(subvalue)({
+              type: 'tableCell',
+              children: self.tokenizeInline(cell, now)
+            }, row);
+          }
+
+          eat(queue + character);
+
+          queue = '';
+          cell = '';
+        }
+      } else {
+        if (queue) {
+          cell += queue;
+          queue = '';
+        }
+
+        cell += character;
+
+        if (character === C_BACKSLASH && index !== length - 2) {
+          cell += line.charAt(index + 1);
+          index++;
+        }
+
+        if (character === C_TICK) {
+          count = 1;
+
+          while (line.charAt(index + 1) === character) {
+            cell += character;
+            index++;
+            count++;
+          }
+
+          if (!opening) {
+            opening = count;
+          } else if (count >= opening) {
+            opening = 0;
+          }
+        }
+      }
+
+      preamble = false;
+      index++;
+    }
+
+    /* Eat the alignment row. */
+    if (!position) {
+      eat(C_NEWLINE + alignments);
+    }
+  }
+
+  return table;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/text.js":
+/*!********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/text.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = text;
+
+function text(eat, value, silent) {
+  var self = this;
+  var methods;
+  var tokenizers;
+  var index;
+  var length;
+  var subvalue;
+  var position;
+  var tokenizer;
+  var name;
+  var min;
+  var now;
+
+  /* istanbul ignore if - never used (yet) */
+  if (silent) {
+    return true;
+  }
+
+  methods = self.inlineMethods;
+  length = methods.length;
+  tokenizers = self.inlineTokenizers;
+  index = -1;
+  min = value.length;
+
+  while (++index < length) {
+    name = methods[index];
+
+    if (name === 'text' || !tokenizers[name]) {
+      continue;
+    }
+
+    tokenizer = tokenizers[name].locator;
+
+    if (!tokenizer) {
+      eat.file.fail('Missing locator: `' + name + '`');
+    }
+
+    position = tokenizer.call(self, value, 1);
+
+    if (position !== -1 && position < min) {
+      min = position;
+    }
+  }
+
+  subvalue = value.slice(0, min);
+  now = eat.now();
+
+  self.decode(subvalue, now, function (content, position, source) {
+    eat(source || content)({
+      type: 'text',
+      value: content
+    });
+  });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/thematic-break.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/thematic-break.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = thematicBreak;
+
+var C_NEWLINE = '\n';
+var C_TAB = '\t';
+var C_SPACE = ' ';
+var C_ASTERISK = '*';
+var C_UNDERSCORE = '_';
+var C_DASH = '-';
+
+var THEMATIC_BREAK_MARKER_COUNT = 3;
+
+function thematicBreak(eat, value, silent) {
+  var index = -1;
+  var length = value.length + 1;
+  var subvalue = '';
+  var character;
+  var marker;
+  var markerCount;
+  var queue;
+
+  while (++index < length) {
+    character = value.charAt(index);
+
+    if (character !== C_TAB && character !== C_SPACE) {
+      break;
+    }
+
+    subvalue += character;
+  }
+
+  if (
+    character !== C_ASTERISK &&
+    character !== C_DASH &&
+    character !== C_UNDERSCORE
+  ) {
+    return;
+  }
+
+  marker = character;
+  subvalue += character;
+  markerCount = 1;
+  queue = '';
+
+  while (++index < length) {
+    character = value.charAt(index);
+
+    if (character === marker) {
+      markerCount++;
+      subvalue += queue + marker;
+      queue = '';
+    } else if (character === C_SPACE) {
+      queue += character;
+    } else if (
+      markerCount >= THEMATIC_BREAK_MARKER_COUNT &&
+      (!character || character === C_NEWLINE)
+    ) {
+      subvalue += queue;
+
+      if (silent) {
+        return true;
+      }
+
+      return eat(subvalue)({type: 'thematicBreak'});
+    } else {
+      return;
+    }
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/url.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/url.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var decode = __webpack_require__(/*! parse-entities */ "./node_modules/parse-entities/index.js");
+var whitespace = __webpack_require__(/*! is-whitespace-character */ "./node_modules/is-whitespace-character/index.js");
+var locate = __webpack_require__(/*! ../locate/url */ "./node_modules/remark-parse/lib/locate/url.js");
+
+module.exports = url;
+url.locator = locate;
+url.notInLink = true;
+
+var C_BRACKET_OPEN = '[';
+var C_BRACKET_CLOSE = ']';
+var C_PAREN_OPEN = '(';
+var C_PAREN_CLOSE = ')';
+var C_LT = '<';
+var C_AT_SIGN = '@';
+
+var HTTP_PROTOCOL = 'http://';
+var HTTPS_PROTOCOL = 'https://';
+var MAILTO_PROTOCOL = 'mailto:';
+
+var PROTOCOLS = [
+  HTTP_PROTOCOL,
+  HTTPS_PROTOCOL,
+  MAILTO_PROTOCOL
+];
+
+var PROTOCOLS_LENGTH = PROTOCOLS.length;
+
+function url(eat, value, silent) {
+  var self = this;
+  var subvalue;
+  var content;
+  var character;
+  var index;
+  var position;
+  var protocol;
+  var match;
+  var length;
+  var queue;
+  var parenCount;
+  var nextCharacter;
+  var exit;
+
+  if (!self.options.gfm) {
+    return;
+  }
+
+  subvalue = '';
+  index = -1;
+  length = PROTOCOLS_LENGTH;
+
+  while (++index < length) {
+    protocol = PROTOCOLS[index];
+    match = value.slice(0, protocol.length);
+
+    if (match.toLowerCase() === protocol) {
+      subvalue = match;
+      break;
+    }
+  }
+
+  if (!subvalue) {
+    return;
+  }
+
+  index = subvalue.length;
+  length = value.length;
+  queue = '';
+  parenCount = 0;
+
+  while (index < length) {
+    character = value.charAt(index);
+
+    if (whitespace(character) || character === C_LT) {
+      break;
+    }
+
+    if (
+      character === '.' ||
+      character === ',' ||
+      character === ':' ||
+      character === ';' ||
+      character === '"' ||
+      character === '\'' ||
+      character === ')' ||
+      character === ']'
+    ) {
+      nextCharacter = value.charAt(index + 1);
+
+      if (!nextCharacter || whitespace(nextCharacter)) {
+        break;
+      }
+    }
+
+    if (character === C_PAREN_OPEN || character === C_BRACKET_OPEN) {
+      parenCount++;
+    }
+
+    if (character === C_PAREN_CLOSE || character === C_BRACKET_CLOSE) {
+      parenCount--;
+
+      if (parenCount < 0) {
+        break;
+      }
+    }
+
+    queue += character;
+    index++;
+  }
+
+  if (!queue) {
+    return;
+  }
+
+  subvalue += queue;
+  content = subvalue;
+
+  if (protocol === MAILTO_PROTOCOL) {
+    position = queue.indexOf(C_AT_SIGN);
+
+    if (position === -1 || position === length - 1) {
+      return;
+    }
+
+    content = content.substr(MAILTO_PROTOCOL.length);
+  }
+
+  /* istanbul ignore if - never used (yet) */
+  if (silent) {
+    return true;
+  }
+
+  exit = self.enterLink();
+  content = self.tokenizeInline(content, eat.now());
+  exit();
+
+  return eat(subvalue)({
+    type: 'link',
+    title: null,
+    url: decode(subvalue, {nonTerminated: false}),
+    children: content
+  });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenizer.js":
+/*!****************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenizer.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = factory;
+
+var MERGEABLE_NODES = {
+  text: mergeText,
+  blockquote: mergeBlockquote
+};
+
+/* Check whether a node is mergeable with adjacent nodes. */
+function mergeable(node) {
+  var start;
+  var end;
+
+  if (node.type !== 'text' || !node.position) {
+    return true;
+  }
+
+  start = node.position.start;
+  end = node.position.end;
+
+  /* Only merge nodes which occupy the same size as their
+   * `value`. */
+  return start.line !== end.line ||
+      end.column - start.column === node.value.length;
+}
+
+/* Merge two text nodes: `node` into `prev`. */
+function mergeText(prev, node) {
+  prev.value += node.value;
+
+  return prev;
+}
+
+/* Merge two blockquotes: `node` into `prev`, unless in
+ * CommonMark mode. */
+function mergeBlockquote(prev, node) {
+  if (this.options.commonmark) {
+    return node;
+  }
+
+  prev.children = prev.children.concat(node.children);
+
+  return prev;
+}
+
+/* Construct a tokenizer.  This creates both
+ * `tokenizeInline` and `tokenizeBlock`. */
+function factory(type) {
+  return tokenize;
+
+  /* Tokenizer for a bound `type`. */
+  function tokenize(value, location) {
+    var self = this;
+    var offset = self.offset;
+    var tokens = [];
+    var methods = self[type + 'Methods'];
+    var tokenizers = self[type + 'Tokenizers'];
+    var line = location.line;
+    var column = location.column;
+    var index;
+    var length;
+    var method;
+    var name;
+    var matched;
+    var valueLength;
+
+    /* Trim white space only lines. */
+    if (!value) {
+      return tokens;
+    }
+
+    /* Expose on `eat`. */
+    eat.now = now;
+    eat.file = self.file;
+
+    /* Sync initial offset. */
+    updatePosition('');
+
+    /* Iterate over `value`, and iterate over all
+     * tokenizers.  When one eats something, re-iterate
+     * with the remaining value.  If no tokenizer eats,
+     * something failed (should not happen) and an
+     * exception is thrown. */
+    while (value) {
+      index = -1;
+      length = methods.length;
+      matched = false;
+
+      while (++index < length) {
+        name = methods[index];
+        method = tokenizers[name];
+
+        if (
+          method &&
+          /* istanbul ignore next */ (!method.onlyAtStart || self.atStart) &&
+          (!method.notInList || !self.inList) &&
+          (!method.notInBlock || !self.inBlock) &&
+          (!method.notInLink || !self.inLink)
+        ) {
+          valueLength = value.length;
+
+          method.apply(self, [eat, value]);
+
+          matched = valueLength !== value.length;
+
+          if (matched) {
+            break;
+          }
+        }
+      }
+
+      /* istanbul ignore if */
+      if (!matched) {
+        self.file.fail(new Error('Infinite loop'), eat.now());
+      }
+    }
+
+    self.eof = now();
+
+    return tokens;
+
+    /* Update line, column, and offset based on
+     * `value`. */
+    function updatePosition(subvalue) {
+      var lastIndex = -1;
+      var index = subvalue.indexOf('\n');
+
+      while (index !== -1) {
+        line++;
+        lastIndex = index;
+        index = subvalue.indexOf('\n', index + 1);
+      }
+
+      if (lastIndex === -1) {
+        column += subvalue.length;
+      } else {
+        column = subvalue.length - lastIndex;
+      }
+
+      if (line in offset) {
+        if (lastIndex !== -1) {
+          column += offset[line];
+        } else if (column <= offset[line]) {
+          column = offset[line] + 1;
+        }
+      }
+    }
+
+    /* Get offset.  Called before the first character is
+     * eaten to retrieve the range's offsets. */
+    function getOffset() {
+      var indentation = [];
+      var pos = line + 1;
+
+      /* Done.  Called when the last character is
+       * eaten to retrieve the range’s offsets. */
+      return function () {
+        var last = line + 1;
+
+        while (pos < last) {
+          indentation.push((offset[pos] || 0) + 1);
+
+          pos++;
+        }
+
+        return indentation;
+      };
+    }
+
+    /* Get the current position. */
+    function now() {
+      var pos = {line: line, column: column};
+
+      pos.offset = self.toOffset(pos);
+
+      return pos;
+    }
+
+    /* Store position information for a node. */
+    function Position(start) {
+      this.start = start;
+      this.end = now();
+    }
+
+    /* Throw when a value is incorrectly eaten.
+     * This shouldn’t happen but will throw on new,
+     * incorrect rules. */
+    function validateEat(subvalue) {
+      /* istanbul ignore if */
+      if (value.substring(0, subvalue.length) !== subvalue) {
+        /* Capture stack-trace. */
+        self.file.fail(
+          new Error(
+            'Incorrectly eaten value: please report this ' +
+            'warning on http://git.io/vg5Ft'
+          ),
+          now()
+        );
+      }
+    }
+
+    /* Mark position and patch `node.position`. */
+    function position() {
+      var before = now();
+
+      return update;
+
+      /* Add the position to a node. */
+      function update(node, indent) {
+        var prev = node.position;
+        var start = prev ? prev.start : before;
+        var combined = [];
+        var n = prev && prev.end.line;
+        var l = before.line;
+
+        node.position = new Position(start);
+
+        /* If there was already a `position`, this
+         * node was merged.  Fixing `start` wasn’t
+         * hard, but the indent is different.
+         * Especially because some information, the
+         * indent between `n` and `l` wasn’t
+         * tracked.  Luckily, that space is
+         * (should be?) empty, so we can safely
+         * check for it now. */
+        if (prev && indent && prev.indent) {
+          combined = prev.indent;
+
+          if (n < l) {
+            while (++n < l) {
+              combined.push((offset[n] || 0) + 1);
+            }
+
+            combined.push(before.column);
+          }
+
+          indent = combined.concat(indent);
+        }
+
+        node.position.indent = indent || [];
+
+        return node;
+      }
+    }
+
+    /* Add `node` to `parent`s children or to `tokens`.
+     * Performs merges where possible. */
+    function add(node, parent) {
+      var children = parent ? parent.children : tokens;
+      var prev = children[children.length - 1];
+
+      if (
+        prev &&
+        node.type === prev.type &&
+        node.type in MERGEABLE_NODES &&
+        mergeable(prev) &&
+        mergeable(node)
+      ) {
+        node = MERGEABLE_NODES[node.type].call(self, prev, node);
+      }
+
+      if (node !== prev) {
+        children.push(node);
+      }
+
+      if (self.atStart && tokens.length !== 0) {
+        self.exitStart();
+      }
+
+      return node;
+    }
+
+    /* Remove `subvalue` from `value`.
+     * `subvalue` must be at the start of `value`. */
+    function eat(subvalue) {
+      var indent = getOffset();
+      var pos = position();
+      var current = now();
+
+      validateEat(subvalue);
+
+      apply.reset = reset;
+      reset.test = test;
+      apply.test = test;
+
+      value = value.substring(subvalue.length);
+
+      updatePosition(subvalue);
+
+      indent = indent();
+
+      return apply;
+
+      /* Add the given arguments, add `position` to
+       * the returned node, and return the node. */
+      function apply(node, parent) {
+        return pos(add(pos(node), parent), indent);
+      }
+
+      /* Functions just like apply, but resets the
+       * content:  the line and column are reversed,
+       * and the eaten value is re-added.
+       * This is useful for nodes with a single
+       * type of content, such as lists and tables.
+       * See `apply` above for what parameters are
+       * expected. */
+      function reset() {
+        var node = apply.apply(null, arguments);
+
+        line = current.line;
+        column = current.column;
+        value = subvalue + value;
+
+        return node;
+      }
+
+      /* Test the position, after eating, and reverse
+       * to a not-eaten state. */
+      function test() {
+        var result = pos({});
+
+        line = current.line;
+        column = current.column;
+        value = subvalue + value;
+
+        return result.position;
+      }
+    }
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/unescape.js":
+/*!***************************************************!*\
+  !*** ./node_modules/remark-parse/lib/unescape.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = factory;
+
+/* Factory to de-escape a value, based on a list at `key`
+ * in `ctx`. */
+function factory(ctx, key) {
+  return unescape;
+
+  /* De-escape a string using the expression at `key`
+   * in `ctx`. */
+  function unescape(value) {
+    var prev = 0;
+    var index = value.indexOf('\\');
+    var escape = ctx[key];
+    var queue = [];
+    var character;
+
+    while (index !== -1) {
+      queue.push(value.slice(prev, index));
+      prev = index + 1;
+      character = value.charAt(prev);
+
+      /* If the following character is not a valid escape,
+       * add the slash. */
+      if (!character || escape.indexOf(character) === -1) {
+        queue.push('\\');
+      }
+
+      index = value.indexOf('\\', prev);
+    }
+
+    queue.push(value.slice(prev));
+
+    return queue.join('');
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/util/get-indentation.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/util/get-indentation.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = indentation;
+
+/* Map of characters, and their column length,
+ * which can be used as indentation. */
+var characters = {' ': 1, '\t': 4};
+
+/* Gets indentation information for a line. */
+function indentation(value) {
+  var index = 0;
+  var indent = 0;
+  var character = value.charAt(index);
+  var stops = {};
+  var size;
+
+  while (character in characters) {
+    size = characters[character];
+
+    indent += size;
+
+    if (size > 1) {
+      indent = Math.floor(indent / size) * size;
+    }
+
+    stops[indent] = index;
+
+    character = value.charAt(++index);
+  }
+
+  return {indent: indent, stops: stops};
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/util/html.js":
+/*!****************************************************!*\
+  !*** ./node_modules/remark-parse/lib/util/html.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var attributeName = '[a-zA-Z_:][a-zA-Z0-9:._-]*';
+var unquoted = '[^"\'=<>`\\u0000-\\u0020]+';
+var singleQuoted = '\'[^\']*\'';
+var doubleQuoted = '"[^"]*"';
+var attributeValue = '(?:' + unquoted + '|' + singleQuoted + '|' + doubleQuoted + ')';
+var attribute = '(?:\\s+' + attributeName + '(?:\\s*=\\s*' + attributeValue + ')?)';
+var openTag = '<[A-Za-z][A-Za-z0-9\\-]*' + attribute + '*\\s*\\/?>';
+var closeTag = '<\\/[A-Za-z][A-Za-z0-9\\-]*\\s*>';
+var comment = '<!---->|<!--(?:-?[^>-])(?:-?[^-])*-->';
+var processing = '<[?].*?[?]>';
+var declaration = '<![A-Za-z]+\\s+[^>]*>';
+var cdata = '<!\\[CDATA\\[[\\s\\S]*?\\]\\]>';
+
+exports.openCloseTag = new RegExp('^(?:' + openTag + '|' + closeTag + ')');
+
+exports.tag = new RegExp('^(?:' +
+  openTag + '|' +
+  closeTag + '|' +
+  comment + '|' +
+  processing + '|' +
+  declaration + '|' +
+  cdata +
+')');
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/util/interrupt.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/util/interrupt.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = interrupt;
+
+function interrupt(interruptors, tokenizers, ctx, params) {
+  var bools = ['pedantic', 'commonmark'];
+  var count = bools.length;
+  var length = interruptors.length;
+  var index = -1;
+  var interruptor;
+  var config;
+  var fn;
+  var offset;
+  var bool;
+  var ignore;
+
+  while (++index < length) {
+    interruptor = interruptors[index];
+    config = interruptor[1] || {};
+    fn = interruptor[0];
+    offset = -1;
+    ignore = false;
+
+    while (++offset < count) {
+      bool = bools[offset];
+
+      if (config[bool] !== undefined && config[bool] !== ctx.options[bool]) {
+        ignore = true;
+        break;
+      }
+    }
+
+    if (ignore) {
+      continue;
+    }
+
+    if (tokenizers[fn].apply(ctx, params)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/util/normalize.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/util/normalize.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var collapseWhiteSpace = __webpack_require__(/*! collapse-white-space */ "./node_modules/collapse-white-space/index.js");
+
+module.exports = normalize;
+
+/* Normalize an identifier.  Collapses multiple white space
+ * characters into a single space, and removes casing. */
+function normalize(value) {
+  return collapseWhiteSpace(value).toLowerCase();
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/util/remove-indentation.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/util/remove-indentation.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var trim = __webpack_require__(/*! trim */ "./node_modules/trim/index.js");
+var repeat = __webpack_require__(/*! repeat-string */ "./node_modules/repeat-string/index.js");
+var getIndent = __webpack_require__(/*! ./get-indentation */ "./node_modules/remark-parse/lib/util/get-indentation.js");
+
+module.exports = indentation;
+
+var C_SPACE = ' ';
+var C_NEWLINE = '\n';
+var C_TAB = '\t';
+
+/* Remove the minimum indent from every line in `value`.
+ * Supports both tab, spaced, and mixed indentation (as
+ * well as possible). */
+function indentation(value, maximum) {
+  var values = value.split(C_NEWLINE);
+  var position = values.length + 1;
+  var minIndent = Infinity;
+  var matrix = [];
+  var index;
+  var indentation;
+  var stops;
+  var padding;
+
+  values.unshift(repeat(C_SPACE, maximum) + '!');
+
+  while (position--) {
+    indentation = getIndent(values[position]);
+
+    matrix[position] = indentation.stops;
+
+    if (trim(values[position]).length === 0) {
+      continue;
+    }
+
+    if (indentation.indent) {
+      if (indentation.indent > 0 && indentation.indent < minIndent) {
+        minIndent = indentation.indent;
+      }
+    } else {
+      minIndent = Infinity;
+
+      break;
+    }
+  }
+
+  if (minIndent !== Infinity) {
+    position = values.length;
+
+    while (position--) {
+      stops = matrix[position];
+      index = minIndent;
+
+      while (index && !(index in stops)) {
+        index--;
+      }
+
+      if (
+        trim(values[position]).length !== 0 &&
+        minIndent &&
+        index !== minIndent
+      ) {
+        padding = C_TAB;
+      } else {
+        padding = '';
+      }
+
+      values[position] = padding + values[position].slice(
+        index in stops ? stops[index] + 1 : 0
+      );
+    }
+  }
+
+  values.shift();
+
+  return values.join(C_NEWLINE);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/repeat-string/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/repeat-string/index.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/*!
+ * repeat-string <https://github.com/jonschlinkert/repeat-string>
+ *
+ * Copyright (c) 2014-2015, Jon Schlinkert.
+ * Licensed under the MIT License.
+ */
+
+
+
+/**
+ * Results cache
+ */
+
+var res = '';
+var cache;
+
+/**
+ * Expose `repeat`
+ */
+
+module.exports = repeat;
+
+/**
+ * Repeat the given `string` the specified `number`
+ * of times.
+ *
+ * **Example:**
+ *
+ * ```js
+ * var repeat = require('repeat-string');
+ * repeat('A', 5);
+ * //=> AAAAA
+ * ```
+ *
+ * @param {String} `string` The string to repeat
+ * @param {Number} `number` The number of times to repeat the string
+ * @return {String} Repeated string
+ * @api public
+ */
+
+function repeat(str, num) {
+  if (typeof str !== 'string') {
+    throw new TypeError('expected a string');
+  }
+
+  // cover common, quick use cases
+  if (num === 1) return str;
+  if (num === 2) return str + str;
+
+  var max = str.length * num;
+  if (cache !== str || typeof cache === 'undefined') {
+    cache = str;
+    res = '';
+  } else if (res.length >= max) {
+    return res.substr(0, max);
+  }
+
+  while (max > res.length && num > 1) {
+    if (num & 1) {
+      res += str;
+    }
+
+    num >>= 1;
+    str += str;
+  }
+
+  res += str;
+  res = res.substr(0, max);
+  return res;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/replace-ext/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/replace-ext/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var path = __webpack_require__(/*! path */ "./node_modules/path-browserify/index.js");
+
+function replaceExt(npath, ext) {
+  if (typeof npath !== 'string') {
+    return npath;
+  }
+
+  if (npath.length === 0) {
+    return npath;
+  }
+
+  var nFileName = path.basename(npath, path.extname(npath)) + ext;
+  return path.join(path.dirname(npath), nFileName);
+}
+
+module.exports = replaceExt;
+
+
+/***/ }),
+
+/***/ "./node_modules/state-toggle/index.js":
+/*!********************************************!*\
+  !*** ./node_modules/state-toggle/index.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = factory
+
+/* Construct a state `toggler`: a function which inverses
+ * `property` in context based on its current value.
+ * The by `toggler` returned function restores that value. */
+function factory(key, state, ctx) {
+  return enter
+
+  function enter() {
+    var context = ctx || this
+    var current = context[key]
+
+    context[key] = !state
+
+    return exit
+
+    function exit() {
+      context[key] = current
+    }
+  }
+}
 
 
 /***/ }),
@@ -39921,6 +47715,1162 @@ function symbolObservablePonyfill(root) {
 
 /***/ }),
 
+/***/ "./node_modules/trim-trailing-lines/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/trim-trailing-lines/index.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = trimTrailingLines
+
+var line = '\n'
+
+/* Remove final newline characters from `value`. */
+function trimTrailingLines(value) {
+  var val = String(value)
+  var index = val.length
+
+  while (val.charAt(--index) === line) {
+    /* Empty */
+  }
+
+  return val.slice(0, index + 1)
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/trim/index.js":
+/*!************************************!*\
+  !*** ./node_modules/trim/index.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+exports = module.exports = trim;
+
+function trim(str){
+  return str.replace(/^\s*|\s*$/g, '');
+}
+
+exports.left = function(str){
+  return str.replace(/^\s*/, '');
+};
+
+exports.right = function(str){
+  return str.replace(/\s*$/, '');
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/trough/index.js":
+/*!**************************************!*\
+  !*** ./node_modules/trough/index.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var wrap = __webpack_require__(/*! ./wrap.js */ "./node_modules/trough/wrap.js")
+
+module.exports = trough
+
+trough.wrap = wrap
+
+var slice = [].slice
+
+/* Create new middleware. */
+function trough() {
+  var fns = []
+  var middleware = {}
+
+  middleware.run = run
+  middleware.use = use
+
+  return middleware
+
+  /* Run `fns`.  Last argument must be
+   * a completion handler. */
+  function run() {
+    var index = -1
+    var input = slice.call(arguments, 0, -1)
+    var done = arguments[arguments.length - 1]
+
+    if (typeof done !== 'function') {
+      throw new Error('Expected function as last argument, not ' + done)
+    }
+
+    next.apply(null, [null].concat(input))
+
+    /* Run the next `fn`, if any. */
+    function next(err) {
+      var fn = fns[++index]
+      var params = slice.call(arguments, 0)
+      var values = params.slice(1)
+      var length = input.length
+      var pos = -1
+
+      if (err) {
+        done(err)
+        return
+      }
+
+      /* Copy non-nully input into values. */
+      while (++pos < length) {
+        if (values[pos] === null || values[pos] === undefined) {
+          values[pos] = input[pos]
+        }
+      }
+
+      input = values
+
+      /* Next or done. */
+      if (fn) {
+        wrap(fn, next).apply(null, input)
+      } else {
+        done.apply(null, [null].concat(input))
+      }
+    }
+  }
+
+  /* Add `fn` to the list. */
+  function use(fn) {
+    if (typeof fn !== 'function') {
+      throw new Error('Expected `fn` to be a function, not ' + fn)
+    }
+
+    fns.push(fn)
+
+    return middleware
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/trough/wrap.js":
+/*!*************************************!*\
+  !*** ./node_modules/trough/wrap.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var slice = [].slice
+
+module.exports = wrap
+
+/* Wrap `fn`.  Can be sync or async; return a promise,
+ * receive a completion handler, return new values and
+ * errors. */
+function wrap(fn, callback) {
+  var invoked
+
+  return wrapped
+
+  function wrapped() {
+    var params = slice.call(arguments, 0)
+    var callback = fn.length > params.length
+    var result
+
+    if (callback) {
+      params.push(done)
+    }
+
+    try {
+      result = fn.apply(null, params)
+    } catch (err) {
+      /* Well, this is quite the pickle.  `fn` received
+       * a callback and invoked it (thus continuing the
+       * pipeline), but later also threw an error.
+       * We’re not about to restart the pipeline again,
+       * so the only thing left to do is to throw the
+       * thing instea. */
+      if (callback && invoked) {
+        throw err
+      }
+
+      return done(err)
+    }
+
+    if (!callback) {
+      if (result && typeof result.then === 'function') {
+        result.then(then, done)
+      } else if (result instanceof Error) {
+        done(result)
+      } else {
+        then(result)
+      }
+    }
+  }
+
+  /* Invoke `next`, only once. */
+  function done() {
+    if (!invoked) {
+      invoked = true
+
+      callback.apply(null, arguments)
+    }
+  }
+
+  /* Invoke `done` with one value.
+   * Tracks if an error is passed, too. */
+  function then(value) {
+    done(null, value)
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/unherit/index.js":
+/*!***************************************!*\
+  !*** ./node_modules/unherit/index.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var xtend = __webpack_require__(/*! xtend */ "./node_modules/xtend/immutable.js")
+var inherits = __webpack_require__(/*! inherits */ "./node_modules/inherits/inherits_browser.js")
+
+module.exports = unherit
+
+/* Create a custom constructor which can be modified
+ * without affecting the original class. */
+function unherit(Super) {
+  var result
+  var key
+  var value
+
+  inherits(Of, Super)
+  inherits(From, Of)
+
+  /* Clone values. */
+  result = Of.prototype
+
+  for (key in result) {
+    value = result[key]
+
+    if (value && typeof value === 'object') {
+      result[key] = 'concat' in value ? value.concat() : xtend(value)
+    }
+  }
+
+  return Of
+
+  /* Constructor accepting a single argument,
+   * which itself is an `arguments` object. */
+  function From(parameters) {
+    return Super.apply(this, parameters)
+  }
+
+  /* Constructor accepting variadic arguments. */
+  function Of() {
+    if (!(this instanceof Of)) {
+      return new From(arguments)
+    }
+
+    return Super.apply(this, arguments)
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/unified/index.js":
+/*!***************************************!*\
+  !*** ./node_modules/unified/index.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/* Dependencies. */
+var extend = __webpack_require__(/*! extend */ "./node_modules/extend/index.js")
+var bail = __webpack_require__(/*! bail */ "./node_modules/bail/index.js")
+var vfile = __webpack_require__(/*! vfile */ "./node_modules/vfile/index.js")
+var trough = __webpack_require__(/*! trough */ "./node_modules/trough/index.js")
+var string = __webpack_require__(/*! x-is-string */ "./node_modules/x-is-string/index.js")
+var plain = __webpack_require__(/*! is-plain-obj */ "./node_modules/is-plain-obj/index.js")
+
+/* Expose a frozen processor. */
+module.exports = unified().freeze()
+
+var slice = [].slice
+var own = {}.hasOwnProperty
+
+/* Process pipeline. */
+var pipeline = trough()
+  .use(pipelineParse)
+  .use(pipelineRun)
+  .use(pipelineStringify)
+
+function pipelineParse(p, ctx) {
+  ctx.tree = p.parse(ctx.file)
+}
+
+function pipelineRun(p, ctx, next) {
+  p.run(ctx.tree, ctx.file, done)
+
+  function done(err, tree, file) {
+    if (err) {
+      next(err)
+    } else {
+      ctx.tree = tree
+      ctx.file = file
+      next()
+    }
+  }
+}
+
+function pipelineStringify(p, ctx) {
+  ctx.file.contents = p.stringify(ctx.tree, ctx.file)
+}
+
+/* Function to create the first processor. */
+function unified() {
+  var attachers = []
+  var transformers = trough()
+  var namespace = {}
+  var frozen = false
+  var freezeIndex = -1
+
+  /* Data management. */
+  processor.data = data
+
+  /* Lock. */
+  processor.freeze = freeze
+
+  /* Plug-ins. */
+  processor.attachers = attachers
+  processor.use = use
+
+  /* API. */
+  processor.parse = parse
+  processor.stringify = stringify
+  processor.run = run
+  processor.runSync = runSync
+  processor.process = process
+  processor.processSync = processSync
+
+  /* Expose. */
+  return processor
+
+  /* Create a new processor based on the processor
+   * in the current scope. */
+  function processor() {
+    var destination = unified()
+    var length = attachers.length
+    var index = -1
+
+    while (++index < length) {
+      destination.use.apply(null, attachers[index])
+    }
+
+    destination.data(extend(true, {}, namespace))
+
+    return destination
+  }
+
+  /* Freeze: used to signal a processor that has finished
+   * configuration.
+   *
+   * For example, take unified itself.  It’s frozen.
+   * Plug-ins should not be added to it.  Rather, it should
+   * be extended, by invoking it, before modifying it.
+   *
+   * In essence, always invoke this when exporting a
+   * processor. */
+  function freeze() {
+    var values
+    var plugin
+    var options
+    var transformer
+
+    if (frozen) {
+      return processor
+    }
+
+    while (++freezeIndex < attachers.length) {
+      values = attachers[freezeIndex]
+      plugin = values[0]
+      options = values[1]
+      transformer = null
+
+      if (options === false) {
+        continue
+      }
+
+      if (options === true) {
+        values[1] = undefined
+      }
+
+      transformer = plugin.apply(processor, values.slice(1))
+
+      if (typeof transformer === 'function') {
+        transformers.use(transformer)
+      }
+    }
+
+    frozen = true
+    freezeIndex = Infinity
+
+    return processor
+  }
+
+  /* Data management.
+   * Getter / setter for processor-specific informtion. */
+  function data(key, value) {
+    if (string(key)) {
+      /* Set `key`. */
+      if (arguments.length === 2) {
+        assertUnfrozen('data', frozen)
+
+        namespace[key] = value
+
+        return processor
+      }
+
+      /* Get `key`. */
+      return (own.call(namespace, key) && namespace[key]) || null
+    }
+
+    /* Set space. */
+    if (key) {
+      assertUnfrozen('data', frozen)
+      namespace = key
+      return processor
+    }
+
+    /* Get space. */
+    return namespace
+  }
+
+  /* Plug-in management.
+   *
+   * Pass it:
+   * *   an attacher and options,
+   * *   a preset,
+   * *   a list of presets, attachers, and arguments (list
+   *     of attachers and options). */
+  function use(value) {
+    var settings
+
+    assertUnfrozen('use', frozen)
+
+    if (value === null || value === undefined) {
+      /* Empty */
+    } else if (typeof value === 'function') {
+      addPlugin.apply(null, arguments)
+    } else if (typeof value === 'object') {
+      if ('length' in value) {
+        addList(value)
+      } else {
+        addPreset(value)
+      }
+    } else {
+      throw new Error('Expected usable value, not `' + value + '`')
+    }
+
+    if (settings) {
+      namespace.settings = extend(namespace.settings || {}, settings)
+    }
+
+    return processor
+
+    function addPreset(result) {
+      addList(result.plugins)
+
+      if (result.settings) {
+        settings = extend(settings || {}, result.settings)
+      }
+    }
+
+    function add(value) {
+      if (typeof value === 'function') {
+        addPlugin(value)
+      } else if (typeof value === 'object') {
+        if ('length' in value) {
+          addPlugin.apply(null, value)
+        } else {
+          addPreset(value)
+        }
+      } else {
+        throw new Error('Expected usable value, not `' + value + '`')
+      }
+    }
+
+    function addList(plugins) {
+      var length
+      var index
+
+      if (plugins === null || plugins === undefined) {
+        /* Empty */
+      } else if (typeof plugins === 'object' && 'length' in plugins) {
+        length = plugins.length
+        index = -1
+
+        while (++index < length) {
+          add(plugins[index])
+        }
+      } else {
+        throw new Error('Expected a list of plugins, not `' + plugins + '`')
+      }
+    }
+
+    function addPlugin(plugin, value) {
+      var entry = find(plugin)
+
+      if (entry) {
+        if (plain(entry[1]) && plain(value)) {
+          value = extend(entry[1], value)
+        }
+
+        entry[1] = value
+      } else {
+        attachers.push(slice.call(arguments))
+      }
+    }
+  }
+
+  function find(plugin) {
+    var length = attachers.length
+    var index = -1
+    var entry
+
+    while (++index < length) {
+      entry = attachers[index]
+
+      if (entry[0] === plugin) {
+        return entry
+      }
+    }
+  }
+
+  /* Parse a file (in string or VFile representation)
+   * into a Unist node using the `Parser` on the
+   * processor. */
+  function parse(doc) {
+    var file = vfile(doc)
+    var Parser
+
+    freeze()
+    Parser = processor.Parser
+    assertParser('parse', Parser)
+
+    if (newable(Parser)) {
+      return new Parser(String(file), file).parse()
+    }
+
+    return Parser(String(file), file) // eslint-disable-line new-cap
+  }
+
+  /* Run transforms on a Unist node representation of a file
+   * (in string or VFile representation), async. */
+  function run(node, file, cb) {
+    assertNode(node)
+    freeze()
+
+    if (!cb && typeof file === 'function') {
+      cb = file
+      file = null
+    }
+
+    if (!cb) {
+      return new Promise(executor)
+    }
+
+    executor(null, cb)
+
+    function executor(resolve, reject) {
+      transformers.run(node, vfile(file), done)
+
+      function done(err, tree, file) {
+        tree = tree || node
+        if (err) {
+          reject(err)
+        } else if (resolve) {
+          resolve(tree)
+        } else {
+          cb(null, tree, file)
+        }
+      }
+    }
+  }
+
+  /* Run transforms on a Unist node representation of a file
+   * (in string or VFile representation), sync. */
+  function runSync(node, file) {
+    var complete = false
+    var result
+
+    run(node, file, done)
+
+    assertDone('runSync', 'run', complete)
+
+    return result
+
+    function done(err, tree) {
+      complete = true
+      bail(err)
+      result = tree
+    }
+  }
+
+  /* Stringify a Unist node representation of a file
+   * (in string or VFile representation) into a string
+   * using the `Compiler` on the processor. */
+  function stringify(node, doc) {
+    var file = vfile(doc)
+    var Compiler
+
+    freeze()
+    Compiler = processor.Compiler
+    assertCompiler('stringify', Compiler)
+    assertNode(node)
+
+    if (newable(Compiler)) {
+      return new Compiler(node, file).compile()
+    }
+
+    return Compiler(node, file) // eslint-disable-line new-cap
+  }
+
+  /* Parse a file (in string or VFile representation)
+   * into a Unist node using the `Parser` on the processor,
+   * then run transforms on that node, and compile the
+   * resulting node using the `Compiler` on the processor,
+   * and store that result on the VFile. */
+  function process(doc, cb) {
+    freeze()
+    assertParser('process', processor.Parser)
+    assertCompiler('process', processor.Compiler)
+
+    if (!cb) {
+      return new Promise(executor)
+    }
+
+    executor(null, cb)
+
+    function executor(resolve, reject) {
+      var file = vfile(doc)
+
+      pipeline.run(processor, {file: file}, done)
+
+      function done(err) {
+        if (err) {
+          reject(err)
+        } else if (resolve) {
+          resolve(file)
+        } else {
+          cb(null, file)
+        }
+      }
+    }
+  }
+
+  /* Process the given document (in string or VFile
+   * representation), sync. */
+  function processSync(doc) {
+    var complete = false
+    var file
+
+    freeze()
+    assertParser('processSync', processor.Parser)
+    assertCompiler('processSync', processor.Compiler)
+    file = vfile(doc)
+
+    process(file, done)
+
+    assertDone('processSync', 'process', complete)
+
+    return file
+
+    function done(err) {
+      complete = true
+      bail(err)
+    }
+  }
+}
+
+/* Check if `func` is a constructor. */
+function newable(value) {
+  return typeof value === 'function' && keys(value.prototype)
+}
+
+/* Check if `value` is an object with keys. */
+function keys(value) {
+  var key
+  for (key in value) {
+    return true
+  }
+  return false
+}
+
+/* Assert a parser is available. */
+function assertParser(name, Parser) {
+  if (typeof Parser !== 'function') {
+    throw new Error('Cannot `' + name + '` without `Parser`')
+  }
+}
+
+/* Assert a compiler is available. */
+function assertCompiler(name, Compiler) {
+  if (typeof Compiler !== 'function') {
+    throw new Error('Cannot `' + name + '` without `Compiler`')
+  }
+}
+
+/* Assert the processor is not frozen. */
+function assertUnfrozen(name, frozen) {
+  if (frozen) {
+    throw new Error(
+      [
+        'Cannot invoke `' + name + '` on a frozen processor.\nCreate a new ',
+        'processor first, by invoking it: use `processor()` instead of ',
+        '`processor`.'
+      ].join('')
+    )
+  }
+}
+
+/* Assert `node` is a Unist node. */
+function assertNode(node) {
+  if (!node || !string(node.type)) {
+    throw new Error('Expected node, got `' + node + '`')
+  }
+}
+
+/* Assert that `complete` is `true`. */
+function assertDone(name, asyncName, complete) {
+  if (!complete) {
+    throw new Error(
+      '`' + name + '` finished async. Use `' + asyncName + '` instead'
+    )
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/unist-util-is/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/unist-util-is/index.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/* eslint-disable max-params */
+
+/* Expose. */
+module.exports = is
+
+/* Assert if `test` passes for `node`.
+ * When a `parent` node is known the `index` of node */
+function is(test, node, index, parent, context) {
+  var hasParent = parent !== null && parent !== undefined
+  var hasIndex = index !== null && index !== undefined
+  var check = convert(test)
+
+  if (
+    hasIndex &&
+    (typeof index !== 'number' || index < 0 || index === Infinity)
+  ) {
+    throw new Error('Expected positive finite index or child node')
+  }
+
+  if (hasParent && (!is(null, parent) || !parent.children)) {
+    throw new Error('Expected parent node')
+  }
+
+  if (!node || !node.type || typeof node.type !== 'string') {
+    return false
+  }
+
+  if (hasParent !== hasIndex) {
+    throw new Error('Expected both parent and index')
+  }
+
+  return Boolean(check.call(context, node, index, parent))
+}
+
+function convert(test) {
+  if (typeof test === 'string') {
+    return typeFactory(test)
+  }
+
+  if (test === null || test === undefined) {
+    return ok
+  }
+
+  if (typeof test === 'object') {
+    return ('length' in test ? anyFactory : matchesFactory)(test)
+  }
+
+  if (typeof test === 'function') {
+    return test
+  }
+
+  throw new Error('Expected function, string, or object as test')
+}
+
+function convertAll(tests) {
+  var results = []
+  var length = tests.length
+  var index = -1
+
+  while (++index < length) {
+    results[index] = convert(tests[index])
+  }
+
+  return results
+}
+
+/* Utility assert each property in `test` is represented
+ * in `node`, and each values are strictly equal. */
+function matchesFactory(test) {
+  return matches
+
+  function matches(node) {
+    var key
+
+    for (key in test) {
+      if (node[key] !== test[key]) {
+        return false
+      }
+    }
+
+    return true
+  }
+}
+
+function anyFactory(tests) {
+  var checks = convertAll(tests)
+  var length = checks.length
+
+  return matches
+
+  function matches() {
+    var index = -1
+
+    while (++index < length) {
+      if (checks[index].apply(this, arguments)) {
+        return true
+      }
+    }
+
+    return false
+  }
+}
+
+/* Utility to convert a string into a function which checks
+ * a given node’s type for said string. */
+function typeFactory(test) {
+  return type
+
+  function type(node) {
+    return Boolean(node && node.type === test)
+  }
+}
+
+/* Utility to return true. */
+function ok() {
+  return true
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/unist-util-remove-position/index.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/unist-util-remove-position/index.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var visit = __webpack_require__(/*! unist-util-visit */ "./node_modules/unist-util-visit/index.js")
+
+module.exports = removePosition
+
+/* Remove `position`s from `tree`. */
+function removePosition(node, force) {
+  visit(node, force ? hard : soft)
+  return node
+}
+
+function hard(node) {
+  delete node.position
+}
+
+function soft(node) {
+  node.position = undefined
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/unist-util-stringify-position/index.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/unist-util-stringify-position/index.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var own = {}.hasOwnProperty
+
+module.exports = stringify
+
+function stringify(value) {
+  /* Nothing. */
+  if (!value || typeof value !== 'object') {
+    return null
+  }
+
+  /* Node. */
+  if (own.call(value, 'position') || own.call(value, 'type')) {
+    return position(value.position)
+  }
+
+  /* Position. */
+  if (own.call(value, 'start') || own.call(value, 'end')) {
+    return position(value)
+  }
+
+  /* Point. */
+  if (own.call(value, 'line') || own.call(value, 'column')) {
+    return point(value)
+  }
+
+  /* ? */
+  return null
+}
+
+function point(point) {
+  if (!point || typeof point !== 'object') {
+    point = {}
+  }
+
+  return index(point.line) + ':' + index(point.column)
+}
+
+function position(pos) {
+  if (!pos || typeof pos !== 'object') {
+    pos = {}
+  }
+
+  return point(pos.start) + '-' + point(pos.end)
+}
+
+function index(value) {
+  return value && typeof value === 'number' ? value : 1
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/unist-util-visit-parents/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/unist-util-visit-parents/index.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/* Expose. */
+module.exports = visitParents
+
+/* Visit. */
+function visitParents(tree, type, visitor) {
+  var stack = []
+
+  if (typeof type === 'function') {
+    visitor = type
+    type = null
+  }
+
+  one(tree)
+
+  /* Visit a single node. */
+  function one(node) {
+    var result
+
+    if (!type || node.type === type) {
+      result = visitor(node, stack.concat())
+    }
+
+    if (node.children && result !== false) {
+      return all(node.children, node)
+    }
+
+    return result
+  }
+
+  /* Visit children in `parent`. */
+  function all(children, parent) {
+    var length = children.length
+    var index = -1
+    var child
+
+    stack.push(parent)
+
+    while (++index < length) {
+      child = children[index]
+
+      if (child && one(child) === false) {
+        return false
+      }
+    }
+
+    stack.pop()
+
+    return true
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/unist-util-visit/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/unist-util-visit/index.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = visit
+
+var visitParents = __webpack_require__(/*! unist-util-visit-parents */ "./node_modules/unist-util-visit/node_modules/unist-util-visit-parents/index.js")
+
+var CONTINUE = visitParents.CONTINUE
+var SKIP = visitParents.SKIP
+var EXIT = visitParents.EXIT
+
+visit.CONTINUE = CONTINUE
+visit.SKIP = SKIP
+visit.EXIT = EXIT
+
+function visit(tree, test, visitor, reverse) {
+  if (typeof test === 'function' && typeof visitor !== 'function') {
+    reverse = visitor
+    visitor = test
+    test = null
+  }
+
+  visitParents(tree, test, overload, reverse)
+
+  function overload(node, parents) {
+    var parent = parents[parents.length - 1]
+    var index = parent ? parent.children.indexOf(node) : null
+    return visitor(node, index, parent)
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/unist-util-visit/node_modules/unist-util-visit-parents/index.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/unist-util-visit/node_modules/unist-util-visit-parents/index.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = visitParents
+
+var is = __webpack_require__(/*! unist-util-is */ "./node_modules/unist-util-is/index.js")
+
+var CONTINUE = true
+var SKIP = 'skip'
+var EXIT = false
+
+visitParents.CONTINUE = CONTINUE
+visitParents.SKIP = SKIP
+visitParents.EXIT = EXIT
+
+function visitParents(tree, test, visitor, reverse) {
+  if (typeof test === 'function' && typeof visitor !== 'function') {
+    reverse = visitor
+    visitor = test
+    test = null
+  }
+
+  one(tree, null, [])
+
+  // Visit a single node.
+  function one(node, index, parents) {
+    var result
+
+    if (!test || is(test, node, index, parents[parents.length - 1] || null)) {
+      result = visitor(node, parents)
+
+      if (result === EXIT) {
+        return result
+      }
+    }
+
+    if (node.children && result !== SKIP) {
+      return all(node.children, parents.concat(node)) === EXIT ? EXIT : result
+    }
+
+    return result
+  }
+
+  // Visit children in `parent`.
+  function all(children, parents) {
+    var min = -1
+    var step = reverse ? -1 : 1
+    var index = (reverse ? children.length : min) + step
+    var child
+    var result
+
+    while (index > min && index < children.length) {
+      child = children[index]
+      result = child && one(child, index, parents)
+
+      if (result === EXIT) {
+        return result
+      }
+
+      index = typeof result === 'number' ? result : index + step
+    }
+  }
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/url/url.js":
 /*!*********************************!*\
   !*** ./node_modules/url/url.js ***!
@@ -40693,6 +49643,445 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/vfile-location/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/vfile-location/index.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = factory
+
+function factory(file) {
+  var contents = indices(String(file))
+
+  return {
+    toPosition: offsetToPositionFactory(contents),
+    toOffset: positionToOffsetFactory(contents)
+  }
+}
+
+// Factory to get the line and column-based `position` for `offset` in the bound
+// indices.
+function offsetToPositionFactory(indices) {
+  return offsetToPosition
+
+  // Get the line and column-based `position` for `offset` in the bound indices.
+  function offsetToPosition(offset) {
+    var index = -1
+    var length = indices.length
+
+    if (offset < 0) {
+      return {}
+    }
+
+    while (++index < length) {
+      if (indices[index] > offset) {
+        return {
+          line: index + 1,
+          column: offset - (indices[index - 1] || 0) + 1,
+          offset: offset
+        }
+      }
+    }
+
+    return {}
+  }
+}
+
+// Factory to get the `offset` for a line and column-based `position` in the
+// bound indices.
+function positionToOffsetFactory(indices) {
+  return positionToOffset
+
+  // Get the `offset` for a line and column-based `position` in the bound
+  // indices.
+  function positionToOffset(position) {
+    var line = position && position.line
+    var column = position && position.column
+
+    if (!isNaN(line) && !isNaN(column) && line - 1 in indices) {
+      return (indices[line - 2] || 0) + column - 1 || 0
+    }
+
+    return -1
+  }
+}
+
+// Get indices of line-breaks in `value`.
+function indices(value) {
+  var result = []
+  var index = value.indexOf('\n')
+
+  while (index !== -1) {
+    result.push(index + 1)
+    index = value.indexOf('\n', index + 1)
+  }
+
+  result.push(value.length + 1)
+
+  return result
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/vfile-message/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/vfile-message/index.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var stringify = __webpack_require__(/*! unist-util-stringify-position */ "./node_modules/unist-util-stringify-position/index.js")
+
+module.exports = VMessage
+
+// Inherit from `Error#`.
+function VMessagePrototype() {}
+VMessagePrototype.prototype = Error.prototype
+VMessage.prototype = new VMessagePrototype()
+
+// Message properties.
+var proto = VMessage.prototype
+
+proto.file = ''
+proto.name = ''
+proto.reason = ''
+proto.message = ''
+proto.stack = ''
+proto.fatal = null
+proto.column = null
+proto.line = null
+
+// Construct a new VMessage.
+//
+// Note: We cannot invoke `Error` on the created context, as that adds readonly
+// `line` and `column` attributes on Safari 9, thus throwing and failing the
+// data.
+function VMessage(reason, position, origin) {
+  var parts
+  var range
+  var location
+
+  if (typeof position === 'string') {
+    origin = position
+    position = null
+  }
+
+  parts = parseOrigin(origin)
+  range = stringify(position) || '1:1'
+
+  location = {
+    start: {line: null, column: null},
+    end: {line: null, column: null}
+  }
+
+  // Node.
+  if (position && position.position) {
+    position = position.position
+  }
+
+  if (position) {
+    // Position.
+    if (position.start) {
+      location = position
+      position = position.start
+    } else {
+      // Point.
+      location.start = position
+    }
+  }
+
+  if (reason.stack) {
+    this.stack = reason.stack
+    reason = reason.message
+  }
+
+  this.message = reason
+  this.name = range
+  this.reason = reason
+  this.line = position ? position.line : null
+  this.column = position ? position.column : null
+  this.location = location
+  this.source = parts[0]
+  this.ruleId = parts[1]
+}
+
+function parseOrigin(origin) {
+  var result = [null, null]
+  var index
+
+  if (typeof origin === 'string') {
+    index = origin.indexOf(':')
+
+    if (index === -1) {
+      result[1] = origin
+    } else {
+      result[0] = origin.slice(0, index)
+      result[1] = origin.slice(index + 1)
+    }
+  }
+
+  return result
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/vfile/core.js":
+/*!************************************!*\
+  !*** ./node_modules/vfile/core.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+var path = __webpack_require__(/*! path */ "./node_modules/path-browserify/index.js");
+var replace = __webpack_require__(/*! replace-ext */ "./node_modules/replace-ext/index.js");
+var buffer = __webpack_require__(/*! is-buffer */ "./node_modules/is-buffer/index.js");
+
+module.exports = VFile;
+
+var own = {}.hasOwnProperty;
+var proto = VFile.prototype;
+
+proto.toString = toString;
+
+/* Order of setting (least specific to most), we need this because
+ * otherwise `{stem: 'a', path: '~/b.js'}` would throw, as a path
+ * is needed before a stem can be set. */
+var order = [
+  'history',
+  'path',
+  'basename',
+  'stem',
+  'extname',
+  'dirname'
+];
+
+/* Construct a new file. */
+function VFile(options) {
+  var prop;
+  var index;
+  var length;
+
+  if (!options) {
+    options = {};
+  } else if (typeof options === 'string' || buffer(options)) {
+    options = {contents: options};
+  } else if ('message' in options && 'messages' in options) {
+    return options;
+  }
+
+  if (!(this instanceof VFile)) {
+    return new VFile(options);
+  }
+
+  this.data = {};
+  this.messages = [];
+  this.history = [];
+  this.cwd = process.cwd();
+
+  /* Set path related properties in the correct order. */
+  index = -1;
+  length = order.length;
+
+  while (++index < length) {
+    prop = order[index];
+
+    if (own.call(options, prop)) {
+      this[prop] = options[prop];
+    }
+  }
+
+  /* Set non-path related properties. */
+  for (prop in options) {
+    if (order.indexOf(prop) === -1) {
+      this[prop] = options[prop];
+    }
+  }
+}
+
+/* Access full path (`~/index.min.js`). */
+Object.defineProperty(proto, 'path', {
+  get: function () {
+    return this.history[this.history.length - 1];
+  },
+  set: function (path) {
+    assertNonEmpty(path, 'path');
+
+    if (path !== this.path) {
+      this.history.push(path);
+    }
+  }
+});
+
+/* Access parent path (`~`). */
+Object.defineProperty(proto, 'dirname', {
+  get: function () {
+    return typeof this.path === 'string' ? path.dirname(this.path) : undefined;
+  },
+  set: function (dirname) {
+    assertPath(this.path, 'dirname');
+    this.path = path.join(dirname || '', this.basename);
+  }
+});
+
+/* Access basename (`index.min.js`). */
+Object.defineProperty(proto, 'basename', {
+  get: function () {
+    return typeof this.path === 'string' ? path.basename(this.path) : undefined;
+  },
+  set: function (basename) {
+    assertNonEmpty(basename, 'basename');
+    assertPart(basename, 'basename');
+    this.path = path.join(this.dirname || '', basename);
+  }
+});
+
+/* Access extname (`.js`). */
+Object.defineProperty(proto, 'extname', {
+  get: function () {
+    return typeof this.path === 'string' ? path.extname(this.path) : undefined;
+  },
+  set: function (extname) {
+    var ext = extname || '';
+
+    assertPart(ext, 'extname');
+    assertPath(this.path, 'extname');
+
+    if (ext) {
+      if (ext.charAt(0) !== '.') {
+        throw new Error('`extname` must start with `.`');
+      }
+
+      if (ext.indexOf('.', 1) !== -1) {
+        throw new Error('`extname` cannot contain multiple dots');
+      }
+    }
+
+    this.path = replace(this.path, ext);
+  }
+});
+
+/* Access stem (`index.min`). */
+Object.defineProperty(proto, 'stem', {
+  get: function () {
+    return typeof this.path === 'string' ? path.basename(this.path, this.extname) : undefined;
+  },
+  set: function (stem) {
+    assertNonEmpty(stem, 'stem');
+    assertPart(stem, 'stem');
+    this.path = path.join(this.dirname || '', stem + (this.extname || ''));
+  }
+});
+
+/* Get the value of the file. */
+function toString(encoding) {
+  var value = this.contents || '';
+  return buffer(value) ? value.toString(encoding) : String(value);
+}
+
+/* Assert that `part` is not a path (i.e., does
+ * not contain `path.sep`). */
+function assertPart(part, name) {
+  if (part.indexOf(path.sep) !== -1) {
+    throw new Error('`' + name + '` cannot be a path: did not expect `' + path.sep + '`');
+  }
+}
+
+/* Assert that `part` is not empty. */
+function assertNonEmpty(part, name) {
+  if (!part) {
+    throw new Error('`' + name + '` cannot be empty');
+  }
+}
+
+/* Assert `path` exists. */
+function assertPath(path, name) {
+  if (!path) {
+    throw new Error('Setting `' + name + '` requires `path` to be set too');
+  }
+}
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../process/browser.js */ "./node_modules/process/browser.js")))
+
+/***/ }),
+
+/***/ "./node_modules/vfile/index.js":
+/*!*************************************!*\
+  !*** ./node_modules/vfile/index.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var VMessage = __webpack_require__(/*! vfile-message */ "./node_modules/vfile-message/index.js");
+var VFile = __webpack_require__(/*! ./core.js */ "./node_modules/vfile/core.js");
+
+module.exports = VFile;
+
+var proto = VFile.prototype;
+
+proto.message = message;
+proto.info = info;
+proto.fail = fail;
+
+/* Slight backwards compatibility.  Remove in the future. */
+proto.warn = message;
+
+/* Create a message with `reason` at `position`.
+ * When an error is passed in as `reason`, copies the stack. */
+function message(reason, position, origin) {
+  var filePath = this.path;
+  var message = new VMessage(reason, position, origin);
+
+  if (filePath) {
+    message.name = filePath + ':' + message.name;
+    message.file = filePath;
+  }
+
+  message.fatal = false;
+
+  this.messages.push(message);
+
+  return message;
+}
+
+/* Fail. Creates a vmessage, associates it with the file,
+ * and throws it. */
+function fail() {
+  var message = this.message.apply(this, arguments);
+
+  message.fatal = true;
+
+  throw message;
+}
+
+/* Info. Creates a vmessage, associates it with the file,
+ * and marks the fatality as null. */
+function info() {
+  var message = this.message.apply(this, arguments);
+
+  message.fatal = null;
+
+  return message;
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
   !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_b2d9fd95b535cd8bf589 ***!
@@ -40768,6 +50157,54 @@ module.exports = function(module) {
 	}
 	return module;
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/x-is-string/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/x-is-string/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var toString = Object.prototype.toString
+
+module.exports = isString
+
+function isString(obj) {
+    return toString.call(obj) === "[object String]"
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/xtend/immutable.js":
+/*!*****************************************!*\
+  !*** ./node_modules/xtend/immutable.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = extend
+
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+
+function extend() {
+    var target = {}
+
+    for (var i = 0; i < arguments.length; i++) {
+        var source = arguments[i]
+
+        for (var key in source) {
+            if (hasOwnProperty.call(source, key)) {
+                target[key] = source[key]
+            }
+        }
+    }
+
+    return target
+}
 
 
 /***/ }),
@@ -41443,27 +50880,30 @@ if (hasSymbols()) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/post.js":
+/*!***********************!*\
+  !*** ./pages/post.js ***!
+  \***********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_apollo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-apollo */ "./node_modules/react-apollo/react-apollo.browser.umd.js");
-/* harmony import */ var react_apollo__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_apollo__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! date-fns */ "./node_modules/date-fns/esm/index.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components */ "./components/index.js");
-var _jsxFileName = "/Users/akunz/TafkaLabs/template/pages/index.js";
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_apollo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-apollo */ "./node_modules/react-apollo/react-apollo.browser.umd.js");
+/* harmony import */ var react_apollo__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_apollo__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! date-fns */ "./node_modules/date-fns/esm/index.js");
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-markdown */ "./node_modules/react-markdown/lib/react-markdown.js");
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var emoji_dictionary__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! emoji-dictionary */ "./node_modules/emoji-dictionary/lib/index.js");
+/* harmony import */ var emoji_dictionary__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(emoji_dictionary__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components */ "./components/index.js");
+var _jsxFileName = "/Users/akunz/TafkaLabs/template/pages/post.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -41484,38 +50924,64 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-var ListPosts = { kind: "Document", definitions: [{ kind: "OperationDefinition", operation: "query", name: { kind: "Name", value: "ListPosts" }, variableDefinitions: [], directives: [], selectionSet: { kind: "SelectionSet", selections: [{ kind: "Field", name: { kind: "Name", value: "blogPosts" }, arguments: [], directives: [], selectionSet: { kind: "SelectionSet", selections: [{ kind: "Field", name: { kind: "Name", value: "id" }, arguments: [], directives: [] }, { kind: "Field", name: { kind: "Name", value: "createdAt" }, arguments: [], directives: [] }, { kind: "Field", name: { kind: "Name", value: "updatedAt" }, arguments: [], directives: [] }, { kind: "Field", name: { kind: "Name", value: "title" }, arguments: [], directives: [] }, { kind: "Field", name: { kind: "Name", value: "abstract" }, arguments: [], directives: [] }, { kind: "Field", name: { kind: "Name", value: "content" }, arguments: [], directives: [] }, { kind: "Field", name: { kind: "Name", value: "tags" }, arguments: [], directives: [] }] } }] } }], loc: { start: 0, end: 117, source: { body: "query ListPosts {\n  blogPosts {\n    id\n    createdAt\n    updatedAt\n    title\n    abstract\n    content\n    tags\n  }\n}\n", name: "GraphQL request", locationOffset: { line: 1, column: 1 } } } };
 
 
-var Index =
+
+var GetPost = { kind: "Document", definitions: [{ kind: "OperationDefinition", operation: "query", name: { kind: "Name", value: "GetPost" }, variableDefinitions: [{ kind: "VariableDefinition", variable: { kind: "Variable", name: { kind: "Name", value: "id" } }, type: { kind: "NonNullType", type: { kind: "NamedType", name: { kind: "Name", value: "ID" } } } }], directives: [], selectionSet: { kind: "SelectionSet", selections: [{ kind: "Field", name: { kind: "Name", value: "blogPost" }, arguments: [{ kind: "Argument", name: { kind: "Name", value: "where" }, value: { kind: "ObjectValue", fields: [{ kind: "ObjectField", name: { kind: "Name", value: "id" }, value: { kind: "Variable", name: { kind: "Name", value: "id" } } }] } }], directives: [], selectionSet: { kind: "SelectionSet", selections: [{ kind: "Field", name: { kind: "Name", value: "createdAt" }, arguments: [], directives: [] }, { kind: "Field", name: { kind: "Name", value: "updatedAt" }, arguments: [], directives: [] }, { kind: "Field", name: { kind: "Name", value: "title" }, arguments: [], directives: [] }, { kind: "Field", name: { kind: "Name", value: "abstract" }, arguments: [], directives: [] }, { kind: "Field", name: { kind: "Name", value: "content" }, arguments: [], directives: [] }, { kind: "Field", name: { kind: "Name", value: "tags" }, arguments: [], directives: [] }] } }] } }], loc: { start: 0, end: 137, source: { body: "query GetPost($id: ID!) {\n  blogPost(where: { id: $id }) {\n    createdAt\n    updatedAt\n    title\n    abstract\n    content\n    tags\n  }\n}\n", name: "GraphQL request", locationOffset: { line: 1, column: 1 } } } };
+
+
+var emojiSupport = function emojiSupport(text) {
+  return text.value.replace(/:\w+:/gi, function (name) {
+    return emoji_dictionary__WEBPACK_IMPORTED_MODULE_5___default.a.getUnicode(name);
+  });
+};
+
+var Post =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(Index, _Component);
+  _inherits(Post, _Component);
 
-  function Index() {
-    _classCallCheck(this, Index);
+  function Post() {
+    _classCallCheck(this, Post);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Index).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(Post).apply(this, arguments));
   }
 
-  _createClass(Index, [{
+  _createClass(Post, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        style: {
-          maxWidth: 600,
-          margin: '0 auto'
-        },
+      var query = this.props.router.query;
+
+      if (!query || !query.postId) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_6__["List"], {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 19
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_6__["StatusMessage"], {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 20
+          },
+          __self: this
+        }, "No post ID!"));
+      }
+
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_6__["List"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 25
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_apollo__WEBPACK_IMPORTED_MODULE_1__["Query"], {
-        query: ListPosts,
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_apollo__WEBPACK_IMPORTED_MODULE_2__["Query"], {
+        query: GetPost,
+        variables: {
+          id: query.postId
+        },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 26
         },
         __self: this
       }, function (_ref) {
@@ -41524,57 +50990,66 @@ function (_Component) {
             loading = _ref.loading;
 
         if (error) {
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["StatusMessage"], {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_6__["StatusMessage"], {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 21
+              lineNumber: 30
             },
             __self: this
           }, "Error:", JSON.stringify(error));
         }
 
         if (loading) {
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["StatusMessage"], {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_6__["StatusMessage"], {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 25
+              lineNumber: 34
             },
             __self: this
           }, "Loading...");
         }
 
-        if (!data || !data.blogPosts) {
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["StatusMessage"], {
+        if (!data || !data.blogPost) {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_6__["StatusMessage"], {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 29
+              lineNumber: 37
             },
             __self: this
-          }, "Hmm, something went wrong. Try again?");
+          }, "Oops! Not a valid post ID!");
         }
 
-        return data.blogPosts.map(function (item) {
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["PostPreview"], _extends({
-            key: item.id,
-            date: Object(date_fns__WEBPACK_IMPORTED_MODULE_2__["formatDistance"])(item.createdAt, new Date(), {
-              addSuffix: true
-            })
-          }, item, {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 35
-            },
-            __self: this
-          }));
-        });
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 40
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_6__["PostTitle"], {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 41
+          },
+          __self: this
+        }, data.blogPost.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_markdown__WEBPACK_IMPORTED_MODULE_4___default.a, {
+          source: data.blogPost.content,
+          renderers: {
+            text: emojiSupport
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 42
+          },
+          __self: this
+        }));
       }));
     }
   }]);
 
-  return Index;
+  return Post;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
-
+/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(Post));
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -41591,7 +51066,7 @@ function (_Component) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/post")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
@@ -41637,15 +51112,15 @@ var logException = function logException() {
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 4:
+/*!*****************************!*\
+  !*** multi ./pages/post.js ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/', function() {
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+__NEXT_REGISTER_PAGE('/post', function() {
+module.exports = __webpack_require__(/*! ./pages/post.js */"./pages/post.js");
 
 return { page: module.exports.default }});
 
@@ -41662,5 +51137,5 @@ module.exports = dll_b2d9fd95b535cd8bf589;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=index.js.map
+},[[4,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=post.js.map

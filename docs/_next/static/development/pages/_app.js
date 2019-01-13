@@ -211,25 +211,46 @@ function (_Component) {
           while (1) {
             switch (_context2.prev = _context2.next) {
               case 0:
-                _context2.prev = 0;
-                _context2.next = 3;
+                if (window) {
+                  _context2.next = 2;
+                  break;
+                }
+
+                return _context2.abrupt("return", console.log('hi from the server!'));
+
+              case 2:
+                _context2.prev = 2;
+
+                if (window.GA_INITIALIZED) {
+                  _context2.next = 7;
+                  break;
+                }
+
+                _context2.next = 6;
+                return Object(_utils_analytics__WEBPACK_IMPORTED_MODULE_3__["initGA"])();
+
+              case 6:
+                window.GA_INITIALIZED = true;
+
+              case 7:
+                _context2.next = 9;
                 return Object(_utils_analytics__WEBPACK_IMPORTED_MODULE_3__["logPageView"])();
 
-              case 3:
-                _context2.next = 8;
+              case 9:
+                _context2.next = 14;
                 break;
 
-              case 5:
-                _context2.prev = 5;
-                _context2.t0 = _context2["catch"](0);
+              case 11:
+                _context2.prev = 11;
+                _context2.t0 = _context2["catch"](2);
                 Object(_utils_analytics__WEBPACK_IMPORTED_MODULE_3__["logException"])(_context2.t0.message, false);
 
-              case 8:
+              case 14:
               case "end":
                 return _context2.stop();
             }
           }
-        }, _callee2, this, [[0, 5]]);
+        }, _callee2, this, [[2, 11]]);
       }));
 
       function componentDidUpdate() {
@@ -244,7 +265,7 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(LayoutContainer, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 42
         },
         __self: this
       }, this.props.children);
@@ -50229,8 +50250,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
 
 var initGA = function initGA() {
-  console.log('GA init');
-  react_ga__WEBPACK_IMPORTED_MODULE_0__["default"].initialize("".concat("UA-132331179-1"));
+  react_ga__WEBPACK_IMPORTED_MODULE_0__["default"].initialize("UA-132331179-1");
 };
 var logPageView = function logPageView() {
   console.log("Logging pageview for ".concat(window.location.pathname));

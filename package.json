@@ -40,7 +40,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "touch ./docs/.nojekyll && touch ./docs/CNAME && echo `tafkalabs.com` >> ./docs/CNAME"
+      "pre-commit": "touch ./docs/.nojekyll && touch ./docs/CNAME && echo \"tafkalabs.com\" >> ./docs/CNAME"
     }
   }
 }
