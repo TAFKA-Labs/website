@@ -1,7 +1,6 @@
 import ReactGA from 'react-ga'
 export const initGA = () => {
-  console.log('GA init')
-  ReactGA.initialize(`${process.env.GA_TRACKING_ID}`)
+  ReactGA.initialize(process.env.GA_TRACKING_ID)
 }
 export const logPageView = () => {
   console.log(`Logging pageview for ${window.location.pathname}`)

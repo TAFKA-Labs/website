@@ -24,7 +24,14 @@ export default class Layout extends Component {
   }
 
   async componentDidUpdate() {
+    if (!window) {
+      return console.log('hi from the server!')
+    }
     try {
+      if (!window.GA_INITIALIZED) {
+        await initGA()
+        window.GA_INITIALIZED = true
+      }
       await logPageView()
     } catch (err) {
       logException(err.message, false)
