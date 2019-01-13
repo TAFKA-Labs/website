@@ -50230,7 +50230,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var initGA = function initGA() {
   console.log('GA init');
-  react_ga__WEBPACK_IMPORTED_MODULE_0__["default"].initialize('UA-132321665-1');
+  react_ga__WEBPACK_IMPORTED_MODULE_0__["default"].initialize("".concat("UA-132331179-1"));
 };
 var logPageView = function logPageView() {
   console.log("Logging pageview for ".concat(window.location.pathname));
