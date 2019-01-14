@@ -1,5 +1,5 @@
-query GetPost($id: ID!) {
-  blogPost(where: { id: $id }) {
+query GetPost($slug: String!) {
+  blogPost(where: { slug: $slug }) {
     createdAt
     updatedAt
     title

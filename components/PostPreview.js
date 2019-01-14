@@ -13,8 +13,8 @@ const PreviewContainer = styled.div`
   }
 `
 
-const PostPreview = ({ id, title, abstract, tags, date }) => (
-  <Link href={{ pathname: '/post', query: { postId: id } }} passHref>
+const PostPreview = ({ id, title, abstract, tags, slug, date }) => (
+  <Link href={{ pathname: `/post/${slug}` }} passHref>
     <PreviewContainer>
       <PostTitle>{title}</PostTitle>
       <p>{abstract}</p>

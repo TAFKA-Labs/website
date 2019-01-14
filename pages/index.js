@@ -31,6 +31,7 @@ export default class Index extends Component {
                 </StatusMessage>
               )
             }
+            console.log('data: ', data)
             return data.blogPosts.map(item => (
               <PostPreview
                 key={item.id}

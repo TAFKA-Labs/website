@@ -4,6 +4,7 @@ query ListPosts {
     createdAt
     title
     abstract
+    slug
     tags
   }
 }

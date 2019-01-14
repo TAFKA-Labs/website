@@ -14,16 +14,16 @@ const emojiSupport = text =>
 class Post extends Component {
   render() {
     const { query } = this.props.router
-    if (!query || !query.postId) {
+    if (!query || !query.slug) {
       return (
         <List>
-          <StatusMessage>No post ID!</StatusMessage>
+          <StatusMessage>No post indentifier!</StatusMessage>
         </List>
       )
     }
     return (
       <List>
-        <Query query={GetPost} variables={{ id: query.postId }}>
+        <Query query={GetPost} variables={{ slug: query.slug }}>
           {({ data, error, loading }) => {
             if (error) {
               return (
@@ -34,7 +34,7 @@ class Post extends Component {
               return <StatusMessage>Loading...</StatusMessage>
             }
             if (!data || !data.blogPost) {
-              return <StatusMessage>Oops! Not a valid post ID!</StatusMessage>
+              return <StatusMessage>Oops! Not a valid post url!</StatusMessage>
             }
             return (
               <article>
