@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import ReactSVG from 'react-svg'
 
@@ -16,7 +16,7 @@ const CardLinkWrapper = styled.a`
 
 const CardDividerText = styled.div`
   flex: 1;
-  font-family: SourceCP;
+  font-family: SourceCP, sans-serif;
   text-align: center;
 `
 

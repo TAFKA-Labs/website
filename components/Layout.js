@@ -7,12 +7,11 @@ import styled from 'styled-components'
 import GlobalStyle from './global-style'
 import Footer from './footer'
 import Nav from './nav'
-import NavMobile from './nav-mobile'
 import { responsiveSpacing } from './style-segments'
 
 const Title = styled.a`
   display: inline-block;
-  font-family: SourceCP;
+  font-family: SourceCP, sans-serif;
   font-weight: bolder;
   letter-spacing: 1.4px;
   color: #3b5266;
@@ -22,7 +21,6 @@ const Title = styled.a`
 const Header = styled.div`
   text-align: right;
   display: flex;
-  postition: relative;
   align-items: center;
   margin: 1em 0;
 
@@ -66,7 +64,7 @@ const LayoutGrid = styled.div`
 `
 
 const PageContainer = styled.div`
-  ${responsiveSpacing};
+  ${responsiveSpacing}
   order: -1;
   background-image: url('/static/svg/background.svg');
 `
@@ -104,11 +102,13 @@ function Layout({ children }) {
       <Head>
         <title>TAFKA Labs {section && `— ${section}`}</title>
       </Head>
+
       <Header>
         <Link href="/">
           <Title>TAFKA Labs</Title>
         </Link>
       </Header>
+
       <LayoutGrid>
         <Nav />
         <PageContainer>
