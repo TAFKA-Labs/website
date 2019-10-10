@@ -14,19 +14,4 @@ module.exports = {
 
     return config
   },
-  exportPathMap: defaultPathMap => {
-    return {
-      '/': { page: '/' },
-      '/about': { page: '/about' },
-      '/projects': { page: '/projects' },
-      '/post/greetings-to-2019': {
-        page: '/post',
-        query: { slug: 'greetings-to-2019' },
-      },
-      '/post/comparing-graphql-baas': {
-        page: '/post',
-        query: { slug: 'comparing-graphql-baas' },
-      },
-    }
-  },
 }

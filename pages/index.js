@@ -1,48 +1,37 @@
-import React, { Component, Fragment } from 'react'
-import { Query } from 'react-apollo'
-import { formatDistance } from 'date-fns'
+import React, { Fragment } from 'react'
+import styled from 'styled-components'
 
-import ListPosts from '../graphql/list-posts.gql'
-import { StatusMessage, PostPreview } from '../components'
+const Jumbo = styled.h1`
+  font-size: 10vw;
 
-export default class Index extends Component {
-  render() {
-    return (
-      <div
-        style={{
-          maxWidth: 600,
-          margin: '0 auto',
-        }}
-      >
-        <Query query={ListPosts}>
-          {({ data, error, loading }) => {
-            if (error) {
-              return (
-                <StatusMessage>Error:{JSON.stringify(error)}</StatusMessage>
-              )
-            }
-            if (loading) {
-              return <StatusMessage>Loading...</StatusMessage>
-            }
-            if (!data || !data.blogPosts) {
-              return (
-                <StatusMessage>
-                  Hmm, something went wrong. Try again?
-                </StatusMessage>
-              )
-            }
-            return data.blogPosts.map(item => (
-              <PostPreview
-                key={item.id}
-                date={formatDistance(item.createdAt, new Date(), {
-                  addSuffix: true,
-                })}
-                {...item}
-              />
-            ))
-          }}
-        </Query>
-      </div>
-    )
+  @media screen and (min-width: 740px) {
+    font-size: 9vw;
   }
+
+  @media screen and (min-width: 1020px) {
+    font-size: 7.5vw;
+  }
+`
+
+const Tagline = styled.div`
+  font-size: 5vw;
+
+  @media screen and (min-width: 740px) {
+    font-size: 4vw;
+  }
+
+  @media screen and (min-width: 1080px) {
+    font-size: 3vw;
+  }
+`
+
+function Home() {
+  return (
+    <Fragment>
+      <Jumbo>Hello, world</Jumbo>
+      <Tagline>It&apos;s nice to meet you</Tagline>
+    </Fragment>
+  )
 }
+
+export default Home

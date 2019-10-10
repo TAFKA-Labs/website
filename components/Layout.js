@@ -1,11 +1,125 @@
-import React, { Component } from 'react'
+import React, { useEffect, useState } from 'react'
+import Head from 'next/head'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 import styled from 'styled-components'
 
-const Layout = styled.div`
-  min-height: 100vh;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2em 1em;
+import GlobalStyle from './global-style'
+import Footer from './footer'
+import Nav from './nav'
+import NavMobile from './nav-mobile'
+import { responsiveSpacing } from './style-segments'
+
+const Title = styled.a`
+  display: inline-block;
+  font-family: SourceCP;
+  font-weight: bolder;
+  letter-spacing: 1.4px;
+  color: #3b5266;
+  padding: 1em;
 `
+
+const Header = styled.div`
+  text-align: right;
+  display: flex;
+  postition: relative;
+  align-items: center;
+  margin: 1em 0;
+
+  a {
+    flex: 1;
+  }
+
+  @media screen and (min-width: 740px) {
+    margin: 1em;
+  }
+`
+
+const LayoutContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border-right: 12px solid #3b5266;
+
+  @media screen and (min-width: 450px) {
+    border-right: 20px solid #3b5266;
+  }
+`
+
+const LayoutGrid = styled.div`
+  flex: 1;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: auto 2.5em;
+
+  @media screen and (min-width: 380px) {
+    grid-template-columns: auto 3.5em;
+  }
+
+  @media screen and (min-width: 740px) {
+    grid-template-columns: auto 20%;
+  }
+
+  @media screen and (min-width: 1020px) {
+    grid-template-columns: auto 33%;
+  }
+`
+
+const PageContainer = styled.div`
+  ${responsiveSpacing};
+  order: -1;
+  background-image: url('/static/svg/background.svg');
+`
+
+function Layout({ children }) {
+  const { pathname } = useRouter()
+  const [isMobile, setIsMobile] = useState(false)
+  const [section, setSection] = useState('Home')
+
+  useEffect(() => {
+    const path = pathname.split('/')[1]
+    if (!path) {
+      setSection('')
+    } else {
+      setSection(`${path.charAt(0).toUpperCase()}${path.slice(1)}`)
+    }
+  }, [pathname])
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (isMobile && window.innerWidth > 740) {
+        setIsMobile(false)
+      } else if (!isMobile && window.innerWidth < 740) {
+        setIsMobile(true)
+      }
+    }
+    handleResize()
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [isMobile])
+
+  return (
+    <LayoutContainer isMobile={isMobile}>
+      <GlobalStyle />
+      <Head>
+        <title>TAFKA Labs {section && `— ${section}`}</title>
+      </Head>
+      <Header>
+        <Link href="/">
+          <Title>TAFKA Labs</Title>
+        </Link>
+      </Header>
+      <LayoutGrid>
+        <Nav />
+        <PageContainer>
+          <h2>{section}</h2>
+          {children}
+        </PageContainer>
+      </LayoutGrid>
+
+      <Footer />
+    </LayoutContainer>
+  )
+}
 
 export default Layout
