@@ -9,7 +9,7 @@ const ContactForm = () => {
 
   const onSubmit = async data => {
     try {
-      await fetch('http://localhost:3000/api/mailto', {
+      await fetch('/api/mailto', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -51,7 +51,7 @@ const ContactForm = () => {
           minLength: 20,
         })}
       />
-      <Button disabled={formState.isSubmitting}>
+      <Button disabled={formState.isSubmitting || status === 'sent'}>
         {status === 'sent' ? 'Message sent!' : 'Send message'}
       </Button>
     </Form>

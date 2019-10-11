@@ -21,6 +21,13 @@ export const borderStyle = css`
   border-style: solid;
   border-width: 0.5px;
   border-color: lightgrey;
+  transition: all 250ms ease-in;
+
+  &:hover:not([disabled]),
+  &:focus:not([disabled]) {
+    border-color: #3b5266;
+    box-shadow: 1px 1px 2px 2px #d5dce1;
+  }
 `
 
 export const centeredBoxStyle = css`
@@ -30,7 +37,7 @@ export const centeredBoxStyle = css`
 `
 
 export const fieldStyle = css`
-  ${borderStyle};
+  ${borderStyle}
   font-family: Helvetica, sans-serif;
   font-size: 100%;
   padding: 0.5em;
@@ -40,14 +47,9 @@ export const fieldStyle = css`
     opacity: 0.6;
   }
 
-  &:hover:not([disabled]),
-  &:focus:not([disabled]) {
-    border-color: #3b5266;
-  }
-
   &:disabled {
     opacity: 0.6;
   }
 
-  ${({ error }) => error && 'border-color: red'};
+  ${({ error }) => error && 'border-color: red'}
 `

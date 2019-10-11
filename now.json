@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "build": {
+    "env": {
+      "SENDGRID_API_KEY": "@sendgrid-key",
+      "SENDGRID_DEST_EMAIL": "@dest-email"
+    }
+  }
+}

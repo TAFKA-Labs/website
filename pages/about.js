@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactSVG from 'react-svg'
 import styled from 'styled-components'
 
 import { Avatar, Card, SocialIconLink, StyledWebLink } from 'components'
@@ -8,7 +7,7 @@ const Name = styled.div`
   font-size: 1.25em;
   line-height: 1.5;
   font-weight: normal;
-  font-family: SourceCP;
+  font-family: SourceCP, sans-serif;
 
   @media screen and (min-width: 740px) {
     font-size: 1.5em;
@@ -23,7 +22,7 @@ const Title = styled.div`
   font-size: 16px;
   line-height: 1.3;
   font-weight: bolder;
-  font-family: SourceCP;
+  font-family: SourceCP, sans-serif;
 
   @media screen and (min-width: 740px) {
     font-size: 18px;
@@ -81,9 +80,13 @@ const ListOfLinks = styled.ul`
   list-style-type: circle;
 `
 
-const SocialLinkContainer = styled.div``
+const SocialLinkContainer = styled.div`
+  /* Conainer name */
+`
 
-const Content = styled.div``
+const Content = styled.div`
+  /* Conainer name */
+`
 
 function About() {
   return (
