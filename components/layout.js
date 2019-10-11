@@ -106,6 +106,7 @@ function Layout({ children }) {
           as="font"
           href="/fonts/Abel-Regular.ttf"
           type="font/ttf"
+          crossOrigin
         />
         <link rel="shortcut icon" href="/tafkalabs.ico" />
       </Head>
