@@ -3,15 +3,15 @@ import styled from 'styled-components'
 import { centeredBoxStyle, fieldStyle } from 'components/style-segments'
 
 const Button = styled.button`
-  ${fieldStyle};
-  ${centeredBoxStyle};
+  ${fieldStyle}
+  ${centeredBoxStyle}
   flex: 1;
   color: white;
-  border-color: #3b5266;
-  background-color: #3b5266;
+  border-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.primary};
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: Abel;
+  font-family: ${({ theme }) => theme.typography.default}, sans-serif;
   cursor: pointer;
 
   svg {

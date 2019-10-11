@@ -1,17 +1,20 @@
 import React from 'react'
 import App from 'next/app'
+import { ThemeProvider } from 'styled-components'
 import 'normalize.css'
 
-import { Layout } from 'components'
+import { Layout, tafkaTheme } from 'components'
 
 export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
 
     return (
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <ThemeProvider theme={tafkaTheme}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </ThemeProvider>
     )
   }
 }

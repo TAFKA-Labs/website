@@ -11,10 +11,10 @@ import { responsiveSpacing } from './style-segments'
 
 const Title = styled.a`
   display: inline-block;
-  font-family: SourceCP, sans-serif;
+  font-family: ${({ theme }) => theme.typography.accent}, sans-serif;
   font-weight: bolder;
   letter-spacing: 1.4px;
-  color: #3b5266;
+  color: currentcolor;
   padding: 1em;
 `
 
@@ -37,10 +37,10 @@ const LayoutContainer = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  border-right: 12px solid #3b5266;
+  border-right: 12px solid currentcolor;
 
   @media screen and (min-width: 450px) {
-    border-right: 20px solid #3b5266;
+    border-right: 20px solid currentcolor;
   }
 `
 
@@ -97,7 +97,7 @@ function Layout({ children }) {
   }, [isMobile])
 
   return (
-    <LayoutContainer isMobile={isMobile}>
+    <LayoutContainer>
       <GlobalStyle />
       <Head>
         <title>TAFKA Labs {section && `— ${section}`}</title>

@@ -46,7 +46,7 @@ const NavLink = styled.a`
 
   &:hover {
     opacity: 1;
-    background-color: #d5dce1;
+    background-color: ${({ theme }) => theme.colors.secondary};
   }
 
   @media screen and (min-width: 380px) {
