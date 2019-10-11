@@ -9,7 +9,7 @@ const ContactForm = () => {
 
   const onSubmit = async data => {
     try {
-      await fetch(`${window.location.hostname}/api/mailto`, {
+      await fetch('/api/mailto', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
