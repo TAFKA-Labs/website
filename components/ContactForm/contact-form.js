@@ -9,7 +9,7 @@ const ContactForm = () => {
 
   const onSubmit = async data => {
     try {
-      await fetch(process.env.SENDGRID_MAILTO_URL, {
+      await fetch(`${window.location.hostname}/api/mailto`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
