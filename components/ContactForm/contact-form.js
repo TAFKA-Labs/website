@@ -51,7 +51,7 @@ const ContactForm = () => {
           minLength: 20,
         })}
       />
-      <Button disabled={formState.isSubmitting}>
+      <Button disabled={formState.isSubmitting || status === 'sent'}>
         {status === 'sent' ? 'Message sent!' : 'Send message'}
       </Button>
     </Form>
