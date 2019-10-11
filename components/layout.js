@@ -66,13 +66,13 @@ const LayoutGrid = styled.div`
 const PageContainer = styled.div`
   ${responsiveSpacing}
   order: -1;
-  background-image: url('/static/svg/background.svg');
+  background-image: url('/svg/background.svg');
 `
 
 function Layout({ children }) {
   const { pathname } = useRouter()
   const [isMobile, setIsMobile] = useState(false)
-  const [section, setSection] = useState('Home')
+  const [section, setSection] = useState('')
 
   useEffect(() => {
     const path = pathname.split('/')[1]
@@ -101,6 +101,13 @@ function Layout({ children }) {
       <GlobalStyle />
       <Head>
         <title>TAFKA Labs {section && `— ${section}`}</title>
+        <link
+          rel="preload"
+          as="font"
+          href="/fonts/Abel-Regular.ttf"
+          type="font/ttf"
+        />
+        <link rel="shortcut icon" href="/tafkalabs.ico" />
       </Head>
 
       <Header>

@@ -92,7 +92,7 @@ function About() {
   return (
     <Card>
       <ProfileGrid>
-        <Avatar src="/static/images/avatar.png" alt="profile photo" />
+        <Avatar src="/images/avatar.png" alt="profile photo" />
 
         <InfoContainer>
           <Name>Allison Kunz</Name>
@@ -102,17 +102,17 @@ function About() {
         <SocialLinkContainer>
           <SocialIconLink
             href="https://github.com/allpwrfulroot"
-            src="/static/svg/github.svg"
+            src="/svg/github.svg"
             alt="link to github"
           />
           <SocialIconLink
             href="https://www.linkedin.com/in/tafka-labs/"
-            src="/static/svg/linkedin.svg"
+            src="/svg/linkedin.svg"
             alt="link to linkedin"
           />
           <SocialIconLink
             href="https://twitter.com/TafkaLabs"
-            src="/static/svg/twitter.svg"
+            src="/svg/twitter.svg"
             alt="link to twitter"
           />
         </SocialLinkContainer>

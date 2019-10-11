@@ -28,6 +28,8 @@ export const borderStyle = css`
     border-color: currentcolor;
     box-shadow: 1px 1px 2px 2px ${({ theme }) => theme.colors.secondary};
   }
+
+  ${({ error, theme }) => error && `border-color: ${theme.colors.error}`}
 `
 
 export const centeredBoxStyle = css`
@@ -38,6 +40,7 @@ export const centeredBoxStyle = css`
 
 export const fieldStyle = css`
   ${borderStyle}
+  -webkit-appearance: none;
   font-family: Helvetica, sans-serif;
   font-size: 100%;
   padding: 0.5em;
@@ -50,6 +53,4 @@ export const fieldStyle = css`
   &:disabled {
     opacity: 0.6;
   }
-
-  ${({ error }) => error && 'border-color: red'}
 `

@@ -28,7 +28,7 @@ function Contact() {
         <CardDividerText>— OR —</CardDividerText>
         <CardLinkWrapper href="https://calendly.com/tafka-labs">
           <Button>
-            Request a call <ReactSVG src="/static/svg/newtab.svg" />
+            Request a call <ReactSVG src="/svg/newtab.svg" />
           </Button>
         </CardLinkWrapper>
       </CardContent>

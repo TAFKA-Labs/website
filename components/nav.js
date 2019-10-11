@@ -84,7 +84,7 @@ function Nav() {
             {isActive && '\u2794' + '  '}
             {item}
           </span>
-          <ReactSVG src={`/static/svg/${item}.svg`} />
+          <ReactSVG src={`/svg/${item}.svg`} />
         </NavLink>
       </Link>
     )
