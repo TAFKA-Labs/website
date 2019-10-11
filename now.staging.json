@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "alias": ["staging.tafkalabs.com"],
+  "env": {
+    "SENDGRID_API_KEY": "@sendgrid-key",
+    "SENDGRID_DEST_EMAIL": "@dest-email",
+    "SENDGRID_MAILTO_URL": "@mailto-url-dev"
+  },
+  "build": {
+    "env": {
+      "SENDGRID_API_KEY": "@sendgrid-key",
+      "SENDGRID_DEST_EMAIL": "@dest-email",
+      "SENDGRID_MAILTO_URL": "@mailto-url-dev"
+    }
+  }
+}
