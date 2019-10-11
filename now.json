@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "alias": ["tafkalabs.com", "www.tafkalabs.com"],
   "build": {
     "env": {
       "SENDGRID_API_KEY": "@sendgrid-key",

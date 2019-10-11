@@ -25,8 +25,8 @@ export const borderStyle = css`
 
   &:hover:not([disabled]),
   &:focus:not([disabled]) {
-    border-color: #3b5266;
-    box-shadow: 1px 1px 2px 2px #d5dce1;
+    border-color: currentcolor;
+    box-shadow: 1px 1px 2px 2px ${({ theme }) => theme.colors.secondary};
   }
 `
 

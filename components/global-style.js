@@ -24,13 +24,18 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     margin: 0;
-    font-family: Abel, sans-serif;
-    background-color: #F3F6F9;
-    color: #3b5266;
+    font-family: ${({ theme }) => theme.typography.default}, sans-serif;
+    background-color: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.primary};
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: SourceCP, sans-serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: ${({ theme }) => theme.typography.accent}, sans-serif;
   }
 
   a {

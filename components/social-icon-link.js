@@ -14,7 +14,7 @@ const StyledSVG = styled(ReactSVG)`
     padding: 1em 0.5em;
 
     &:hover {
-      background-color: #d5dce1;
+      background-color: ${({ theme }) => theme.colors.secondary};
     }
 
     @media screen and (min-width: 740px) {
