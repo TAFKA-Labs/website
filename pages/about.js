@@ -37,7 +37,6 @@ const Title = styled.div`
 
 const ProfileGrid = styled.div`
   display: grid;
-  font-size: 14px;
   grid-template-columns: 42px auto;
   grid-template-rows: 42px auto;
   grid-gap: 0.66em;
@@ -66,10 +65,14 @@ const InfoContainer = styled.div`
 `
 
 const Blurb = styled.p`
-  font-size: 133%;
+  font-size: 125%;
   opacity: 0.8;
   border-left: 2px solid #d5dce1;
   padding-left: 1em;
+`
+
+const Paragraph = styled.p`
+  letter-spacing: 0.1px;
 `
 
 const SectionHeader = styled.h4`
@@ -96,7 +99,7 @@ function About() {
 
         <InfoContainer>
           <Name>Allison Kunz</Name>
-          <Title>Software engineer</Title>
+          <Title>Front end engineer</Title>
         </InfoContainer>
 
         <SocialLinkContainer>
@@ -118,47 +121,47 @@ function About() {
         </SocialLinkContainer>
 
         <Content>
-          <p>
+          <Paragraph>
             Full stack web and mobile developer specializing in React, React
             Native, & GraphQL. Consultant and contractor, both independently and
             with agencies.
-          </p>
+          </Paragraph>
+
+          <Blurb>
+            I bring experience with enterprise-level digital transformations —
+            web and mobile, multi-platform — unifying all digital assets into a
+            streamlined workflow
+          </Blurb>
+
+          <Paragraph>
+            I enjoy working with all stakeholders, from business to design to
+            engineering, to streamline high-quality software development. For
+            example, establishing component libraries that can support
+            beautiful, responsive, and cohesive enterprise-grade design systems.
+          </Paragraph>
+
+          <Paragraph>
+            I am constantly exploring the latest and greatest in web
+            development, finding the best new tools in the React ecosystem and
+            sharing them with my clients (or advising that they wait).
+          </Paragraph>
 
           <Blurb>
             My focus is on scalable and effective developer experience (DX) to
             set up teams for success
           </Blurb>
 
-          <p>
-            I enjoy working with all stakeholders, from business to design to
-            engineering, to streamline high-quality software development. For
-            example, establishing component libraries that can support
-            beautiful, responsive, and cohesive enterprise-grade design systems.
-          </p>
-
-          <p>
-            I am constantly exploring the latest and greatest in web
-            development, finding the best new tools in the React ecosystem and
-            sharing them with my clients (or advising that they wait).
-          </p>
-
-          <Blurb>
-            I bring experience with enterprise-level digital transformations —
-            web and mobile, multi-platform — unifying all digital assets into a
-            streamlined architecture
-          </Blurb>
-
-          <p>
+          <Paragraph>
             My work involves both planning and code. I have provided technical
             advising for non-technical startup teams and agencies. I have built
             initial products (MVP architecture, proof-of-concept) and
             contributed to existing codebases at crunch time.
-          </p>
+          </Paragraph>
 
-          <p>
+          <Paragraph>
             I am available for short- to medium-term engagements, but no
             permanent roles please.
-          </p>
+          </Paragraph>
 
           <SectionHeader>Preferred frameworks</SectionHeader>
           <ListOfLinks>
@@ -198,10 +201,11 @@ function About() {
               href="https://overreacted.io"
               text="Overreacted by Dan Abramov"
             />
+            <StyledWebLink href="https://blog.hasura.io" text="Hasura Blog" />
           </ListOfLinks>
 
           <SectionHeader>Favorite Pokémon</SectionHeader>
-          <p>Typhlosion</p>
+          <Paragraph>Typhlosion</Paragraph>
         </Content>
       </ProfileGrid>
     </Card>

@@ -5,7 +5,7 @@ const Label = styled.label`
   font-family: ${({ theme }) => theme.typography.accent}, sans-serif;
   color: gray;
 
-  ${({ error }) => error && 'color: red'}
+  ${({ error, theme }) => error && `color: ${theme.colors.error}`}
 `
 
 export default Label

@@ -25,11 +25,8 @@ export const borderStyle = css`
 
   &:hover:not([disabled]),
   &:focus:not([disabled]) {
-    border-color: currentcolor;
     box-shadow: 1px 1px 2px 2px ${({ theme }) => theme.colors.secondary};
   }
-
-  ${({ error, theme }) => error && `border-color: ${theme.colors.error}`}
 `
 
 export const centeredBoxStyle = css`
@@ -38,12 +35,15 @@ export const centeredBoxStyle = css`
   justify-content: center;
 `
 
+export const fieldContent = css`
+  font-size: 100%;
+  padding: 0.6em 0.5em 0.4em;
+`
+
 export const fieldStyle = css`
   ${borderStyle}
   -webkit-appearance: none;
   font-family: Helvetica, sans-serif;
-  font-size: 100%;
-  padding: 0.5em;
   margin: 0.25em 0 1em;
 
   ::placeholder {
@@ -53,4 +53,11 @@ export const fieldStyle = css`
   &:disabled {
     opacity: 0.6;
   }
+
+  &:hover:not([disabled]),
+  &:focus:not([disabled]) {
+    border-color: currentcolor;
+  }
+
+  ${({ error, theme }) => error && `border-color: ${theme.colors.error}`}
 `

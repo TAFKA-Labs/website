@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
-import { fieldStyle } from 'components/style-segments'
+import { fieldContent, fieldStyle } from 'components/style-segments'
 
 const TextArea = styled.textarea`
-  ${fieldStyle};
+  ${fieldContent}
+  ${fieldStyle}
 `
 
 export default TextArea

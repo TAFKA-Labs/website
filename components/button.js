@@ -1,10 +1,15 @@
 import styled from 'styled-components'
 
-import { centeredBoxStyle, fieldStyle } from 'components/style-segments'
+import {
+  centeredBoxStyle,
+  borderStyle,
+  fieldContent,
+} from 'components/style-segments'
 
 const Button = styled.button`
-  ${fieldStyle}
+  ${borderStyle}
   ${centeredBoxStyle}
+  ${fieldContent}
   flex: 1;
   color: white;
   border-color: ${({ theme }) => theme.colors.primary};
