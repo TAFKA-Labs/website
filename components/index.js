@@ -1,11 +1,5 @@
-export { default as Avatar } from './avatar'
-export { default as Button } from './button'
-export { default as Card } from './card'
-export { default as Form } from './form'
-export { default as Label } from './label'
-export { default as Layout } from './layout'
-export { default as tafkaTheme } from './tafka-theme'
-export { default as TextArea } from './text-area'
-export { default as TextInput } from './text-input'
-export { default as SocialIconLink } from './social-icon-link'
-export { default as StyledWebLink } from './styled-web-link'
+import Button from './button'
+import Card from './card'
+import { Layout } from './Layout'
+
+export { Button, Card, Layout }

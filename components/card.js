@@ -1,11 +1,10 @@
 import styled from 'styled-components'
-import { responsiveSpacing } from './style-segments'
+
+import { cardStyle, responsiveSpacing } from './style-segments'
 
 const Card = styled.div`
+  ${cardStyle}
   ${responsiveSpacing}
-  border-radius: 2px;
-  background-color: white;
-  box-shadow: 1px 1px 2px 2px ${({ theme }) => theme.colors.secondary};
 `
 
 export default Card

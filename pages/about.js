@@ -1,95 +1,19 @@
 import React from 'react'
-import styled from 'styled-components'
-
-import { Avatar, Card, SocialIconLink, StyledWebLink } from 'components'
-
-const Name = styled.div`
-  font-size: 1.25em;
-  line-height: 1.5;
-  font-weight: normal;
-  font-family: SourceCP, sans-serif;
-
-  @media screen and (min-width: 740px) {
-    font-size: 1.5em;
-  }
-
-  @media screen and (min-width: 1020px) {
-    font-size: 1.8em;
-  }
-`
-
-const Title = styled.div`
-  font-size: 16px;
-  line-height: 1.3;
-  font-weight: bolder;
-  font-family: SourceCP, sans-serif;
-
-  @media screen and (min-width: 740px) {
-    font-size: 18px;
-    line-height: 1.4;
-  }
-
-  @media screen and (min-width: 1020px) {
-    font-size: 20px;
-    line-height: 1.6;
-  }
-`
-
-const ProfileGrid = styled.div`
-  display: grid;
-  grid-template-columns: 42px auto;
-  grid-template-rows: 42px auto;
-  grid-gap: 0.66em;
-
-  @media screen and (min-width: 350px) {
-    font-size: 16px;
-  }
-
-  @media screen and (min-width: 740px) {
-    grid-template-columns: 80px auto;
-    grid-template-rows: 80px auto;
-    grid-gap: 1.33em;
-  }
-
-  @media screen and (min-width: 1080px) {
-    grid-template-columns: 120px auto;
-    grid-template-rows: 120px auto;
-    grid-gap: 2em;
-  }
-`
-
-const InfoContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-`
-
-const Blurb = styled.p`
-  font-size: 125%;
-  opacity: 0.8;
-  border-left: 2px solid #d5dce1;
-  padding-left: 1em;
-`
-
-const Paragraph = styled.p`
-  letter-spacing: 0.1px;
-`
-
-const SectionHeader = styled.h4`
-  margin-top: 2.5em;
-`
-
-const ListOfLinks = styled.ul`
-  list-style-type: circle;
-`
-
-const SocialLinkContainer = styled.div`
-  /* Conainer name */
-`
-
-const Content = styled.div`
-  /* Conainer name */
-`
+import {
+  Avatar,
+  Blurb,
+  Content,
+  InfoContainer,
+  ListOfLinks,
+  Name,
+  Paragraph,
+  ProfileGrid,
+  SectionHeader,
+  SocialIconLink,
+  StyledWebLink,
+  Title,
+} from 'components/About'
+import { Card } from 'components'
 
 function About() {
   return (
@@ -102,7 +26,7 @@ function About() {
           <Title>Front end engineer</Title>
         </InfoContainer>
 
-        <SocialLinkContainer>
+        <Content>
           <SocialIconLink
             href="https://github.com/allpwrfulroot"
             src="/svg/github.svg"
@@ -118,7 +42,7 @@ function About() {
             src="/svg/twitter.svg"
             alt="link to twitter"
           />
-        </SocialLinkContainer>
+        </Content>
 
         <Content>
           <Paragraph>

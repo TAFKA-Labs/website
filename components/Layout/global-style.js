@@ -37,11 +37,6 @@ const GlobalStyle = createGlobalStyle`
   h6 {
     font-family: ${({ theme }) => theme.typography.accent}, sans-serif;
   }
-
-  a {
-    cursor: pointer;
-    text-decoration: none;
-  }
 `
 
 export default GlobalStyle

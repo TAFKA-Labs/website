@@ -1,76 +1,17 @@
 import React, { useEffect, useState } from 'react'
+import PropTypes from 'prop-types'
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import styled from 'styled-components'
 
-import GlobalStyle from './global-style'
 import Footer from './footer'
+import GlobalStyle from './global-style'
+import Header from './header'
+import LayoutContainer from './layout-container'
+import LayoutGrid from './layout-grid'
 import Nav from './nav'
-import { responsiveSpacing } from './style-segments'
-
-const Title = styled.a`
-  display: inline-block;
-  font-family: ${({ theme }) => theme.typography.accent}, sans-serif;
-  font-weight: bolder;
-  letter-spacing: 1.4px;
-  color: currentcolor;
-  padding: 1em;
-`
-
-const Header = styled.div`
-  text-align: right;
-  display: flex;
-  align-items: center;
-  margin: 1em 0;
-
-  a {
-    flex: 1;
-  }
-
-  @media screen and (min-width: 740px) {
-    margin: 1em;
-  }
-`
-
-const LayoutContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  border-right: 12px solid currentcolor;
-
-  @media screen and (min-width: 450px) {
-    border-right: 20px solid currentcolor;
-  }
-`
-
-const LayoutGrid = styled.div`
-  flex: 1;
-  display: grid;
-  grid-template-rows: 100%;
-  grid-template-columns: auto 2.5em;
-  grid-gap: 1em;
-
-  @media screen and (min-width: 380px) {
-    grid-template-columns: auto 3.5em;
-  }
-
-  @media screen and (min-width: 740px) {
-    grid-template-columns: auto 20%;
-    grid-gap: 1.33em;
-  }
-
-  @media screen and (min-width: 1020px) {
-    grid-template-columns: auto 33%;
-    grid-gap: 2em;
-  }
-`
-
-const PageContainer = styled.div`
-  ${responsiveSpacing}
-  order: -1;
-  background-image: url('/svg/background.svg');
-`
+import PageContainer from './page-container'
+import Logo from './logo'
 
 function Layout({ children }) {
   const { pathname } = useRouter()
@@ -118,12 +59,12 @@ function Layout({ children }) {
           type="font/ttf"
           crossOrigin="anonymous"
         />
-        <link rel="shortcut icon" href="/tafkalabs.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header>
         <Link href="/">
-          <Title>TAFKA Labs</Title>
+          <Logo>TAFKA Labs</Logo>
         </Link>
       </Header>
 
@@ -138,6 +79,10 @@ function Layout({ children }) {
       <Footer />
     </LayoutContainer>
   )
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout

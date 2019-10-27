@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
 import useForm from 'react-hook-form'
 
-import { Button, Form, Label, TextArea, TextInput } from 'components'
+import Button from '../button'
+import Form from './form'
+import Label from './label'
+import TextArea from './text-area'
+import TextInput from './text-input'
 
 const ContactForm = () => {
   const { register, handleSubmit, errors, formState } = useForm()

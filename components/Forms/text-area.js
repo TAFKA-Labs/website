@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { fieldContent, fieldStyle } from 'components/style-segments'
+import { fieldContent, fieldStyle } from '../style-segments'
 
 const TextArea = styled.textarea`
   ${fieldContent}

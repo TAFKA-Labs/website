@@ -1,10 +1,6 @@
 import styled from 'styled-components'
 
-import {
-  centeredBoxStyle,
-  borderStyle,
-  fieldContent,
-} from 'components/style-segments'
+import { centeredBoxStyle, borderStyle, fieldContent } from './style-segments'
 
 const Button = styled.button`
   ${borderStyle}
