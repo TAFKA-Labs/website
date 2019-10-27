@@ -1,16 +1,15 @@
 import styled from 'styled-components'
 
-const Avatar = styled.img`
-  height: 100%;
-  margin-right: 1em;
+const Jumbo = styled.h1`
+  font-size: 10vw;
 
   @media screen and (min-width: 740px) {
-    margin-right: 1.33em;
+    font-size: 9vw;
   }
 
   @media screen and (min-width: 1020px) {
-    margin-right: 2em;
+    font-size: 7.5vw;
   }
 `
 
-export default Avatar
+export default Jumbo

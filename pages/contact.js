@@ -1,24 +1,13 @@
 import React from 'react'
-import styled from 'styled-components'
 import ReactSVG from 'react-svg'
 
 import { Button, Card } from 'components'
-import { ContactForm } from 'components/ContactForm'
-
-const CardContent = styled.div`
-  max-width: 450px;
-  margin: 0 auto;
-`
-
-const CardLinkWrapper = styled.a`
-  display: flex;
-`
-
-const CardDividerText = styled.div`
-  flex: 1;
-  font-family: ${({ theme }) => theme.typography.accent}, sans-serif;
-  text-align: center;
-`
+import { ContactForm } from 'components/Forms'
+import {
+  CardContent,
+  CardDividerText,
+  ButtonLinkWrapper,
+} from 'components/Contact'
 
 function Contact() {
   return (
@@ -26,11 +15,11 @@ function Contact() {
       <CardContent>
         <ContactForm />
         <CardDividerText>— OR —</CardDividerText>
-        <CardLinkWrapper href="https://calendly.com/tafka-labs">
+        <ButtonLinkWrapper href="https://calendly.com/tafka-labs">
           <Button>
-            Request a call <ReactSVG src="/static/svg/newtab.svg" />
+            Request a call <ReactSVG src="/svg/newtab.svg" />
           </Button>
-        </CardLinkWrapper>
+        </ButtonLinkWrapper>
       </CardContent>
     </Card>
   )

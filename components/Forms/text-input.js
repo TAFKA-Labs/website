@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
-import { fieldStyle } from 'components/style-segments'
+import { fieldContent, fieldStyle } from '../style-segments'
 
 const TextInput = styled.input`
-  ${fieldStyle};
+  ${fieldContent}
+  ${fieldStyle}
 `
 
 export default TextInput
