@@ -14,10 +14,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = withBundleAnalyzer(
   withMDX(
     withCSS({
-      pageExtensions: ['js', 'jsx', 'mdx'],
       env: {
-        PROJECT_ROOT: __dirname,
+        PROJECT_DIRNAME: __dirname,
       },
+      pageExtensions: ['js', 'jsx', 'mdx'],
     })
   )
 )

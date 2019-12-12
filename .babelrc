@@ -5,6 +5,7 @@
     [
       "module-resolver",
       {
+        "root": ["."],
         "alias": {
           "components": "./components",
           "contexts": "./contexts",

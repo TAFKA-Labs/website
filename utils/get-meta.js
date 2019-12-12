@@ -5,20 +5,22 @@ const YAML = require('yaml')
 
 async function getMDXInfo(content) {
   try {
-    const dirname = process.env.PROJECT_ROOT
+    const dirname = process.env.PROJECT_DIRNAME
+    console.log('dirname? ', dirname)
     const files = await promisify(fs.readdir)(
-      join(dirname, `./pages/${content}`)
+      join(process.env.PROJECT_DIRNAME, `./pages/${content}/`)
     )
+    console.log('files? ', files)
     const mdx = await files.filter(f => f.includes('.mdx'))
     let list = await Promise.all(
       mdx.map(async p => {
         let meta = {}
         let name = p.replace('.mdx', '')
         let { size } = await promisify(fs.stat)(
-          join(dirname, `./pages/${content}/${p}`)
+          join(process.env.PROJECT_DIRNAME, `pages/${content}/${p}`)
         )
         let page = await promisify(fs.readFile)(
-          join(dirname, `./pages/${content}/${p}`)
+          join(process.env.PROJECT_DIRNAME, `pages/${content}/${p}`)
         )
         let frontmatter = page.toString().split('---')[1]
         if (frontmatter) {
