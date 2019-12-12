@@ -4,7 +4,8 @@
   "build": {
     "env": {
       "SENDGRID_API_KEY": "@sendgrid-key",
-      "SENDGRID_DEST_EMAIL": "@dest-email"
+      "SENDGRID_DEST_EMAIL": "@dest-email",
+      "EVENTBRITE_API_KEY": "@eventbrite-key"
     }
   }
 }
