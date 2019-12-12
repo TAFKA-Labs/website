@@ -174,6 +174,8 @@ Projects.getInitialProps = async ({ req }) => {
           'x-forwarded-host'
         ] || req.headers.host}`
       : ''
+    const dirname = process.cwd()
+    console.log('dirname? ', dirname)
     const result = await fetch(`${pre}/api/get-projects`)
     const { projects, error } = await result.json()
     if (error) {
