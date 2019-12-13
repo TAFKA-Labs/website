@@ -24,17 +24,9 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     margin: 0;
-    ${({ theme }) => `
-      font-family: ${theme.typography.default};
-      color: ${theme.colors.primary};
-      background-image: linear-gradient(to left, ${theme.colors.primary} 12px, ${theme.colors.white} 12px);
-      margin-right: 12px;
-
-      @media screen and (min-width: 375px) {
-        background-image: linear-gradient(to left, ${theme.colors.primary} 16px, ${theme.colors.white} 16px);
-        margin-right: 16px;
-      }
-    `}
+    font-family: ${({ theme }) => theme.typography.default}, sans-serif;
+    background-color: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.primary};
   }
 
   h1,
@@ -44,15 +36,6 @@ const GlobalStyle = createGlobalStyle`
   h5,
   h6 {
     font-family: ${({ theme }) => theme.typography.accent}, sans-serif;
-  }
-
-  a {
-    text-decoration: none;
-    color: currentColor;
-
-    &:hover {
-      cursor: pointer;
-    }
   }
 `
 

@@ -4,7 +4,7 @@
   "description": "The website for TAFKA Labs",
   "main": "index.js",
   "scripts": {
-    "dev": "DEV=true next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "test": "jest",

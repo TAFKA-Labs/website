@@ -4,38 +4,36 @@ import { useRouter } from 'next/router'
 import styled from 'styled-components'
 import { ReactSVG } from 'react-svg'
 
-const APP_NAV = ['about', 'projects', 'contact']
+const APP_NAV = ['about', 'contact']
 
-const NavContainer = styled.div`
-  @media (min-width: 710px) {
-    flex: 1;
+const NavContainer = styled.nav`
+  position: fixed;
+  top: 5em;
+  right: 12px;
+  margin: 1em 0;
+
+  @media screen and (min-width: 450px) {
+    right: 20px;
   }
-`
 
-const NavV = styled.nav`
-  position: -webkit-sticky;
-  position: sticky;
-  top: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  @media screen and (min-width: 740px) {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    max-height: 80vh;
+  }
 `
 
 const NavLink = styled.a`
   display: block;
-  padding: 0.5em;
-  margin-bottom: 0.5em;
+  padding: 1em 0.5em;
   text-transform: capitalize;
-  text-align: right;
   letter-spacing: 1px;
   border-radius: 4px;
   opacity: ${({ active }) => (active ? 1 : 0.6)};
   transition: background-color 300ms ease-in;
-
-  &:hover {
-    opacity: 1;
-    background-color: ${({ theme }) => theme.colors.secondary};
-  }
 
   svg {
     display: block;
@@ -46,9 +44,18 @@ const NavLink = styled.a`
     display: none;
   }
 
-  @media screen and (min-width: 740px) {
+  &:hover {
+    opacity: 1;
+    background-color: ${({ theme }) => theme.colors.secondary};
+  }
+
+  @media screen and (min-width: 380px) {
     padding: 1em;
-    margin: 0.25em 1.5em;
+  }
+
+  @media screen and (min-width: 740px) {
+    padding: 0.75em;
+    margin: 0.25em 1em;
 
     span {
       display: block;
@@ -60,18 +67,6 @@ const NavLink = styled.a`
   }
 `
 
-const NavItem = ({ isActive, item, onClick }) => (
-  <Link href={`/${item}`} prefetch={false}>
-    <NavLink tabIndex="0" active={isActive} onKeyPress={onClick}>
-      <span>
-        {isActive && '\u2794' + '  '}
-        {item}
-      </span>
-      <ReactSVG src={`/svg/${item}.svg`} />
-    </NavLink>
-  </Link>
-)
-
 function Nav() {
   const { pathname, push } = useRouter()
 
@@ -80,18 +75,26 @@ function Nav() {
     push(`/${e.target.text}`)
   }
 
+  const NavItem = ({ item }) => {
+    const isActive = pathname.includes(item)
+    return (
+      <Link href={`/${item}`} prefetch={false}>
+        <NavLink tabIndex="0" active={isActive} onKeyPress={handleKeyboard}>
+          <span>
+            {isActive && '\u2794' + '  '}
+            {item}
+          </span>
+          <ReactSVG src={`/svg/${item}.svg`} />
+        </NavLink>
+      </Link>
+    )
+  }
+
   return (
     <NavContainer>
-      <NavV>
-        {APP_NAV.map(i => (
-          <NavItem
-            key={i}
-            item={i}
-            isActive={pathname.includes(i)}
-            onClick={handleKeyboard}
-          />
-        ))}
-      </NavV>
+      {APP_NAV.map(i => (
+        <NavItem key={i} item={i} />
+      ))}
     </NavContainer>
   )
 }
