@@ -1,6 +1,7 @@
 import React from 'react'
 import App from 'next/app'
 import { ThemeProvider } from 'styled-components'
+import NextNprogress from 'nextjs-progressbar'
 import 'normalize.css'
 
 import { Layout } from 'components'
@@ -12,6 +13,13 @@ export default class MyApp extends App {
 
     return (
       <ThemeProvider theme={tafkaTheme}>
+        <NextNprogress
+          color="aqua"
+          startPosition={0.2}
+          stopDelayMs={200}
+          height="4"
+          options={{ easing: 'ease-in', speed: 300, showSpinner: false }}
+        />
         <Layout>
           <Component {...pageProps} />
         </Layout>

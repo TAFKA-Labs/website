@@ -103,7 +103,7 @@ function About() {
             />
           </ListOfLinks>
 
-          <SectionHeader>What I subscribe to</SectionHeader>
+          <SectionHeader>Recommended resources</SectionHeader>
           <ListOfLinks>
             <StyledWebLink
               href="https://reactjsnewsletter.com"

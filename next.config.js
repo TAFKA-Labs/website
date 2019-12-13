@@ -1,23 +1,23 @@
 require('dotenv').config()
-const Dotenv = require('dotenv-webpack')
 const withCSS = require('@zeit/next-css')
+const frontmatter = require('remark-frontmatter')
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [frontmatter],
+  },
+})
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
 module.exports = withBundleAnalyzer(
-  withCSS({
-    webpack: config => {
-      config.plugins = [
-        ...config.plugins,
-
-        new Dotenv({
-          path: './.env',
-          systemvars: true,
-        }),
-      ]
-
-      return config
-    },
-  })
+  withMDX(
+    withCSS({
+      env: {
+        PROJECT_DIRNAME: __dirname,
+      },
+      pageExtensions: ['js', 'jsx', 'mdx'],
+    })
+  )
 )

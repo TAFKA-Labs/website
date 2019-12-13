@@ -12,18 +12,20 @@ import LayoutGrid from './layout-grid'
 import Nav from './nav'
 import PageContainer from './page-container'
 import Logo from './logo'
+import Back from './back'
+import Section from './section'
 
 function Layout({ children }) {
-  const { pathname } = useRouter()
+  const { pathname, back } = useRouter()
   const [isMobile, setIsMobile] = useState(false)
-  const [section, setSection] = useState('')
+  const [section, setSection] = useState()
 
   useEffect(() => {
-    const path = pathname.split('/')[1]
-    if (!path) {
-      setSection('')
+    const chunkedPath = pathname.split('/')
+    if (chunkedPath.length !== 2) {
+      setSection()
     } else {
-      setSection(`${path.charAt(0).toUpperCase()}${path.slice(1)}`)
+      setSection(chunkedPath[1])
     }
   }, [pathname])
 
@@ -63,6 +65,9 @@ function Layout({ children }) {
       </Head>
 
       <Header>
+        {!section && pathname !== '/' && (
+          <Back onClick={() => back()}>&#10094; Back</Back>
+        )}
         <Link href="/">
           <Logo>TAFKA Labs</Logo>
         </Link>
@@ -71,7 +76,7 @@ function Layout({ children }) {
       <LayoutGrid>
         <Nav />
         <PageContainer>
-          <h2>{section}</h2>
+          {section && <Section>{section}</Section>}
           {children}
         </PageContainer>
       </LayoutGrid>

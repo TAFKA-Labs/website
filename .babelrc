@@ -5,10 +5,11 @@
     [
       "module-resolver",
       {
+        "root": ["."],
         "alias": {
           "components": "./components",
           "contexts": "./contexts",
-          "static": "./static",
+          "public": "./public",
           "utils": "./utils"
         }
       }
