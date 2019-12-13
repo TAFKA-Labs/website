@@ -1,27 +1,19 @@
 const fs = require('fs')
-const { join } = require('path')
 const { promisify } = require('util')
 const YAML = require('yaml')
+const fetch = require('isomorphic-unfetch')
 
 async function getMDXInfo(content) {
   try {
-    const dirname = process.cwd()
-    console.log('dirname? ', dirname)
-    const files = await promisify(fs.readdir)(
-      join(dirname, `pages/${content}/`)
-    )
+    const files = await promisify(fs.readdir)(`./pages/${content}`)
     console.log('files? ', files)
     const mdx = await files.filter(f => f.includes('.mdx'))
     let list = await Promise.all(
       mdx.map(async p => {
         let meta = {}
         let name = p.replace('.mdx', '')
-        let { size } = await promisify(fs.stat)(
-          join(dirname, `pages/${content}/${p}`)
-        )
-        let page = await promisify(fs.readFile)(
-          join(dirname, `pages/${content}/${p}`)
-        )
+        let { size } = await promisify(fs.stat)(`pages/${content}/${p}`)
+        let page = await promisify(fs.readFile)(`pages/${content}/${p}`)
         let frontmatter = page.toString().split('---')[1]
         if (frontmatter) {
           meta = YAML.parse(frontmatter)
@@ -69,10 +61,14 @@ async function getEventbriteInfo() {
 
 async function writeMDXInfo(content) {
   try {
-    const { list } = await getMDXInfo(content)
+    const { list: pages } = await getMDXInfo(content)
+    const { list: events } = await getEventbriteInfo()
+    const projects = await [...pages, ...events].sort(
+      (a, b) => new Date(b.date) - new Date(a.date)
+    )
     await promisify(fs.writeFile)(
       `./pages/${content}/${content}-list.json`,
-      JSON.stringify(list)
+      JSON.stringify(projects)
     )
   } catch (err) {
     console.log('error in writeMDXInfo: ', err)

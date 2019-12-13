@@ -1,12 +1,13 @@
 import React from 'react'
-import { arrayOf, shape, number, string } from 'prop-types'
+import { arrayOf, number, string, node } from 'prop-types'
 import Link from 'next/link'
 import { ReactSVG } from 'react-svg'
 import styled from 'styled-components'
 import format from 'date-fns/format'
-import 'isomorphic-unfetch'
 
 import { Card } from 'components'
+
+const PROJECTS_LIST = require('./projects-list.json')
 
 const CardContent = styled(Card)`
   display: block;
@@ -79,6 +80,13 @@ const CardTypeWrapper = ({ name, type, url, children }) => {
   }
 }
 
+CardTypeWrapper.propTypes = {
+  children: node.isRequired,
+  name: string.isRequired,
+  type: string.isRequired,
+  url: string,
+}
+
 const projectProps = {
   name: string.isRequired,
   type: string.isRequired,
@@ -140,54 +148,14 @@ const ProjectCard = ({
 
 ProjectCard.propTypes = projectProps
 
-function Projects({ projects, error }) {
-  if (error) return <p>{error}</p>
-
+function Projects() {
   return (
     <>
-      {projects.length > 0 ? (
-        projects.map(p => <ProjectCard key={p.name} {...p} />)
-      ) : (
-        <p>No projects found...</p>
-      )}
+      {PROJECTS_LIST.map(p => (
+        <ProjectCard key={p.name} {...p} />
+      ))}
     </>
   )
-}
-
-Projects.propTypes = {
-  error: string,
-  projects: arrayOf(shape(projectProps)).isRequired,
-}
-
-Projects.getInitialProps = async ({ req }) => {
-  // Prevent unnecessary refetching
-  if (process.browser) {
-    const { projects } = window.__NEXT_DATA__.props.pageProps
-    if (projects && projects.length > 0) {
-      return { projects }
-    }
-  }
-  try {
-    // Have the correct API uri
-    const pre = req
-      ? `${req.headers['x-forwarded-proto'] || 'http'}://${req.headers[
-          'x-forwarded-host'
-        ] || req.headers.host}`
-      : ''
-    const dirname = process.cwd()
-    console.log('dirname? ', dirname)
-    const result = await fetch(`${pre}/api/get-projects`)
-    const { projects, error } = await result.json()
-    if (error) {
-      throw new Error(error)
-    }
-    return { projects }
-  } catch (err) {
-    return {
-      projects: [],
-      error: err.message || 'Unavailable. Refresh page?',
-    }
-  }
 }
 
 export default Projects
