@@ -5,11 +5,11 @@ export default async (req, res) => {
   if (req.method !== 'POST') {
     return (res.statusCode = 401)
   }
-  const { email, message } = req.body
+  const { email, subject, message } = req.body
   const msg = {
     to: process.env.SENDGRID_DEST_EMAIL,
     from: email,
-    subject: 'Connecting with TAFKA Labs',
+    subject: `[TAFKA Labs] ${subject}`,
     text: message,
     html: `<p>${message}</p>`,
   }
