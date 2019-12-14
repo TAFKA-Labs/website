@@ -14,9 +14,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = withBundleAnalyzer(
   withMDX(
     withCSS({
-      env: {
-        PROJECT_DIRNAME: __dirname,
-      },
       pageExtensions: ['js', 'jsx', 'mdx'],
     })
   )
