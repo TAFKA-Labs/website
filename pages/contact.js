@@ -11,17 +11,20 @@ import {
 
 function Contact() {
   return (
-    <Card>
-      <CardContent>
-        <ContactForm />
-        <CardDividerText>— OR —</CardDividerText>
-        <ButtonLinkWrapper href="https://calendly.com/tafka-labs">
-          <Button>
-            Request a call <ReactSVG src="/svg/newtab.svg" />
-          </Button>
-        </ButtonLinkWrapper>
-      </CardContent>
-    </Card>
+    <>
+      <h2>Send a note</h2>
+      <Card>
+        <CardContent>
+          <ContactForm />
+          <CardDividerText>— OR —</CardDividerText>
+          <ButtonLinkWrapper href="https://calendly.com/tafka-labs">
+            <Button>
+              Request a call <ReactSVG src="/svg/newtab.svg" />
+            </Button>
+          </ButtonLinkWrapper>
+        </CardContent>
+      </Card>
+    </>
   )
 }
 
