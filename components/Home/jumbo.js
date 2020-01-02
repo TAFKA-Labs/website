@@ -4,7 +4,7 @@ const Jumbo = styled.h1`
   font-size: 10vw;
 
   @media screen and (min-width: 740px) {
-    font-size: 9vw;
+    font-size: 8vw;
   }
 
   @media screen and (min-width: 1020px) {

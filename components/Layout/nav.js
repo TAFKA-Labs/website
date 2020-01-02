@@ -7,7 +7,7 @@ import { ReactSVG } from 'react-svg'
 const APP_NAV = ['about', 'projects', 'contact']
 
 const NavContainer = styled.div`
-  @media (min-width: 710px) {
+  @media (min-width: 740px) {
     flex: 1;
   }
 `

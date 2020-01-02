@@ -13,7 +13,6 @@ import Nav from './nav'
 import PageContainer from './page-container'
 import Logo from './logo'
 import Back from './back'
-import Section from './section'
 
 function Layout({ children }) {
   const { pathname, back } = useRouter()
@@ -75,10 +74,7 @@ function Layout({ children }) {
 
       <LayoutGrid>
         <Nav />
-        <PageContainer>
-          {section && <Section>{section}</Section>}
-          {children}
-        </PageContainer>
+        <PageContainer>{children}</PageContainer>
       </LayoutGrid>
 
       <Footer />

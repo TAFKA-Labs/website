@@ -113,7 +113,7 @@ const ProjectCard = ({
       <CardContent>
         <ReactSVG src={`/svg/${type}.svg`} />
         <CardInfo>
-          <h4>
+          <h3>
             {url && (
               <ReactSVG
                 src="/svg/newtab.svg"
@@ -127,7 +127,7 @@ const ProjectCard = ({
               />
             )}
             {name || 'unnamed project'}
-          </h4>
+          </h3>
           <p>{description || 'no description provided'}</p>
           {alert && <Alert>Warning: {alert}</Alert>}
           <CardDetails>
@@ -151,6 +151,7 @@ ProjectCard.propTypes = projectProps
 function Projects() {
   return (
     <>
+      <h2>Projects</h2>
       {PROJECTS_LIST.map(p => (
         <ProjectCard key={p.name} {...p} />
       ))}
