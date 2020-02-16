@@ -1,7 +1,6 @@
 import React from 'react'
 import {
   Avatar,
-  Blurb,
   Content,
   InfoContainer,
   ListOfLinks,
@@ -49,35 +48,43 @@ function About() {
           with agencies.
         </Paragraph>
 
-        <Blurb>
+        <SectionHeader>My work</SectionHeader>
+
+        <Paragraph>
           I bring experience with enterprise-level digital transformations — web
           and mobile, multi-platform — unifying all digital assets into a
-          streamlined workflow
-        </Blurb>
-
-        <Paragraph>
-          I enjoy working with all stakeholders, from business to design to
-          engineering, to streamline high-quality software development. For
-          example, establishing component libraries that can support beautiful,
-          responsive, and cohesive enterprise-grade design systems.
+          streamlined architecture. My work involves the full stack, since
+          modern apps require seamless integration with data services and QA in
+          ways that reduce, not add, to engineering workloads.
         </Paragraph>
-
-        <Paragraph>
-          I am constantly exploring the latest and greatest in web development,
-          finding the best new tools in the React ecosystem and sharing them
-          with my clients (or advising that they wait).
-        </Paragraph>
-
-        <Blurb>
-          My focus is on scalable and effective developer experience (DX) to set
-          up teams for success
-        </Blurb>
 
         <Paragraph>
           My work involves both planning and code. I have provided technical
           advising for non-technical startup teams and agencies. I have built
           initial products (MVP architecture, proof-of-concept) and contributed
           to existing codebases at crunch time.
+        </Paragraph>
+
+        <SectionHeader>My mission</SectionHeader>
+
+        <Paragraph>
+          My focus is on scalable and effective developer experience (DX) to set
+          up teams for success.
+        </Paragraph>
+
+        <Paragraph>
+          I enjoy partnering with all stakeholders, from business to design to
+          engineering, to streamline high-quality software development. For
+          example, establishing component libraries that can support beautiful,
+          responsive, and cohesive enterprise-grade design systems. Or
+          developing the data layer for secure and performant customer
+          applications.
+        </Paragraph>
+
+        <Paragraph>
+          I am constantly exploring the latest and greatest in web development,
+          finding the best new tools in the React ecosystem and sharing them
+          with my clients (or advising that they wait).
         </Paragraph>
 
         <Paragraph>
@@ -125,9 +132,6 @@ function About() {
           />
           <StyledWebLink href="https://blog.hasura.io" text="Hasura Blog" />
         </ListOfLinks>
-
-        <SectionHeader>Favorite Pokémon</SectionHeader>
-        <Paragraph>Typhlosion</Paragraph>
       </Content>
     </ProfileGrid>
   )

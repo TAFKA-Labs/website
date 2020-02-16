@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import styled from 'styled-components'
 import { ReactSVG } from 'react-svg'
 
-const APP_NAV = ['about', 'projects', 'contact']
+const APP_NAV = ['about', 'projects', 'coach', 'contact']
 
 const NavContainer = styled.div`
   @media (min-width: 740px) {

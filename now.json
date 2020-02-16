@@ -1,6 +1,15 @@
 {
   "version": 2,
   "alias": ["tafkalabs.com", "www.tafkalabs.com"],
+  "routes": [
+    {
+      "src": "/coach",
+      "status": 301,
+      "headers": {
+        "Location": "https://launchpass.com/tafkalabs"
+      }
+    }
+  ],
   "env": {
     "SENDGRID_API_KEY": "@sendgrid-key",
     "SENDGRID_DEST_EMAIL": "@dest-email"
