@@ -6,7 +6,7 @@
       "src": "/coach",
       "status": 301,
       "headers": {
-        "Location": "https://launchpass.com/tafkalabs"
+        "Location": "https://launchpass.com/p/tafkalabs"
       }
     }
   ],
