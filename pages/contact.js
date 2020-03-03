@@ -94,6 +94,7 @@ function Contact() {
         icon={<Share size="small" />}
         label="Schedule call"
         reverse
+        href="https://calendly.com/tafka-labs"
       />
     </Box>
   )
