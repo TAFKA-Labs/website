@@ -9,50 +9,36 @@ const GlobalStyle = createGlobalStyle`
   }
 
   @font-face {
-    font-family: SourceCP;
+    font-family: SourceCodePro;
     src: url('/fonts/SourceCodePro-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
   }
 
   @font-face {
-    font-family: SourceCP;
+    font-family: SourceCodePro;
     src: url('/fonts/SourceCodePro-Black.ttf') format('truetype');
-    font-weight: 900;
+    font-weight: 600;
     font-style: normal;
   }
 
   body {
     margin: 0;
     ${({ theme }) => `
-      font-family: ${theme.typography.default};
-      color: ${theme.colors.primary};
-      background-image: linear-gradient(to left, ${theme.colors.primary} 12px, ${theme.colors.white} 12px);
+      color: ${theme.global.colors.brand};
+      background-image: linear-gradient(to left, ${theme.global.colors.brand} 12px, ${theme.global.colors.white} 12px);
       margin-right: 12px;
 
       @media screen and (min-width: 375px) {
-        background-image: linear-gradient(to left, ${theme.colors.primary} 16px, ${theme.colors.white} 16px);
+        background-image: linear-gradient(to left, ${theme.global.colors.brand} 16px, ${theme.global.colors.white} 16px);
         margin-right: 16px;
       }
     `}
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: ${({ theme }) => theme.typography.accent}, sans-serif;
-  }
-
-  a {
-    text-decoration: none;
-    color: currentColor;
-
-    &:hover {
-      cursor: pointer;
-    }
+  ul,
+  p:not(:first-of-type) {
+    margin-top: 0;
   }
 `
 

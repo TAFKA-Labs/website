@@ -1,5 +1,5 @@
 const sgMail = require('@sendgrid/mail')
-sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+sgMail.setApiKey(process.env.TAFKALABS_CONTACT)
 
 export default async (req, res) => {
   if (req.method !== 'POST') {
@@ -7,7 +7,7 @@ export default async (req, res) => {
   }
   const { email, subject, message } = req.body
   const msg = {
-    to: process.env.SENDGRID_DEST_EMAIL,
+    to: process.env.TAFKALABS_CONTACT_EMAIL,
     from: email,
     subject: `[TAFKA Labs] ${subject}`,
     text: message,

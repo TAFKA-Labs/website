@@ -1,23 +1,17 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styled from 'styled-components'
 import { ReactSVG } from 'react-svg'
 
-const APP_NAV = ['about', 'projects', 'coach', 'contact']
-
-const NavContainer = styled.div`
-  @media (min-width: 740px) {
-    flex: 1;
-  }
-`
+const APP_NAV = ['about', 'contact']
 
 const NavV = styled.nav`
-  position: -webkit-sticky;
-  position: sticky;
-  top: 40%;
+  flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-end;
 `
 
@@ -29,17 +23,16 @@ const NavLink = styled.a`
   text-align: right;
   letter-spacing: 1px;
   border-radius: 4px;
+  cursor: pointer;
   opacity: ${({ active }) => (active ? 1 : 0.6)};
   transition: background-color 300ms ease-in;
 
   &:hover {
     opacity: 1;
-    background-color: ${({ theme }) => theme.colors.secondary};
   }
 
   svg {
     display: block;
-    cursor: pointer;
   }
 
   span {
@@ -48,7 +41,6 @@ const NavLink = styled.a`
 
   @media screen and (min-width: 740px) {
     padding: 1em;
-    margin: 0.25em 1.5em;
 
     span {
       display: block;
@@ -72,6 +64,16 @@ const NavItem = ({ isActive, item, onClick }) => (
   </Link>
 )
 
+NavItem.propTypes = {
+  isActive: PropTypes.bool,
+  item: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
+}
+
+NavItem.defaultProps = {
+  isActive: false,
+}
+
 function Nav() {
   const { pathname, push } = useRouter()
 
@@ -81,18 +83,16 @@ function Nav() {
   }
 
   return (
-    <NavContainer>
-      <NavV>
-        {APP_NAV.map(i => (
-          <NavItem
-            key={i}
-            item={i}
-            isActive={pathname.includes(i)}
-            onClick={handleKeyboard}
-          />
-        ))}
-      </NavV>
-    </NavContainer>
+    <NavV>
+      {APP_NAV.map(i => (
+        <NavItem
+          key={i}
+          item={i}
+          isActive={pathname.includes(i)}
+          onClick={handleKeyboard}
+        />
+      ))}
+    </NavV>
   )
 }
 

@@ -1,139 +1,189 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import styled from 'styled-components'
 import {
-  Avatar,
-  Content,
-  InfoContainer,
-  ListOfLinks,
-  Name,
+  Anchor,
+  Box,
+  Grid,
+  Heading,
+  Image,
   Paragraph,
-  ProfileGrid,
-  SectionHeader,
-  SocialIconLink,
-  StyledWebLink,
-  Title,
-} from 'components/About'
+  Text,
+  ResponsiveContext,
+} from 'grommet'
+import { Github, Linkedin, Twitter } from 'grommet-icons'
+
+const StyledLink = styled.a`
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+
+  &:hover {
+    background-color: ${({ theme }) => theme.global.colors.brand}20;
+  }
+`
+const FRAMEWORKS_LIST = [
+  {
+    id: 0,
+    href: 'https://nextjs.org',
+    label: 'NextJS enterprise-grade web development',
+  },
+  { id: 1, href: 'https://hasura.io', label: 'Hasura GraphQL Engine' },
+  { id: 2, href: 'https://expo.io', label: 'Expo React Native ecosystem' },
+]
+
+const RESOURCES_LIST = [
+  { id: 0, href: 'https://reactjsnewsletter.com', label: 'React Newsletter' },
+  { id: 1, href: 'https://reactnative.cc', label: 'React Native Newsletter' },
+  { id: 2, href: 'https://www.graphqlweekly.com', label: 'GraphQL Weekly' },
+  { id: 3, href: 'https://blog.hasura.io', label: 'Hasura Blog' },
+  {
+    id: 4,
+    href: 'https://kentcdodds.com/subscribe/',
+    label: 'Kent C. Dodds Blog',
+  },
+  {
+    id: 5,
+    href: 'https://overreacted.io',
+    label: 'Overreacted by Dan Abramov',
+  },
+]
+
+const SIZES_LIST = {
+  small: {
+    columns: 'xxsmall',
+    gap: 'small',
+    icon: 'medium',
+  },
+  medium: {
+    columns: 'xsmall',
+    gap: 'medium',
+    icon: 'large',
+  },
+  large: {
+    columns: 'xsmall',
+    gap: 'large',
+    icon: 'large',
+  },
+}
 
 function About() {
+  const size = useContext(ResponsiveContext)
   return (
-    <ProfileGrid>
-      <Avatar src="/images/avatar.png" alt="profile photo" />
+    <Grid
+      rows={['auto', 'auto']}
+      columns={[SIZES_LIST[size].columns, 'flex']}
+      areas={[
+        ['image', 'header'],
+        ['links', 'content'],
+      ]}
+      gap={SIZES_LIST[size].gap}
+      pad={SIZES_LIST[size].gap}
+    >
+      <Box
+        width={SIZES_LIST[size].columns}
+        height={SIZES_LIST[size].columns}
+        justify="end"
+        gridArea="image"
+      >
+        <Image src="/images/avatar.png" alt="profile photo" fit="contain" />
+      </Box>
 
-      <InfoContainer>
-        <Name>Allison Kunz</Name>
-        <Title>Front end engineer</Title>
-      </InfoContainer>
+      <Box justify="end" gridArea="header">
+        <Heading level={3} margin={{ vertical: 'small' }}>
+          Allison Kunz
+        </Heading>
+        <Text as="h4" margin={{ vertical: 'xsmall' }} responsive>
+          Web & mobile application architect
+        </Text>
+      </Box>
 
-      <Content>
-        <SocialIconLink
+      <Grid
+        columns={SIZES_LIST[size].columns}
+        rows={SIZES_LIST[size].columns}
+        gap="small"
+        gridArea="links"
+      >
+        <StyledLink
           href="https://github.com/allpwrfulroot"
-          src="/svg/github.svg"
           alt="link to github"
-        />
-        <SocialIconLink
+        >
+          <Github color="brand" size={SIZES_LIST[size].icon} />
+        </StyledLink>
+        <StyledLink href="https://twitter.com/TafkaLabs" alt="link to linkedin">
+          <Linkedin color="brand" size={SIZES_LIST[size].icon} />
+        </StyledLink>
+        <StyledLink
           href="https://www.linkedin.com/in/tafka-labs/"
-          src="/svg/linkedin.svg"
-          alt="link to linkedin"
-        />
-        <SocialIconLink
-          href="https://twitter.com/TafkaLabs"
-          src="/svg/twitter.svg"
           alt="link to twitter"
-        />
-      </Content>
+        >
+          <Twitter color="brand" size={SIZES_LIST[size].icon} />
+        </StyledLink>
+      </Grid>
 
-      <Content>
+      <Box gridArea="content">
         <Paragraph>
           Full stack web and mobile developer specializing in React, React
           Native, & GraphQL. Consultant and contractor, both independently and
           with agencies.
         </Paragraph>
 
-        <SectionHeader>My work</SectionHeader>
+        <Heading level={4}>My work</Heading>
 
         <Paragraph>
-          I bring experience with enterprise-level digital transformations — web
-          and mobile, multi-platform — unifying all digital assets into a
-          streamlined architecture. My work involves the full stack, since
-          modern apps require seamless integration with data services and QA in
-          ways that reduce, not add, to engineering workloads.
+          I work with all stakeholders to plan, build, and ship digital
+          applications with both high impact for consumers and high engineering
+          efficiency.
         </Paragraph>
 
         <Paragraph>
-          My work involves both planning and code. I have provided technical
-          advising for non-technical startup teams and agencies. I have built
-          initial products (MVP architecture, proof-of-concept) and contributed
-          to existing codebases at crunch time.
+          I bring experience ranging from tiny startup to giant multinational. I
+          have provided technical advising for non-technical startup teams and
+          agencies, built initial products (MVP architecture, proof-of-concept),
+          and contributed to existing codebases at crunch time. I also love
+          sharing these experiences: please see my{' '}
+          <Anchor
+            href="https://www.youtube.com/watch?v=ss1v-K1QqFo"
+            target="_blank"
+            label="recent conference talk"
+          />{' '}
+          and full-day Intro to NextJS with GraphQL{' '}
+          <Anchor
+            href="https://www.eventbrite.com/e/intro-to-nextjs-with-graphql-tickets-81646842905"
+            target="_blank"
+            primary
+            label="workshop agenda"
+          />
+          .
         </Paragraph>
 
-        <SectionHeader>My mission</SectionHeader>
+        <Heading level={4}>My mission</Heading>
 
         <Paragraph>
-          My focus is on scalable and effective developer experience (DX) to set
-          up teams for success.
+          Developer experience should be amazing even as digital businesses grow
+          and mature. With the right tools, processes, and growth opportunities
+          your engineering teams can be as delighted as your customers.
         </Paragraph>
 
-        <Paragraph>
-          I enjoy partnering with all stakeholders, from business to design to
-          engineering, to streamline high-quality software development. For
-          example, establishing component libraries that can support beautiful,
-          responsive, and cohesive enterprise-grade design systems. Or
-          developing the data layer for secure and performant customer
-          applications.
-        </Paragraph>
+        <Heading level={4}>Preferred frameworks</Heading>
+        <ul>
+          {FRAMEWORKS_LIST.map(x => (
+            <li key={x.id}>
+              <Anchor {...x} />
+            </li>
+          ))}
+        </ul>
 
-        <Paragraph>
-          I am constantly exploring the latest and greatest in web development,
-          finding the best new tools in the React ecosystem and sharing them
-          with my clients (or advising that they wait).
-        </Paragraph>
-
-        <Paragraph>
-          I am available for short- to medium-term engagements, but no permanent
-          roles please.
-        </Paragraph>
-
-        <SectionHeader>Preferred frameworks</SectionHeader>
-        <ListOfLinks>
-          <StyledWebLink
-            href="https://nextjs.org"
-            text="NextJS enterprise-grade web development"
-          />
-          <StyledWebLink
-            href="https://expo.io"
-            text="Expo React Native ecosystem"
-          />
-          <StyledWebLink
-            href="https://hasura.io"
-            text="Hasura GraphQL Engine"
-          />
-        </ListOfLinks>
-
-        <SectionHeader>Recommended resources</SectionHeader>
-        <ListOfLinks>
-          <StyledWebLink
-            href="https://reactjsnewsletter.com"
-            text="React Newsletter"
-          />
-          <StyledWebLink
-            href="https://reactnative.cc"
-            text="React Native Newsletter"
-          />
-          <StyledWebLink
-            href="https://www.graphqlweekly.com"
-            text="GraphQL Weekly"
-          />
-          <StyledWebLink
-            href="https://kentcdodds.com/subscribe/"
-            text="Kent C. Dodds Blog"
-          />
-          <StyledWebLink
-            href="https://overreacted.io"
-            text="Overreacted by Dan Abramov"
-          />
-          <StyledWebLink href="https://blog.hasura.io" text="Hasura Blog" />
-        </ListOfLinks>
-      </Content>
-    </ProfileGrid>
+        <Heading level={4}>Recommended resources</Heading>
+        <ul>
+          {RESOURCES_LIST.map(x => (
+            <li key={x.id}>
+              <Anchor {...x} />
+            </li>
+          ))}
+        </ul>
+      </Box>
+    </Grid>
   )
 }
 

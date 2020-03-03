@@ -1,15 +1,13 @@
-import React, { Fragment } from 'react'
-
-import { Jumbo, Tagline } from 'components/Home'
+import React from 'react'
+import { Box, Heading, Text } from 'grommet'
 
 function Home() {
   return (
-    <Fragment>
-      <Jumbo>Hello, world</Jumbo>
-      <Tagline>It&apos;s nice to meet you</Tagline>
-    </Fragment>
+    <Box flex="grow" justify="center" margin="medium">
+      <Heading>Hello, world</Heading>
+      <Text>It&apos;s nice to meet you</Text>
+    </Box>
   )
 }
 
 export default Home
-// background-image: url('/svg/background.svg');

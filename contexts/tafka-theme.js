@@ -1,15 +1,32 @@
-const theme = {
-  colors: {
-    primary: '#3b5266',
-    secondary: '#d5dce1',
-    white: '#FEFEFF',
-    error: '#990000',
-    warning: '#ff9999',
+import { base } from 'grommet/themes'
+import { deepMerge } from 'grommet/utils'
+
+const theme = deepMerge(base, {
+  global: {
+    colors: {
+      brand: '#3b5266',
+    },
+    font: {
+      family: 'Abel',
+    },
   },
-  typography: {
-    default: 'Abel',
-    accent: 'SourceCP',
+  anchor: {
+    color: { dark: 'accent-1', light: 'neutral-3' },
+    fontWeight: 400,
+    textDecoration: 'underline',
   },
-}
+  button: {},
+  formField: {
+    extend: () => 'label { font-family: SourceCodePro; margin-left: 0; };',
+  },
+  heading: {
+    font: {
+      family: 'SourceCodePro',
+    },
+  },
+  paragraph: {
+    extend: () => 'max-width: unset;',
+  },
+})
 
 export default theme

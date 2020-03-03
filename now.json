@@ -11,13 +11,13 @@
     }
   ],
   "env": {
-    "SENDGRID_API_KEY": "@sendgrid-key",
-    "SENDGRID_DEST_EMAIL": "@dest-email"
+    "TAFKALABS_CONTACT": "@tafkalabs-contact",
+    "TAFKALABS_CONTACT_EMAIL": "@tafkalabs-contact-email"
   },
   "build": {
     "env": {
-      "SENDGRID_API_KEY": "@sendgrid-key",
-      "SENDGRID_DEST_EMAIL": "@dest-email"
+      "TAFKALABS_CONTACT": "@tafkalabs-contact",
+      "TAFKALABS_CONTACT_EMAIL": "@tafkalabs-contact-email"
     }
   }
 }
