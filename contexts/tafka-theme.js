@@ -20,6 +20,7 @@ const theme = deepMerge(base, {
     extend: () => 'label { font-family: SourceCodePro; margin-left: 0; };',
   },
   heading: {
+    extend: () => 'max-width: unset;',
     font: {
       family: 'SourceCodePro',
     },

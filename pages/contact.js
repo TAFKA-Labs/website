@@ -40,7 +40,7 @@ function Contact() {
 
   return (
     <Box pad="medium" margin="medium">
-      <Heading level={4} textAlign="center">
+      <Heading level={4} textAlign="center" margin={{ top: 'xsmall' }}>
         Send a note
       </Heading>
       <Form onSubmit={onSubmit}>
