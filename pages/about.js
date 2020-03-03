@@ -62,7 +62,7 @@ const SIZES_LIST = {
   },
   large: {
     columns: 'xsmall',
-    gap: 'large',
+    gap: 'medium',
     icon: 'large',
   },
 }
