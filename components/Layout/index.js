@@ -15,7 +15,7 @@ import { Box, Footer, Text } from 'grommet'
 const TestBox = styled(Box)`
   &::before {
     content: '';
-    background: linear-gradient(#fff, transparent);
+    background: linear-gradient(#fff, rgba(255, 255, 255, 0));
     height: 12px;
     right: 16px;
     width: 100%;
@@ -24,7 +24,7 @@ const TestBox = styled(Box)`
 
   &::after {
     content: '';
-    background: linear-gradient(transparent, #fff);
+    background: linear-gradient(rgba(255, 255, 255, 0), #fff);
     height: 12px;
     right: 16px;
     width: 100%;
