@@ -10,31 +10,49 @@ import Nav from './nav'
 import Logo from './logo'
 import Back from './back'
 
-import { Box, Footer, Text } from 'grommet'
+import { Box, Text } from 'grommet'
+
+const Container = styled.div`
+  overflow-y: scroll;
+  display: flex;
+  height: 100%;
+  flex-direction: row-reverse;
+`
 
 const TestBox = styled(Box)`
+  > div {
+    margin-top: 1em;
+    margin-right: 48px;
+  }
+
   &::before {
     content: '';
-    background: linear-gradient(#fff, rgba(255, 255, 255, 0));
-    height: 12px;
-    right: 16px;
-    width: 100%;
+    background:
+      linear-gradient(
+        #fff,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0)
+      );
     position: fixed;
+    height: 36px;
+    left: 0;
+    right: 50px;
   }
 
   &::after {
     content: '';
     background: linear-gradient(rgba(255, 255, 255, 0), #fff);
-    height: 12px;
-    right: 16px;
+    height: 16px;
     width: 100%;
-    position: absolute;
-    bottom: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 16px;
   }
 `
 
 function Layout({ children }) {
   const { pathname, back } = useRouter()
+  const [pageHeight, setPageHeight] = useState(500)
   const [isMobile, setIsMobile] = useState(false)
   const [section, setSection] = useState()
 
@@ -50,18 +68,21 @@ function Layout({ children }) {
   useEffect(() => {
     const handleResize = () => {
       if (isMobile && window.innerWidth > 740) {
+        setPageHeight(window.innerHeight)
         setIsMobile(false)
       } else if (!isMobile && window.innerWidth < 740) {
+        setPageHeight(window.innerHeight)
         setIsMobile(true)
       }
     }
+    setPageHeight(window.innerHeight)
     handleResize()
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
   }, [isMobile])
 
   return (
-    <Box direction="column" height="100vh">
+    <Box height={`${pageHeight}px`}>
       <Head>
         <title>TAFKA Labs {section && `— ${section}`}</title>
         <link
@@ -80,7 +101,6 @@ function Layout({ children }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Header>
         {!section && pathname !== '/' && (
           <Back onClick={() => back()}>&#10094; Back</Back>
@@ -89,19 +109,15 @@ function Layout({ children }) {
           <Logo>TAFKA Labs</Logo>
         </Link>
       </Header>
-
-      <Box fill direction="row-reverse" position="relative">
-        <Box basis={isMobile ? '54px' : '1/4'}>
-          <Nav />
-        </Box>
-        <TestBox basis={isMobile ? '100%' : '3/4'} overflow="scroll">
+      <Container fill="vertical">
+        <Nav />
+        <TestBox basis={isMobile ? '100%' : '3/4'}>
           {children}
+          <Text flex={1} textAlign="end" size="small">
+            &copy; TAFKA Labs 2018-2020
+          </Text>
         </TestBox>
-      </Box>
-
-      <Footer justify="end" pad={{ horizontal: 'small' }}>
-        <Text size="small">&copy; TAFKA Labs 2018-2020</Text>
-      </Footer>
+      </Container>
     </Box>
   )
 }

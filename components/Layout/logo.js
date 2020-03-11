@@ -6,7 +6,7 @@ const Logo = styled.a`
   font-weight: bolder;
   letter-spacing: 1.4px;
   color: currentColor;
-  padding: 1em;
+  padding: 1rem;
   cursor: pointer;
 `
 
