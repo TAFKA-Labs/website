@@ -13,16 +13,19 @@ const NavV = styled.nav`
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-`
-
-const NavPosition = styled.div`
   position: fixed;
-  min-width: 48px;
+  top: 0;
+  bottom: 0;
+  right: 12px;
+
+  @media (min-width: 375px) {
+    right: 16px;
+  }
 `
 
 const NavLink = styled.a`
   display: block;
-  padding: 0.5em 1em;
+  padding: 0.5em 12px;
   margin-bottom: 0.5em;
   text-transform: capitalize;
   text-align: right;
@@ -89,16 +92,14 @@ function Nav() {
 
   return (
     <NavV>
-      <NavPosition>
-        {APP_NAV.map(i => (
-          <NavItem
-            key={i}
-            item={i}
-            isActive={pathname.includes(i)}
-            onClick={handleKeyboard}
-          />
-        ))}
-      </NavPosition>
+      {APP_NAV.map(i => (
+        <NavItem
+          key={i}
+          item={i}
+          isActive={pathname.includes(i)}
+          onClick={handleKeyboard}
+        />
+      ))}
     </NavV>
   )
 }

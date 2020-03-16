@@ -5,24 +5,27 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styled from 'styled-components'
 
-import Header from './header'
 import Nav from './nav'
 import Logo from './logo'
 import Back from './back'
 
-import { Box, Text } from 'grommet'
-
-const Container = styled.div`
-  overflow-y: scroll;
-  display: flex;
-  height: 100%;
-  flex-direction: row-reverse;
-`
+import { Box, Header, Main, Text } from 'grommet'
 
 const TestBox = styled(Box)`
+  flex: 1;
+
   > div {
-    margin-top: 1em;
-    margin-right: 48px;
+    flex: 1;
+    margin-right: 42px;
+
+    @media (min-width: 420px) {
+      margin-right: unset;
+      max-width: 75%;
+    }
+
+    @media (min-width: 740px) {
+      max-width: 600px;
+    }
   }
 
   &::before {
@@ -34,9 +37,9 @@ const TestBox = styled(Box)`
         rgba(255, 255, 255, 0)
       );
     position: fixed;
-    height: 36px;
+    height: 24px;
     left: 0;
-    right: 50px;
+    right: 16px;
   }
 
   &::after {
@@ -106,18 +109,18 @@ function Layout({ children }) {
           <Back onClick={() => back()}>&#10094; Back</Back>
         )}
         <Link href="/">
-          <Logo>TAFKA Labs</Logo>
+          <Logo align="right">TAFKA Labs</Logo>
         </Link>
       </Header>
-      <Container fill="vertical">
-        <Nav />
-        <TestBox basis={isMobile ? '100%' : '3/4'}>
+      <Nav />
+      <Main flex={{ grow: 1, shrink: 1 }} overflow={{ vertical: 'scroll' }}>
+        <TestBox>
           {children}
-          <Text flex={1} textAlign="end" size="small">
+          <Text textAlign="end" size="small" margin={{ horizontal: '16px' }}>
             &copy; TAFKA Labs 2018-2020
           </Text>
         </TestBox>
-      </Container>
+      </Main>
     </Box>
   )
 }
