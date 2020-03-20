@@ -110,13 +110,13 @@ function About() {
         >
           <Github color="brand" size={SIZES_LIST[size].icon} />
         </StyledLink>
-        <StyledLink href="https://twitter.com/TafkaLabs" alt="link to linkedin">
-          <Linkedin color="brand" size={SIZES_LIST[size].icon} />
-        </StyledLink>
         <StyledLink
           href="https://www.linkedin.com/in/tafka-labs/"
-          alt="link to twitter"
+          alt="link to linkedin"
         >
+          <Linkedin color="brand" size={SIZES_LIST[size].icon} />
+        </StyledLink>
+        <StyledLink href="https://twitter.com/TafkaLabs" alt="link to twitter">
           <Twitter color="brand" size={SIZES_LIST[size].icon} />
         </StyledLink>
       </Grid>
